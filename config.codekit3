@@ -95,6 +95,16 @@
 		"oAP": "/dist/html/capihub.html",
 		"oF": 0
 		},
+	"/dist/images/api.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/images/api.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/dist/images/apiuni.png": {
 		"ft": 32768,
 		"iS": 5931,
@@ -105,6 +115,48 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/dist/images/beijiangqiang.png": {
+		"ft": 32768,
+		"iS": 716493,
+		"oA": 0,
+		"oAP": "/dist/dist/images/beijiangqiang.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/dist/images/blockchain.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/images/blockchain.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/dist/images/card-bg.png": {
+		"ft": 32768,
+		"iS": 60335,
+		"oA": 0,
+		"oAP": "/dist/dist/images/card-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/dist/images/cloud-machine-fill.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/images/cloud-machine-fill.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/dist/images/code.svg": {
 		"ft": 2097152,
@@ -148,6 +200,16 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/dist/images/f-data.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/images/f-data.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/dist/images/hot-bg.png": {
 		"ft": 32768,
 		"iS": 69442,
@@ -158,6 +220,16 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/dist/images/id.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/images/id.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/dist/images/messages.svg": {
 		"ft": 2097152,
@@ -350,6 +422,16 @@
 		"oAP": "/html/dist/html/header.html",
 		"oF": 0
 		},
+	"/images/API.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/API.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/images/apiuni.png": {
 		"ft": 32768,
 		"iS": 5931,
@@ -371,6 +453,37 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/images/blockchain.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/blockchain.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/card-bg.png": {
+		"ft": 32768,
+		"iS": 60335,
+		"oA": 0,
+		"oAP": "/dist/images/card-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/cloud-machine-fill.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/cloud-machine-fill.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/images/code.svg": {
 		"ft": 2097152,
@@ -414,6 +527,16 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/f-data.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/f-data.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/images/hot-bg.png": {
 		"ft": 32768,
 		"iS": 69442,
@@ -424,6 +547,16 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/images/id.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/id.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/images/messages.svg": {
 		"ft": 2097152,

@@ -1,8 +1,50 @@
 doctype html
 html(lang="en")
-  head
-    meta(charset="UTF-8")
-    meta(http-equiv="X-UA-Compatible", content="IE=edge")
-    meta(name="viewport", content="width=device-width, initial-scale=1.0")
-    title Document
+  include ./component/head.jade
   body 
+    include ./component/header.jade
+    main.api
+      section.banner
+        .container 
+          .left
+            p.title Cloud API
+            p.sub_title Developer Portal
+            p.desc Leading tokenized data API trading platform - API interface, free development interface data call
+            a(href="" target="_blank") Sign up and start building
+          .right
+            img(src="../images/api.svg", alt="")
+      section.intro
+        ul.container
+          li
+            img(src="", alt="")
+            .title Fast
+            .desc Cloud API provides interfaces for various resources of ApiUni products. You can quickly operate cloud products through cloud API, allowing you to manage your cloud resources more conveniently.
+          li
+            img(src="", alt="")
+            .title Efficient
+            .desc Cloud API has low system requirements and strong compatibility. If you are proficient in using the API, you can build an API by yourself to complete the calls of common functions, which greatly improves the efficiency.
+          li
+            img(src="", alt="")
+            .title Flexible
+            .desc Cloud API is easy to automate and supports remote calls. You can freely combine interfaces through Cloud API to realize more advanced functions, and then realize function customization.
+      section.more
+        .container 
+          .title API trading platform
+          ul
+            li
+              .img(style='background-image: url("../images/cloud-machine-fill.svg")')
+              .li_title API Data Cloud
+              .desc Enterprises and programmers can quickly access other data resources through the API or SDK encapsulated by ApiUni, and ApiUni provides services such as data transactions. Through binary data, not only the development cost is greatly reduced, but also other rich data services can be obtained: data transaction, data analysis, blockchain token management and other services.
+            li
+              .img(style='background-image: url("../images/f-data.svg")')
+              .li_title Data source
+              .desc Since the development of the data industry is still in the early stage, there will be a lot of market gaps in specific industry data. Binary data will be developed and promoted through applications and programs (frameworks/libraries), and data sources for key industries will be built, and traded on the ApiUni platform in the form of APIs. In this way, the production, processing, transaction, and use of the whole chain of key data services are formed. Promote the further componentization, plug-in, and cloudization of program development and data.
+            li
+              .img(style='background-image: url("../images/blockchain.svg")')
+              .li_title Data and Blockchain
+              .desc Token itself is data. Blockchain has special irreplaceable value for improving data security, enhancing the consensus of the credit reporting industry, and improving the efficiency of data transactions. We facilitate the blockchainization of certain data. Explore the establishment of cross-chain-based blockchain data services that support the encapsulation of multiple technical languages. Gradually build ApiUni's cross-chain basic chain and state data chain.
+            li
+              .img(style='background-image: url("../images/id.svg")')
+              .li_title Digital identity
+              .desc ApiUni and Programmer Inn jointly establish ImBit digital identity, promote the integration of Internet user identity system and blockchain user identity system, and explore and solve basic industry problems such as data privacy security and data benefit distribution.
+    include ./component/footer.jade

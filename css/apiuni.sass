@@ -249,6 +249,7 @@ body
 
 
 .apiuni-unisms
+  background-color: white
   .banner
     height: 600px
     width: 100%
@@ -430,7 +431,6 @@ body
           bottom: 100px
           height: 50%
   .intro
-    // background-color: white
     .container 
       position: relative
       margin: 0 auto
@@ -471,6 +471,10 @@ body
       .left
         flex: 1
         padding-right: 150px
+        // display: flex
+        // align-items: flex-start
+        // justify-content: center
+        // flex-direction: column
         .title 
           padding-bottom: 30px
           font-size: 26px
@@ -482,3 +486,140 @@ body
         width: 35%
         img
           width: 100%
+  .using
+    .container 
+      position: relative
+      margin: 0 auto
+      width: 100%
+      max-width: $width
+      img
+        display: block
+        width: 100%
+
+.api
+  background-color: white
+  .banner
+    height: 600px
+    width: 100%
+    background: linear-gradient(180deg,rgba(242,47,70,0),#2fa7f20f)
+    .container 
+      position: relative
+      margin: 0 auto
+      padding: 0 10px
+      width: 100%
+      max-width: $width
+      height: 100%
+      .left 
+        position: relative
+        z-index: 1
+        padding-top: 130px
+        width: 50%
+        .title
+          color: $primary
+          font-weight: bold
+          font-size: 18px
+        .sub_title
+          padding-top: 20px
+          color: black
+          font-size: 50px
+          letter-spacing: -2px
+          font-weight: bold
+          line-height: 1.2
+        .desc 
+          padding-top: 20px
+          font-weight: 200
+          font-size: 18px
+        a 
+          margin-top: 20px
+          display: inline-block
+          color: $primary
+          border: 1px solid $primary
+          padding: 5px 10px
+          border-radius: 4px
+      .right
+        img
+          position: absolute
+          right: 0
+          top: 20%
+          height: 50%
+  .intro
+    .container 
+      position: relative
+      margin: 0 auto
+      padding: 60px 10px
+      padding-top: 0
+      margin-top: -100px
+      max-width: $width
+      height: 100%
+      display: flex
+      align-items: center
+      justify-content: space-between
+      flex-wrap: wrap
+      list-style: none
+      li
+        margin: 20px 0
+        padding: 20px
+        width: 31%
+        height: 260px
+        overflow: hidden
+        box-shadow: 0 0 0.8em 0 rgb(10 52 89 / 12%)
+        background-color: white
+        .title
+          padding-bottom: 10px
+          font-size: 18px
+          font-weight: bold
+        .desc 
+          line-height: 2
+          color: rgba(0,0,0,0.6)
+  .more
+    background: #4a5158
+    .container 
+      position: relative
+      padding: 80px 10px
+      margin: 0 auto
+      max-width: $width
+      .title
+        padding-bottom: 30px
+        font-size: 26px
+        font-weight: bold
+        text-align: center
+        color: white
+      ul
+        display: flex
+        align-items: center
+        justify-content: space-between
+        flex-wrap: wrap
+        list-style: none
+        li
+          position: relative
+          margin: 20px 0
+          padding: 30px
+          padding-left: 80px
+          width: 48%
+          height: 280px
+          overflow: hidden
+          box-shadow: 0 0 0.8em 0 rgb(10 52 89 / 12%)
+          color: white
+          // background-color: white
+          background-color: #515962
+          border-radius: 10px
+          text-align: left
+          background-image: url(../images/card-bg.png)
+          background-position: 50%
+          background-size: cover
+          background-repeat: no-repeat
+          .img 
+            position: absolute
+            left: 20px
+            top: 40px
+            width: 40px
+            height: 40px
+            background-color: #526378
+            border-radius: 30px
+            background-size: 50%
+            background-repeat: no-repeat
+            background-position: center
+          .li_title
+            padding-bottom: 10px
+            font-size: 26px
+            font-weight: bold
