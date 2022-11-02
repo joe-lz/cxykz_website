@@ -1,0 +1,51 @@
+doctype html
+html(lang="en")
+  include ./component/head.jade
+  body 
+    include ./component/header.jade
+    main.database
+      section.banner
+        .container 
+          .left
+            p.title Database
+            p.sub_title Low-code development platform.
+            p.desc Provide developers with one-stop back-end cloud services
+            a(href="" target="_blank") Sign up and start building
+          .right
+            img(src="../images/code.svg", alt="")
+      section.intro
+        ul.container
+          li
+            img(src="", alt="")
+            .title Free Serverless Cloud Service
+            .desc Free trial, unlimited free renewals, and zero-cost serverless cloud services. It supports multi-terminal and multi-client access. The API is stable, fast, and supports HTTPS.
+          li
+            img(src="", alt="")
+            .title Zero Code Data Form
+            .desc Support cloud database, support custom data forms and table fields, and assign sub-accounts for collaborative management. Provides cloud storage and accelerated access to files and images.
+          li
+            img(src="", alt="")
+            .title Low-code API interface
+            .desc Provide 500+ common interface APIs (development-free), support interface DIY (API low-code development), and API private customization (exclusive service).
+      section.support
+        .container
+          .left
+            .title Online database
+            .desc Design, create, customize and manage your form data online
+          .right
+            img(src="../images/yesapi1.png", alt="")
+      section.support
+        .container
+          .right
+            img(src="../images/yesapi2.png", alt="")
+          .left(style="padding-left: 150px;padding-right: 0;")
+            .title Online Data API
+            .desc Meet the commonly used data addition, deletion, modification and query interface, the interface responds within 100 milliseconds, and supports interface DIY
+      section.support
+        .container
+          .left
+            .title Serverless cloud service
+            .desc Free trial, free renewal. Support monthly payment, interface traffic is permanently valid
+          .right
+            img(src="../images/yesapi3.png", alt="")
+    include ./component/footer.jade

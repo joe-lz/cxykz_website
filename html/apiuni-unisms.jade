@@ -1,0 +1,57 @@
+doctype html
+html(lang="en")
+  include ./component/head.jade
+  body 
+    include ./component/header.jade
+    main.apiuni-unisms
+      section.banner
+        .container 
+          .left
+            p.title UniSMS
+            p.sub_title All-in-One SMS
+            p.desc Highly available aggregated short message service platform
+            a(href="" target="_blank") Sign up and start building
+          .right
+            img(src="../images/messages.svg", alt="")
+      section.intro
+        ul.container
+          li
+            img(src="", alt="")
+            .title Multi-channel automatic switching
+            .desc With simple settings, it can easily support multi-channel, one-master and multiple-standby/multi-master and mutual-standby, and mass distribution and distribution without delay.
+          li
+            img(src="", alt="")
+            .title Unified integration of multiple services
+            .desc Domestic and overseas verification codes, notifications, and marketing promotion text messages can be used in any combination using the same account and interface calls
+          li
+            img(src="", alt="")
+            .title Integrated control across service providers
+            .desc Unified sending across service providers, statistical analysis of consumption, and co-management of SMS signature and template reporting
+          li
+            img(src="", alt="")
+            .title Low price, transparent, no routines
+            .desc The price of all channels is transparent, the data sent is transparent, and the service provider information is transparent, so as to maximize the benefits to consumers
+          li
+            img(src="", alt="")
+            .title Great developer experience
+            .desc Provide multi-language SDK development kit, only 3 minutes, you can schedule and manage up to 10 SMS service providers
+          li
+            img(src="", alt="")
+            .title Remain open and neutral
+            .desc Committed to building a fair, open and free ecosystem and maintaining neutral operation
+      section.support
+        .container
+          .left
+            .title Multi-Platform Free Hosting Support
+            .desc In order to reduce the access, development, use, switching and management costs of SMS services, UniSMS provides free one-click hosting services for the following common cloud communication platforms. Quick access with simple configuration, seamless connection with UniSMS integrated standard service providers, and enjoy excellent performance, stable and reliable unified scheduling and management.
+          .right
+            img(src="../images/pingtai.svg", alt="")
+      section.input
+        .container
+          .left
+            .title Try Messaging
+            .desc Whole network coverage, global coverage, 99.99% high reach rate, within five seconds. Enter your phone number and experience it for free.
+            a(href="" target="_blank") Send Message
+          .right
+            img(src="../images/qiu.svg", alt="")
+    include ./component/footer.jade

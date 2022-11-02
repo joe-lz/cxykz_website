@@ -1,0 +1,46 @@
+doctype html
+html(lang="en")
+  include ./component/head.jade
+  body 
+    include ./component/header.jade
+    main.apiuni
+      section.banner
+        .container 
+          .left
+            p.title ApiUni Customer Engagement Platform
+            p.sub_title Powerful, safe and stable products and services
+            p.desc One-stop empowerment from the underlying system to the upper-level client, helping enterprises achieve continuous growth in digital upgrades
+            a(href="" target="_blank") Talk to Expert
+      section.products
+        .container 
+          a.left.block(href="/html/apiuni-unisms.html" target="_blank") 
+            .title UniSMS All-in-One SMS
+            .desc Highly available aggregated short message service platform
+            img(src="../images/hot-bg.png", alt="").logo
+            div.icon_right
+          .right
+            a.top.block(href="/html/apiuni-api.html" target="_blank") 
+              .title Developer API
+              .desc Leading tokenized data API trading platform - API interface, free development interface data call
+              img(src="../images/college.png", alt="").logo
+              div.icon_right
+            a.bottom.block(href="/html/apiuni-database.html" target="_blank") 
+              .title Cloud database
+              .desc Low-code development platform. Provide developers with one-stop back-end cloud services
+              img(src="../images/community.png", alt="").logo
+              div.icon_right
+      section.whyus
+        .container
+          .left
+            .title How to quickly realize the idea?
+            .desc The development and maintenance of back-end systems is not an easy task. Building a team, developing joint debugging, iterative upgrades, and online operation and maintenance all require long-term investment. Let a professional team handle these thorny issues, and use mature cloud services to speed up the product iteration process, saving time, money, and effort.
+          .right
+            img(src="../images/whyus.svg", alt="")
+      section.cloud
+        .container
+          .left
+            img(src="../images/erth.svg", alt="")
+          .right
+            .title Fast access for the global audience
+            .desc The same services can be deployed in multiple regions to minimize latency and maximize availability.
+    include ./component/footer.jade
