@@ -10,11 +10,13 @@ body
   width: 100vw
   font-size: 14px
   color: black
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+  -webkit-font-smoothing: antialiased
   a 
     text-decoration: none
 
 header
-  position: absolute
+  position: fixed
   top: 0
   left: 0
   z-index: 1000
@@ -22,7 +24,10 @@ header
   width: 100vw
   height: 60px
   backdrop-filter: blur(4px)
-  background: hsla(0,0%,100%,.1)
+  background: hsla(0,0%,100%,.5)
+  transition: 0.2s ease-in
+  &:hover
+    background-color: white
   .container
     padding: 0 20px
     height: 100%
@@ -36,11 +41,69 @@ header
       padding-left: 30px
       flex: 1
       display: flex
+      height: 100%
       .item
+        display: block
         margin: 0 20px
+        height: 100%
         cursor: pointer
+        color: black
+        font-weight: 500
+        transition: 0.2s ease-in
+        line-height: 60px
         &:hover
           color: $primary
+          .content
+            height: 180px
+            opacity: 1
+        .content
+          overflow: hidden
+          position: fixed
+          top: 60px
+          left: 0
+          z-index: 999
+          width: 100%
+          width: 100vw
+          height: 0
+          opacity: 0
+          transition: 0.2s ease-in
+          background-color: white
+          box-shadow: 0 10 0.8em 0 rgb(10 52 89 / 12%)
+          border-bottom: 1px solid rgba(0,0,0,0.05)
+          background-color: white
+          .list
+            margin: 0 auto
+            padding-top: 20px
+            width: 100%
+            max-width: $width
+            display: flex
+            justify-content: flex-start
+            align-items: center
+            .link_item
+              padding: 30px
+              margin-right: 50px
+              display: inline-block
+              width: 300px
+              border-radius: 10px
+              overflow: hidden
+              background: #f9fcfe
+              color: black
+              transition: 0.2s ease-in
+              &:hover
+                background: #d8e6ef
+              .title
+                padding-bottom: 15px
+                font-size: 20px
+                font-weight: bold
+                line-height: 1
+              .desc
+                line-height: 1
+                font-size: 14px
+                color: rgba(0,0,0,0.6)
+                text-overflow: ellipsis
+                overflow: hidden
+                white-space: nowrap
+
     .other 
       a 
         display: inline-block
@@ -623,3 +686,50 @@ body
             padding-bottom: 10px
             font-size: 26px
             font-weight: bold
+
+.customers
+  background-color: white
+  .banner
+    height: 600px
+    width: 100%
+    background: linear-gradient(180deg,rgba(242,47,70,0),#2fa7f20f)
+    .container 
+      position: relative
+      margin: 0 auto
+      padding: 0 10px
+      width: 100%
+      max-width: $width
+      height: 100%
+      .left 
+        position: relative
+        z-index: 1
+        padding-top: 130px
+        width: 50%
+        .title
+          color: $primary
+          font-weight: bold
+          font-size: 18px
+        .sub_title
+          padding-top: 20px
+          color: black
+          font-size: 50px
+          letter-spacing: -2px
+          font-weight: bold
+          line-height: 1.2
+        .desc 
+          padding-top: 20px
+          font-weight: 200
+          font-size: 18px
+        a 
+          margin-top: 20px
+          display: inline-block
+          color: $primary
+          border: 1px solid $primary
+          padding: 5px 10px
+          border-radius: 4px
+      .right
+        img
+          position: absolute
+          right: 0
+          top: 20%
+          height: 50%

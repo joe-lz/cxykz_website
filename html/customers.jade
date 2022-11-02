@@ -1,0 +1,16 @@
+doctype html
+html(lang="en")
+  include ./component/head.jade
+  body 
+    include ./component/header.jade
+    main.customers
+      section.banner
+        .container 
+          .left
+            p.title Customers
+            p.sub_title Serving Popular Startups
+            p.desc ApiUni has served more than 240,000 customers.
+            a(href="" target="_blank") Talk to Expert
+          .right
+            img(src="../images/customers.svg", alt="")
+    include ./component/footer.jade

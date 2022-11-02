@@ -1,10 +1,24 @@
 header
   .container
-    img(src="../images/apiuni.png", alt="").logo
+    a(href="/html/apiuni.html") 
+      img(src="../images/apiuni.png", alt="").logo
     .nav
-      .item Products
-      .item Pricing
-      .item Developers
-      .item About Us
+      .item
+        span Products
+        div.content
+          .list
+            a.link_item(href="/html/apiuni-unisms.html") 
+              .title UniSMS
+              .desc All-in-One SMS
+            a.link_item(href="/html/apiuni-api.html") 
+              .title Cloud API
+              .desc Leading tokenized data API trading platform - API interface, free development interface data call
+            a.link_item(href="/html/apiuni-database.html") 
+              .title Cloud database
+              .desc Low-code development platform. Provide developers with one-stop back-end cloud services
+
+      a.item(href="/html/customers.html")  Customers
+      //- a.item(href="/html/price.html")  Pricing
+      //- a.item(href="/html/about.html")  About Us
     .other
       a(href="" target="_blank") Talk to Expert
