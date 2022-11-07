@@ -9,6 +9,19 @@
 	],
 "creatorBuild": "32186",
 "files": {
+	"/css/_mixin.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dist/css/_mixin.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/css/apiuni.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -156,6 +169,27 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/dist/images/blockchain.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/dist/images/capihub.png": {
+		"ft": 32768,
+		"iS": 13111,
+		"oA": 0,
+		"oAP": "/dist/dist/images/capihub.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/dist/images/capihub.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/images/capihub.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -317,6 +351,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/dist/images/shubham.jpg": {
+		"ft": 16384,
+		"iS": 791447,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/images/shubham.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/dist/images/whyus.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -430,6 +475,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/html/component/footer2.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/html/dist/html/footer2.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"/html/component/head.jade": {
 		"cB": 0,
 		"cOD": 1,
@@ -475,6 +530,16 @@
 		"oA": 0,
 		"oAP": "/html/dist/html/header.html",
 		"oF": 0
+		},
+	"/html/documents.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/html/documents.html",
+		"oF": 0,
+		"oS": 0
 		},
 	"/html/price.jade": {
 		"cB": 0,
@@ -523,6 +588,27 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/images/blockchain.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/capihub.png": {
+		"ft": 32768,
+		"iS": 13111,
+		"oA": 0,
+		"oAP": "/dist/images/capihub.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/capihub.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/capihub.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -682,6 +768,17 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/images/shubham.jpg": {
+		"ft": 16384,
+		"iS": 791447,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/shubham.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/whyus.svg": {

@@ -177,6 +177,49 @@ footer .copyright {
   border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
+@media only screen and (max-width: 800px) {
+  header .container .logo, header .container .other {
+    display: none;
+  }
+  header .container .nav {
+    padding: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .container .nav .item {
+    margin: 0;
+  }
+  header .container .nav .item:hover .content {
+    height: 100vh;
+  }
+  header .container .nav .item:hover .content .list {
+    display: block;
+    padding: 30px;
+  }
+  header .container .nav .item:hover .content .list .link_item {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  footer .container {
+    display: block;
+    padding-bottom: 50px;
+    padding-top: 30px;
+  }
+  footer .container .section1 {
+    display: block;
+    margin-bottom: 50px;
+  }
+  footer .container .section2 {
+    width: 32%;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+  }
+}
 body {
   background: #F9FBFF;
 }
@@ -846,4 +889,179 @@ body {
   right: 0;
   top: 20%;
   height: 50%;
+}
+
+@media only screen and (max-width: 800px) {
+  header {
+    padding: 0 10px;
+  }
+  header .container {
+    padding: 0;
+  }
+  header .container .logo {
+    display: inline-block;
+    height: 15px;
+  }
+  header .container .nav {
+    padding-left: 30px;
+  }
+
+  .apiuni .banner {
+    height: 450px;
+  }
+  .apiuni .banner .container .left {
+    padding-top: 130px;
+    width: 100%;
+  }
+  .apiuni .banner .container .left .title {
+    font-size: 14px;
+  }
+  .apiuni .banner .container .left .sub_title {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  .apiuni .products {
+    padding-top: 0;
+    padding-bottom: 30px;
+  }
+  .apiuni .products .container {
+    display: block;
+  }
+  .apiuni .products .container .block {
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+  }
+  .apiuni .products .container .block .logo {
+    right: 50px;
+    height: 50%;
+  }
+  .apiuni .products .container .right {
+    padding-left: 0;
+  }
+  .apiuni .whyus {
+    padding: 30px 10px;
+  }
+  .apiuni .whyus .container .left {
+    padding-right: 0;
+    width: 100%;
+  }
+  .apiuni .whyus .container .right {
+    display: none;
+  }
+  .apiuni .cloud {
+    padding: 30px 10px;
+  }
+  .apiuni .cloud .container .left {
+    display: none;
+  }
+  .apiuni .cloud .container .right {
+    padding-left: 0;
+    width: 100%;
+  }
+
+  .apiuni-unisms .banner {
+    height: 450px;
+  }
+  .apiuni-unisms .banner .container .left {
+    padding-top: 130px;
+    width: 100%;
+  }
+  .apiuni-unisms .banner .container .left .title {
+    font-size: 14px;
+  }
+  .apiuni-unisms .banner .container .left .sub_title {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  .apiuni-unisms .banner .container .right {
+    display: none;
+  }
+  .apiuni-unisms .intro .container {
+    display: block;
+    padding: 30px 10px;
+  }
+  .apiuni-unisms .intro .container li {
+    width: 100%;
+  }
+  .apiuni-unisms .support .container {
+    padding: 30px 10px;
+  }
+  .apiuni-unisms .support .container .left {
+    padding-right: 0;
+  }
+  .apiuni-unisms .support .container .right {
+    display: none;
+  }
+  .apiuni-unisms .input {
+    padding: 0 10px;
+  }
+  .apiuni-unisms .input .container {
+    padding: 10px;
+  }
+  .apiuni-unisms .input .container .left {
+    padding-right: 0;
+  }
+  .apiuni-unisms .input .container .right {
+    display: none;
+  }
+
+  .api .banner {
+    height: 450px;
+  }
+  .api .banner .container .left {
+    padding-top: 130px;
+    width: 100%;
+  }
+  .api .banner .container .left .title {
+    font-size: 14px;
+  }
+  .api .banner .container .left .sub_title {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  .api .banner .container .right {
+    display: none;
+  }
+  .api .intro .container {
+    display: block;
+    padding: 0 10px;
+  }
+  .api .intro .container li {
+    width: 100%;
+    height: 240px;
+  }
+
+  .database .banner {
+    height: 450px;
+  }
+  .database .banner .container .left {
+    padding-top: 130px;
+    width: 100%;
+  }
+  .database .banner .container .left .title {
+    font-size: 14px;
+  }
+  .database .banner .container .left .sub_title {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  .database .banner .container .right {
+    display: none;
+  }
+  .database .intro .container {
+    display: block;
+    padding: 0 10px;
+  }
+  .database .intro .container li {
+    width: 100%;
+    height: 240px;
+  }
+  .database .support .container .left {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  .database .support .container .right {
+    display: none;
+  }
 }
