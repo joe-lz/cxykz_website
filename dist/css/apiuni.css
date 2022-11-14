@@ -1064,4 +1064,22 @@ body {
   .database .support .container .right {
     display: none;
   }
+
+  .customers .banner {
+    height: 450px;
+  }
+  .customers .banner .container .left {
+    padding-top: 130px;
+    width: 100%;
+  }
+  .customers .banner .container .left .title {
+    font-size: 14px;
+  }
+  .customers .banner .container .left .sub_title {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  .customers .banner .container .right {
+    display: none;
+  }
 }
