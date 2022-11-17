@@ -1,0 +1,313 @@
+body .learn_cate {
+  display: flex;
+  overflow: initial;
+}
+body .learn_cate .left {
+  flex: 1;
+}
+body .learn_cate .right {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+body .learn_cate .right .ui {
+  min-width: 80px;
+  max-width: 120px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0;
+  text-align: center;
+}
+body .learn_cate .right .icon {
+  top: 7px !important;
+}
+body .ma-work_down_main {
+  padding-top: 30px;
+  margin-top: 0;
+}
+body .ma-work_down_main .ma-works-wrapper {
+  overflow: initial;
+}
+body .ma-work_down_main .ma-works-wrapper .ma-works-list {
+  margin-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background-color: transparent;
+}
+body .ma-work_down_main .ma-works-wrapper .ma-works-item {
+  margin-bottom: 15px;
+  padding: 0;
+  width: 24%;
+  height: initial;
+  flex-direction: column;
+  height: 230px;
+  transition: 0.2s ease-in;
+}
+body .ma-work_down_main .ma-works-wrapper .ma-works-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.05);
+}
+body .ma-work_down_main .ma-works-wrapper .ma-works-item .ma-works-item-image {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 120px;
+  border-radius: 0;
+  margin-right: 0;
+}
+body .ma-work_down_main .ma-works-wrapper .ma-works-item .ma-works-item-image::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 3;
+  height: 50px;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+}
+body .ma-work_down_main .ma-works-wrapper .ma-works-item .ma-works-item-image .info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+body .ma-work_down_main .ma-works-wrapper .ma-works-item .ma-works-item-image .info .size {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+}
+body .ma-work_down_main .ma-works-wrapper .ma-works-item .ma-works-item-image .info .middle {
+  flex: 1;
+}
+body .ma-work_down_main .ma-works-wrapper .ma-works-item .ma-works-item-image .info .ma-works-time {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+}
+body .ma-work_down_main .ma-works-wrapper .ma-works-item .ma-works-item-image img {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+}
+body .ma-work_down_main .ma-works-wrapper .ma-works-item .ma-works-item-main {
+  padding: 8px 10px;
+  width: 100%;
+  min-height: initial;
+}
+body .ma-work_down_main .ma-works-wrapper .ma-works-item .ma-works-item-main .ma-works-item-tit {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  width: 100%;
+  line-height: 1.1;
+  min-height: initial;
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+body .ma-work_down_main .ma-works-wrapper .ma-works-item .ma-works-item-main .ma-works-item-tips {
+  margin-top: 0;
+  font-size: 12px;
+  line-height: 1.2;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+body .ma-work_down_main .ma-works-wrapper .ma-works-item .ma-works-item-main .ma-works-item-info {
+  position: relative;
+  flex-direction: column;
+}
+body .ma-work_down_main .ma-works-wrapper .ma-works-item .ma-works-item-main .ma-works-item-info .ma-work-item-info-left {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .ma-work_down_main .ma-works-wrapper .ma-works-item .ma-works-item-main .ma-works-item-info .ma-work-item-info-left .tag {
+  padding: 5px 5px;
+  border-radius: 4px;
+  font-size: 12px;
+  background-color: #dcefff;
+  color: #2994f2;
+}
+body .ma-work_down_main .ma-works-wrapper .ma-works-item .ma-works-item-main .ma-works-item-info .ma-work-item-info-left .ma-works-price {
+  margin-right: 0;
+}
+body .ma-works-aside {
+  width: 280px;
+}
+body .ma-works-aside .ma-works-side-main {
+  position: relative;
+}
+body .ma-works-aside .aside-section {
+  margin-bottom: 15px;
+  background-color: white;
+}
+body .ma-works-aside .aside-section .section-title {
+  padding: 0 15px;
+  padding-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+body .ma-works-aside .aside-section .section-body {
+  padding: 15px;
+}
+body .ma-works-aside .userprofile-wrapper {
+  padding: 15px;
+}
+body .ma-works-aside .userprofile-wrapper .top {
+  display: flex;
+  color: black;
+}
+body .ma-works-aside .userprofile-wrapper .top .avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 44px;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+body .ma-works-aside .userprofile-wrapper .top .right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+}
+body .ma-works-aside .userprofile-wrapper .top .right .username {
+  font-weight: bold;
+}
+body .ma-works-aside .userprofile-wrapper .top .right .title {
+  padding-top: 3px;
+  font-size: 12px;
+  color: gray;
+}
+body .ma-works-aside .userprofile-wrapper .info {
+  font-size: 12px;
+  color: gray;
+}
+body .ma-works-aside .userprofile-wrapper .info div {
+  margin: 0;
+  padding-top: 10px;
+}
+body .ma-works-aside .userprofile-wrapper .info img {
+  margin-right: 5px;
+  width: 15px;
+  position: relative;
+  top: 3px;
+}
+body .ma-works-aside .userprofile-wrapper .actions {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+body .ma-works-aside .userprofile-wrapper .actions a {
+  display: block;
+  width: 48%;
+  height: 35px;
+  line-height: 35px;
+  border: 1px solid #2994f2;
+  color: #2994f2;
+  text-align: center;
+  border-radius: 4px;
+  transition: 0.2s ease-in;
+}
+body .ma-works-aside .userprofile-wrapper .actions a:hover {
+  color: white;
+  background-color: #0d7bdb;
+}
+body .ma-works-aside .userprofile-wrapper .actions .active {
+  color: white;
+  background-color: #2994f2;
+}
+body .ma-works-aside .search .ma-works-search {
+  position: relative;
+}
+body .ma-works-aside .search .ma-works-search .ma-works-search-input {
+  padding-right: 100px;
+}
+body .ma-works-aside .search .ma-works-search .ma-works-search-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 6px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  color: #2994f2;
+  transition: 0.2s ease-in;
+}
+body .ma-works-aside .search .ma-works-search .ma-works-search-btn:hover {
+  color: white;
+  background-color: #2994f2;
+}
+body .ma-works-aside .category-two a, body .ma-works-aside .category-sug a {
+  display: inline-block;
+  border-radius: 6px;
+  transition: 0.2s ease-in;
+  padding: 5px 8px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  color: black;
+}
+body .ma-works-aside .category-two a:hover, body .ma-works-aside .category-sug a:hover {
+  background-color: #dcefff;
+  color: #2994f2;
+}
+body .ma-works-aside .category-two .active, body .ma-works-aside .category-sug .active {
+  background-color: #dcefff;
+  color: #2994f2;
+}
+body .ma-works-aside .category-two .more, body .ma-works-aside .category-sug .more {
+  margin: 0 auto;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+  background: url(https://stacdn.proginn.com/2022/img/works/arrow.png) no-repeat center top;
+  background-size: 80% auto;
+}
+body .ma-works-aside .sug-works a {
+  color: black;
+  transition: 0.2s ease-in;
+  margin-bottom: 10px;
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+body .ma-works-aside .sug-works a:hover {
+  color: #2994f2;
+}
+
+@media all and (max-width: 600px) {
+  body .learn_cate .left {
+    white-space: nowrap;
+    overflow-x: scroll;
+  }
+  body .learn_cate .left a {
+    margin: 0 20px;
+  }
+  body .learn_cate .right {
+    display: none;
+  }
+  body .ma-work_down_main {
+    display: block;
+  }
+  body .ma-work_down_main .ma-works-wrapper .ma-works-list {
+    justify-content: space-around;
+  }
+  body .ma-work_down_main .ma-works-wrapper .ma-works-list .ma-works-item {
+    width: 48%;
+    overflow: hidden;
+  }
+  body .ma-work_down_main .ma-works-aside {
+    margin-left: 0;
+    width: 100%;
+  }
+}

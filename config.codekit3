@@ -48,6 +48,32 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/css/developers.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/dist/css/developers.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/css/work.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/dist/css/work.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/dist/css/apiuni.css": {
 		"aP": 1,
 		"bl": 0,
@@ -65,6 +91,26 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/dist/css/capihub-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/dist/css/developers.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/dist/css/developers-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/dist/css/work.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/dist/css/work-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -116,6 +162,14 @@
 		"oAP": "/dist/html/customers.html",
 		"oF": 0
 		},
+	"/dist/html/developers.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/html/developers.html",
+		"oF": 0
+		},
 	"/dist/html/documents.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -130,6 +184,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/dist/html/price.html",
+		"oF": 0
+		},
+	"/dist/html/works.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/html/works.html",
+		"oF": 0
+		},
+	"/dist/html/xinyong.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/html/xinyong.html",
 		"oF": 0
 		},
 	"/dist/images/api.svg": {
@@ -319,6 +389,17 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/dist/images/project.png": {
+		"ft": 32768,
+		"iS": 2841,
+		"oA": 0,
+		"oAP": "/dist/dist/images/project.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/dist/images/qiu.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -360,6 +441,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/dist/images/time.png": {
+		"ft": 32768,
+		"iS": 6454,
+		"oA": 0,
+		"oAP": "/dist/dist/images/time.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/dist/images/whyus.svg": {
@@ -515,6 +607,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/html/developers.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/html/developers.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"/html/dist/html/head.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -551,6 +653,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/html/works.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/html/works.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"/images/API.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -569,6 +681,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/avatar.png": {
+		"ft": 32768,
+		"iS": 4260,
+		"oA": 0,
+		"oAP": "/dist/images/avatar.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -738,6 +861,17 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/project.png": {
+		"ft": 32768,
+		"iS": 9703,
+		"oA": 0,
+		"oAP": "/dist/images/project.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/qiu.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -779,6 +913,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/images/time.png": {
+		"ft": 32768,
+		"iS": 6454,
+		"oA": 0,
+		"oAP": "/dist/images/time.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"/images/whyus.svg": {

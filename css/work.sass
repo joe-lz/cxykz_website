@@ -1,0 +1,278 @@
+$primary: #2994f2
+$width: 1100px
+
+body
+  .learn_cate
+    display: flex
+    overflow: initial
+    .left
+      flex: 1
+    .right
+      font-size: 14px
+      display: flex
+      align-items: center
+      .ui
+        min-width: 80px
+        max-width: 120px
+        height: 30px
+        line-height: 30px
+        padding: 0
+        text-align: center
+      .icon
+        top: 7px !important
+
+
+  .ma-work_down_main
+    padding-top: 30px
+    margin-top: 0
+    .ma-works-wrapper
+      overflow: initial
+      .ma-works-list
+        margin-top: 0
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        align-items: center
+        position: relative
+        background-color: transparent
+      .ma-works-item 
+        margin-bottom: 15px
+        padding: 0
+        width: 24%
+        height: initial
+        // overflow: hidden
+        flex-direction: column
+        height: 230px
+        transition: 0.2s ease-in
+        &:hover
+          transform: scale(1.05)
+          box-shadow: 0 0px 5px 0 rgb(0 0 0 / 5%)
+        .ma-works-item-image
+          position: relative
+          z-index: 1
+          width: 100%
+          height: 120px
+          border-radius: 0
+          margin-right: 0
+          &::after
+            content: ""
+            position: absolute
+            left: 0
+            bottom: 0
+            z-index: 3
+            height: 50px
+            width: 100%
+            background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8))
+          .info
+            position: absolute
+            bottom: 0
+            left: 0
+            z-index: 10
+            width: 100%
+            display: flex
+            align-items: center
+            justify-content: space-between
+            padding: 10px
+            .size
+              font-size: 12px
+              color: rgba(255,255,255,0.6)
+            .middle
+              flex: 1
+            .ma-works-time
+              font-size: 12px
+              color: rgba(255,255,255,0.6)
+          img
+            position: relative
+            z-index: 2
+            width: 100%
+            height: 100%
+            border-radius: 0
+        .ma-works-item-main
+          padding: 8px 10px
+          width: 100%
+          min-height: initial
+          .ma-works-item-tit
+            font-weight: 400
+            font-size: 14px
+            font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif
+            width: 100%
+            line-height: 1.1
+            min-height: initial
+            font-weight: bold
+            padding-bottom: 8px
+            // white-space: initial
+            // overflow: hidden
+            // text-overflow: ellipsis
+            // display: -webkit-box
+            // white-space: normal
+            // -webkit-box-orient: vertical
+            // -webkit-line-clamp: 2
+            // word-break: break-all
+          .ma-works-item-tips
+            margin-top: 0
+            font-size: 12px
+            line-height: 1.2
+            font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif
+          .ma-works-item-info
+            position: relative
+            flex-direction: column
+            .ma-work-item-info-left
+              padding-top: 10px
+              display: flex
+              justify-content: space-between
+              align-items: center
+              .tag
+                padding: 5px 5px
+                border-radius: 4px
+                font-size: 12px
+                background-color: #dcefff
+                color: $primary
+              .ma-works-price
+                margin-right: 0
+
+
+
+  .ma-works-aside
+    width: 280px
+    .ma-works-side-main
+      position: relative
+    .aside-section
+      margin-bottom: 15px
+      background-color: white
+      .section-title
+        padding: 0 15px 
+        padding-top: 15px
+        font-size: 18px
+        font-weight: bold
+      .section-body
+        padding: 15px
+    .userprofile-wrapper
+      padding: 15px
+      .top
+        display: flex
+        color: black
+        .avatar
+          width: 44px
+          height: 44px
+          border-radius: 44px
+          background-size: cover
+          background-position: center
+          background-color: rgba(0,0,0,0.3)
+        .right
+          flex: 1
+          display: flex
+          flex-direction: column
+          justify-content: center
+          padding-left: 10px
+          .username
+            font-weight: bold
+          .title
+            padding-top: 3px
+            font-size: 12px
+            color: gray
+      .info
+        font-size: 12px
+        color: gray
+        div
+          margin: 0
+          padding-top: 10px
+        img
+          margin-right: 5px
+          width: 15px
+          position: relative
+          top: 3px
+      .actions
+        padding-top: 30px
+        display: flex
+        justify-content: space-between
+        a
+          display: block
+          width: 48%
+          height: 35px
+          line-height: 35px
+          border: 1px solid $primary
+          color: $primary
+          text-align: center
+          border-radius: 4px
+          transition: 0.2s ease-in
+          &:hover
+            color: white
+            background-color: darken($primary, 10)
+        .active
+          color: white
+          background-color: $primary
+    .search
+      .ma-works-search
+        position: relative
+        .ma-works-search-input
+          padding-right: 100px
+        .ma-works-search-btn
+          position: absolute
+          right: 0
+          top: 0
+          border-radius: 6px
+          border-top-left-radius: 0
+          border-bottom-left-radius: 0
+          background-color: transparent
+          color: $primary
+          transition: 0.2s ease-in
+          &:hover
+            color: white
+            background-color: $primary
+    .category-two, .category-sug
+      a
+        display: inline-block
+        border-radius: 6px
+        transition: 0.2s ease-in
+        padding: 5px 8px
+        margin-right: 5px
+        margin-bottom: 5px
+        color: black
+        &:hover
+          background-color: #dcefff
+          color: #2994f2
+      .active
+        background-color: #dcefff
+        color: #2994f2
+      .more
+        margin: 0 auto
+        width: 20px
+        height: 20px
+        cursor: pointer
+        transition: all .3s
+        background: url(https://stacdn.proginn.com/2022/img/works/arrow.png) no-repeat center top
+        background-size: 80% auto
+    .sug-works
+      a
+        color: black
+        transition: 0.2s ease-in
+        margin-bottom: 10px
+        display: block
+        white-space: nowrap
+        text-overflow: ellipsis
+        overflow: hidden
+        &:hover
+          color: $primary
+
+
+@media all and (max-width: 600px)
+  body 
+    .learn_cate
+      .left
+        white-space: nowrap
+        overflow-x: scroll
+        a
+          margin: 0 20px
+      .right
+        display: none
+    .ma-work_down_main
+      display: block
+      .ma-works-wrapper 
+        .ma-works-list
+          justify-content: space-around
+          .ma-works-item
+            width: 48%
+            overflow: hidden
+      .ma-works-aside
+        margin-left: 0
+        width: 100%
