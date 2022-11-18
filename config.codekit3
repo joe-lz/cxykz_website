@@ -447,6 +447,39 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/dist/images/identifyIcon1.c23066a.png": {
+		"ft": 32768,
+		"iS": 1459,
+		"oA": 0,
+		"oAP": "/dist/dist/images/identifyIcon1.c23066a.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/dist/images/identifyIcon2.f7e3bec.png": {
+		"ft": 32768,
+		"iS": 1669,
+		"oA": 0,
+		"oAP": "/dist/dist/images/identifyIcon2.f7e3bec.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/dist/images/identifyIcon3.23e4937.png": {
+		"ft": 32768,
+		"iS": 1343,
+		"oA": 0,
+		"oAP": "/dist/dist/images/identifyIcon3.23e4937.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/dist/images/indexIcon0.a1bf61a.png": {
 		"ft": 32768,
 		"iS": 20297,
@@ -1005,6 +1038,39 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/images/identifyIcon1.c23066a.png": {
+		"ft": 32768,
+		"iS": 1459,
+		"oA": 0,
+		"oAP": "/dist/images/identifyIcon1.c23066a.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/identifyIcon2.f7e3bec.png": {
+		"ft": 32768,
+		"iS": 1669,
+		"oA": 0,
+		"oAP": "/dist/images/identifyIcon2.f7e3bec.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/identifyIcon3.23e4937.png": {
+		"ft": 32768,
+		"iS": 1343,
+		"oA": 0,
+		"oAP": "/dist/images/identifyIcon3.23e4937.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/images/indexIcon0.a1bf61a.png": {
 		"ft": 32768,
