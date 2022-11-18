@@ -96,10 +96,15 @@ body
               justify-content: center
               background-color: white
               width: 23%
-              box-shadow: 0 0 0.8em 0 rgb(10 52 89 / 12%)
+              // box-shadow: 0 0 0.8em 0 rgb(10 52 89 / 12%)
+              border: 1px solid rgba(0,0,0,0.05)
               text-align: center
               padding: 40px 30px
               overflow: hidden
+              transition: 0.2s ease-in
+              border-radius: 4px
+              &:hover
+                box-shadow: 0 0 0.8em 0 rgb(10 52 89 / 12%)
               &:nth-child(4n)
                 margin-right: 0
               .hot

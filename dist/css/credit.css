@@ -111,10 +111,15 @@ body .credit_wrapper .list .container .block .block_body .block_item {
   justify-content: center;
   background-color: white;
   width: 23%;
-  box-shadow: 0 0 0.8em 0 rgba(10, 52, 89, 0.12);
+  border: 1px solid rgba(0, 0, 0, 0.05);
   text-align: center;
   padding: 40px 30px;
   overflow: hidden;
+  transition: 0.2s ease-in;
+  border-radius: 4px;
+}
+body .credit_wrapper .list .container .block .block_body .block_item:hover {
+  box-shadow: 0 0 0.8em 0 rgba(10, 52, 89, 0.12);
 }
 body .credit_wrapper .list .container .block .block_body .block_item:nth-child(4n) {
   margin-right: 0;
