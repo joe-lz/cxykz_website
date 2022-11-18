@@ -143,11 +143,15 @@ body .credit_wrapper .list .container .block .block_body .block_item .action {
 body .credit_wrapper .list .container .block .block_body .block_item .action a {
   background-color: #2994f2;
   color: white;
-  padding: 8px 20px;
+  padding: 8px 15px;
   font-size: 14px;
   border-radius: 4px;
   margin: 0 5px;
   display: inline-block;
+  transition: 0.2s ease-in;
+}
+body .credit_wrapper .list .container .block .block_body .block_item .action .active:hover {
+  background-color: #0d7bdb;
 }
 body .credit_wrapper .list .container .block .block_body .block_item .action .disabled {
   background-color: rgba(0, 0, 0, 0.2);
