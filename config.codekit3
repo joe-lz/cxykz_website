@@ -635,6 +635,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/dist/images/hot.png": {
+		"ft": 32768,
+		"iS": 6651,
+		"oA": 0,
+		"oAP": "/dist/dist/images/hot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/dist/images/id.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1496,6 +1507,17 @@
 		"iS": 69442,
 		"oA": 0,
 		"oAP": "/dist/images/hot-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/hot.png": {
+		"ft": 32768,
+		"iS": 6651,
+		"oA": 0,
+		"oAP": "/dist/images/hot.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
