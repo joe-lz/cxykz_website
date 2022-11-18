@@ -1,0 +1,701 @@
+html
+  head
+    meta(charset='UTF-8')
+    title 【您有新消息】IT开发资源下载-程序员客栈
+    meta(http-equiv='X-UA-Compatible' content='IE=edge,chrome=1')
+    meta(name='baidu-site-verification' content='7IbkIN9Kwp')
+    meta(http-equiv='Cache-Control' content='no-transform')
+    meta(http-equiv='Cache-Control' content='no-siteapp')
+    meta(name='keywords' content='IT开发资源下载,开发源码下载')
+    meta(name='description' content='程序员客栈资源商城是一个提供学习资源、源码、在线学习视频、IT电子书、各类免费软件等下载服务的IT资源大本营,致力于为软件开发者提供知识传播、资源共享、共同学习的优质学习资源平台.')
+    meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover, shrink-to-fit=no")
+    meta(name='applicable-device' content='pc,mobile')
+    link(rel='stylesheet' href='https://stacdn.proginn.com/css/index/swiper.min.css?_=4.42.4')
+    //- link(rel='canonical' href='https://www.proginn.com/works/')
+    link(href='https://stacdn.proginn.com/favicon_new.ico' mce_href='https://stacdn.proginn.com/favicon.ico' rel='bookmark' type='image/x-icon')
+    link(href='https://stacdn.proginn.com/favicon_new.ico' mce_href='https://stacdn.proginn.com/favicon.ico' rel='icon' type='image/x-icon')
+    link(href='https://stacdn.proginn.com/favicon_new.ico' mce_href='https://stacdn.proginn.com/favicon.ico' rel='shortcut icon' type='image/x-icon')
+    link(rel='stylesheet' href='https://stacdn.proginn.com/css_v2/inn.css?_=4.42.4')
+    link(rel='stylesheet' href='https://stacdn.proginn.com/css/common/search.css?_=4.42.4')
+    //- base(href='https://www.proginn.com')
+    script(src='//hm.baidu.com/hm.js?c92adf6182a39eb23c24cf43abc3f439')
+    script(type='text/javascript').
+      var baseUrl = "/";
+      var jishuinUrl = "https://jishuin.proginn.com";
+      var env = "prod";
+      var uid = "772556";
+      var sta_url = "https://stacdn.proginn.com";
+      var cdn_version = "4.42.4";
+      var kaifainUrl = 'https://www.kaifain.com';
+      var home_page_type_="2";
+      var aliyuncategory="";
+    link(rel='stylesheet' href='https://stacdn.proginn.com/css/layer.css')
+    script(type='text/javascript' src='https://stacdn.proginn.com/js/index/swiper.min.js?version=4.42.4')
+    script(type='text/javascript' src='https://stacdn.proginn.com/js/jquery.min.js')
+    script(type='text/javascript' src='https://stacdn.proginn.com/js/layer.js')
+    link#layui_layer_layercss(rel='stylesheet' href='https://stacdn.proginn.com/js/layer.css' style='')
+    style#stylish-style--1.stylish-style(data-style-id='-1' data-stylish='-1').
+      body .main {
+      padding-top: 20px;
+      }
+      body .title-box {
+      position: fixed;
+      z-index: 100;
+      top: 65px;
+      left: 50%;
+      margin: 0px auto;
+      margin-left: -550px;
+      padding: 0;
+      width: 100%;
+      max-width: 1100px;
+      height: 45px;
+      background-color: transparent;
+      }
+      body .title-box::before {
+      content: "";
+      position: fixed;
+      z-index: 99;
+      top: 65px;
+      left: 0;
+      width: 100%;
+      width: 100vw;
+      height: 45px;
+      background: white;
+      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+      }
+      body .title-box .title-box-h1, body .title-box .result-count {
+      position: relative;
+      z-index: 100;
+      }
+      body .inn-user-filter {
+      border-radius: 0 !important;
+      }
+      body .inn-user-filter .filter-box:last-child {
+      margin-bottom: 0;
+      }
+      body .inn-user-filter .filter-box:last-child .filter-content {
+      padding-bottom: 0;
+      }
+      body .inn-user-filter .filter-content {
+      border-bottom: none;
+      }
+      body .inn-user-filter .filter-content .list a {
+      border-radius: 6px;
+      transition: 0.2s ease-in;
+      padding: 5px 10px;
+      margin-right: 5px;
+      }
+      body .inn-user-filter .filter-content .list a:hover {
+      background-color: #dcefff;
+      color: #2994f2;
+      }
+      body #widget-user-list.proginn-user-list .item {
+      position: inherit;
+      margin-bottom: 0;
+      border-radius: 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+      transition: 0.2s ease-in;
+      }
+      body #widget-user-list.proginn-user-list .item:hover {
+      transform: scale(1.01);
+      box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.05);
+      }
+      body .proginn-user-list .user-info .info {
+      font-weight: bold;
+      }
+      body .proginn-user-list .user-info .desc-item span {
+      color: #848589;
+      }
+      body .proginn-user-list .user-info .desc-item a {
+      color: #848589;
+      }
+      body .proginn-user-list .user-info .desc-item a:first-child {
+      color: #848589;
+      }
+      body .proginn-user-list .user-info .desc-item a:hover {
+      color: #2994f2 !important;
+      text-decoration: underline;
+      }
+      body #widget-user-list .hire-info p {
+      width: inherit;
+      }
+      body #widget-user-list .hire-info p.work-price {
+      font-weight: bold;
+      }
+      body #widget-user-list .hire-info .hire-btn {
+      margin: 0;
+      box-shadow: none !important;
+      transition: 0.2s ease-in;
+      }
+      body .crumbs-ctrl button {
+      height: inherit;
+      width: inherit;
+      padding: 8px 13px;
+      transition: 0.2s ease-in;
+      }
+      body .crumbs-ctrl button:hover {
+      background-color: #2994f2 !important;
+      color: white !important;
+      }
+    script(src='https://stacdn.proginn.com/js/header.js?version=4.42.4')
+    link(rel='stylesheet' href='https://stacdn.proginn.com/css/header/new.css?_=4.42.4')
+    link(rel="stylesheet", href="../css/work.css")
+    script(type='text/javascript' src='https://stacdn.proginn.com/js/inn.js?_=4.42.4')
+    script(src='https://stacdn.proginn.com/2022/js/works.js?version=4.42.4')
+    link(rel='stylesheet' href='https://stacdn.proginn.com/2022/css/works.css?version=4.42.4')
+    link(rel="stylesheet", href="../css/credit.css")
+  body
+
+    #top-menu.header.top-menu
+      .menu-container.ui.inverted.menu.i_header
+        a.item.logo(href='https://www.proginn.com/')
+        a#firstpage.item.page(href='https://www.proginn.com/') 首页
+        a.item.page(href='https://www.proginn.com/cat/') 程序员
+        .item.dropDownArea(style='padding: 0px')
+          .item-more.menu
+            .item.item-more
+              .ui.dropdown.left.top.pointing.dropdown-more(style='position: relative;' tabindex='0')
+                div
+                  span 解决方案
+                  i.icon_bot
+                .menu.more-content(tabindex='-1' style='display: none;')
+                  .solution(tabindex='0')
+                    .more-item.item.re-item
+                      .s_title
+                        img(src='https://stacdn.proginn.com/image/header/new/jiejuefangan2@2x.png' alt='')
+                        span.cellRightName 招聘用人
+                      a(href='https://www.proginn.com/b/cloud')
+                        .cellRightName 云端工作
+                        .cellRightDesc 自由工作、远程工作
+                    .more-item.item.solution-item
+                      .s_title
+                        img(src='https://stacdn.proginn.com/image/header/new/jiejuefangan1@2x.png' alt='')
+                        span.cellRightName 项目研发
+                      a(href='https://www.proginn.com/b/p1980')
+                        .cellRightName 需求梳理
+                        .cellRightDesc 规划落地您的想法
+                      a(href='https://www.proginn.com/b/outsource')
+                        .cellRightName 整包开发
+                        .cellRightDesc 一站式软件开发
+                    .menu(tabindex='-1')
+          // 服务
+          .item-more.menu.re-menu
+            .item.item-more
+              .ui.dropdown.left.top.pointing.dropdown-more(style='position: relative; left:-7px;' tabindex='0')
+                div
+                  span 服务
+                  i.icon_bot
+                .menu.more-content(tabindex='-1' style='display: none;')
+                  a.more-item.item.re-item(href='https://www.proginn.com/works/')
+                    img(src='https://stacdn.proginn.com/image/header/new/fuwu1@2x.png' alt='')
+                    div
+                      .cellRightName 资源作品
+                      .cellRightDesc 各种源码资源任您挑选
+                  a.more-item.item.re-item(target='_blank' href='https://unisms.apistd.com/')
+                    img(src='https://uni-cdn.oss-cn-hangzhou.aliyuncs.com/public/img/unisms-icon.png' alt='')
+                    div
+                      .cellRightName UniSMS
+                      .cellRightDesc 全球聚合短信平台
+          a.item.page(href='https://www.proginn.com/task/') 任务
+          // 搜索
+          .item.top-search(data-widget='top-search')
+            .ui.transparent.icon.input(style='margin-left:0px')
+              i.search.link.icon.search_i
+              span.ma-line
+              form(action='https://www.proginn.com/search?type=user' method='GET')
+                input.ma-input(type='text' autocomplete='off' value='' name='keyword' placeholder='搜索您感兴趣的内容')
+            .dropdownNew(style='display:none;')
+              .searchAns
+        .right.menu.right-menu
+          .item.item-div(style='padding-right:0;padding-left:0;')
+            .nav-button.nav-button-type1
+              a.nav-button-type1-a(href='https://www.proginn.com/type/service') 发布需求
+          .item.item-div(style='padding-right:0;padding-left:0;')
+            div
+              a.item.a-platform(href='/wo/work_todo' style='padding-right: 0')
+                i.browser
+                | 工作台
+          .item.msg-box(style='padding: 0 26px;')
+            .ui.top.right.pointing.dropdown(data-widget='message-box' tabindex='0')
+              span.header-message 消息
+              #J_messageNums.header-message-nums(style='display: block;') 3
+              .menu(tabindex='-1')
+                a.item(href='https://www.proginn.com/message/system')
+                  i.blue.circle.icon.small
+                  | 系统消息
+                  #message_system_nums.ui.label(style='') 3
+                a.item(href='https://www.proginn.com/message/project')
+                  i.orange.circle.icon.small
+                  | 工作通知
+                  #message_project_nums.ui.label(style='display:none;')
+                    | 0
+                a.item(href='https://www.proginn.com/message/bills')
+                  i.orange.circle.icon.small
+                  | 交易消息
+                  #message_bill_nums.ui.label(style='display:none;')
+                    | 0
+                a.item(href='https://www.proginn.com/message/comment')
+                  i.red.circle.icon.small
+                  | 评论回复
+                  #message_comment_nums.ui.label(style='display:none;')
+                    | 0
+                a.item(href='https://www.proginn.com/message/at')
+                  i.green.circle.icon.small
+                  | @我的
+                  #message_at_nums.ui.label(style='display:none;')
+                    | 0
+                a.item(href='https://www.proginn.com/message/plus')
+                  i.pink.circle.icon.small
+                  | 赞及其它
+                  #message_plus_nums.ui.label(style='display:none;')
+                    | 0
+                a.item(href='https://www.proginn.com/message/coin')
+                  i.yellow.circle.icon.small
+                  | 余额信息
+                  #message_coin_nums.ui.label(style='display:none;')
+                    | 0
+          .item.item-div(style='padding-right:0;padding-left:0;')
+          .item.item-div(style='padding-right:0;padding-left:0;')
+            a.account-change(style='margin-left: 20px;margin-right:24px' href='/frontend/accountchange') 切换身份
+          .item(style='margin: -50px 40px 0 5px;' data-flag-key='public-base')
+            .ui.dropdown.right.top.pointing(style='position: relative;' tabindex='0')
+              a
+                img#header_user_nickname_img(src='https://stacdn.proginn.com/image/usericon/6.png' width='30' height='30' style='border-radius: 20px; left: -9px; position: absolute; top: -px;')
+              .menu(tabindex='-1')
+                section.ma-vip-area.ma-not-vip
+                  .ma-vip-title
+                    img.ma-vip-icon(src='https://stacdn.proginn.com/image/h5/not_vip.png?v=v4.42.4')
+                    span 开发者会员
+                  .ma-vip-apply
+                    span 未开通,
+                    a(href='https://www.proginn.com/type/vip/developer') 立即开通
+                a.item(href='https://www.proginn.com/wo/manage_homepage')
+                  i.tags.icon
+                  | 我的主页
+                // <a class="item" href="/community/" id="head_nav_stream"><i class="comment icon"></i>我的技术圈</a>
+                a.item(href='https://www.proginn.com/credit/pages')
+                  i.i-icon.credit-icon
+                  span.other-icon 技术信用
+                a.item(href='https://www.proginn.com/otherpage/user/collection')
+                  i.i-icon.collection-icon
+                  span.other-icon 收藏中心
+                .divider
+                a.item.a-platform(href='https://www.proginn.com/index/app' rel='nofollow')
+                  i.i-icon.download-app
+                  |                             下载APP
+                a.item.J_LogOut(href='javascript:;' rel='nofollow')
+                  i.power.icon
+                  | 退出
+
+    div.credit_wrapper
+      section.banner
+        .container
+          .left
+            h1.title 技术信用
+            p.desc 真实可信赖的程序员能力与口碑评估体系
+            .action 
+              span 当前：信用正常
+              a(href="") 记录查询
+          .right
+            img(src="../images/indexMap.621fa41.png", alt="")
+      section.list
+        .container
+          .block
+            .block_title
+              .icon(style="background-image:url(../images/indexIcon0.a1bf61a.png)")
+              .right
+                p.title 身份特征
+                p.desc 我们会从您的实名认证信息、学历信息、驾驶证、职业证书等信息，来考察您的身份特征
+            .block_body
+              .block_item
+                .icon(style="background-image:url(../images/indexIcon0.a1bf61a.png)")
+                .bottom
+                  p.title 实名认证
+                  p.desc 通过实名认证，提高技术信用
+                .action
+                  a(href="") 认证
+                  a.disabled 已认证
+              .block_item
+                .icon(style="background-image:url(../images/indexIcon0.a1bf61a.png)")
+                .bottom
+                  p.title 最高学历认证
+                  p.desc 通过中国大陆教育部数据库查询学校名称、专业、学位类型、学位授予时间
+                .action
+                  a(href="") 认证
+                  a.disabled 已认证
+              .block_item
+                .icon(style="background-image:url(../images/indexIcon0.a1bf61a.png)")
+                .bottom
+                  p.title 驾驶证
+                  p.desc 绑定驾驶证，提高技术信用
+                .action
+                  a(href="") 认证
+                  a.disabled 已认证
+          .block
+            .block_title
+              .icon(style="background-image:url(../images/credit_pro.8ac1eb7.png)")
+              .right
+                p.title 项目经验
+                p.desc 我们会从您在程序员客栈上绑定的个人代表性作品，以及在客栈远程工作过程中实际参与开发的项目评价，来考察您的项目经验
+            .block_body
+              .block_item
+                .icon(style="background-image:url(../images/indexIcon0.a1bf61a.png)")
+                .bottom
+                  p.title 个人作品
+                  p.desc 完善更多个人作品，提高技术信用
+                .action
+                  a(href="") 认证
+                  a.disabled 已认证
+              .block_item
+                .icon(style="background-image:url(../images/indexIcon0.a1bf61a.png)")
+                .bottom
+                  p.title 整包项目
+                  p.desc 完成更多整包项目，提高个人远程工作项目经验
+                .action
+                  a(href="") 认证
+                  a.disabled 已认证
+              .block_item
+                .icon(style="background-image:url(../images/indexIcon0.a1bf61a.png)")
+                .bottom
+                  p.title 云端项目
+                  p.desc 完成更多云端项目，提高个人远程工作项目经验
+                .action
+                  a(href="") 认证
+                  a.disabled 已认证
+              .block_item
+                .icon(style="background-image:url(../images/indexIcon0.a1bf61a.png)")
+                .bottom
+                  p.title 雇佣项目
+                  p.desc 完成更多雇佣项目，提高个人远程工作项目经验
+                .action
+                  a(href="") 认证
+                  a.disabled 已认证
+          .block
+            .block_title
+              .icon(style="background-image:url(../images/credit_subj.227c8d2.png)")
+              .right
+                p.title 专业经历
+                p.desc 我们会从您在程序员客栈远程工作过程中，专业资质认证情况，和其它专业工作经历信息，来考察您的专业经历
+            .block_body
+              .block_item
+                .icon(style="background-image:url(../images/indexIcon0.a1bf61a.png)")
+                .bottom
+                  p.title 工作经历
+                  p.desc 
+                .action
+                  a(href="") 认证
+                  a.disabled 已认证
+              .block_item
+                .icon(style="background-image:url(../images/indexIcon0.a1bf61a.png)")
+                .bottom
+                  p.title 技术认证
+                  p.desc 
+                .action
+                  a(href="") 认证
+                  a.disabled 已认证
+              .block_item
+                .icon(style="background-image:url(../images/indexIcon0.a1bf61a.png)")
+                .bottom
+                  p.title 全职自由工作者
+                  p.desc 
+                .action
+                  a(href="") 认证
+                  a.disabled 已认证
+              .block_item
+                .icon(style="background-image:url(../images/indexIcon0.a1bf61a.png)")
+                .bottom
+                  p.title 协作开发者
+                  p.desc 
+                .action
+                  a(href="") 认证
+                  a.disabled 已认证
+              .block_item
+                .icon(style="background-image:url(../images/indexIcon0.a1bf61a.png)")
+                .bottom
+                  p.title 项目经理
+                  p.desc 
+                .action
+                  a(href="") 认证
+                  a.disabled 已认证
+              .block_item
+                .icon(style="background-image:url(../images/indexIcon0.a1bf61a.png)")
+                .bottom
+                  p.title F2服务高级
+                  p.desc 
+                .action
+                  a(href="") 认证
+                  a.disabled 已认证
+              .block_item
+                .icon(style="background-image:url(../images/indexIcon0.a1bf61a.png)")
+                .bottom
+                  p.title F3服务专家级
+                  p.desc 
+                .action
+                  a(href="") 认证
+                  a.disabled 已认证
+              .block_item
+                .icon(style="background-image:url(../images/indexIcon0.a1bf61a.png)")
+                .bottom
+                  p.title 人力外包服务商
+                  p.desc 
+                .action
+                  a(href="") 认证
+                  a.disabled 已认证
+              .block_item
+                .icon(style="background-image:url(../images/indexIcon0.a1bf61a.png)")
+                .bottom
+                  p.title 技术服务商
+                  p.desc 
+                .action
+                  a(href="") 认证
+                  a.disabled 已认证
+          .block
+            .block_title
+              .icon(style="background-image:url(../images/credit_credit.7fc5d97.png)")
+              .right
+                p.title 社会信用
+                p.desc 我们会从工商信息、失信记录、金融风险、芝麻信用等第三方信用机构，来考察您的社会信用
+            .block_body
+              .block_item
+                .icon(style="background-image:url(../images/indexIcon0.a1bf61a.png)")
+                .bottom
+                  p.title 工商信息
+                  p.desc 通过中国大陆工商行政管理部门登记的官方注册信息查询
+                .action
+                  a.disabled 未开放
+              .block_item
+                .icon(style="background-image:url(../images/indexIcon0.a1bf61a.png)")
+                .bottom
+                  p.title 失信信息
+                  p.desc 通过中国大陆法院公开诉讼记录数据库查询
+                .action
+                  a.disabled 未开放
+              .block_item
+                .icon(style="background-image:url(../images/indexIcon0.a1bf61a.png)")
+                .bottom
+                  p.title 金融风险
+                  p.desc 通过中国大陆各大互联网金融平台查询
+                .action
+                  a.disabled 未开放
+              .block_item
+                .icon(style="background-image:url(../images/indexIcon0.a1bf61a.png)")
+                .bottom
+                  p.title 芝麻信用
+                  p.desc 绑定芝麻信用，提高社会信用
+                .action
+                  a.disabled 未开放
+          .block
+            .block_title
+              .icon(style="background-image:url(../images/credit_social.5bfc8ff.png)")
+              .right
+                p.title 社区影响力
+                p.desc 我们会从您绑定的github、gitee、CSDN、公众号、掘金、RSS、Dribble、zcool等第三方社区账号，来考察您的社区影响力
+            .block_body
+              .block_item
+                .icon(style="background-image:url(../images/indexIcon0.a1bf61a.png)")
+                .bottom
+                  p.title Github
+                  //- p.desc 
+                .action
+                  a(href="") 绑定
+              .block_item
+                .icon(style="background-image:url(../images/indexIcon0.a1bf61a.png)")
+                .bottom
+                  p.title Gitee
+                  //- p.desc 
+                .action
+                  a(href="") 绑定
+              .block_item
+                .icon(style="background-image:url(../images/indexIcon0.a1bf61a.png)")
+                .bottom
+                  p.title CSDN
+                  //- p.desc 
+                .action
+                  a(href="") 绑定
+              .block_item
+                .icon(style="background-image:url(../images/indexIcon0.a1bf61a.png)")
+                .bottom
+                  p.title 公众号
+                  //- p.desc 
+                .action
+                  a(href="") 绑定
+              .block_item
+                .icon(style="background-image:url(../images/indexIcon0.a1bf61a.png)")
+                .bottom
+                  p.title 掘金
+                  //- p.desc 
+                .action
+                  a(href="") 绑定
+              .block_item
+                .icon(style="background-image:url(../images/indexIcon0.a1bf61a.png)")
+                .bottom
+                  p.title RSS订阅
+                  //- p.desc 
+                .action
+                  a(href="") 绑定
+              .block_item
+                .icon(style="background-image:url(../images/indexIcon0.a1bf61a.png)")
+                .bottom
+                  p.title Dribbble
+                  //- p.desc 
+                .action
+                  a(href="") 绑定
+              .block_item
+                .icon(style="background-image:url(../images/indexIcon0.a1bf61a.png)")
+                .bottom
+                  p.title ZCOOL
+                  //- p.desc 
+                .action
+                  a(href="") 绑定
+      
+    .friend-links
+      .links
+        a.logo(href='/')
+          .avatar(style="background-image:url(https://stacdn.proginn.com/image/common/logo_new.png)")
+        .container
+          h5 重点城市程序员兼职推荐
+          .item
+            .list
+              a(href='https://www.proginn.com/cat/beijing/' target='_blank' title='北京程序员兼职') 北京程序员兼职
+              a(href='https://www.proginn.com/cat/shanghai/' target='_blank' title='上海程序员兼职') 上海程序员兼职
+              a(href='https://www.proginn.com/cat/shenzhen/' target='_blank' title='深圳程序员兼职') 深圳程序员兼职
+              a(href='https://www.proginn.com/cat/hangzhou/' target='_blank' title='杭州程序员兼职') 杭州程序员兼职
+              a(href='https://www.proginn.com/cat/guangzhou/' target='_blank' title='广州程序员兼职') 广州程序员兼职
+              a(href='https://www.proginn.com/cat/chengdu/' target='_blank' title='成都程序员兼职') 成都程序员兼职
+              a(href='https://www.proginn.com/cat/nanjing/' target='_blank' title='南京程序员兼职') 南京程序员兼职
+              a(href='https://www.proginn.com/cat/wuhan/' target='_blank' title='武汉程序员兼职') 武汉程序员兼职
+              a(href='https://www.proginn.com/cat/xian/' target='_blank' title='西安程序员兼职') 西安程序员兼职
+              a(href='https://www.proginn.com/cat/chongqing/' target='_blank' title='重庆程序员兼职') 重庆程序员兼职
+              a(href='https://www.proginn.com/cat/zhengzhou/' target='_blank' title='郑州程序员兼职') 郑州程序员兼职
+              a(href='https://www.proginn.com/cat/changsha/' target='_blank' title='长沙程序员兼职') 长沙程序员兼职
+              a(href='https://www.proginn.com/cat/suzhou/' target='_blank' title='苏州程序员兼职') 苏州程序员兼职
+              a(href='https://www.proginn.com/cat/hefei/' target='_blank' title='合肥程序员兼职') 合肥程序员兼职
+              a(href='https://www.proginn.com/cat/xiamen/' target='_blank' title='厦门程序员兼职') 厦门程序员兼职
+              a(href='https://www.proginn.com/cat/jinan/' target='_blank' title='济南 程序员兼职') 济南 程序员兼职
+              a(href='https://www.proginn.com/cat/qingdao/' target='_blank' title='青岛程序员兼职') 青岛程序员兼职
+              a(href='https://www.proginn.com/cat/tianjin/' target='_blank' title='天津程序员兼职') 天津程序员兼职
+              a(href='https://www.proginn.com/cat/dalian/' target='_blank' title='大连程序员兼职') 大连程序员兼职
+              a(href='https://www.proginn.com/cat/fuzhou/' target='_blank' title='福州程序员兼职') 福州程序员兼职
+              a(href='https://www.proginn.com/cat/shijiazhuang/' target='_blank' title='石家庄程序员兼职') 石家庄程序员兼职
+              a(href='https://www.proginn.com/cat/shenyang/' target='_blank' title='沈阳程序员兼职') 沈阳程序员兼职
+              a(href='https://www.proginn.com/cat/taiyuan/' target='_blank' title='太原程序员兼职') 太原程序员兼职
+              a(href='https://www.proginn.com/cat/wuxi/' target='_blank' title='无锡程序员兼职') 无锡程序员兼职
+              a(href='https://www.proginn.com/cat/nanchang/' target='_blank' title='南昌程序员兼职') 南昌程序员兼职
+              a(href='https://www.proginn.com/cat/haerbin/' target='_blank' title='哈尔滨程序员兼职') 哈尔滨程序员兼职
+              a(href='https://www.proginn.com/cat/nanning/' target='_blank' title='南宁程序员兼职') 南宁程序员兼职
+              a(href='https://www.proginn.com/cat/zhuhai/' target='_blank' title='珠海程序员兼职') 珠海程序员兼职
+              a(href='https://www.proginn.com/cat/ningbo/' target='_blank' title='宁波程序员兼职') 宁波程序员兼职
+              a(href='https://www.proginn.com/cat/kunming/' target='_blank' title='昆明程序员兼职') 昆明程序员兼职
+              a(href='https://www.proginn.com/cat/dongguan/' target='_blank' title='东莞程序员兼职') 东莞程序员兼职
+              a(href='https://www.proginn.com/cat/guiyang/' target='_blank' title='贵阳程序员兼职') 贵阳程序员兼职
+              a(href='https://www.proginn.com/cat/america/' target='_blank' title='美国程序员兼职') 美国程序员兼职
+              a(href='https://www.proginn.com/cat/changchun/' target='_blank' title='长春程序员兼职') 长春程序员兼职
+              a(href='https://www.proginn.com/cat/wenzhou/' target='_blank' title='温州程序员兼职') 温州程序员兼职
+              a(href='https://www.proginn.com/cat/foshan/' target='_blank' title='佛山程序员兼职') 佛山程序员兼职
+              a(href='https://www.proginn.com/cat/changzhou/' target='_blank' title='常州程序员兼职') 常州程序员兼职
+              a(href='https://www.proginn.com/cat/huhehaote/' target='_blank' title='呼和浩特程序员兼职') 呼和浩特程序员兼职
+              a(href='https://www.proginn.com/cat/lanzhou/' target='_blank' title='兰州程序员兼职') 兰州程序员兼职
+              a(href='https://www.proginn.com/cat/wulumuqi/' target='_blank' title='乌鲁木齐程序员兼职') 乌鲁木齐程序员兼职
+              a(href='https://www.proginn.com/cat/zhongshan/' target='_blank' title='中山程序员兼职') 中山程序员兼职
+              a(href='https://www.proginn.com/cat/haikou/' target='_blank' title='海口程序员兼职') 海口程序员兼职
+              a(href='https://www.proginn.com/cat/luoyang/' target='_blank' title='洛阳程序员兼职') 洛阳程序员兼职
+            span.more 更多
+        .container
+          h5 重点岗位程序员兼职推荐
+          .item
+            .list
+              a(href='https://www.proginn.com/cat/creator/' target='_blank' title='技术创始人兼职') 技术创始人兼职
+              a(href='https://www.proginn.com/cat/rust/' target='_blank' title='Rust兼职') Rust兼职
+              a(href='https://www.proginn.com/cat/xiaochengxu1/' target='_blank' title='小程序兼职') 小程序兼职
+              a(href='https://www.proginn.com/cat/cocos2dx/' target='_blank' title='cocos2d-x兼职') cocos2d-x兼职
+              a(href='https://www.proginn.com/cat/unity3d/' target='_blank' title='Unity3D兼职') Unity3D兼职
+              a(href='https://www.proginn.com/cat/ddba/' target='_blank' title='DBA兼职') DBA兼职
+              a(href='https://www.proginn.com/cat/ywgcs/' target='_blank' title='运维兼职') 运维兼职
+              a(href='https://www.proginn.com/cat/csgcs/' target='_blank' title='测试兼职') 测试兼职
+              a(href='https://www.proginn.com/cat/ydqt/' target='_blank' title='移动其他兼职') 移动其他兼职
+              a(href='https://www.proginn.com/cat/go/' target='_blank' title='Go兼职') Go兼职
+              a(href='https://www.proginn.com/cat/ue/' target='_blank' title='UE设计师兼职') UE设计师兼职
+              a(href='https://www.proginn.com/cat/fullstack/' target='_blank' title='全栈兼职') 全栈兼职
+              a(href='https://www.proginn.com/cat/java/' target='_blank' title='Java兼职') Java兼职
+              a(href='https://www.proginn.com/cat/cto/' target='_blank' title='CTO兼职') CTO兼职
+              a(href='https://www.proginn.com/cat/ruby/' target='_blank' title='Ruby兼职') Ruby兼职
+              a(href='https://www.proginn.com/cat/cpp/' target='_blank' title='C++兼职') C++兼职
+              a(href='https://www.proginn.com/cat/php/' target='_blank' title='PHP兼职') PHP兼职
+              a(href='https://www.proginn.com/cat/c/' target='_blank' title='C兼职') C兼职
+              a(href='https://www.proginn.com/cat/csharp/' target='_blank' title='C#兼职') C#兼职
+              a(href='https://www.proginn.com/cat/python/' target='_blank' title='Python兼职') Python兼职
+              a(href='https://www.proginn.com/cat/architect/' target='_blank' title='架构师兼职') 架构师兼职
+              a(href='https://www.proginn.com/cat/nodejs/' target='_blank' title='Node.js兼职') Node.js兼职
+              a(href='https://www.proginn.com/cat/android/' target='_blank' title='Android兼职') Android兼职
+              a(href='https://www.proginn.com/cat/ios/' target='_blank' title='iOS兼职') iOS兼职
+              a(href='https://www.proginn.com/cat/dqianduan/' target='_blank' title='前端兼职') 前端兼职
+              a(href='https://www.proginn.com/cat/ui/' target='_blank' title='UI设计师兼职') UI设计师兼职
+              a(href='https://www.proginn.com/cat/yhs/' target='_blank' title='原画师兼职') 原画师兼职
+              a(href='https://www.proginn.com/cat/cpjl/' target='_blank' title='产品经理兼职') 产品经理兼职
+              a(href='https://www.proginn.com/cat/xmjl/' target='_blank' title='项目经理兼职') 项目经理兼职
+              a(href='https://www.proginn.com/cat/qukuailian/' target='_blank' title='区块链兼职') 区块链兼职
+              a(href='https://www.proginn.com/cat/zhineng/' target='_blank' title='人工智能兼职') 人工智能兼职
+              a(href='https://www.proginn.com/cat/yingjian/' target='_blank' title='硬件开发兼职') 硬件开发兼职
+            span.more 更多
+    #footer.ui.menu.secondary.footer
+      .footer-container
+        a.item(target='_blank' href='https://jishuin.proginn.com' rel='nofollow')
+          | 技术圈
+        a.item(href='https://www.proginn.com/index/app' rel='nofollow')
+          | APP下载
+        a.item(href='http://support.proginn.com/' rel='nofollow')
+          | 帮助
+        a.item(href='https://www.proginn.com/about' rel='nofollow')
+          | 关于我们
+        a.item(href='https://inn.proginn.com/sites/index.html')
+          | 合作伙伴
+        a.item(href='https://www.proginn.com/about/suggestion' rel='nofollow')
+          | 意见反馈
+        span.ui.item(style='color: rgb(204, 204, 204);')
+          | © 程序员客栈
+          a(href='https://www.proginn.com' title='远程工作') 远程工作
+        div(style='float: right;')
+          p
+            a.ui.item.fr.icp(href='http://www.miibeian.gov.cn' target='_blank' rel='external nofollow noopener noreferrer') 浙ICP备15029175号
+          p
+            a.ui.item.fr.icp(target='_blank' style='margin-top: 0px; padding: 0px;' href='http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33011002011566' rel='nofollow')
+              img(width='20' height='20' style='float: left;' src='https://stacdn.proginn.com/image/common/badge.png')
+              span(style='\
+              float: left;\
+              height: 20px;\
+              line-height: 20px;\
+              margin: 0px 0px 0px 5px;\
+              ') 浙公网安备 33011002011566号
+    #footer_dimmer
+      .ui.inverted.page.dimmer
+        .content
+          .center
+            h3#customized_footer_dimmer_info.ui.icon.header
+              i.green.checkmark.icon
+            p(style='color: rgb(102, 102, 102);') 点击空白处退出提示
+    script(type='text/javascript' src='https://stacdn.proginn.com/js/base.js?_=4.42.4')
+    script(type='text/javascript' src='https://stacdn.proginn.com/js/inn/seajs-config.js?_=4.42.4')
+    link(rel='stylesheet' type='text/css' href='https://stacdn.proginn.com/css/kf.css')
+    // 在线客服
+    #scrollsidebar.scrollsidebar
+      .side_content
+        .side_list
+          .side_title
+            a.close_btn(title='隐藏')
+              span 关闭
+          .side_center
+            .other
+              p 使用微信扫一扫
+              p
+                img(src='/Public/image/common/qykf.png' width='120')
+              p 客户服务热线
+              p 0571-28120931
+          .side_bottom
+      .show_btn
+        span 在线客服
+    script(type='text/javascript' src='https://stacdn.proginn.com/js/index/kefu.js')
+    script(type='text/javascript').
+      var env = "prod";
+    script(type='text/javascript' src='https://stacdn.proginn.com/js/baiduStatistic/index.js?version=4.42.4')
+    script(type='text/javascript' src='https://stacdn.proginn.com/js/public/cnzz_protocol.js?version=4.42.4')
+    script(type='text/javascript' src='https://stacdn.proginn.com/js/public/cnzz_data.js?version=4.42.4')

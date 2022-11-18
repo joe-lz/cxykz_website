@@ -1,0 +1,156 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body {
+  padding-top: 0;
+  background-color: white;
+}
+body #top-menu {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border-bottom: none;
+}
+body #top-menu .menu-container {
+  background-color: transparent;
+}
+body .credit_wrapper .banner {
+  height: 500px;
+  background-image: url("../images/bgTop1.239403d.png");
+  background-size: cover;
+  background-position: center;
+}
+body .credit_wrapper .banner .container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .credit_wrapper .banner .container .left {
+  flex: 1;
+  color: white;
+}
+body .credit_wrapper .banner .container .left .title {
+  font-size: 50px;
+  font-weight: 500;
+}
+body .credit_wrapper .banner .container .left .desc {
+  padding-top: 0px;
+  font-size: 20px;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.8);
+}
+body .credit_wrapper .banner .container .left .action {
+  padding-top: 100px;
+  font-size: 16px;
+  font-weight: bold;
+}
+body .credit_wrapper .banner .container .left .action a {
+  background-color: white;
+  border-radius: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+body .credit_wrapper .banner .container .right {
+  padding-top: 50px;
+  width: 350px;
+}
+body .credit_wrapper .banner .container .right img {
+  width: 100%;
+}
+body .credit_wrapper .list .container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+body .credit_wrapper .list .container .block {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+body .credit_wrapper .list .container .block .block_title {
+  display: flex;
+}
+body .credit_wrapper .list .container .block .block_title .icon {
+  width: 65px;
+  height: 65px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+body .credit_wrapper .list .container .block .block_title .right {
+  flex: 1;
+  padding-left: 20px;
+}
+body .credit_wrapper .list .container .block .block_title .right .title {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 500;
+}
+body .credit_wrapper .list .container .block .block_title .right .desc {
+  font-size: 18px;
+  font-weight: 200;
+  color: gray;
+}
+body .credit_wrapper .list .container .block .block_body {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+body .credit_wrapper .list .container .block .block_body .block_item {
+  display: inline-block;
+  margin-right: 2%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 23%;
+  box-shadow: 0 0 0.8em 0 rgba(10, 52, 89, 0.12);
+  text-align: center;
+  padding: 40px 30px;
+}
+body .credit_wrapper .list .container .block .block_body .block_item:nth-child(4n) {
+  margin-right: 0;
+}
+body .credit_wrapper .list .container .block .block_body .block_item .icon {
+  margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+body .credit_wrapper .list .container .block .block_body .block_item .title {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  padding-bottom: 10px;
+}
+body .credit_wrapper .list .container .block .block_body .block_item .desc {
+  display: block;
+  height: 85px;
+  font-size: 14px;
+  color: gray;
+}
+body .credit_wrapper .list .container .block .block_body .block_item .action {
+  overflow: hidden;
+}
+body .credit_wrapper .list .container .block .block_body .block_item .action a {
+  background-color: #2994f2;
+  color: white;
+  padding: 8px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+  margin: 0 5px;
+  display: inline-block;
+}
+body .credit_wrapper .list .container .block .block_body .block_item .action .disabled {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  cursor: not-allowed;
+}
