@@ -23,10 +23,35 @@ body
 
 
   .ma-work_down_main
+    position: relative
     padding-top: 30px
     margin-top: 0
+
     .ma-works-wrapper
       overflow: initial
+      position: relative
+      .aside-left-fixed
+        position: fixed
+        z-index: 100
+        margin-left: -100px
+        width: 100px
+        span
+          display: block
+          margin-bottom: 10px
+          width: 80px
+          height: 35px
+          line-height: 35px
+          border-radius: 6px
+          text-align: center
+          cursor: pointer
+          color: gray
+          transition: 0.2s ease-in
+          &.active
+            color: black
+            font-weight: bold
+            background-color: white
+          &:hover
+            background-color: white
       .ma-works-list
         margin-top: 0
         display: flex

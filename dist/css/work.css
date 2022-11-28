@@ -22,11 +22,39 @@ body .learn_cate .right .icon {
   top: 7px !important;
 }
 body .ma-work_down_main {
+  position: relative;
   padding-top: 30px;
   margin-top: 0;
 }
 body .ma-work_down_main .ma-works-wrapper {
   overflow: initial;
+  position: relative;
+}
+body .ma-work_down_main .ma-works-wrapper .aside-left-fixed {
+  position: fixed;
+  z-index: 100;
+  margin-left: -100px;
+  width: 100px;
+}
+body .ma-work_down_main .ma-works-wrapper .aside-left-fixed span {
+  display: block;
+  margin-bottom: 10px;
+  width: 80px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 6px;
+  text-align: center;
+  cursor: pointer;
+  color: gray;
+  transition: 0.2s ease-in;
+}
+body .ma-work_down_main .ma-works-wrapper .aside-left-fixed span.active {
+  color: black;
+  font-weight: bold;
+  background-color: white;
+}
+body .ma-work_down_main .ma-works-wrapper .aside-left-fixed span:hover {
+  background-color: white;
 }
 body .ma-work_down_main .ma-works-wrapper .ma-works-list {
   margin-top: 0;

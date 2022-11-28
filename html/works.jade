@@ -295,22 +295,27 @@ html
             a(href='/works/buildwebsystem') 建站系统
             a(href='/works/game') 游戏娱乐
             a(href='/works/pluginextension') 插件和扩展
-          div.right
-            //- span.current 作品
-            //- | /
-            //- span 资源
-            .ui.selection.dropdown(style='' tabindex='0')
-              input(type='hidden' name='filter_sort')
-              i.dropdown.icon(tabindex='0')
-                .menu(tabindex='-1')
-              .default.text 作品
-              .menu(tabindex='-1')
-                a.item(href='https://www.proginn.com/cat/') 作品
-                a.item(href='https://www.proginn.com/cat/?sort=1' track='373filter,order') 资源
+          //- div.right
+          //-   //- span.current 作品
+          //-   //- | /
+          //-   //- span 资源
+          //-   .ui.selection.dropdown(style='' tabindex='0')
+          //-     input(type='hidden' name='filter_sort')
+          //-     i.dropdown.icon(tabindex='0')
+          //-       .menu(tabindex='-1')
+          //-     .default.text 作品
+          //-     .menu(tabindex='-1')
+          //-       a.item(href='https://www.proginn.com/cat/') 作品
+          //-       a.item(href='https://www.proginn.com/cat/?sort=1' track='373filter,order') 资源
 
 
       .ma-work_down_main
         .ma-works-wrapper
+          .aside-left-fixed
+            span.active 全部
+            span 设计
+            span 产品
+            span 技术
           .ma-works-list
             mixin item
               a.ma-works-item(href='/w/1420152')
@@ -416,7 +421,7 @@ html
                 | 找不到想要的源码？
                 span.ma-works-word-btn 请留言给我们
           .aside-section.category-two
-            .section-title 子领域
+            .section-title 标签
             .section-body
               .list
                 a(href='/works/vcs').active 全部
@@ -451,21 +456,21 @@ html
                 a(href='/works/weixingz') 微信公众号
                 a(href='/works/sms') 短信API
               .more
-          .aside-section.category-sug
-            .section-title 热门领域
-            .section-body
-              a(href='/works/gzhdev') 微信公众号开发
-              a(href='/works/wxxcxdev') 微信小程序开发
-              a(href='/works/pcsitedev') PC网站开发
-              a(href='/works/h5dev') H5网站开发
-              a(href='/works/appdev') APP开发
-              a(href='/works/webappdev') webapp开发
-              a(href='/works/wdyxtdev') 文档原型图
-              a(href='/works/uidev') UI设计
-              a(href='/works/gamelist') 游戏类开发
-              a(href='/works/znyjdev') 智能硬件开发
-              a(href='/works/ywdev') 运维类开发
-              a(href='/works/dbadev') DBA开发
+          //- .aside-section.category-sug
+          //-   .section-title 热门标签
+          //-   .section-body
+          //-     a(href='/works/gzhdev') 微信公众号开发
+          //-     a(href='/works/wxxcxdev') 微信小程序开发
+          //-     a(href='/works/pcsitedev') PC网站开发
+          //-     a(href='/works/h5dev') H5网站开发
+          //-     a(href='/works/appdev') APP开发
+          //-     a(href='/works/webappdev') webapp开发
+          //-     a(href='/works/wdyxtdev') 文档原型图
+          //-     a(href='/works/uidev') UI设计
+          //-     a(href='/works/gamelist') 游戏类开发
+          //-     a(href='/works/znyjdev') 智能硬件开发
+          //-     a(href='/works/ywdev') 运维类开发
+          //-     a(href='/works/dbadev') DBA开发
           .aside-section.sug-works
             .section-title 推荐作品
             .section-body
