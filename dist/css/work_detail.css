@@ -96,7 +96,7 @@ body .section_work_detail .work_detail_content .work_detail_top .userinfo a:hove
   text-decoration: underline;
 }
 body .section_work_detail .work_detail_content .work_detail_top .download {
-  margin: 15px 0;
+  margin-top: 15px;
   overflow: hidden;
   border-radius: 6px;
   border: 1px solid rgba(0, 0, 0, 0.05);
@@ -140,6 +140,7 @@ body .section_work_detail .work_detail_content .work_detail_top .download button
   color: white;
 }
 body .section_work_detail .work_detail_content .work_detail_top .desc {
+  margin-top: 15px;
   line-height: 1.8;
   font-size: 15px;
   text-align: justify;
