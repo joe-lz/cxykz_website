@@ -44,13 +44,13 @@ body .section_work_detail .work_detail_content .fixed_action .item .num {
   position: absolute;
   z-index: 101;
   top: -3px;
-  right: -20px;
+  right: -15px;
   font-size: 12px;
   background-color: #CCCCCC;
   color: white;
-  padding: 5px 10px;
+  padding: 2px 5px;
   border-radius: 30px;
-  transform: scale(0.8);
+  transform: scale(0.9);
 }
 body .section_work_detail .work_detail_content .fixed_action .item img {
   width: 40%;
