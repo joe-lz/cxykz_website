@@ -100,6 +100,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/css/yesdev.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/dist/css/yesdev.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/dist/css/apiuni.css": {
 		"aP": 1,
 		"bl": 0,
@@ -160,6 +173,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/dist/css/yesdev.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/dist/css/yesdev-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/dist/html/apiuni-api.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -216,6 +239,14 @@
 		"oAP": "/dist/html/customers.html",
 		"oF": 0
 		},
+	"/dist/html/developer_detail.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/html/developer_detail.html",
+		"oF": 0
+		},
 	"/dist/html/developers.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -254,6 +285,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/dist/html/works.html",
+		"oF": 0
+		},
+	"/dist/html/yesdev.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/html/yesdev.html",
 		"oF": 0
 		},
 	"/dist/images/0.png": {
@@ -688,6 +727,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/dist/images/hero-bg-shape-cropped.png": {
+		"ft": 32768,
+		"iS": 205539,
+		"oA": 0,
+		"oAP": "/dist/dist/images/hero-bg-shape-cropped.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/dist/images/hot-bg.png": {
 		"ft": 32768,
 		"iS": 69442,
@@ -769,6 +819,17 @@
 		"iS": 114410,
 		"oA": 0,
 		"oAP": "/dist/dist/images/indexMap.621fa41.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/dist/images/joyone.png": {
+		"ft": 32768,
+		"iS": 7596,
+		"oA": 0,
+		"oAP": "/dist/dist/images/joyone.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1024,6 +1085,72 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/dist/images/yesdev.png": {
+		"ft": 32768,
+		"iS": 3932,
+		"oA": 0,
+		"oAP": "/dist/dist/images/yesdev.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/dist/images/yesdev_section1.png": {
+		"ft": 32768,
+		"iS": 311791,
+		"oA": 0,
+		"oAP": "/dist/dist/images/yesdev_section1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/dist/images/yesdev_section2.1.png": {
+		"ft": 32768,
+		"iS": 85768,
+		"oA": 0,
+		"oAP": "/dist/dist/images/yesdev_section2.1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/dist/images/yesdev_section2.2.png": {
+		"ft": 32768,
+		"iS": 111053,
+		"oA": 0,
+		"oAP": "/dist/dist/images/yesdev_section2.2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/dist/images/yesdev_section2.3.png": {
+		"ft": 32768,
+		"iS": 80526,
+		"oA": 0,
+		"oAP": "/dist/dist/images/yesdev_section2.3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/dist/images/yesdev_section2.4.png": {
+		"ft": 32768,
+		"iS": 198363,
+		"oA": 0,
+		"oAP": "/dist/dist/images/yesdev_section2.4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/dist/images/zcool.png": {
 		"ft": 32768,
 		"iS": 1646,
@@ -1166,6 +1293,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/html/developer_detail.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/html/developer_detail.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"/html/developers.jade": {
 		"cB": 0,
 		"cOD": 1,
@@ -1239,6 +1376,16 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/dist/html/works.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/html/yesdev.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/html/yesdev.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -1685,6 +1832,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/hero-bg-shape-cropped.png": {
+		"ft": 32768,
+		"iS": 205539,
+		"oA": 0,
+		"oAP": "/dist/images/hero-bg-shape-cropped.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/hot-bg.png": {
 		"ft": 32768,
 		"iS": 69442,
@@ -1766,6 +1924,17 @@
 		"iS": 114410,
 		"oA": 0,
 		"oAP": "/dist/images/indexMap.621fa41.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/joyone.png": {
+		"ft": 32768,
+		"iS": 7596,
+		"oA": 0,
+		"oAP": "/dist/images/joyone.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2015,6 +2184,72 @@
 		"iS": 89974,
 		"oA": 0,
 		"oAP": "/dist/images/yesapi3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/yesdev.png": {
+		"ft": 32768,
+		"iS": 3932,
+		"oA": 0,
+		"oAP": "/dist/images/yesdev.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/yesdev_section1.png": {
+		"ft": 32768,
+		"iS": 311791,
+		"oA": 0,
+		"oAP": "/dist/images/yesdev_section1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/yesdev_section2.1.png": {
+		"ft": 32768,
+		"iS": 37833,
+		"oA": 0,
+		"oAP": "/dist/images/yesdev_section2.1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/yesdev_section2.2.png": {
+		"ft": 32768,
+		"iS": 111053,
+		"oA": 0,
+		"oAP": "/dist/images/yesdev_section2.2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/yesdev_section2.3.png": {
+		"ft": 32768,
+		"iS": 80526,
+		"oA": 0,
+		"oAP": "/dist/images/yesdev_section2.3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/yesdev_section2.4.png": {
+		"ft": 32768,
+		"iS": 198363,
+		"oA": 0,
+		"oAP": "/dist/images/yesdev_section2.4.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

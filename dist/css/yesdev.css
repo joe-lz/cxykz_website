@@ -1,0 +1,121 @@
+body {
+  padding-top: 0px;
+}
+body .friend-links {
+  margin-top: 0;
+}
+body #top-menu {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border-bottom: none;
+}
+body #top-menu .menu-container {
+  background-color: transparent;
+}
+body .main {
+  padding-top: 0 !important;
+  width: initial;
+}
+body .yesdev_content {
+  width: 100%;
+}
+body .yesdev_content .section1 {
+  padding-top: 65px;
+  background-image: url("../images/hero-bg-shape-cropped.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+body .yesdev_content .section1 .content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1100px;
+  height: 500px;
+  margin: 0 auto;
+}
+body .yesdev_content .section1 .content .left {
+  flex: 1;
+}
+body .yesdev_content .section1 .content .left .title {
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+body .yesdev_content .section1 .content .left .desc {
+  font-size: 16px;
+  line-height: 1.8;
+  color: gray;
+}
+body .yesdev_content .section1 .content .left .action {
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  display: flex;
+  align-items: center;
+}
+body .yesdev_content .section1 .content .left .action a img {
+  margin-right: 30px;
+  height: 30px;
+}
+body .yesdev_content .section1 .content .left .btns .btn, body .yesdev_content .section1 .content .left .btns .active {
+  margin-right: 30px;
+  padding: 10px 20px;
+  background-color: #FF7640;
+  color: white;
+  border-radius: 30px;
+  transition: 0.2s ease-in;
+}
+body .yesdev_content .section1 .content .left .btns .btn:hover, body .yesdev_content .section1 .content .left .btns .active:hover {
+  background-color: #ff510d;
+  color: white;
+}
+body .yesdev_content .section1 .content .left .btns .active {
+  color: white;
+  background-color: #2994f2;
+}
+body .yesdev_content .section1 .content .left .btns .active:hover {
+  background-color: #0d7bdb;
+  color: white;
+}
+body .yesdev_content .section1 .content .right img {
+  height: 400px;
+}
+body .yesdev_content .section2 {
+  background-color: white;
+}
+body .yesdev_content .section2 .content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1100px;
+  height: 450px;
+  margin: 0 auto;
+}
+body .yesdev_content .section2 .content .left, body .yesdev_content .section2 .content .right {
+  flex: 1;
+  padding-right: 50px;
+}
+body .yesdev_content .section2 .content .left .tag, body .yesdev_content .section2 .content .right .tag {
+  font-size: 18px;
+  color: #2994f2;
+  padding-bottom: 20px;
+}
+body .yesdev_content .section2 .content .left .title, body .yesdev_content .section2 .content .right .title {
+  font-size: 30px;
+  padding-bottom: 30px;
+  width: 350px;
+}
+body .yesdev_content .section2 .content .left .desc, body .yesdev_content .section2 .content .right .desc {
+  padding-bottom: 60px;
+  font-size: 16px;
+  line-height: 1.8;
+  color: gray;
+  width: 420px;
+}
+body .yesdev_content .section2 .content .left img, body .yesdev_content .section2 .content .right img {
+  width: 500px;
+}
