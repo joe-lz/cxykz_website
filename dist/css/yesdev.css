@@ -40,8 +40,10 @@ body .yesdev_content .section1 .content .left {
   flex: 1;
 }
 body .yesdev_content .section1 .content .left .title {
+  position: relative;
   font-size: 40px;
   padding-bottom: 10px;
+  font-weight: bold;
 }
 body .yesdev_content .section1 .content .left .desc {
   font-size: 16px;
