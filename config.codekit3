@@ -87,6 +87,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/css/work_create.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/dist/css/work_create.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/css/work_detail.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -263,12 +276,28 @@
 		"oAP": "/dist/html/documents.html",
 		"oF": 0
 		},
+	"/dist/html/home.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/html/home.html",
+		"oF": 0
+		},
 	"/dist/html/price.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/dist/html/price.html",
+		"oF": 0
+		},
+	"/dist/html/work_create.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/html/work_create.html",
 		"oF": 0
 		},
 	"/dist/html/work_detail.html": {
@@ -1339,6 +1368,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/html/home.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/html/home.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"/html/price.jade": {
 		"cB": 0,
 		"cOD": 1,
@@ -1957,6 +1996,17 @@
 		"iS": 4183,
 		"oA": 0,
 		"oAP": "/dist/images/like.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/like_active.png": {
+		"ft": 32768,
+		"iS": 4383,
+		"oA": 0,
+		"oAP": "/dist/images/like_active.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

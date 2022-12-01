@@ -1,0 +1,1308 @@
+html
+  head
+    title 添加项目作品
+    meta(data-n-head='ssr' charset='utf-8')
+    meta(data-n-head='ssr' name='viewport' content='width=device-width, initial-scale=1')
+    meta(data-n-head='ssr' name='applicable-device' content='pc, mobile ')
+    meta(data-n-head='ssr' http-equiv='X-UA-Compatible' content='IE=edge,chrome=1')
+    meta(data-n-head='ssr' http-equiv='Cache-Control' content='no-transform')
+    meta(data-n-head='ssr' http-equiv='Cache-Control' content='no-siteapp')
+    link(data-n-head='ssr' rel='shortcut icon' type='image/vnd.microsoft.icon' href='https://stacdn.proginn.com/favicon_new.ico')
+    link(rel='preload' href='https://www.proginn.com/_nuxt/runtime.85e1923.js' as='script')
+    link(rel='preload' href='https://www.proginn.com/_nuxt/commons/app~253ae210.7edb85e.js' as='script')
+    link(rel='preload' href='https://www.proginn.com/_nuxt/vendors~app~253ae210.609894c.css' as='style')
+    link(rel='preload' href='https://www.proginn.com/_nuxt/vendors~app~253ae210.c051dbf.js' as='script')
+    link(rel='preload' href='https://www.proginn.com/_nuxt/vendors~app~b51a20c3.d0383a9.js' as='script')
+    link(rel='preload' href='https://www.proginn.com/_nuxt/vendors~app~6ed3fd28.4c1b9ba.js' as='script')
+    link(rel='preload' href='https://www.proginn.com/_nuxt/vendors~app~7370204d.8111ac9.js' as='script')
+    link(rel='preload' href='https://www.proginn.com/_nuxt/vendors~app~ec8c427e.5959bde.css' as='style')
+    link(rel='preload' href='https://www.proginn.com/_nuxt/vendors~app~ec8c427e.53bbb9c.js' as='script')
+    link(rel='preload' href='https://www.proginn.com/_nuxt/vendors~app~069b5b89.f78798e.css' as='style')
+    link(rel='preload' href='https://www.proginn.com/_nuxt/vendors~app~069b5b89.0075dc2.js' as='script')
+    link(rel='preload' href='https://www.proginn.com/_nuxt/vendors~app~0605657e.d20c83a.js' as='script')
+    link(rel='preload' href='https://www.proginn.com/_nuxt/app~24120820.5ec8ff7.css' as='style')
+    link(rel='preload' href='https://www.proginn.com/_nuxt/app~24120820.3868a8b.js' as='script')
+    link(rel='preload' href='https://www.proginn.com/_nuxt/otherpage.works.create~f075b844.3a0749e.css' as='style')
+    link(rel='preload' href='https://www.proginn.com/_nuxt/otherpage.works.create~f075b844.9749349.js' as='script')
+    link(rel='stylesheet' href='https://www.proginn.com/_nuxt/vendors~app~253ae210.609894c.css')
+    link(rel='stylesheet' href='https://www.proginn.com/_nuxt/vendors~app~ec8c427e.5959bde.css')
+    link(rel='stylesheet' href='https://www.proginn.com/_nuxt/vendors~app~069b5b89.f78798e.css')
+    link(rel='stylesheet' href='https://www.proginn.com/_nuxt/app~24120820.5ec8ff7.css')
+    link(rel='stylesheet' href='https://www.proginn.com/_nuxt/otherpage.works.create~f075b844.3a0749e.css')
+    style#rootsize.
+      html{font-size:55.2px !important}
+    style.
+      #__vconsole {
+      color: #000;
+      font-size: 13px;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      /* global */
+      /* compoment */
+      }
+      #__vconsole .vc-max-height {
+      max-height: 19.23076923em;
+      }
+      #__vconsole .vc-max-height-line {
+      max-height: 3.38461538em;
+      }
+      #__vconsole .vc-min-height {
+      min-height: 3.07692308em;
+      }
+      #__vconsole dd,
+      #__vconsole dl,
+      #__vconsole pre {
+      margin: 0;
+      }
+      #__vconsole .vc-switch {
+      display: block;
+      position: fixed;
+      right: 0.76923077em;
+      bottom: 0.76923077em;
+      color: #FFF;
+      background-color: #04BE02;
+      line-height: 1;
+      font-size: 1.07692308em;
+      padding: 0.61538462em 1.23076923em;
+      z-index: 10000;
+      border-radius: 0.30769231em;
+      box-shadow: 0 0 0.61538462em rgba(0, 0, 0, 0.4);
+      }
+      #__vconsole .vc-mask {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0);
+      z-index: 10001;
+      transition: background 0.3s;
+      -webkit-tap-highlight-color: transparent;
+      overflow-y: scroll;
+      }
+      #__vconsole .vc-panel {
+      display: none;
+      position: fixed;
+      min-height: 85%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 10002;
+      background-color: #EFEFF4;
+      -webkit-transition: -webkit-transform 0.3s;
+      transition: -webkit-transform 0.3s;
+      transition: transform 0.3s;
+      transition: transform 0.3s, -webkit-transform 0.3s;
+      -webkit-transform: translate(0, 100%);
+      transform: translate(0, 100%);
+      }
+      #__vconsole .vc-tabbar {
+      border-bottom: 1px solid #D9D9D9;
+      overflow-x: auto;
+      height: 3em;
+      width: auto;
+      white-space: nowrap;
+      }
+      #__vconsole .vc-tabbar .vc-tab {
+      display: inline-block;
+      line-height: 3em;
+      padding: 0 1.15384615em;
+      border-right: 1px solid #D9D9D9;
+      text-decoration: none;
+      color: #000;
+      -webkit-tap-highlight-color: transparent;
+      -webkit-touch-callout: none;
+      }
+      #__vconsole .vc-tabbar .vc-tab:active {
+      background-color: rgba(0, 0, 0, 0.15);
+      }
+      #__vconsole .vc-tabbar .vc-tab.vc-actived {
+      background-color: #FFF;
+      }
+      #__vconsole .vc-content {
+      background-color: #FFF;
+      overflow-x: hidden;
+      overflow-y: auto;
+      position: absolute;
+      top: 3.07692308em;
+      left: 0;
+      right: 0;
+      bottom: 3.07692308em;
+      -webkit-overflow-scrolling: touch;
+      margin-bottom: constant(safe-area-inset-bottom);
+      margin-bottom: env(safe-area-inset-bottom);
+      }
+      #__vconsole .vc-content.vc-has-topbar {
+      top: 5.46153846em;
+      }
+      #__vconsole .vc-topbar {
+      background-color: #FBF9FE;
+      display: flex;
+      display: -webkit-box;
+      flex-direction: row;
+      flex-wrap: wrap;
+      -webkit-box-direction: row;
+      -webkit-flex-wrap: wrap;
+      width: 100%;
+      }
+      #__vconsole .vc-topbar .vc-toptab {
+      display: none;
+      flex: 1;
+      -webkit-box-flex: 1;
+      line-height: 2.30769231em;
+      padding: 0 1.15384615em;
+      border-bottom: 1px solid #D9D9D9;
+      text-decoration: none;
+      text-align: center;
+      color: #000;
+      -webkit-tap-highlight-color: transparent;
+      -webkit-touch-callout: none;
+      }
+      #__vconsole .vc-topbar .vc-toptab.vc-toggle {
+      display: block;
+      }
+      #__vconsole .vc-topbar .vc-toptab:active {
+      background-color: rgba(0, 0, 0, 0.15);
+      }
+      #__vconsole .vc-topbar .vc-toptab.vc-actived {
+      border-bottom: 1px solid #3e82f7;
+      }
+      #__vconsole .vc-logbox {
+      display: none;
+      position: relative;
+      min-height: 100%;
+      }
+      #__vconsole .vc-logbox i {
+      font-style: normal;
+      }
+      #__vconsole .vc-logbox .vc-log {
+      padding-bottom: 3em;
+      -webkit-tap-highlight-color: transparent;
+      }
+      #__vconsole .vc-logbox .vc-log:empty:before {
+      content: "Empty";
+      color: #999;
+      position: absolute;
+      top: 45%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      font-size: 1.15384615em;
+      text-align: center;
+      }
+      #__vconsole .vc-logbox .vc-item {
+      margin: 0;
+      padding: 0.46153846em 0.61538462em;
+      overflow: hidden;
+      line-height: 1.3;
+      border-bottom: 1px solid #EEE;
+      word-break: break-word;
+      }
+      #__vconsole .vc-logbox .vc-item-info {
+      color: #6A5ACD;
+      }
+      #__vconsole .vc-logbox .vc-item-debug {
+      color: #DAA520;
+      }
+      #__vconsole .vc-logbox .vc-item-warn {
+      color: #FFA500;
+      border-color: #FFB930;
+      background-color: #FFFACD;
+      }
+      #__vconsole .vc-logbox .vc-item-error {
+      color: #DC143C;
+      border-color: #F4A0AB;
+      background-color: #FFE4E1;
+      }
+      #__vconsole .vc-logbox .vc-log.vc-log-partly .vc-item {
+      display: none;
+      }
+      #__vconsole .vc-logbox .vc-log.vc-log-partly-log .vc-item-log,
+      #__vconsole .vc-logbox .vc-log.vc-log-partly-info .vc-item-info,
+      #__vconsole .vc-logbox .vc-log.vc-log-partly-warn .vc-item-warn,
+      #__vconsole .vc-logbox .vc-log.vc-log-partly-error .vc-item-error {
+      display: block;
+      }
+      #__vconsole .vc-logbox .vc-item .vc-item-content {
+      margin-right: 4.61538462em;
+      display: inline-block;
+      }
+      #__vconsole .vc-logbox .vc-item .vc-item-repeat {
+      display: inline-block;
+      margin-right: 0.30769231em;
+      padding: 0 6.5px;
+      color: #D7E0EF;
+      background-color: #42597F;
+      border-radius: 8.66666667px;
+      }
+      #__vconsole .vc-logbox .vc-item.vc-item-error .vc-item-repeat {
+      color: #901818;
+      background-color: #DC2727;
+      }
+      #__vconsole .vc-logbox .vc-item.vc-item-warn .vc-item-repeat {
+      color: #987D20;
+      background-color: #F4BD02;
+      }
+      #__vconsole .vc-logbox .vc-item .vc-item-code {
+      display: block;
+      white-space: pre-wrap;
+      overflow: auto;
+      position: relative;
+      }
+      #__vconsole .vc-logbox .vc-item .vc-item-code.vc-item-code-input,
+      #__vconsole .vc-logbox .vc-item .vc-item-code.vc-item-code-output {
+      padding-left: 0.92307692em;
+      }
+      #__vconsole .vc-logbox .vc-item .vc-item-code.vc-item-code-input:before,
+      #__vconsole .vc-logbox .vc-item .vc-item-code.vc-item-code-output:before {
+      content: "›";
+      position: absolute;
+      top: -0.23076923em;
+      left: 0;
+      font-size: 1.23076923em;
+      color: #6A5ACD;
+      }
+      #__vconsole .vc-logbox .vc-item .vc-item-code.vc-item-code-output:before {
+      content: "‹";
+      }
+      #__vconsole .vc-logbox .vc-item .vc-fold {
+      display: block;
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
+      }
+      #__vconsole .vc-logbox .vc-item .vc-fold .vc-fold-outer {
+      display: block;
+      font-style: italic;
+      padding-left: 0.76923077em;
+      position: relative;
+      }
+      #__vconsole .vc-logbox .vc-item .vc-fold .vc-fold-outer:active {
+      background-color: #E6E6E6;
+      }
+      #__vconsole .vc-logbox .vc-item .vc-fold .vc-fold-outer:before {
+      content: "";
+      position: absolute;
+      top: 0.30769231em;
+      left: 0.15384615em;
+      width: 0;
+      height: 0;
+      border: transparent solid 0.30769231em;
+      border-left-color: #000;
+      }
+      #__vconsole .vc-logbox .vc-item .vc-fold .vc-fold-outer.vc-toggle:before {
+      top: 0.46153846em;
+      left: 0;
+      border-top-color: #000;
+      border-left-color: transparent;
+      }
+      #__vconsole .vc-logbox .vc-item .vc-fold .vc-fold-inner {
+      display: none;
+      margin-left: 0.76923077em;
+      }
+      #__vconsole .vc-logbox .vc-item .vc-fold .vc-fold-inner.vc-toggle {
+      display: block;
+      }
+      #__vconsole .vc-logbox .vc-item .vc-fold .vc-fold-inner .vc-code-key {
+      margin-left: 0.76923077em;
+      }
+      #__vconsole .vc-logbox .vc-item .vc-fold .vc-fold-outer .vc-code-key {
+      margin-left: 0;
+      }
+      #__vconsole .vc-logbox .vc-code-key {
+      color: #905;
+      }
+      #__vconsole .vc-logbox .vc-code-private-key {
+      color: #D391B5;
+      }
+      #__vconsole .vc-logbox .vc-code-function {
+      color: #905;
+      font-style: italic;
+      }
+      #__vconsole .vc-logbox .vc-code-number,
+      #__vconsole .vc-logbox .vc-code-boolean {
+      color: #0086B3;
+      }
+      #__vconsole .vc-logbox .vc-code-string {
+      color: #183691;
+      }
+      #__vconsole .vc-logbox .vc-code-null,
+      #__vconsole .vc-logbox .vc-code-undefined {
+      color: #666;
+      }
+      #__vconsole .vc-logbox .vc-cmd {
+      position: absolute;
+      height: 3.07692308em;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-top: 1px solid #D9D9D9;
+      display: block!important;
+      }
+      #__vconsole .vc-logbox .vc-cmd .vc-cmd-input-wrap {
+      display: block;
+      height: 2.15384615em;
+      margin-right: 3.07692308em;
+      padding: 0.46153846em 0.61538462em;
+      }
+      #__vconsole .vc-logbox .vc-cmd .vc-cmd-input {
+      width: 100%;
+      border: none;
+      resize: none;
+      outline: none;
+      padding: 0;
+      font-size: 0.92307692em;
+      }
+      #__vconsole .vc-logbox .vc-cmd .vc-cmd-input::-webkit-input-placeholder {
+      line-height: 2.15384615em;
+      }
+      #__vconsole .vc-logbox .vc-cmd .vc-cmd-btn {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 3.07692308em;
+      border: none;
+      background-color: #EFEFF4;
+      outline: none;
+      -webkit-touch-callout: none;
+      font-size: 1em;
+      }
+      #__vconsole .vc-logbox .vc-cmd .vc-cmd-btn:active {
+      background-color: rgba(0, 0, 0, 0.15);
+      }
+      #__vconsole .vc-logbox .vc-cmd .vc-cmd-prompted {
+      position: fixed;
+      width: 100%;
+      background-color: #FBF9FE;
+      border: 1px solid #D9D9D9;
+      overflow-x: scroll;
+      display: none;
+      }
+      #__vconsole .vc-logbox .vc-cmd .vc-cmd-prompted li {
+      list-style: none;
+      line-height: 30px;
+      padding: 0 0.46153846em;
+      border-bottom: 1px solid #D9D9D9;
+      }
+      #__vconsole .vc-logbox .vc-group .vc-group-preview {
+      -webkit-touch-callout: none;
+      }
+      #__vconsole .vc-logbox .vc-group .vc-group-preview:active {
+      background-color: #E6E6E6;
+      }
+      #__vconsole .vc-logbox .vc-group .vc-group-detail {
+      display: none;
+      padding: 0 0 0.76923077em 1.53846154em;
+      border-bottom: 1px solid #EEE;
+      }
+      #__vconsole .vc-logbox .vc-group.vc-actived .vc-group-detail {
+      display: block;
+      background-color: #FBF9FE;
+      }
+      #__vconsole .vc-logbox .vc-group.vc-actived .vc-table-row {
+      background-color: #FFF;
+      }
+      #__vconsole .vc-logbox .vc-group.vc-actived .vc-group-preview {
+      background-color: #FBF9FE;
+      }
+      #__vconsole .vc-logbox .vc-table .vc-table-row {
+      display: flex;
+      display: -webkit-flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      -webkit-box-direction: row;
+      -webkit-flex-wrap: wrap;
+      overflow: hidden;
+      border-bottom: 1px solid #EEE;
+      }
+      #__vconsole .vc-logbox .vc-table .vc-table-row.vc-left-border {
+      border-left: 1px solid #EEE;
+      }
+      #__vconsole .vc-logbox .vc-table .vc-table-col {
+      flex: 1;
+      -webkit-box-flex: 1;
+      padding: 0.23076923em 0.30769231em;
+      border-left: 1px solid #EEE;
+      overflow: auto;
+      white-space: pre-wrap;
+      word-break: break-word;
+      /*white-space: nowrap;
+      text-overflow: ellipsis;*/
+      -webkit-overflow-scrolling: touch;
+      }
+      #__vconsole .vc-logbox .vc-table .vc-table-col:first-child {
+      border: none;
+      }
+      #__vconsole .vc-logbox .vc-table .vc-small .vc-table-col {
+      padding: 0 0.30769231em;
+      font-size: 0.92307692em;
+      }
+      #__vconsole .vc-logbox .vc-table .vc-table-col-2 {
+      flex: 2;
+      -webkit-box-flex: 2;
+      }
+      #__vconsole .vc-logbox .vc-table .vc-table-col-3 {
+      flex: 3;
+      -webkit-box-flex: 3;
+      }
+      #__vconsole .vc-logbox .vc-table .vc-table-col-4 {
+      flex: 4;
+      -webkit-box-flex: 4;
+      }
+      #__vconsole .vc-logbox .vc-table .vc-table-col-5 {
+      flex: 5;
+      -webkit-box-flex: 5;
+      }
+      #__vconsole .vc-logbox .vc-table .vc-table-col-6 {
+      flex: 6;
+      -webkit-box-flex: 6;
+      }
+      #__vconsole .vc-logbox .vc-table .vc-table-row-error {
+      border-color: #F4A0AB;
+      background-color: #FFE4E1;
+      }
+      #__vconsole .vc-logbox .vc-table .vc-table-row-error .vc-table-col {
+      color: #DC143C;
+      border-color: #F4A0AB;
+      }
+      #__vconsole .vc-logbox .vc-table .vc-table-col-title {
+      font-weight: bold;
+      }
+      #__vconsole .vc-logbox.vc-actived {
+      display: block;
+      }
+      #__vconsole .vc-toolbar {
+      border-top: 1px solid #D9D9D9;
+      line-height: 3em;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      display: -webkit-box;
+      flex-direction: row;
+      -webkit-box-direction: row;
+      }
+      #__vconsole .vc-toolbar .vc-tool {
+      display: none;
+      text-decoration: none;
+      color: #000;
+      width: 50%;
+      flex: 1;
+      -webkit-box-flex: 1;
+      text-align: center;
+      position: relative;
+      -webkit-touch-callout: none;
+      }
+      #__vconsole .vc-toolbar .vc-tool.vc-toggle,
+      #__vconsole .vc-toolbar .vc-tool.vc-global-tool {
+      display: block;
+      }
+      #__vconsole .vc-toolbar .vc-tool:active {
+      background-color: rgba(0, 0, 0, 0.15);
+      }
+      #__vconsole .vc-toolbar .vc-tool:after {
+      content: " ";
+      position: absolute;
+      top: 0.53846154em;
+      bottom: 0.53846154em;
+      right: 0;
+      border-left: 1px solid #D9D9D9;
+      }
+      #__vconsole .vc-toolbar .vc-tool-last:after {
+      border: none;
+      }
+      @supports (bottom: constant(safe-area-inset-bottom)) or (bottom: env(safe-area-inset-bottom)) {
+      #__vconsole .vc-toolbar,
+      #__vconsole .vc-switch {
+      bottom: constant(safe-area-inset-bottom);
+      bottom: env(safe-area-inset-bottom);
+      }
+      }
+      #__vconsole.vc-toggle .vc-switch {
+      display: none;
+      }
+      #__vconsole.vc-toggle .vc-mask {
+      background: rgba(0, 0, 0, 0.6);
+      display: block;
+      }
+      #__vconsole.vc-toggle .vc-panel {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0);
+      }
+    style.
+      /* color */
+      .vcelm-node {
+      color: #183691;
+      }
+      .vcelm-k {
+      color: #0086B3;
+      }
+      .vcelm-v {
+      color: #905;
+      }
+      /* layout */
+      .vcelm-l {
+      padding-left: 8px;
+      position: relative;
+      word-wrap: break-word;
+      line-height: 1;
+      }
+      /*.vcelm-l.vcelm-noc {
+      padding-left: 0;
+      }*/
+      .vcelm-l.vc-toggle > .vcelm-node {
+      display: block;
+      }
+      .vcelm-l .vcelm-node:active {
+      background-color: rgba(0, 0, 0, 0.15);
+      }
+      .vcelm-l.vcelm-noc .vcelm-node:active {
+      background-color: transparent;
+      }
+      .vcelm-t {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      }
+      /* level */
+      .vcelm-l .vcelm-l {
+      display: none;
+      }
+      .vcelm-l.vc-toggle > .vcelm-l {
+      margin-left: 4px;
+      display: block;
+      }
+      /* arrow */
+      .vcelm-l:before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 6px;
+      left: 3px;
+      width: 0;
+      height: 0;
+      border: transparent solid 3px;
+      border-left-color: #000;
+      }
+      .vcelm-l.vc-toggle:before {
+      display: block;
+      top: 6px;
+      left: 0;
+      border-top-color: #000;
+      border-left-color: transparent;
+      }
+      .vcelm-l.vcelm-noc:before {
+      display: none;
+      }
+    style(type='text/css').
+      .vue-cropper[data-v-6dae58fd] {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      direction: ltr;
+      touch-action: none;
+      text-align: left;
+      background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAAA3NCSVQICAjb4U/gAAAABlBMVEXMzMz////TjRV2AAAACXBIWXMAAArrAAAK6wGCiw1aAAAAHHRFWHRTb2Z0d2FyZQBBZG9iZSBGaXJld29ya3MgQ1M26LyyjAAAABFJREFUCJlj+M/AgBVhF/0PAH6/D/HkDxOGAAAAAElFTkSuQmCC");
+      }
+      .cropper-box[data-v-6dae58fd],
+      .cropper-box-canvas[data-v-6dae58fd],
+      .cropper-drag-box[data-v-6dae58fd],
+      .cropper-crop-box[data-v-6dae58fd],
+      .cropper-face[data-v-6dae58fd] {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      user-select: none;
+      }
+      .cropper-box-canvas img[data-v-6dae58fd] {
+      position: relative;
+      text-align: left;
+      user-select: none;
+      transform: none;
+      max-width: none;
+      max-height: none;
+      }
+      .cropper-box[data-v-6dae58fd] {
+      overflow: hidden;
+      }
+      .cropper-move[data-v-6dae58fd] {
+      cursor: move;
+      }
+      .cropper-crop[data-v-6dae58fd] {
+      cursor: crosshair;
+      }
+      .cropper-modal[data-v-6dae58fd] {
+      background: rgba(0, 0, 0, 0.5);
+      }
+      .cropper-crop-box[data-v-6dae58fd] {
+      /*border: 2px solid #39f;*/
+      }
+      .cropper-view-box[data-v-6dae58fd] {
+      display: block;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      outline: 1px solid #39f;
+      outline-color: rgba(51, 153, 255, 0.75);
+      user-select: none;
+      }
+      .cropper-view-box img[data-v-6dae58fd] {
+      user-select: none;
+      text-align: left;
+      max-width: none;
+      max-height: none;
+      }
+      .cropper-face[data-v-6dae58fd] {
+      top: 0;
+      left: 0;
+      background-color: #fff;
+      opacity: 0.1;
+      }
+      .crop-info[data-v-6dae58fd] {
+      position: absolute;
+      left: 0px;
+      min-width: 65px;
+      text-align: center;
+      color: white;
+      line-height: 20px;
+      background-color: rgba(0, 0, 0, 0.8);
+      font-size: 12px;
+      }
+      .crop-line[data-v-6dae58fd] {
+      position: absolute;
+      display: block;
+      width: 100%;
+      height: 100%;
+      opacity: 0.1;
+      }
+      .line-w[data-v-6dae58fd] {
+      top: -3px;
+      left: 0;
+      height: 5px;
+      cursor: n-resize;
+      }
+      .line-a[data-v-6dae58fd] {
+      top: 0;
+      left: -3px;
+      width: 5px;
+      cursor: w-resize;
+      }
+      .line-s[data-v-6dae58fd] {
+      bottom: -3px;
+      left: 0;
+      height: 5px;
+      cursor: s-resize;
+      }
+      .line-d[data-v-6dae58fd] {
+      top: 0;
+      right: -3px;
+      width: 5px;
+      cursor: e-resize;
+      }
+      .crop-point[data-v-6dae58fd] {
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      opacity: 0.75;
+      background-color: #39f;
+      border-radius: 100%;
+      }
+      .point1[data-v-6dae58fd] {
+      top: -4px;
+      left: -4px;
+      cursor: nw-resize;
+      }
+      .point2[data-v-6dae58fd] {
+      top: -5px;
+      left: 50%;
+      margin-left: -3px;
+      cursor: n-resize;
+      }
+      .point3[data-v-6dae58fd] {
+      top: -4px;
+      right: -4px;
+      cursor: ne-resize;
+      }
+      .point4[data-v-6dae58fd] {
+      top: 50%;
+      left: -4px;
+      margin-top: -3px;
+      cursor: w-resize;
+      }
+      .point5[data-v-6dae58fd] {
+      top: 50%;
+      right: -4px;
+      margin-top: -3px;
+      cursor: e-resize;
+      }
+      .point6[data-v-6dae58fd] {
+      bottom: -5px;
+      left: -4px;
+      cursor: sw-resize;
+      }
+      .point7[data-v-6dae58fd] {
+      bottom: -5px;
+      left: 50%;
+      margin-left: -3px;
+      cursor: s-resize;
+      }
+      .point8[data-v-6dae58fd] {
+      bottom: -5px;
+      right: -4px;
+      cursor: se-resize;
+      }
+      @media screen and (max-width: 500px) {
+      .crop-point[data-v-6dae58fd] {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      opacity: 0.45;
+      background-color: #39f;
+      border-radius: 100%;
+      }
+      .point1[data-v-6dae58fd] {
+      top: -10px;
+      left: -10px;
+      }
+      .point2[data-v-6dae58fd],
+      .point4[data-v-6dae58fd],
+      .point5[data-v-6dae58fd],
+      .point7[data-v-6dae58fd] {
+      display: none;
+      }
+      .point3[data-v-6dae58fd] {
+      top: -10px;
+      right: -10px;
+      }
+      .point4[data-v-6dae58fd] {
+      top: 0;
+      left: 0;
+      }
+      .point6[data-v-6dae58fd] {
+      bottom: -10px;
+      left: -10px;
+      }
+      .point8[data-v-6dae58fd] {
+      bottom: -10px;
+      right: -10px;
+      }
+      }
+    link(rel='stylesheet' type='text/css' href='https://www.proginn.com/_nuxt/commons/c8375b28~f075b844.df3525e.css')
+    script(charset='utf-8' src='https://www.proginn.com/_nuxt/commons/c8375b28~f075b844.f2effd7.js')
+    script(charset='utf-8' src='https://www.proginn.com/_nuxt/otherpage.works.create~ab05e1cd.9f0ffa8.js')
+    script(async='' src='https://s9.cnzz.com/z_stat.php?id=1261469621&web_id=1261469621')
+    link(rel="stylesheet", href="../css/work_create.css")
+  body(style='font-size: 16px;')
+    #__nuxt
+      // 
+      #__layout
+        #markIsAppWebview.container
+          #proginn-header(style='position:relative;' data-v-ed2a708a='')
+            .list(data-v-ed2a708a='')
+              .header-left(data-v-ed2a708a='')
+                a.nav-item.logo(href='https://www.proginn.com' data-v-ed2a708a='')
+                  img.logo(src='https://stacdn.proginn.com/image/common/logo3@2x.png' data-v-ed2a708a='')
+                a.nav-item(href='https://www.proginn.com' data-v-ed2a708a='') 首页
+                a.nav-item(href='https://www.proginn.com/cat/' data-v-ed2a708a='') 程序员
+                .more-dropdown.el-dropdown(data-v-ed2a708a='')
+                  button.el-button.dashboard-title.el-button--text.el-dropdown-selfdefine(type='button' data-v-ed2a708a='' aria-haspopup='list' aria-controls='dropdown-menu-309' role='button' tabindex='0')
+                    // 
+                    // 
+                    span
+                      | 解决方案
+                      i.el-icon-arrow-down(data-v-ed2a708a='')
+                  ul#dropdown-menu-309.el-dropdown-menu.el-popper.jiejuefangan-dropdown(style='display:none;' data-v-ed2a708a='')
+                    .deal-item(style='padidng-right:40px;' data-v-ed2a708a='')
+                      .big-title(data-v-ed2a708a='')
+                        img(src='https://www.proginn.com/_nuxt/img/jiejuefangan2@2x.1bb228d.png' alt='招聘用人' data-v-ed2a708a='')
+                        span(data-v-ed2a708a='') 招聘用人
+                      div(data-v-ed2a708a='')
+                        li.el-dropdown-menu__item(tabindex='-1' data-v-ed2a708a='')
+                          // 
+                          a.more-item.fuwu-item(href='https://www.proginn.com/b/cloud' data-v-ed2a708a='')
+                            span.big(data-v-ed2a708a='') 云端工作
+                            span.small(data-v-ed2a708a='') 自由工作、远程工作
+                    .deal-item(data-v-ed2a708a='')
+                      .big-title(data-v-ed2a708a='')
+                        img(src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAYAAACohjseAAAAAXNSR0IArs4c6QAAAxNJREFUaEPtmU1IVFEYhp9zMSUdSaJNrmyThL/Q3yLJtKBdRqS7FhXUQnAUMahNs2gjITlgu6JwFypYiUGbwChaRgQtWvhfUmE6GoV/J44zWjPqzJ05d+5c5RyY1Zz7ve/zvR+Xe+8R7PAldjgfBnC7J2wSNAl6vANmRD0eUEJ78RPslMVAKxYFCStldsMC0E+T6I21kQjwI1CSWe+21VdYpII2oTyvr/iAQbmC3EYPAxb1sSkmSlDa7p83NjbQLHrsJ9gpDaA3glt3oZ9g5T54Pw2seAwtbEcP0F8Knafh7SSc6AeWPAepB3ihCHrOgSXgzQRUPd0Schn47Ri+uhVKfDbq6QEqgeZS6KgNQ74eh5PPNkB+Z4FybogpG4bsb+mSdSyh5ibe0gdU1VvL4G4NCAFDY1CtIFVmagnG+EkxAfHHvnsbO7vkcZZ45wqgEmmrgPbqMOSrUahVkP9uPF8B9XNmCQSSg0Cea4BK6EENXC0PS14ehMefneHRqOLMiCoDZwqhvw7ysmFkFg48cfS2kiqjM4CnCmEgAjcagpJe+DWXqidHr9MHrN4PA+fBlw3js3CkD75Fwy0huIlkeFPrFtnI1f/LHEULF9MDVE8xQxchPwcmQnC0D6ZCMTYFH/CLirjmg7IRSZfnAG8fhkAVTM7BsT74MrupRfWAHoQtEhSrCTYCRZ4DJAtaDsHDYQjNp8Gefkm9EdXXT3sFAxjdYvPCm/aRS1bAjKgZ0WRnxuX9ZkTNiLo8csnKJT2iM8CeZFUytt/iLE3i5f/6iT7dXwc6bHwqyBhTRFh9EXrODPUERNTHzMQHoAFpsZdd2gTz+MjlR1Qdi2tAt3btaZZjwdZqJgbUVo8UuC99LBL9aiy4gl88ckpiszruAbbLfHKIfj02gPrZmgT1exipsGNGVIHsphIr5uh7mVwkL2Ia1k4WgxuauMgYLWLEieY6P6JB2Y3kkqa5eQopoEGsnXikXM55wHvyDoJbq8cwqa9P+ClBCO0jdB0Tqdt38UoD6GKz0yJlEkxLW10sahJ0sdlpkfoLaK4YSPyrbeMAAAAASUVORK5CYII=' alt='项目研发' data-v-ed2a708a='')
+                        span(data-v-ed2a708a='') 项目研发
+                      div(data-v-ed2a708a='')
+                        li.el-dropdown-menu__item(tabindex='-1' data-v-ed2a708a='')
+                          // 
+                          a.more-item.fuwu-item(href='https://www.proginn.com/b/p1980' data-v-ed2a708a='')
+                            span.big(data-v-ed2a708a='') 需求梳理
+                            span.small(data-v-ed2a708a='') 规划落地您的想法
+                        li.el-dropdown-menu__item(tabindex='-1' data-v-ed2a708a='')
+                          // 
+                          a.more-item.fuwu-item(href='https://www.proginn.com/b/outsource' data-v-ed2a708a='')
+                            span.big(data-v-ed2a708a='') 整包开发
+                            span.small(data-v-ed2a708a='') 一站式软件开发
+                .more-dropdown.el-dropdown(data-v-ed2a708a='')
+                  button.el-button.dashboard-title.ma-v2-service.el-button--text.el-dropdown-selfdefine(type='button' data-v-ed2a708a='' aria-haspopup='list' aria-controls='dropdown-menu-7074' role='button' tabindex='0')
+                    // 
+                    // 
+                    span
+                      | 服务
+                      i.el-icon-arrow-down(data-v-ed2a708a='')
+                  ul#dropdown-menu-7074.el-dropdown-menu.el-popper.fuwu-dropdown(style='display:none;' data-v-ed2a708a='')
+                    li.el-dropdown-menu__item(tabindex='-1' data-v-ed2a708a='')
+                      // 
+                      a.more-item.fuwu-item(href='https://www.proginn.com/works/' data-v-ed2a708a='')
+                        img(src='https://www.proginn.com/_nuxt/img/fuwu1@2x.a5a57b1.png' alt='资源商城' data-v-ed2a708a='')
+                        .text(data-v-ed2a708a='')
+                          span.big(data-v-ed2a708a='') 资源作品
+                          span.small(data-v-ed2a708a='') 各种源码资源任您挑选
+                    li.el-dropdown-menu__item(tabindex='-1' data-v-ed2a708a='')
+                      // 
+                      a.more-item.fuwu-item(target='_blank' href='https://unisms.apistd.com/' data-v-ed2a708a='')
+                        img(src='https://uni-cdn.oss-cn-hangzhou.aliyuncs.com/public/img/unisms-icon.png' alt='技术圈' data-v-ed2a708a='')
+                        .text(data-v-ed2a708a='')
+                          span.big(data-v-ed2a708a='') UniSMS
+                          span.small(data-v-ed2a708a='') 全球聚合短信平台
+                a.nav-item(href='https://www.proginn.com/task/' data-v-ed2a708a='') 任务
+                .btn_search(style='margin-left:40px;' data-v-ed2a708a='')
+                  div(style='position: relative;' data-v-ed2a708a='')
+                    input.input(autocomplete='off' placeholder='搜索您感兴趣的内容' value='' data-v-ed2a708a='')
+                    i.el-icon-search(data-v-ed2a708a='')
+                    span.input-line(data-v-ed2a708a='')
+                  .dropdown(style='display:none;' data-v-ed2a708a='')
+                  .dropdown(style='display:none;' data-v-ed2a708a='')
+              .header-right(data-v-ed2a708a='')
+                .nav-button.nav-button-type1(data-v-ed2a708a='')
+                  | 发布需求
+                // 
+                button.el-button.dashboard-title.el-button--text(type='button' style='padding-right:30px;' data-v-ed2a708a='')
+                  // 
+                  // 
+                  span
+                    a.workstation(href='https://www.proginn.com/wo/work_todo' data-v-ed2a708a='')
+                      | 工作台
+                .nav-dropdown.el-dropdown(data-v-ed2a708a='')
+                  button.el-button.message-box-title.el-button--text.el-dropdown-selfdefine(type='button' data-v-ed2a708a='' aria-haspopup='list' aria-controls='dropdown-menu-6934' role='button' tabindex='0')
+                    // 
+                    // 
+                    span
+                      | 消息
+                      span.message-count.message-total(data-v-ed2a708a='') 2
+                  ul#dropdown-menu-6934.el-dropdown-menu.el-popper.xiaoxi-dropdown(style='display:none;' data-v-ed2a708a='')
+                    li.el-dropdown-menu__item.message-box(tabindex='-1' data-v-ed2a708a='')
+                      // 
+                      i.circle.blue(data-v-ed2a708a='')
+                      | 系统消息
+                      // 
+                    li.el-dropdown-menu__item.message-box(tabindex='-1' data-v-ed2a708a='')
+                      // 
+                      i.circle.orange(data-v-ed2a708a='')
+                      | 工作通知
+                      // 
+                    li.el-dropdown-menu__item.message-box(tabindex='-1' data-v-ed2a708a='')
+                      // 
+                      i.circle.red(data-v-ed2a708a='')
+                      | 评论回复
+                      // 
+                    li.el-dropdown-menu__item.message-box(tabindex='-1' data-v-ed2a708a='')
+                      // 
+                      i.circle.green(data-v-ed2a708a='')
+                      | @我的
+                      // 
+                    li.el-dropdown-menu__item.message-box(tabindex='-1' data-v-ed2a708a='')
+                      // 
+                      i.circle.pink(data-v-ed2a708a='')
+                      | 赞及其它
+                      // 
+                    li.el-dropdown-menu__item.message-box(tabindex='-1' data-v-ed2a708a='')
+                      // 
+                      i.circle.yellow(data-v-ed2a708a='')
+                      | 收支信息
+                      span.message-count(data-v-ed2a708a='') 2
+                a.account-change(href='https://www.proginn.com/frontend/accountchange' style='margin-right:40px' data-v-ed2a708a='') 切换身份
+                span.nav-popover(data-v-ed2a708a='')
+                  #el-popover-377.el-popover.el-popper(role='tooltip' aria-hidden='true' style='width:226px;display:none;' tabindex='0')
+                    // 
+                    .menu(data-v-ed2a708a='')
+                      .ma-vip-area.ma-not-vip(data-v-ed2a708a='')
+                        .ma-vip-title(data-v-ed2a708a='')
+                          img.ma-vip-icon(src='https://www.proginn.com/_nuxt/img/not_vip.6e1bd73.png' data-v-ed2a708a='')
+                          span(data-v-ed2a708a='') 开发者会员
+                        .ma-vip-apply(data-v-ed2a708a='')
+                          span(data-v-ed2a708a='') 未开通,
+                          a(href='https://www.proginn.com/type/vip/developer' data-v-ed2a708a='') 立即开通
+                      .vip-items(data-v-ed2a708a='')
+                        a.vip-item.divider(href='https://www.proginn.com/wo/manage_homepage' data-v-ed2a708a='')
+                          i.el-icon-document(data-v-ed2a708a='')
+                          | 我的主页
+                        a.vip-item(href='https://www.proginn.com/credit/pages' data-v-ed2a708a='')
+                          i.el-icon-credit(data-v-ed2a708a='')
+                          | 技术信用
+                        a.vip-item(href='https://www.proginn.com/otherpage/user/collection' data-v-ed2a708a='')
+                          i.el-icon-collection(data-v-ed2a708a='')
+                          | 收藏中心
+                        a.vip-item.divider(href='https://www.proginn.com/index/app' data-v-ed2a708a='')
+                          i.el-icon-download-app(data-v-ed2a708a='')
+                          | 下载APP
+                        a.vip-item(data-v-ed2a708a='')
+                          i.el-icon-back(style='margin:0 10px !important;' data-v-ed2a708a='')
+                          | 退出
+                  .ref.el-popover__reference(data-v-ed2a708a='' aria-describedby='el-popover-377' tabindex='0')
+                    a.nav-header(href='https://www.proginn.com/wo/work_todo' data-v-ed2a708a='')
+                      img.header-user(src='https://inn.proginn.com/useralbum/675016/avatar6750161650016499.jpg!mediumicon' data-v-ed2a708a='')
+                      // 
+          .works_create
+            .works_content
+              .works_header
+                h1.title 添加您的项目作品
+                p.desc 上传你的技术、设计、产品等项目作品。这些将出现在您的主页和作品库中。
+              .works_images
+                .works_cover
+                  .userinfo
+                    .avatar(style="background-image: url(https://img2.baidu.com/it/u=484991634,2354711098&fm=253&app=138&size=w931&n=0&f=JPEG&fmt=auto?sec=1670000400&t=a99fa5c5275ed3dbf1fa6970abfd7402)")
+                    span.username 陈世杰Jacky
+                  .upload_container
+                    p.title + 请上传封面
+                    p.desc 仅支持PNG、JPG格式
+                    input(type="file")
+                  button 上传封面
+                  .rules
+                    p 1、精致封面能吸引更多关注哦
+                    p 2、项目信息是最重要的信息，切勿填写“123456”等无关信息；
+                    p 3、为了给有诚意的开发者更多接单机会，因此导致的审核不通过，不再二次审核
+                    p 4、请上传内容原创、图片清晰、背景整洁、主题鲜明、对平台用户具有价值的内容。
+                .section.works_img_list
+              .section.block
+                .block_title 项目作品信息
+                .block_body
+                  .cards
+                    .card_item
+                      input(type='radio' name='type' checked)
+                      p.title 技术类
+                      p.desc 角色：程序员
+                      p.desc 作品：程序源码、项目演示图等。
+                    .card_item
+                      input(type='radio' name='type')
+                      p.title 产品类
+                      p.desc 角色：产品经理
+                      p.desc 作品：项目原型图、需求文档、项目演示图等。
+                    .card_item
+                      input(type='radio' name='type')
+                      p.title 设计类
+                      p.desc 角色：设计师
+                      p.desc 作品：APP设计、网页设计、包装设计、插画、图标设计、游戏设计等。
+
+
+                  .base
+                    .input_item
+                      label 作品标题：
+                      input(type="text" placeholder='请输入标题')
+                      
+                    .input_item
+                      label 演示地址：
+                      input(type="text" placeholder='请输入演示地址')
+                      
+                    .input_item
+                      label 所属行业：
+                      input(type="text" placeholder='请选择所属行业')
+                  .input_item
+                    label 作品简介：
+                    textarea#w3review(name='w3review' rows='4' cols='50' placeholder="可以参考以下内容：\n1.【60%】项目分为哪些功能模块，对使用者来说能实现哪些功能 \n2.【40%】我负责哪些任务，使用了什么技术栈，最终达到了什么成果 \n3.【选填】有哪些难点，怎么解决的")
+
+
+              .section.block
+                .block_title
+                  span 是否上传源文件
+                  span.desc 文件小于1GB，请勿上传侵权内容作品
+                .block_body
+                  .radio_group
+                    .item
+                      input(type='radio' id="yes" name='upload' value='') 
+                      label(for="yes")  上传（允许用户下载）
+                    .item
+                      input(type='radio' id="no" name='upload' value='') 
+                      label(for="no")  不上传
+
+          #proginn-footer(data-v-301342e4='')
+            #friend-links(data-v-301342e4='')
+              .links(data-v-301342e4='')
+                a(href='/' data-v-301342e4='')
+                  img.logo(src='https://www.proginn.com/Public/image/common/logo_new.png' data-v-301342e4='')
+                .items(data-v-301342e4='')
+                  .item-box(data-v-301342e4='')
+                    span.name(data-v-301342e4='') 重点城市程序员兼职推荐
+                    .item(data-v-301342e4='')
+                      .list(data-v-301342e4='')
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/beijing/' target='_blank') 北京程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/shanghai/' target='_blank') 上海程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/shenzhen/' target='_blank') 深圳程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/hangzhou/' target='_blank') 杭州程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/guangzhou/' target='_blank') 广州程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/chengdu/' target='_blank') 成都程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/nanjing/' target='_blank') 南京程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/wuhan/' target='_blank') 武汉程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/xian/' target='_blank') 西安程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/chongqing/' target='_blank') 重庆程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/zhengzhou/' target='_blank') 郑州程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/changsha/' target='_blank') 长沙程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/suzhou/' target='_blank') 苏州程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/hefei/' target='_blank') 合肥程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/xiamen/' target='_blank') 厦门程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/jinan/' target='_blank') 济南 程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/qingdao/' target='_blank') 青岛程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/tianjin/' target='_blank') 天津程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/dalian/' target='_blank') 大连程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/fuzhou/' target='_blank') 福州程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/shijiazhuang/' target='_blank') 石家庄程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/shenyang/' target='_blank') 沈阳程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/taiyuan/' target='_blank') 太原程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/wuxi/' target='_blank') 无锡程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/nanchang/' target='_blank') 南昌程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/haerbin/' target='_blank') 哈尔滨程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/nanning/' target='_blank') 南宁程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/zhuhai/' target='_blank') 珠海程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/ningbo/' target='_blank') 宁波程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/kunming/' target='_blank') 昆明程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/dongguan/' target='_blank') 东莞程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/guiyang/' target='_blank') 贵阳程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/america/' target='_blank') 美国程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/changchun/' target='_blank') 长春程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/wenzhou/' target='_blank') 温州程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/foshan/' target='_blank') 佛山程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/changzhou/' target='_blank') 常州程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/huhehaote/' target='_blank') 呼和浩特程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/lanzhou/' target='_blank') 兰州程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/wulumuqi/' target='_blank') 乌鲁木齐程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/zhongshan/' target='_blank') 中山程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/haikou/' target='_blank') 海口程序员兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/luoyang/' target='_blank') 洛阳程序员兼职
+                      span.more(data-v-301342e4='' style='display: inline;') 更多
+                  .item-box(data-v-301342e4='')
+                    span.name(data-v-301342e4='') 重点岗位程序员兼职推荐
+                    .item(data-v-301342e4='')
+                      .list(data-v-301342e4='')
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/creator/' target='_blank') 技术创始人兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/rust/' target='_blank') Rust兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/xiaochengxu1/' target='_blank') 小程序兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/cocos2dx/' target='_blank') cocos2d-x兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/unity3d/' target='_blank') Unity3D兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/ddba/' target='_blank') DBA兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/ywgcs/' target='_blank') 运维兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/csgcs/' target='_blank') 测试兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/ydqt/' target='_blank') 移动其他兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/go/' target='_blank') Go兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/ue/' target='_blank') UE设计师兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/fullstack/' target='_blank') 全栈兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/java/' target='_blank') Java兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/cto/' target='_blank') CTO兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/ruby/' target='_blank') Ruby兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/cpp/' target='_blank') C++兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/php/' target='_blank') PHP兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/c/' target='_blank') C兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/csharp/' target='_blank') C#兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/python/' target='_blank') Python兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/architect/' target='_blank') 架构师兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/nodejs/' target='_blank') Node.js兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/android/' target='_blank') Android兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/ios/' target='_blank') iOS兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/dqianduan/' target='_blank') 前端兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/ui/' target='_blank') UI设计师兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/yhs/' target='_blank') 原画师兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/cpjl/' target='_blank') 产品经理兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/xmjl/' target='_blank') 项目经理兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/qukuailian/' target='_blank') 区块链兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/zhineng/' target='_blank') 人工智能兼职
+                        a(data-v-301342e4='' href='https://www.proginn.com/cat/yingjian/' target='_blank') 硬件开发兼职
+                      span.more(data-v-301342e4='' style='display: inline;') 更多
+            #footer.footer(data-v-301342e4='')
+              .footer-container(data-v-301342e4='')
+                .footer-links(data-v-301342e4='')
+                  a.item(target='_blank' href='https://jishuin.proginn.com/' rel='nofollow' data-v-301342e4='') 技术圈
+                  a.item(href='https://www.proginn.com/index/app' rel='nofollow' data-v-301342e4='') APP下载
+                  a.item(href='http://support.proginn.com/' rel='nofollow' data-v-301342e4='') 帮助
+                  a.item(href='https://www.proginn.com/about' rel='nofollow' data-v-301342e4='') 关于我们
+                  a.item(href='https://www.proginn.com/sites/' rel='nofollow' data-v-301342e4='') 合作伙伴
+                  a.item(href='https://www.proginn.com/about/suggestion' rel='nofollow' data-v-301342e4='') 意见反馈
+                  span.ui.item(style='color: rgb(204, 204, 204);' data-v-301342e4='') © 程序员客栈
+                .safe(data-v-301342e4='')
+                  a(href='http://www.miibeian.gov.cn' target='_blank' rel='nofollow' data-v-301342e4='') 浙ICP备15029175号
+                  div(data-v-301342e4='')
+                    a(target='_blank' href='http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33011002011566' rel='nofollow' style='display: flex;' data-v-301342e4='')
+                      img(width='20' height='20' src='https://www.proginn.com/Public/image/common/badge.png' data-v-301342e4='')
+                      span(style='height:20px;line-height:20px;margin: 0px 0px 0px 5px;' data-v-301342e4='') 浙公网安备 33011002011566号
+    script(src='https://zz.bdstatic.com/linksubmit/push.js')
+    script(src='//hm.baidu.com/hm.js?c92adf6182a39eb23c24cf43abc3f439')
+    script.
+      window.__NUXT__=(function(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r){return {layout:"default",data:[{}],fetch:[],error:d,state:{scope:d,isPC:j,isWeixin:j,userinfo:{uid:l,nickname:"市民陈先生",realname:"陈邦冬",sex:a,type:"5",icon_url:"https:\\u002F\u002Finn.proginn.com\u002Fuseralbum\u002F675016\u002Favatar6750161650016499.jpg!mediumicon",login_mobile:p,work_status:"-1",work_remote:a,work_area:e,full_time_status:a,district_op:c,work_time:a,work_time_op:{weekend:[o,"01:00"],workday:[o,"00:30"]},email:"jeodiong@hotmail.com",mobile:p,qq:c,weixin:c,weibo:c,introduction:"3232 从大叔吃",company:"3232",title:"从大叔吃",introduction_re:a,realname_re:g,province_op:"14",province_name:"河北",city_op:r,city_name:k,direction_op:"110",direction_name:"人工智能",occupation_op:"13",occupation_name:"AI",fans:a,follow:a,work_year_op:a,work_price:"1000",hired_count:a,contact_count:g,rating_count:a,_work_finish_ratio:d,on_project:a,on_hire:a,on_job:a,is_new_developer:a,industry_id:a,developer_verify_status:a,product_manager_1980_status:a,company_verify_status:"3",realname_verify_status:g,work_option:e,rating_info:d,ping_time:a,project_manager_verify_status:f,vip_type_id:d,vip_end_time:d,doing_project_num:a,doing_hire_num:a,doing_job_num:a,vip_status:d,jishuquan_description:c,seo_type:e,lon:m,lat:m,show_card_num:a,mobi_status:g,id_card_no:c,alipay:c,status:e,home_page_type:g,gongmall:a,type_name:"正常工作",work_time_display:"工作日00:00-00:30、周末00:00-01:00",has_email:h,has_qq:b,has_weixin:b,has_weibo:b,certTags:[{uid:l,cert_id:"16",cert_no:"PRO20220615190550",tag_name:"协作开发者",tag_name_tip:"经客栈审核认证能够提供优质服务的协作开发者"}],freework_level:f,cert_status:f,hire_status:i,ping_status:i,industry_name:c,ping_time_name:"暂停接单",vip_end_date:"1970-01-01",is_vip:b,seo_uri:"\u002Fwo\u002F675016",developerHomePageURL:"https:\u002F\u002Fwww.proginn.com\u002Fwo\u002F675016",dynamic_rand:q,dynamic_experience:195,view_limit:f,hire_status_name:"已被预约",is_product_manager_1980_verified:b,user_experience_audit_status:f,province_op_id:"21",work_time_per_week:e,city_op_id:r,district_op_id:a,user_identity:a,province_op_name:"浙江",city_op_name:k,district_op_name:c,work_time_per_week_name:"15小时以下",wechatMessageNotice:e,company_id:15278,is_company_editable:h,is_company_info_completed:b,home_page_type_calculated:q,interview_list:[],has_attend_service_provider:b,is_default_pwd:b,home_page_developer_pv:17,rating:f,user_type:i},wxConfig:{},regPhone:/^(0|86|17951)?(13[0-9]|15[012356789]|166|17[35678]|18[0-9]|14[57])[0-9]{8}$/,regEmail:/\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/,regSpecialChar:/[&￥%\/\*]+/,deviceType:{ios:b,android:b,pc:h,wx:b,app:b,spider:b,isMobile:{},isPC:{},isWx:{}},domainConfig:{api:n,siteUrl:n,jishuinUrl:"https:\u002F\u002Fjishuin.proginn.com",rooterUrl:"https:\u002F\u002Frooter.proginn.com",kaifainUrl:"https:\u002F\u002Fkaifain.proginn.com",jobUrl:"https:\u002F\u002Fjob.proginn.com",urlType:c},noneCommonFooter:b},serverRendered:h,routePath:"\u002Fotherpage\u002Fworks\u002Fcreate",config:{}}}("0",false,"",null,"1",0,"2",true,1,void 0,"杭州","675016","0.000000","https:\u002F\u002Fwww.proginn.com","00:00","17682302049",2,"1178"));
+    script(src='https://www.proginn.com/_nuxt/runtime.85e1923.js' defer='')
+    script(src='https://www.proginn.com/_nuxt/otherpage.works.create~f075b844.9749349.js' defer='')
+    script(src='https://www.proginn.com/_nuxt/commons/app~253ae210.7edb85e.js' defer='')
+    script(src='https://www.proginn.com/_nuxt/vendors~app~253ae210.c051dbf.js' defer='')
+    script(src='https://www.proginn.com/_nuxt/vendors~app~b51a20c3.d0383a9.js' defer='')
+    script(src='https://www.proginn.com/_nuxt/vendors~app~6ed3fd28.4c1b9ba.js' defer='')
+    script(src='https://www.proginn.com/_nuxt/vendors~app~7370204d.8111ac9.js' defer='')
+    script(src='https://www.proginn.com/_nuxt/vendors~app~ec8c427e.53bbb9c.js' defer='')
+    script(src='https://www.proginn.com/_nuxt/vendors~app~069b5b89.0075dc2.js' defer='')
+    script(src='https://www.proginn.com/_nuxt/vendors~app~0605657e.d20c83a.js' defer='')
+    script(src='https://www.proginn.com/_nuxt/app~24120820.3868a8b.js' defer='')
+    script(data-n-head='ssr' data-body='true').
+      var _hmt = _hmt || [];
+      (function () {
+      var markIsApp = document.getElementById('markIsAppWebview')
+      var isApp = Boolean(markIsApp && markIsApp.dataset && markIsApp.dataset.app)
+      var host = window.location.host;
+      if (!isApp && host.indexOf('jishuin') === -1) {
+      var hm = document.createElement('script');
+      hm.src = '//hm.baidu.com/hm.js?c92adf6182a39eb23c24cf43abc3f439';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(hm, s);
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      if (curProtocol === 'https') {
+      bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+      } else {
+      bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(bp, s);
+      }
+      })();
+    .el-popper.el-cascader__dropdown(style='position: absolute; top: 789px; left: 5px; z-index: 2006; display: none;' x-placement='top-start')
+      .el-cascader-panel
+        #cascader-menu-3561-0.el-scrollbar.el-cascader-menu(role='menu')
+          .el-cascader-menu__wrap.el-scrollbar__wrap.el-scrollbar__wrap--hidden-default
+            ul.el-scrollbar__view.el-cascader-menu__list
+              li#cascader-menu-3561-0-0.el-cascader-node(role='menuitem' tabindex='-1' aria-haspopup='true' aria-owns='cascader-menu-3561-0')
+                span.el-cascader-node__label 建站系统
+                i.el-icon-arrow-right.el-cascader-node__postfix
+              li#cascader-menu-3561-0-1.el-cascader-node(role='menuitem' tabindex='-1' aria-haspopup='true' aria-owns='cascader-menu-3561-0')
+                span.el-cascader-node__label WEB开发
+                i.el-icon-arrow-right.el-cascader-node__postfix
+              li#cascader-menu-3561-0-2.el-cascader-node(role='menuitem' tabindex='-1' aria-haspopup='true' aria-owns='cascader-menu-3561-0')
+                span.el-cascader-node__label 移动开发
+                i.el-icon-arrow-right.el-cascader-node__postfix
+              li#cascader-menu-3561-0-3.el-cascader-node(role='menuitem' tabindex='-1' aria-haspopup='true' aria-owns='cascader-menu-3561-0')
+                span.el-cascader-node__label 开发工具
+                i.el-icon-arrow-right.el-cascader-node__postfix
+              li#cascader-menu-3561-0-4.el-cascader-node(role='menuitem' tabindex='-1' aria-haspopup='true' aria-owns='cascader-menu-3561-0')
+                span.el-cascader-node__label 游戏娱乐
+                i.el-icon-arrow-right.el-cascader-node__postfix
+              li#cascader-menu-3561-0-5.el-cascader-node(role='menuitem' tabindex='-1' aria-haspopup='true' aria-owns='cascader-menu-3561-0')
+                span.el-cascader-node__label 插件和扩展
+                i.el-icon-arrow-right.el-cascader-node__postfix
+              svg.el-cascader-menu__hover-zone
+          .el-scrollbar__bar.is-horizontal
+            .el-scrollbar__thumb(style='transform: translateX(0%);')
+          .el-scrollbar__bar.is-vertical
+            .el-scrollbar__thumb(style='transform: translateY(0%);')
+      // 
+      .popper__arrow(x-arrow='' style='left: 8px;')
+    style#stylish-style--1.stylish-style(data-style-id='-1' data-stylish='-1').
+      body .main {
+      padding-top: 20px;
+      }
+      body .title-box {
+      position: fixed;
+      z-index: 100;
+      top: 65px;
+      left: 50%;
+      margin: 0px auto;
+      margin-left: -550px;
+      padding: 0;
+      width: 100%;
+      max-width: 1100px;
+      height: 45px;
+      background-color: transparent;
+      }
+      body .title-box::before {
+      content: "";
+      position: fixed;
+      z-index: 99;
+      top: 65px;
+      left: 0;
+      width: 100%;
+      width: 100vw;
+      height: 45px;
+      background: white;
+      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+      }
+      body .title-box .title-box-h1, body .title-box .result-count {
+      position: relative;
+      z-index: 100;
+      }
+      body .inn-user-filter {
+      border-radius: 0 !important;
+      }
+      body .inn-user-filter .filter-box:last-child {
+      margin-bottom: 0;
+      }
+      body .inn-user-filter .filter-box:last-child .filter-content {
+      padding-bottom: 0;
+      }
+      body .inn-user-filter .filter-content {
+      border-bottom: none;
+      }
+      body .inn-user-filter .filter-content .list a {
+      border-radius: 6px;
+      transition: 0.2s ease-in;
+      padding: 5px 10px;
+      margin-right: 5px;
+      }
+      body .inn-user-filter .filter-content .list a:hover {
+      background-color: #dcefff;
+      color: #2994f2;
+      }
+      body #widget-user-list.proginn-user-list .item {
+      position: inherit;
+      margin-bottom: 0;
+      border-radius: 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+      transition: 0.2s ease-in;
+      }
+      body #widget-user-list.proginn-user-list .item:hover {
+      transform: scale(1.01);
+      box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.05);
+      }
+      body .proginn-user-list .user-info .info {
+      font-weight: bold;
+      }
+      body .proginn-user-list .user-info .desc-item span {
+      color: #848589;
+      }
+      body .proginn-user-list .user-info .desc-item a {
+      color: #848589;
+      }
+      body .proginn-user-list .user-info .desc-item a:first-child {
+      color: #848589;
+      }
+      body .proginn-user-list .user-info .desc-item a:hover {
+      color: #2994f2 !important;
+      text-decoration: underline;
+      }
+      body #widget-user-list .user-info .description .work-time {
+      margin-top: 0;
+      }
+      body #widget-user-list .hire-info p {
+      width: inherit;
+      }
+      body #widget-user-list .hire-info p.work-price {
+      font-weight: bold;
+      }
+      body #widget-user-list .hire-info .hire-btn {
+      margin: 0;
+      box-shadow: none !important;
+      transition: 0.2s ease-in;
+      }
+      body .crumbs-ctrl button {
+      height: inherit;
+      width: inherit;
+      padding: 8px 13px;
+      transition: 0.2s ease-in;
+      }
+      body .crumbs-ctrl button:hover {
+      background-color: #2994f2 !important;
+      color: white !important;
+      }
