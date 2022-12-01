@@ -74,6 +74,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/css/home.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/dist/css/home.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/css/work.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -173,6 +186,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/dist/css/work-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/dist/css/work_create.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/dist/css/work_create-min.css",
 		"oF": 0,
 		"oS": 3
 		},
