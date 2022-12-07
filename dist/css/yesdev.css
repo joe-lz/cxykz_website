@@ -121,3 +121,27 @@ body .yesdev_content .section2 .content .left .desc, body .yesdev_content .secti
 body .yesdev_content .section2 .content .left img, body .yesdev_content .section2 .content .right img {
   width: 500px;
 }
+
+@media all and (max-width: 600px) {
+  body .yesdev_content .section1 .content .left {
+    padding: 0 30px;
+  }
+  body .yesdev_content .section1 .content .right {
+    display: none;
+  }
+  body .yesdev_content .section2 {
+    margin-bottom: 15px;
+  }
+  body .yesdev_content .section2 .content {
+    display: block;
+    height: initial;
+  }
+  body .yesdev_content .section2 .content .left, body .yesdev_content .section2 .content .right {
+    width: 100%;
+    padding: 10px 30px;
+  }
+  body .yesdev_content .section2 .content .left img, body .yesdev_content .section2 .content .right img {
+    display: block;
+    width: 100%;
+  }
+}
