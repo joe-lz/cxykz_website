@@ -1,0 +1,60 @@
+.ziyou-container {
+  width: 800px;
+  padding: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  margin: 0 auto;
+}
+.ziyou-container h1 {
+  font-size: 26px;
+}
+.ziyou-container .desc {
+  padding-bottom: 15px;
+}
+.ziyou-container .desc .title {
+  font-weight: bold;
+  color: black;
+}
+.ziyou-container .desc p {
+  font-size: 14px;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+  color: #666;
+}
+.ziyou-container .desc .bold {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 3px 6px;
+  color: black;
+  display: inline-block;
+}
+.ziyou-container .desc input {
+  margin-top: 15px;
+  width: 100%;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0 15px;
+  font-size: 16px;
+  outline: none;
+}
+.ziyou-container .desc .operation {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ziyou-container .desc .operation button {
+  margin: 0 30px;
+  width: 30%;
+  height: 44px;
+  border: 1px solid #2994f2;
+  border-radius: 44px;
+  background-color: transparent;
+  color: #2994f2;
+  font-size: 16px;
+}
+.ziyou-container .desc .operation .active {
+  background-color: #2994f2;
+  color: white;
+}
