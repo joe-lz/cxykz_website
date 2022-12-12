@@ -79,7 +79,7 @@ body
               .desc
                 font-size: 18px
                 font-weight: 200
-                color: gray
+                color: #666
           .block_body
             display: flex
             align-items: center
@@ -132,7 +132,7 @@ body
                 display: block
                 height: 70px
                 font-size: 14px
-                color: gray
+                color: #666
               .action
                 overflow: hidden
                 a
@@ -152,6 +152,75 @@ body
                   color: white
                   cursor: not-allowed
 
+        
+            .large
+              flex-direction: row
+              width: 100%
+              justify-content: start
+              align-items: start
+              .bottom
+                flex: 1
+                justify-content: start
+                align-items: start
+                padding-left: 30px
+              .title, .desc
+                text-align: left
+                height: initial
+              .action
+                float: right
+              .why
+                display: block
+                i
+                  display: block
+                  text-align: left
+                  line-height: 1.8
+                  font-style: normal
+              .why_q
+                font-weight: bold
+              .why_a
+                color: #666
+              .btn-group
+                display: flex
+                border: 1px solid rgba(0,0,0,0.1)
+                border-radius: 6px
+                overflow: hidden
+                button
+                  position: relative
+                  width: 25%
+                  padding: 20px 0px
+                  padding-left: 20px
+                  padding-right: 15px
+                  display: flex
+                  border: none
+                  border-right: 1px solid rgba(0,0,0,0.1)
+                  background-color: white
+                  &:after
+                    content: ""
+                    position: absolute
+                    right: -8px
+                    top: 50%
+                    z-index: 3
+                    margin-top: -8px
+                    width: 16px
+                    height: 16px
+                    border:  1px solid rgba(0,0,0,0.1)
+                    border-left: none
+                    border-bottom: none
+                    transform: rotate(45deg)
+                    background-color: white
+                  &:last-child
+                    border-right: none
+                    &::after
+                      display: none
 
 
-
+                  img
+                    width: 20px
+                  div
+                    padding-left: 10px
+                    flex: 1
+                    text-align: left
+                    p
+                      padding-top: 10px
+                      font-size: 12px
+                      color: #666

@@ -92,7 +92,7 @@ body .credit_wrapper .list .container .block .block_title .right .title {
 body .credit_wrapper .list .container .block .block_title .right .desc {
   font-size: 18px;
   font-weight: 200;
-  color: gray;
+  color: #666;
 }
 body .credit_wrapper .list .container .block .block_body {
   display: flex;
@@ -152,7 +152,7 @@ body .credit_wrapper .list .container .block .block_body .block_item .desc {
   display: block;
   height: 70px;
   font-size: 14px;
-  color: gray;
+  color: #666;
 }
 body .credit_wrapper .list .container .block .block_body .block_item .action {
   overflow: hidden;
@@ -174,4 +174,89 @@ body .credit_wrapper .list .container .block .block_body .block_item .action .di
   background-color: rgba(0, 0, 0, 0.2);
   color: white;
   cursor: not-allowed;
+}
+body .credit_wrapper .list .container .block .block_body .large {
+  flex-direction: row;
+  width: 100%;
+  justify-content: start;
+  align-items: start;
+}
+body .credit_wrapper .list .container .block .block_body .large .bottom {
+  flex: 1;
+  justify-content: start;
+  align-items: start;
+  padding-left: 30px;
+}
+body .credit_wrapper .list .container .block .block_body .large .title, body .credit_wrapper .list .container .block .block_body .large .desc {
+  text-align: left;
+  height: initial;
+}
+body .credit_wrapper .list .container .block .block_body .large .action {
+  float: right;
+}
+body .credit_wrapper .list .container .block .block_body .large .why {
+  display: block;
+}
+body .credit_wrapper .list .container .block .block_body .large .why i {
+  display: block;
+  text-align: left;
+  line-height: 1.8;
+  font-style: normal;
+}
+body .credit_wrapper .list .container .block .block_body .large .why_q {
+  font-weight: bold;
+}
+body .credit_wrapper .list .container .block .block_body .large .why_a {
+  color: #666;
+}
+body .credit_wrapper .list .container .block .block_body .large .btn-group {
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  overflow: hidden;
+}
+body .credit_wrapper .list .container .block .block_body .large .btn-group button {
+  position: relative;
+  width: 25%;
+  padding: 20px 0px;
+  padding-left: 20px;
+  padding-right: 15px;
+  display: flex;
+  border: none;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+body .credit_wrapper .list .container .block .block_body .large .btn-group button:after {
+  content: "";
+  position: absolute;
+  right: -8px;
+  top: 50%;
+  z-index: 3;
+  margin-top: -8px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: none;
+  border-bottom: none;
+  transform: rotate(45deg);
+  background-color: white;
+}
+body .credit_wrapper .list .container .block .block_body .large .btn-group button:last-child {
+  border-right: none;
+}
+body .credit_wrapper .list .container .block .block_body .large .btn-group button:last-child::after {
+  display: none;
+}
+body .credit_wrapper .list .container .block .block_body .large .btn-group button img {
+  width: 20px;
+}
+body .credit_wrapper .list .container .block .block_body .large .btn-group button div {
+  padding-left: 10px;
+  flex: 1;
+  text-align: left;
+}
+body .credit_wrapper .list .container .block .block_body .large .btn-group button div p {
+  padding-top: 10px;
+  font-size: 12px;
+  color: #666;
 }
