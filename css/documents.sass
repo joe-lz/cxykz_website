@@ -1,0 +1,168 @@
+$primary: #2994f2
+$border-color: rgba(0,0,0,0.1)
+.documents
+  padding-top: 100px
+  .container
+    display: flex
+    width: 100%
+    max-width: 1100px
+    margin: 0 auto
+    #sidebar
+      width: 250px
+      ul
+        list-style: none
+        h5
+          font-size: 15px
+        .mt-8
+          margin-bottom: 40px
+          li
+            margin-top: 15px
+            a
+              color: gray
+
+    #content
+      flex: 1
+      font-size: 16px
+      text-align: justify
+
+      p,
+      li,
+      a,
+      span,
+      code 
+        font-size: 15px
+        line-height: 2
+
+      p
+        margin-block-start: 1em
+        margin-block-end: 1em
+
+      a 
+        font-weight: 500
+
+        &:hover 
+          text-decoration: underline
+        
+      
+
+      img 
+        max-width: 100%
+        margin: 0px auto
+        border-radius: 6px
+        // border: 1px solid $border-color
+        overflow: hidden
+        display: block
+      
+
+      pre 
+        code 
+          font-size: 12px
+          padding: 15px 12px
+          margin: 10px 0
+          word-break: normal
+          display: block
+          overflow-x: auto
+          background: rgba(0,0,0,0.1)
+          line-height: 1.8
+          border-radius: 4px
+          overflow: hidden
+        
+      
+
+      code 
+        word-break: break-word
+        border-radius: 2px
+        overflow-x: auto
+        background-color: #fff5f5
+        color: $primary
+        padding: 0.065em 0.4em
+      
+
+      table 
+        border-collapse: collapse
+        margin: 1rem 0
+        overflow-x: auto
+
+        tr 
+          border-top: 1px solid $border-color
+        
+
+        th,
+        td 
+          border: 1px solid $border-color
+          padding: 0.6em 1em
+        
+      
+
+
+      ol,
+      ul 
+        padding-left: 20px
+      
+
+      blockquote 
+        color: #3d3d3d
+        background-color: #fff9f9
+        padding: 6px 16px
+        margin: 10px 0
+        border-left: 3px solid #f07c82
+      
+
+      h1 
+        padding-top: 30px
+        padding-bottom: 15px
+        margin-bottom: 15px
+        border-bottom: 1px solid $border-color
+
+        &::before 
+          content: '# '
+        
+      
+
+      h2 
+        margin-top: 30px
+        margin-bottom: 15px
+
+        // border-left: 4px solid
+        // padding-left: 10px
+        // color: $primary-color
+        &::before 
+          content: '## '
+        
+      
+
+      h3,
+      h4,
+      h5,
+      h6 
+        margin-top: 20px
+        margin-bottom: 10px
+      
+
+      h3 
+        &::before 
+          content: '### '
+        
+      
+
+      h4 
+        &::before 
+          content: '#### '
+        
+      
+
+      h5 
+        &::before 
+          content: '##### '
+        
+      
+
+      h6 
+        &::before 
+          content: '###### '
+        
+      
+
+
+      strong,em
+        color: $primary

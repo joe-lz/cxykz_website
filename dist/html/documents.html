@@ -7,6 +7,7 @@
     <title>ApiUni</title>
     <link rel="stylesheet" href="../css/apiuni.css">
   </head>
+  <link rel="stylesheet" href="../css/documents.css">
   <body> 
     <header>
       <div class="container"><a href="/html/apiuni.html"> <img src="../images/apiuni.png" alt="" class="logo"></a>
@@ -26,48 +27,149 @@
         <div class="other"><a href="" target="_blank">Talk to Expert</a></div>
       </div>
     </header>
-    <main class="apiuni">
-      <section class="banner">
-        <div class="container"> 
-          <div class="left">
-            <p class="title">ApiUni Customer Engagement Platform</p>
-            <p class="sub_title">Powerful, safe and stable products and services</p>
-            <p class="desc">One-stop empowerment from the underlying system to the upper-level client, helping enterprises achieve continuous growth in digital upgrades</p><a href="" target="_blank">Talk to Expert</a>
+    <main class="documents">
+      <div class="container">
+        <div id="sidebar" class="fixed z-20 inset-0 flex-none h-full bg-black bg-opacity-25 w-full hidden lg:bg-white lg:static lg:h-auto lg:overflow-y-visible lg:pt-0 lg:w-60 xl:w-72 lg:block">
+          <aside class="h-full overflow-y-auto scrolling-touch overflow-hidden bg-white mr-24 lg:h-auto lg:block lg:relative lg:sticky lg:bg-transparent lg:top-18 lg:mr-0">
+            <div class="hidden h-12 pointer-events-none absolute inset-x-0 z-10 bg-gradient-to-b from-white lg:block"></div>
+            <nav class="px-1 pt-6 overflow-y-auto font-medium text-base pb-10 sm:px-2 xl:px-2 lg:text-sm lg:pt-8 lg:pb-14 sticky?lg:h-(screen-18)">
+              <ul>
+                <li class="mt-8">
+                  <h5 class="px-3 mb-3 uppercase tracking-wide font-semibold text-sm text-gray-900 lg:mb-3 lg:text-xs">概览</h5>
+                  <ul>
+                    <li><a href="/docs" style="outline: none;" class="px-3 py-2 transition-colors duration-200 relative block text-gray-500 hover:text-gray-900"><span class="rounded-md absolute inset-0 bg-cyan-50 opacity-0"></span><span class="relative">介绍</span></a></li>
+                    <li><a href="/docs/tutorials" style="outline: none;" class="px-3 py-2 transition-colors duration-200 relative block text-gray-500 hover:text-gray-900"><span class="rounded-md absolute inset-0 bg-cyan-50 opacity-0"></span><span class="relative">快速上手</span></a></li>
+                  </ul>
+                </li>
+                <li class="mt-8">
+                  <h5 class="px-3 mb-3 uppercase tracking-wide font-semibold text-sm text-gray-900 lg:mb-3 lg:text-xs">API通用说明</h5>
+                  <ul>
+                    <li><a href="/docs/api/common" style="outline: none;" class="px-3 py-2 transition-colors duration-200 relative block text-gray-500 hover:text-gray-900"><span class="rounded-md absolute inset-0 bg-cyan-50 opacity-0"></span><span class="relative">通用</span></a></li>
+                    <li><a href="/docs/api/send" style="outline: none;" class="px-3 py-2 transition-colors duration-200 relative block text-gray-500 hover:text-gray-900"><span class="rounded-md absolute inset-0 bg-cyan-50 opacity-0"></span><span class="relative">发送短信</span></a></li>
+                    <li><a href="/docs/api/voice-verification" style="outline: none;" class="px-3 py-2 transition-colors duration-200 relative block text-gray-500 hover:text-gray-900"><span class="rounded-md absolute inset-0 bg-cyan-50 opacity-0"></span><span class="relative">语音验证码</span></a></li>
+                    <li><a href="/docs/api/error-codes" style="outline: none;" class="px-3 py-2 transition-colors duration-200 relative block text-gray-500 hover:text-gray-900"><span class="rounded-md absolute inset-0 bg-cyan-50 opacity-0"></span><span class="relative">错误码</span></a></li>
+                  </ul>
+                </li>
+                <li class="mt-8">
+                  <h5 class="px-3 mb-3 uppercase tracking-wide font-semibold text-sm text-gray-900 lg:mb-3 lg:text-xs"> 扩展</h5>
+                  <ul>
+                    <li><a href="/docs/extension/ip-restriction" style="outline: none;" class="px-3 py-2 transition-colors duration-200 relative block text-gray-500 hover:text-gray-900"><span class="rounded-md absolute inset-0 bg-cyan-50 opacity-0"></span><span class="relative">IP 限制</span></a></li>
+                    <li><a href="/docs/extension/sms-rate-limiting" style="outline: none;" class="px-3 py-2 transition-colors duration-200 relative block text-gray-500 hover:text-gray-900"><span class="rounded-md absolute inset-0 bg-cyan-50 opacity-0"></span><span class="relative">发送频率限制</span></a></li>
+                    <li><a href="/docs/extension/sms-dlr" style="outline: none;" class="px-3 py-2 transition-colors duration-200 relative block text-gray-500 hover:text-gray-900"><span class="rounded-md absolute inset-0 bg-cyan-50 opacity-0"></span><span class="relative">状态报告</span></a></li>
+                  </ul>
+                </li>
+                <li class="mt-8">
+                  <h5 class="px-3 mb-3 uppercase tracking-wide font-semibold text-sm text-gray-900 lg:mb-3 lg:text-xs">SDK 接入</h5>
+                  <ul>
+                    <li><a href="/docs/sdk/java" style="outline: none;" class="px-3 py-2 transition-colors duration-200 relative block text-gray-500 hover:text-gray-900"><span class="rounded-md absolute inset-0 bg-cyan-50 opacity-0"></span><span class="relative">Java</span></a></li>
+                    <li><a href="/docs/sdk/go" style="outline: none;" class="px-3 py-2 transition-colors duration-200 relative block text-gray-500 hover:text-gray-900"><span class="rounded-md absolute inset-0 bg-cyan-50 opacity-0"></span><span class="relative">Go</span></a></li>
+                    <li><a href="/docs/sdk/node" style="outline: none;" class="px-3 py-2 transition-colors duration-200 relative block text-gray-500 hover:text-gray-900"><span class="rounded-md absolute inset-0 bg-cyan-50 opacity-0"></span><span class="relative">Node.js</span></a></li>
+                    <li><a href="/docs/sdk/python" style="outline: none;" class="px-3 py-2 transition-colors duration-200 relative block text-gray-500 hover:text-gray-900"><span class="rounded-md absolute inset-0 bg-cyan-50 opacity-0"></span><span class="relative">Python</span></a></li>
+                    <li><a href="/docs/sdk/php" style="outline: none;" class="px-3 py-2 transition-colors duration-200 relative block text-gray-500 hover:text-gray-900"><span class="rounded-md absolute inset-0 bg-cyan-50 opacity-0"></span><span class="relative">php</span></a></li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </aside>
+        </div>
+        <div id="content" class="min-w-0 w-full flex-auto lg:static lg:max-h-full lg:overflow-visible">
+          <div class="w-full flex">
+            <div class="min-w-0 flex-auto px-2 pt-0 pb-24 sm:px-6 xl:px-8 md:px-4 md:pt-8 lg:pb-16">
+              <div class="markdown">
+                <h1>UniSMS 介绍</h1>
+                <p>UniSMS (合一短信) 是全球首个聚合短信服务平台，第一次实现对上游短信服务商及云通讯平台的全链路整合：信息整合、通道整合、服务整合、技术整合及数据整合。</p>
+                <p>使用 UniSMS 可敏捷、高速、稳定地发送短信至中国大陆及全球 226 个国家和地区，并配备开放、透明、一体化的跨通道集成管理系统。</p>
+                <h2>All in One</h2>
+                <p>一套方案一次接入，覆盖短信全业务使用场景。</p>
+                <ul>
+                  <li>国内短信</li>
+                  <li>国际短信</li>
+                  <li>短信验证码</li>
+                  <li>短信通知</li>
+                  <li>营销推广短信</li>
+                  <li>单发/群发短信</li>
+                </ul>
+                <h2>特性</h2>
+                <ul>
+                  <li><strong>多通道自动切换</strong>：任意开通、配置短信发送通道，自动监控实现主备切换、群发分流，永不延宕</li>
+                  <li><strong>多服务统一集成</strong>：国内及海外验证码、通知、营销推广短信均使用统一接口调用，自动同步发送状态回执</li>
+                  <li><strong>跨服务商一体化控管</strong>：跨服务商统一发送、追踪、消费统计分析，支持短信签名、模板报备同步共管</li>
+                  <li><strong>价低、透明、无套路</strong>：所有通道价格透明自由选择、发送数据透明，每条短信都可追溯，发送成功计费</li>
+                  <li><strong>持续保持开放与中立</strong>：构建公平、开放、自由的生态体系并持续保持中立运作</li>
+                </ul>
+                <h2>产品与服务</h2>
+                <h3>标准短信</h3>
+                <p>标准短信是 UniSMS 推出的短信直采及发送服务，精选顶级短信上游服务商集中竞价直接采购，没有中间商赚差价，以最低的价格获得最优质的服务。</p>
+                <p>现已支持标准短信上游服务商如下：</p>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>上游服务商</th>
+                      <th>支持服务</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>梦网</td>
+                      <td>国内短信、国际短信、语音验证码</td>
+                    </tr>
+                    <tr>
+                      <td>亿美软通</td>
+                      <td>国内短信、国际短信、语音验证码</td>
+                    </tr>
+                    <tr>
+                      <td>国都互联</td>
+                      <td>国内短信、国际短信</td>
+                    </tr>
+                    <tr>
+                      <td>助通</td>
+                      <td>国内短信、国际短信</td>
+                    </tr>
+                    <tr>
+                      <td>凯信通</td>
+                      <td>国内短信</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <h3>托管短信</h3>
+                <p>托管短信即短信托管服务，帮助已在多个短信服务平台购买短信资源的企业及开发者快速搭建短信服务集群，轻松获得高可用短信服务能力及完备的运维保障、实时监控、自动通道切换能力。</p>
+                <p>现已支持短信托管服务的短信平台如下：</p>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>短信平台</th>
+                      <th>支持服务</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>阿里云</td>
+                      <td>国内短信、国际短信</td>
+                    </tr>
+                    <tr>
+                      <td>腾讯云</td>
+                      <td>国内短信、国际短信</td>
+                    </tr>
+                    <tr>
+                      <td>华为云</td>
+                      <td>国内短信、国际短信</td>
+                    </tr>
+                    <tr>
+                      <td>创蓝253</td>
+                      <td>国内短信</td>
+                    </tr>
+                    <tr>
+                      <td>聚合数据</td>
+                      <td>国内短信</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p><em>* 注：标准短信及短信托管服务共用同一 API，天然支持混合使用无缝切换，可进入「控制台-服务商管理」根据自身需求进行配置管理。</em></p>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
-      <section class="products">
-        <div class="container"> <a href="/html/apiuni-unisms.html" target="_blank" class="left block"> 
-            <div class="title">UniSMS All-in-One SMS</div>
-            <div class="desc">Highly available aggregated short message service platform</div><img src="../images/hot-bg.png" alt="" class="logo">
-            <div class="icon_right"></div></a>
-          <div class="right"><a href="/html/apiuni-api.html" target="_blank" class="top block"> 
-              <div class="title">Cloud API</div>
-              <div class="desc">Leading tokenized data API trading platform - API interface, free development interface data call</div><img src="../images/college.png" alt="" class="logo">
-              <div class="icon_right"></div></a><a href="/html/apiuni-database.html" target="_blank" class="bottom block"> 
-              <div class="title">Cloud database</div>
-              <div class="desc">Low-code development platform. Provide developers with one-stop back-end cloud services</div><img src="../images/community.png" alt="" class="logo">
-              <div class="icon_right"></div></a></div>
-        </div>
-      </section>
-      <section class="whyus">
-        <div class="container">
-          <div class="left">
-            <div class="title">How to quickly realize the idea?</div>
-            <div class="desc">The development and maintenance of back-end systems is not an easy task. Building a team, developing joint debugging, iterative upgrades, and online operation and maintenance all require long-term investment. Let a professional team handle these thorny issues, and use mature cloud services to speed up the product iteration process, saving time, money, and effort.</div>
-          </div>
-          <div class="right"><img src="../images/whyus.svg" alt=""></div>
-        </div>
-      </section>
-      <section class="cloud">
-        <div class="container">
-          <div class="left"><img src="../images/erth.svg" alt=""></div>
-          <div class="right">
-            <div class="title">Fast access for the global audience</div>
-            <div class="desc">The same services can be deployed in multiple regions to minimize latency and maximize availability.</div>
-          </div>
-        </div>
-      </section>
+      </div>
     </main>
     <footer>
       <div class="container">

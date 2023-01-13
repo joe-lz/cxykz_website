@@ -1,0 +1,139 @@
+.documents {
+  padding-top: 100px;
+}
+.documents .container {
+  display: flex;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.documents .container #sidebar {
+  width: 250px;
+}
+.documents .container #sidebar ul {
+  list-style: none;
+}
+.documents .container #sidebar ul h5 {
+  font-size: 15px;
+}
+.documents .container #sidebar ul .mt-8 {
+  margin-bottom: 40px;
+}
+.documents .container #sidebar ul .mt-8 li {
+  margin-top: 15px;
+}
+.documents .container #sidebar ul .mt-8 li a {
+  color: gray;
+}
+.documents .container #content {
+  flex: 1;
+  font-size: 16px;
+  text-align: justify;
+}
+.documents .container #content p,
+.documents .container #content li,
+.documents .container #content a,
+.documents .container #content span,
+.documents .container #content code {
+  font-size: 15px;
+  line-height: 2;
+}
+.documents .container #content p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+.documents .container #content a {
+  font-weight: 500;
+}
+.documents .container #content a:hover {
+  text-decoration: underline;
+}
+.documents .container #content img {
+  max-width: 100%;
+  margin: 0px auto;
+  border-radius: 6px;
+  overflow: hidden;
+  display: block;
+}
+.documents .container #content pre code {
+  font-size: 12px;
+  padding: 15px 12px;
+  margin: 10px 0;
+  word-break: normal;
+  display: block;
+  overflow-x: auto;
+  background: rgba(0, 0, 0, 0.1);
+  line-height: 1.8;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.documents .container #content code {
+  word-break: break-word;
+  border-radius: 2px;
+  overflow-x: auto;
+  background-color: #fff5f5;
+  color: #2994f2;
+  padding: 0.065em 0.4em;
+}
+.documents .container #content table {
+  border-collapse: collapse;
+  margin: 1rem 0;
+  overflow-x: auto;
+}
+.documents .container #content table tr {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.documents .container #content table th,
+.documents .container #content table td {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.6em 1em;
+}
+.documents .container #content ol,
+.documents .container #content ul {
+  padding-left: 20px;
+}
+.documents .container #content blockquote {
+  color: #3d3d3d;
+  background-color: #fff9f9;
+  padding: 6px 16px;
+  margin: 10px 0;
+  border-left: 3px solid #f07c82;
+}
+.documents .container #content h1 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.documents .container #content h1::before {
+  content: "# ";
+}
+.documents .container #content h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.documents .container #content h2::before {
+  content: "## ";
+}
+.documents .container #content h3,
+.documents .container #content h4,
+.documents .container #content h5,
+.documents .container #content h6 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.documents .container #content h3::before {
+  content: "### ";
+}
+.documents .container #content h4::before {
+  content: "#### ";
+}
+.documents .container #content h5::before {
+  content: "##### ";
+}
+.documents .container #content h6::before {
+  content: "###### ";
+}
+.documents .container #content strong, .documents .container #content em {
+  color: #2994f2;
+}
