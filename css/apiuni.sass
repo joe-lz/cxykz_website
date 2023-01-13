@@ -243,6 +243,35 @@ body
         .desc 
           line-height: 2
           color: rgba(0,0,0,0.6)
+  .brand
+    position: relative
+    margin: 0 auto
+    width: 100%
+    max-width: $width
+    padding: 80px 10px
+    display: flex
+    .left
+      padding-right: 100px
+      flex: 1
+      h2
+        padding-bottom: 30px
+        font-size: 26px
+        font-weight: bold
+        text-align: left
+      p
+        color: rgba(0, 0, 0, 0.6)
+        line-height: 2
+        text-align: justify
+    .right
+      display: flex
+      flex-direction: column
+      align-items: flex-end
+      justify-content: center
+      width: 300px
+      img
+        display: block
+        margin-bottom: 30px
+        height: 50px
   .support
     .container 
       position: relative
@@ -266,6 +295,10 @@ body
         width: 25%
         img
           width: 100%
+    .max-w-sm
+      padding-top: 0
+      img
+        height: 50px
   .input
     padding-bottom: 30px
     padding-top: 30px
@@ -669,6 +702,12 @@ body
         padding: 30px 10px
         li
           width: 100%
+    .brand
+      flex-direction: column
+      .left
+        padding-right: 0
+      .right
+        display: none
     .support 
       .container 
         padding: 30px 10px
@@ -676,6 +715,8 @@ body
           padding-right: 0
         .right
           display: none
+      .max-w-sm
+        display: none
     .input 
       padding: 0 10px
       .container 

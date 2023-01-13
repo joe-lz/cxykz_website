@@ -490,6 +490,41 @@ body {
   line-height: 2;
   color: rgba(0, 0, 0, 0.6);
 }
+.apiuni-unisms .brand {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1100px;
+  padding: 80px 10px;
+  display: flex;
+}
+.apiuni-unisms .brand .left {
+  padding-right: 100px;
+  flex: 1;
+}
+.apiuni-unisms .brand .left h2 {
+  padding-bottom: 30px;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: left;
+}
+.apiuni-unisms .brand .left p {
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 2;
+  text-align: justify;
+}
+.apiuni-unisms .brand .right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: 300px;
+}
+.apiuni-unisms .brand .right img {
+  display: block;
+  margin-bottom: 30px;
+  height: 50px;
+}
 .apiuni-unisms .support .container {
   position: relative;
   margin: 0 auto;
@@ -517,6 +552,12 @@ body {
 }
 .apiuni-unisms .support .container .right img {
   width: 100%;
+}
+.apiuni-unisms .support .max-w-sm {
+  padding-top: 0;
+}
+.apiuni-unisms .support .max-w-sm img {
+  height: 50px;
 }
 .apiuni-unisms .input {
   padding-bottom: 30px;
@@ -984,6 +1025,15 @@ body {
   .apiuni-unisms .intro .container li {
     width: 100%;
   }
+  .apiuni-unisms .brand {
+    flex-direction: column;
+  }
+  .apiuni-unisms .brand .left {
+    padding-right: 0;
+  }
+  .apiuni-unisms .brand .right {
+    display: none;
+  }
   .apiuni-unisms .support .container {
     padding: 30px 10px;
   }
@@ -991,6 +1041,9 @@ body {
     padding-right: 0;
   }
   .apiuni-unisms .support .container .right {
+    display: none;
+  }
+  .apiuni-unisms .support .max-w-sm {
     display: none;
   }
   .apiuni-unisms .input {
