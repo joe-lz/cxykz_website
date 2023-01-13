@@ -137,3 +137,16 @@
 .documents .container #content strong, .documents .container #content em {
   color: #2994f2;
 }
+
+.documents {
+  padding-top: 60px;
+}
+.documents .container {
+  max-width: initial;
+}
+.documents .container #sidebar {
+  display: none;
+}
+.documents .container #content {
+  padding: 10px;
+}
