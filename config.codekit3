@@ -205,6 +205,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/dist/css/documents.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/dist/css/documents-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/dist/css/home.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1112,7 +1122,7 @@
 		"oAP": "/dist/images/shubham.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/dist/images/time.png": {
@@ -1429,6 +1439,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/html/devnors_index.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/html/devnors_index.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"/html/dist/html/head.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1522,7 +1542,7 @@
 		"oAP": "/dist/images/0.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1533,7 +1553,7 @@
 		"oAP": "/dist/images/16.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1544,7 +1564,7 @@
 		"oAP": "/dist/images/18.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1555,7 +1575,7 @@
 		"oAP": "/dist/images/19.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1566,7 +1586,7 @@
 		"oAP": "/dist/images/20.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1577,7 +1597,7 @@
 		"oAP": "/dist/images/21.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1588,7 +1608,7 @@
 		"oAP": "/dist/images/23.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1599,7 +1619,7 @@
 		"oAP": "/dist/images/8.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1610,7 +1630,7 @@
 		"oAP": "/dist/images/9.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1642,7 +1662,7 @@
 		"oAP": "/dist/images/avatar.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1653,7 +1673,7 @@
 		"oAP": "/dist/images/beijiangqiang.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1664,7 +1684,7 @@
 		"oAP": "/dist/images/bgTop1.239403d.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1685,7 +1705,7 @@
 		"oAP": "/dist/images/capihub.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1706,7 +1726,7 @@
 		"oAP": "/dist/images/card-bg.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1727,7 +1747,7 @@
 		"oAP": "/dist/images/code.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1748,7 +1768,7 @@
 		"oAP": "/dist/images/college.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1759,7 +1779,7 @@
 		"oAP": "/dist/images/comment.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1770,7 +1790,7 @@
 		"oAP": "/dist/images/community.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1781,7 +1801,7 @@
 		"oAP": "/dist/images/credit_credit.7fc5d97.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1792,7 +1812,7 @@
 		"oAP": "/dist/images/credit_p_w.cd126d5.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1803,7 +1823,7 @@
 		"oAP": "/dist/images/credit_pro.8ac1eb7.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1814,7 +1834,7 @@
 		"oAP": "/dist/images/credit_social.5bfc8ff.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1825,7 +1845,7 @@
 		"oAP": "/dist/images/credit_subj.227c8d2.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1836,7 +1856,7 @@
 		"oAP": "/dist/images/creditIcon1.6780f1e.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1847,7 +1867,7 @@
 		"oAP": "/dist/images/creditIcon2.1ae1f51.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1858,7 +1878,7 @@
 		"oAP": "/dist/images/creditIcon3.09648e7.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1869,7 +1889,7 @@
 		"oAP": "/dist/images/creditIcon4.9c7d55b.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1880,7 +1900,7 @@
 		"oAP": "/dist/images/csdn.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1901,7 +1921,7 @@
 		"oAP": "/dist/images/dribbble.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1932,7 +1952,7 @@
 		"oAP": "/dist/images/folder.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1943,7 +1963,7 @@
 		"oAP": "/dist/images/gitee.88d284a.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1954,7 +1974,7 @@
 		"oAP": "/dist/images/github.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1965,7 +1985,7 @@
 		"oAP": "/dist/images/hero-bg-shape-cropped.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1976,7 +1996,7 @@
 		"oAP": "/dist/images/hot-bg.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1987,7 +2007,7 @@
 		"oAP": "/dist/images/hot.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2008,7 +2028,7 @@
 		"oAP": "/dist/images/identifyIcon1.c23066a.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2019,7 +2039,7 @@
 		"oAP": "/dist/images/identifyIcon2.f7e3bec.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2030,7 +2050,7 @@
 		"oAP": "/dist/images/identifyIcon3.23e4937.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2041,7 +2061,7 @@
 		"oAP": "/dist/images/indexIcon0.a1bf61a.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2052,7 +2072,7 @@
 		"oAP": "/dist/images/indexMap.621fa41.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2063,7 +2083,7 @@
 		"oAP": "/dist/images/joyone.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2074,7 +2094,7 @@
 		"oAP": "/dist/images/juejin.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2085,7 +2105,7 @@
 		"oAP": "/dist/images/like.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2096,7 +2116,7 @@
 		"oAP": "/dist/images/like_active.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2127,7 +2147,7 @@
 		"oAP": "/dist/images/price.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2149,7 +2169,7 @@
 		"oAP": "/dist/images/projectIcon1.26697cb.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2160,7 +2180,7 @@
 		"oAP": "/dist/images/projectIcon2.594c180.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2171,7 +2191,7 @@
 		"oAP": "/dist/images/projectIcon3.0d5e637.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2192,7 +2212,7 @@
 		"oAP": "/dist/images/qrcode.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2203,7 +2223,7 @@
 		"oAP": "/dist/images/right.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2214,7 +2234,7 @@
 		"oAP": "/dist/images/rss.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2225,7 +2245,7 @@
 		"oAP": "/dist/images/server.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2236,7 +2256,7 @@
 		"oAP": "/dist/images/share.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2248,7 +2268,7 @@
 		"oAP": "/images/shubham.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/time.png": {
@@ -2269,7 +2289,7 @@
 		"oAP": "/dist/images/upload.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2280,7 +2300,7 @@
 		"oAP": "/dist/images/weixin.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2301,7 +2321,7 @@
 		"oAP": "/dist/images/yesapi1.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2312,7 +2332,7 @@
 		"oAP": "/dist/images/yesapi2.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2323,7 +2343,7 @@
 		"oAP": "/dist/images/yesapi3.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2334,7 +2354,7 @@
 		"oAP": "/dist/images/yesdev.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2345,7 +2365,7 @@
 		"oAP": "/dist/images/yesdev_section1.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2367,7 +2387,7 @@
 		"oAP": "/dist/images/yesdev_section2.2.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2378,7 +2398,7 @@
 		"oAP": "/dist/images/yesdev_section2.3.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2389,7 +2409,7 @@
 		"oAP": "/dist/images/yesdev_section2.4.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2400,7 +2420,7 @@
 		"oAP": "/dist/images/zcool.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2411,7 +2431,7 @@
 		"oAP": "/dist/images/zixun.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2453,7 +2473,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_orange",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 688467638.18745005
+	"lastBuiltDate": 697615095.80507398
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

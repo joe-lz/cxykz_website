@@ -117,7 +117,7 @@ body .section_work_detail .work_detail_content .work_detail_top .download .middl
   padding-bottom: 3px;
 }
 body .section_work_detail .work_detail_content .work_detail_top .download .middle .desc {
-  margin-top: px;
+  margin-top: 0px;
   font-size: 12px;
   color: gray;
 }
