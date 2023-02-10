@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "32186",
 "files": {
+	"/build/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/.gitignore",
+		"oF": 0
+		},
 	"/css/_mixin.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -74,6 +82,32 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/css/devnors_index.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/dist/css/devnors_index.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/css/devnors_mixin.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dist/css/devnors_mixin.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/css/documents.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -99,6 +133,14 @@
 		"oF": 0,
 		"oS": 0,
 		"sct": 0
+		},
+	"/css/MaShanZheng-Regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/css/MaShanZheng-Regular.ttf",
+		"oF": 0
 		},
 	"/css/work.sass": {
 		"aP": 0,
@@ -205,6 +247,26 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/dist/css/devnors_index.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/dist/css/devnors_index-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/dist/css/devnors_mixin.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/dist/css/devnors_mixin-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/dist/css/documents.css": {
 		"aP": 1,
 		"bl": 0,
@@ -224,6 +286,14 @@
 		"oAP": "/dist/css/home-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/dist/css/MaShanZheng-Regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/css/MaShanZheng-Regular.ttf",
+		"oF": 0
 		},
 	"/dist/css/work.css": {
 		"aP": 1,
@@ -274,6 +344,14 @@
 		"oAP": "/dist/css/ziyou-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/dist/html/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/html/about.html",
+		"oF": 0
 		},
 	"/dist/html/apiuni-api.html": {
 		"cB": 0,
@@ -345,6 +423,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/dist/html/developers.html",
+		"oF": 0
+		},
+	"/dist/html/devnors_index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/html/devnors_index.html",
 		"oF": 0
 		},
 	"/dist/html/documents.html": {
@@ -531,6 +617,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/dist/images/avatar.png": {
+		"ft": 32768,
+		"iS": 2383,
+		"oA": 0,
+		"oAP": "/dist/dist/images/avatar.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/dist/images/banking.png": {
+		"ft": 32768,
+		"iS": 57026,
+		"oA": 0,
+		"oAP": "/dist/dist/images/banking.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/dist/images/beijiangqiang.png": {
 		"ft": 32768,
 		"iS": 716493,
@@ -659,6 +767,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/dist/images/coperate.png": {
+		"ft": 32768,
+		"iS": 42851,
+		"oA": 0,
+		"oAP": "/dist/dist/images/coperate.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/dist/images/credit-card.png": {
+		"ft": 32768,
+		"iS": 17413,
+		"oA": 0,
+		"oAP": "/dist/dist/images/credit-card.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/dist/images/credit_credit.7fc5d97.png": {
 		"ft": 32768,
 		"iS": 17831,
@@ -774,6 +904,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/dist/images/customers.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/dist/images/devnors_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/images/devnors_logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -974,6 +1114,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/dist/images/like_active.png": {
+		"ft": 32768,
+		"iS": 2113,
+		"oA": 0,
+		"oAP": "/dist/dist/images/like_active.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/dist/images/messages.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -983,6 +1134,17 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/dist/images/notification.png": {
+		"ft": 32768,
+		"iS": 22563,
+		"oA": 0,
+		"oAP": "/dist/dist/images/notification.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/dist/images/pingtai.svg": {
 		"ft": 2097152,
@@ -1114,6 +1276,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/dist/images/shield.png": {
+		"ft": 32768,
+		"iS": 71340,
+		"oA": 0,
+		"oAP": "/dist/dist/images/shield.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/dist/images/shubham.jpg": {
 		"ft": 16384,
 		"iS": 791447,
@@ -1123,6 +1296,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/dist/images/team-leader.png": {
+		"ft": 32768,
+		"iS": 35389,
+		"oA": 0,
+		"oAP": "/dist/dist/images/team-leader.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/dist/images/teamwork.png": {
+		"ft": 32768,
+		"iS": 12303,
+		"oA": 0,
+		"oAP": "/dist/dist/images/teamwork.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/dist/images/time.png": {
@@ -1167,6 +1362,65 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/dist/images/work.jpeg": {
+		"ft": 16384,
+		"iS": 377426,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/images/work.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/dist/images/work1.gif": {
+		"ft": 4194304,
+		"iS": 1435097,
+		"oA": 0,
+		"oAP": "/dist/images/work1.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/dist/images/work2.gif": {
+		"ft": 4194304,
+		"iS": 184334,
+		"oA": 0,
+		"oAP": "/dist/images/work2.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/dist/images/work3.gif": {
+		"ft": 4194304,
+		"iS": 935580,
+		"oA": 0,
+		"oAP": "/dist/images/work3.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/dist/images/work4.gif": {
+		"ft": 4194304,
+		"iS": 191486,
+		"oA": 0,
+		"oAP": "/dist/images/work4.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/dist/images/work5.gif": {
+		"ft": 4194304,
+		"iS": 932252,
+		"oA": 0,
+		"oAP": "/dist/images/work5.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/dist/images/work6.gif": {
+		"ft": 4194304,
+		"iS": 366732,
+		"oA": 0,
+		"oAP": "/dist/images/work6.gif",
+		"oF": 0,
+		"opt": 0
 		},
 	"/dist/images/yesapi1.png": {
 		"ft": 32768,
@@ -1359,6 +1613,26 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/html/component/devnors_footer.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/html/dist/html/devnors_footer.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/html/component/devnors_header.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/html/dist/html/devnors_header.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"/html/component/footer.jade": {
 		"cB": 0,
 		"cOD": 1,
@@ -1448,6 +1722,14 @@
 		"oAP": "/dist/html/devnors_index.html",
 		"oF": 0,
 		"oS": 0
+		},
+	"/html/dist/html/devnors_header.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/dist/html/devnors_header.html",
+		"oF": 0
 		},
 	"/html/dist/html/head.html": {
 		"cB": 0,
@@ -1666,6 +1948,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/banking.png": {
+		"ft": 32768,
+		"iS": 57026,
+		"oA": 0,
+		"oAP": "/dist/images/banking.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/beijiangqiang.png": {
 		"ft": 32768,
 		"iS": 716493,
@@ -1794,6 +2087,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/coperate.png": {
+		"ft": 32768,
+		"iS": 42851,
+		"oA": 0,
+		"oAP": "/dist/images/coperate.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/credit-card.png": {
+		"ft": 32768,
+		"iS": 17413,
+		"oA": 0,
+		"oAP": "/dist/images/credit-card.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/credit_credit.7fc5d97.png": {
 		"ft": 32768,
 		"iS": 17831,
@@ -1909,6 +2224,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/images/customers.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/devnors_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/devnors_logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -2130,6 +2455,17 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/notification.png": {
+		"ft": 32768,
+		"iS": 22563,
+		"oA": 0,
+		"oAP": "/dist/images/notification.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/pingtai.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2260,6 +2596,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/shield.png": {
+		"ft": 32768,
+		"iS": 71340,
+		"oA": 0,
+		"oAP": "/dist/images/shield.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/shubham.jpg": {
 		"ft": 16384,
 		"iS": 791447,
@@ -2269,6 +2616,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/images/team-leader.png": {
+		"ft": 32768,
+		"iS": 35389,
+		"oA": 0,
+		"oAP": "/dist/images/team-leader.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/teamwork.png": {
+		"ft": 32768,
+		"iS": 12303,
+		"oA": 0,
+		"oAP": "/dist/images/teamwork.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"/images/time.png": {
@@ -2313,6 +2682,65 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/images/work.jpeg": {
+		"ft": 16384,
+		"iS": 377426,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/work.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/work1.gif": {
+		"ft": 4194304,
+		"iS": 1435097,
+		"oA": 0,
+		"oAP": "/images/work1.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/images/work2.gif": {
+		"ft": 4194304,
+		"iS": 184334,
+		"oA": 0,
+		"oAP": "/images/work2.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/images/work3.gif": {
+		"ft": 4194304,
+		"iS": 935580,
+		"oA": 0,
+		"oAP": "/images/work3.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/images/work4.gif": {
+		"ft": 4194304,
+		"iS": 191486,
+		"oA": 0,
+		"oAP": "/images/work4.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/images/work5.gif": {
+		"ft": 4194304,
+		"iS": 932252,
+		"oA": 0,
+		"oAP": "/images/work5.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/images/work6.gif": {
+		"ft": 4194304,
+		"iS": 366732,
+		"oA": 0,
+		"oAP": "/images/work6.gif",
+		"oF": 0,
+		"opt": 0
 		},
 	"/images/yesapi1.png": {
 		"ft": 32768,
@@ -2473,7 +2901,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_orange",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 697615095.80507398
+	"lastBuiltDate": 697687850.601928
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
