@@ -29,6 +29,8 @@ body a:hover {
 
 header {
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100vw;
   height: 100%;
   height: 60px;
@@ -131,19 +133,19 @@ footer .container .top li {
 footer .container .top li .title {
   padding-bottom: 40px;
   color: white;
-  font-weight: 600;
+  font-weight: 500;
 }
 footer .container .top li .list a {
   display: block;
   margin-bottom: 20px;
 }
-footer .container .top .first {
+footer .container .top .aboutus {
   width: 35%;
   padding-right: 100px;
   flex: initial;
   line-height: 1.9;
 }
-footer .container .top .first .desc {
+footer .container .top .aboutus .desc {
   padding-bottom: 20px;
   text-align: justify;
 }

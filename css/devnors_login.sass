@@ -1,0 +1,33 @@
+@import './devnors_mixin.sass'
+
+$primary: #02BF57
+$bg: #F2F7F2
+$width: 1200px
+
+*
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+body
+  width: 100%
+  width: 100vw
+  font-size: 14px
+  color: black
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+  -webkit-font-smoothing: antialiased
+  a 
+    text-decoration: none
+    // color: darken($primary, 30)
+    // font-weight: 500
+    color: $primary
+    transition: 0.2s ease-in
+    &:hover
+      color: darken($primary, 10)
+      
+@include header
+
+@include footer
+
+.devnors_developers
+  padding-top: 60px
+  
