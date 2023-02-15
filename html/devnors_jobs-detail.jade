@@ -1,0 +1,119 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title devnors
+    link(rel="stylesheet", href="../css/devnors_jobs_detail.css")
+    link(rel="stylesheet", href="//at.alicdn.com/t/c/font_2972427_0jsaoi8se3yl.css")
+  body
+    include ./component/devnors_header.jade
+    main.devnors_jobs_detail
+      .container
+        div.body
+          .avatar(style="background-image:url(https://inn.proginn.com/useralbum/10000/icon100001497621334.jpg!mediumicon)")
+          .bottom 
+            .left 
+              .username 程序员客栈
+              .title PHP-远程-1个月
+            .btns
+              a(href="") 联系他
+              a(href="").solid 投递简历
+          .basic-info
+            span 要求:兼职
+            span 周期:初级
+            span 规模: xxx
+            span 预算: 100API/h
+            .expand
+            p 更新时间:2023.1.23
+          .desc
+            p 主要是数据融合、单点登录对接的需求
+            p - 在discuz原有的移动端适配的基础上，修改部分原有的discuz移动端样式，要求可以嵌入到APP内使用
+            p - 和原有的业务账户系统融合，即论坛可以用APP的已有帐号登录
+            p - 在APP内支持单点登录，即在APP已登录的状态下，进入内嵌论坛后不用再重新登录，涉及和原有APP端对接
+            p 初步按以上需求实现，后续可能会长期合作。
+          .block
+            .block-title 技能要求
+            .block-body.tags
+              .tag 网站开发
+              .tag 拉拉韦尔
+              .tag 自定义PHP
+              .tag AI模型集成
+              .tag 机器学习模型
+              .tag API集成
+              .tag Vue.js
+              .tag Web应用程序
+              .tag 机器学习框架
+              .tag PHP
+              .tag MySQL
+              .tag 下一个技能
+          .block
+            .block-title 客户信息
+            .block-body
+              .list-item
+                .title 
+                  span 程序员客栈
+                  span 一共消费680.00API
+                  span.score
+                    i.iconfont.icon-star-fill
+                    i.iconfont.icon-star-fill
+                    i.iconfont.icon-star-fill
+                    i.iconfont.icon-star
+                    i.iconfont.icon-star
+                    i.iconfont 5星/共5个评价
+
+                .list-desc
+
+          .block
+            .block-title 客户的历史评价
+            .block-body
+              a.list-item(href="") 
+                .title 
+                  span UI设计师-远程-1个月
+                  span.time 2017-09-01 -2022-07-01
+                .list-desc 金融风控系统的开发，包括审批系统，规则引擎，指标加工等。并且贷前贷中贷后都有涉及。包括系统稳定性在内的设计，开发运维等完整的生命周期
+                .list-operation
+                  span.score
+                    i.iconfont.icon-star-fill
+                    i.iconfont.icon-star-fill
+                    i.iconfont.icon-star-fill
+                    i.iconfont.icon-star
+                    i.iconfont.icon-star
+                    i.iconfont 5.0
+                  span 650API
+                  span 0.00API/hour
+                  span 0.00hour
+        aside.filter
+          .block
+            .block-title
+              | 客户的其他职位
+              i.iconfont.icon-right
+            .block-body.sug_cat
+              a(href="/html/devnors_developers-search.html") 寻找UI设计师
+              a(href="/html/devnors_developers-search.html") 寻找前端开发工程师
+              a(href="/html/devnors_developers-search.html") 急寻人力资源专业人士
+          .block
+            .block-title
+              | 推荐项目
+              i.iconfont.icon-right
+            .block-body.sug_cat
+              a(href="/html/devnors_developers-search.html") 寻找UI设计师
+              a(href="/html/devnors_developers-search.html") 寻找前端开发工程师
+              a(href="/html/devnors_developers-search.html") 急寻人力资源专业人士
+          .block
+            .block-title
+              | 没找到合适的？
+            .block-body
+              | 急需程序员？直接致电客户经理，帮您安排程序员对接。
+              a(href="tel:0571-28120931") 电话：0571-28120931
+          .block
+            .block-title
+              | 其他入口
+              i.iconfont.icon-right
+            .block-body
+              a(href="") 免费发布需求（客户）
+              a(href="") 签约为开发者（程序员）
+
+
+    include ./component/devnors_footer.jade

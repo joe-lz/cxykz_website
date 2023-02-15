@@ -134,6 +134,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/css/devnors_jobs_detail.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/dist/css/devnors_jobs_detail.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/css/devnors_login.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -316,6 +329,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/dist/css/devnors_developers-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/dist/css/devnors_developers_detail.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/dist/css/devnors_developers_detail-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -547,6 +570,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/dist/html/devnors_index.html",
+		"oF": 0
+		},
+	"/dist/html/devnors_jobs-detail.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/html/devnors_jobs-detail.html",
 		"oF": 0
 		},
 	"/dist/html/devnors_jobs.html": {
@@ -1884,6 +1915,16 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/dist/html/devnors_index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/html/devnors_jobs-detail.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/html/devnors_jobs-detail.html",
 		"oF": 0,
 		"oS": 0
 		},
