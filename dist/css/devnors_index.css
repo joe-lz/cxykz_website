@@ -1,3 +1,27 @@
+@media only screen and (max-width: 800px) {
+  header .container .search {
+    display: none;
+  }
+  header .container .btns {
+    display: none;
+  }
+
+  footer .container .top {
+    padding: 0 15px;
+    display: block !important;
+  }
+  footer .container .top .aboutus {
+    width: 100% !important;
+    padding-bottom: 0;
+  }
+  footer .container .top li {
+    width: 32%;
+    padding-right: 0 !important;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+  }
+}
 @font-face {
   font-family: "source";
   src: url("./MaShanZheng-Regular.ttf") format("truetype");
@@ -482,4 +506,56 @@ footer .container .bottom a {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 800px) {
+  .devnors_index .banner .container .left {
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  .devnors_index .banner .container .left .btns {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .devnors_index .banner .container .left .btns .item {
+    padding-right: 0;
+  }
+  .devnors_index .banner .container .right {
+    display: none;
+  }
+  .devnors_index .browse_developer .container .search {
+    margin-bottom: 0;
+    width: 95%;
+  }
+  .devnors_index .browse_developer .container .search .tags {
+    display: none;
+  }
+  .devnors_index .browse_developer .container .list {
+    padding: 0 15px;
+  }
+  .devnors_index .browse_developer .container .list .item {
+    width: 48%;
+  }
+  .devnors_index .work_flow .container .body {
+    padding: 0 15px;
+  }
+  .devnors_index .work_flow .container .body .item {
+    width: 48%;
+  }
+  .devnors_index .work_flow .container .body .item .icon {
+    background-position: center;
+  }
+  .devnors_index .work_flow .container .body .item .name {
+    text-align: center;
+  }
+  .devnors_index .why_us .container .body .left {
+    display: none;
+  }
+  .devnors_index .why_us .container .body .right {
+    width: 100%;
+    padding: 15px;
+  }
+  .devnors_index .tails .container .right {
+    display: none;
+  }
 }

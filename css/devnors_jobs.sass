@@ -145,3 +145,21 @@ body
             &:hover
               color: darken($primary,10)
               text-decoration: underline
+
+
+@media only screen and (max-width: 800px)
+  .devnors_jobs 
+    .container
+      flex-direction: column
+      .body
+        padding-right: 0
+        padding: 0 5px
+        width: 100%
+      .list .job-item .info .bottom
+        display: none !important
+      .filter
+        padding: 0 15px
+        margin-top: 30px
+        padding-top: 30px
+        border-top: 1px solid rgba(0,0,0,0.1)
+        width: 100%
