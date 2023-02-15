@@ -1,0 +1,115 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title devnors
+    link(rel="stylesheet", href="../css/devnors_developers_detail.css")
+    link(rel="stylesheet", href="//at.alicdn.com/t/c/font_2972427_0jsaoi8se3yl.css")
+  body 
+    include ./component/devnors_header.jade
+    main.devnors_developers_detail
+      .container
+        div.body
+          .avatar(style="background-image:url(https://images.unsplash.com/photo-1487309078313-fad80c3ec1e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YXNpYW58ZW58MHx8MHx8&auto=format&fit=crop&w=2000&q=60)")
+          .bottom 
+            .left 
+              .username 丹·克里斯托弗·F
+              .title 3D可视化工具专家 | 建筑设计师 | 室内设计师
+            .btns
+              a(href="") 联系他
+              a(href="").solid 雇佣他
+          .basic-info
+            span 180.00API/hour
+            span Hangzhou/China
+            .expand
+            p 更新时间:2023.1.23
+
+          .desc 多年Windows平台软件开发经验，擅长使用MFC，QT，.Net WinForm和WPF开发桌面C/S系统，熟练使用C++和C#，熟悉Windows API，多线程编程，能熟练开发ActiveX, COM和DLL，熟练使用C++和C#之间互操作，熟练使用SqlServer,Mysql,Sqlite等常用数据库。丰富的上位机自动控制系统开发经验，熟悉串口编程和modelbus等相关协议，多品牌数字采集卡(IO/PLC)的使用经验。
+
+          .block
+            .block-title 技能
+            .block-body.tags
+              .tag 网站开发
+              .tag 拉拉韦尔
+              .tag 自定义PHP
+              .tag AI模型集成
+              .tag 机器学习模型
+              .tag API集成
+              .tag Vue.js
+              .tag Web应用程序
+              .tag 机器学习框架
+              .tag PHP
+              .tag MySQL
+              .tag 下一个技能
+          .block
+            .block-title 平台工作记录
+            .block-body
+              .list-item
+                .title 
+                  span Temi专注于移动性的智能机器人
+                  span.time 2017-09-01 -2022-07-01
+                .list-desc Temi是一家来自以色列的国际化科技公司，专注于智能机器人的研发、制造和销售，在机器人和室内导航技术方面处于国际领先地位。 以核心技术驱动的全新temi机器人，始终坚持以用户体验为先，深度了解用户需求。”此次很荣幸受邀 参与其整个品牌官网的UI视觉设计。
+          .block
+            .block-title 工作经验
+            .block-body
+              .list-item
+                .title 
+                  span 美团点评 - 系统开发
+                  span.time 2017-09-01 -2022-07-01
+                .list-desc 金融风控系统的开发，包括审批系统，规则引擎，指标加工等。并且贷前贷中贷后都有涉及。包括系统稳定性在内的设计，开发运维等完整的生命周期
+              .list-item
+                .title 
+                  span 阿里 - 高级UI设计师
+                  span.time 2014-09-02 -2016-06-16
+                .list-desc 负责阿里巴巴 旗下产品虾米音乐1.5版本迭代UI设计，然后将设计稿进行规范有效的输出以及制定相关的UI视觉规范，跟踪产品进度，有效的将产品进行落地化。
+              .list-item
+                .title 
+                  span 大汉三通 - 研发经理
+                  span.time 2013-07-01 -2017-09-01
+                .list-desc 负责指导、处理、协调和解决项目中出现的技术问题
+          .block
+            .block-title 项目经验
+            .block-body
+              .list-item
+                .title 
+                  span Heyo社交交友类app
+                  span.time 2017-09-01 -2022-07-01
+                .list-desc Heyo”是一款海外交友产品，是一个帮助用户结识新朋友的绝佳平台。用户可以与周围的人会面、聊天和社交，只需发送消息，无需等待匹配。如果它符合您正在寻找的标准，您不必等待！ 无论您身在何处，“Heyo”都可以找到您所在城市或附近的人，甚至是离您最近 10 米内
+          .block
+            .block-title 教育经历
+            .block-body
+              .list-item
+                .title 
+                  span 许昌学院 - 计算机科学与技术 - 本科
+                  span.time 2009-09-01 - 2013-06-01
+                .list-desc 获得过全国英语竞赛优秀奖，通过46级
+       
+
+
+
+        aside.filter
+          .block
+            .block-title
+              | 推荐开发者
+              i.iconfont.icon-right
+            .block-body.sug_cat
+              a(href="/html/devnors_developers-search.html") Hitoshi H · UI设计师
+              a(href="/html/devnors_developers-search.html") Marcy G · 前端开发工程师
+              a(href="/html/devnors_developers-search.html") 蒂芙尼N · 人力资源专业人士
+          .block
+            .block-title
+              | 没找到合适的？
+            .block-body
+              | 急需程序员？直接致电客户经理，帮您安排程序员对接。
+              a(href="tel:0571-28120931") 电话：0571-28120931
+          .block
+            .block-title
+              | 其他入口
+              i.iconfont.icon-right
+            .block-body
+              a(href="") 免费发布需求（客户）
+              a(href="") 签约为开发者（程序员）
+
+    include ./component/devnors_footer.jade

@@ -79,9 +79,10 @@ header .container nav {
 }
 header .container nav a {
   padding: 15px 25px;
-  color: #002812;
+  color: black;
+  font-weight: 500;
 }
-header .container nav a:hover {
+header .container nav a:hover, header .container nav a.active {
   color: #02BF57;
 }
 header .container .middle {
@@ -107,7 +108,7 @@ header .container .btns .fill:hover {
 
 footer {
   background-color: #163524;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 footer .container {
   margin: 0 auto;
@@ -186,7 +187,7 @@ footer .container .bottom a {
   padding-top: 15px;
   padding-bottom: 100px;
   font-size: 20px;
-  color: gray;
+  color: #667190;
 }
 .devnors_index .banner .container .left .btns {
   display: flex;
@@ -197,7 +198,7 @@ footer .container .bottom a {
 .devnors_index .banner .container .left .btns .item p {
   padding-bottom: 5px;
   font-size: 14px;
-  color: gray;
+  color: #667190;
 }
 .devnors_index .banner .container .left .btns .item a {
   display: block;
@@ -241,7 +242,7 @@ footer .container .bottom a {
   text-align: center;
 }
 .devnors_index .browse_developer .container .desc {
-  color: gray;
+  color: #667190;
   text-align: center;
 }
 .devnors_index .browse_developer .container .search {
@@ -279,17 +280,17 @@ footer .container .bottom a {
   left: 10px;
   top: 10px;
   font-size: 25px;
-  color: gray;
+  color: #667190;
 }
 .devnors_index .browse_developer .container .search .tags {
   padding-top: 10px;
   text-align: left;
   width: 100%;
-  color: gray;
+  color: #667190;
 }
 .devnors_index .browse_developer .container .search .tags a {
   margin-left: 20px;
-  color: #002812;
+  color: black;
 }
 .devnors_index .browse_developer .container .search .tags a:hover {
   color: #02BF57;
@@ -339,7 +340,7 @@ footer .container .bottom a {
   text-align: center;
 }
 .devnors_index .work_flow .container .desc {
-  color: gray;
+  color: #667190;
   text-align: center;
 }
 .devnors_index .work_flow .container .body {
@@ -370,7 +371,7 @@ footer .container .bottom a {
   font-weight: 500;
 }
 .devnors_index .work_flow .container .body .item .desc {
-  color: gray;
+  color: #667190;
   text-align: left;
   line-height: 25px;
 }
@@ -388,7 +389,7 @@ footer .container .bottom a {
   text-align: center;
 }
 .devnors_index .why_us .container .desc {
-  color: gray;
+  color: #667190;
   text-align: center;
 }
 .devnors_index .why_us .container .body {
@@ -458,7 +459,7 @@ footer .container .bottom a {
 }
 .devnors_index .tails .container .left .desc {
   font-size: 16px;
-  color: gray;
+  color: #667190;
   letter-spacing: 2px;
 }
 .devnors_index .tails .container .left .fill {

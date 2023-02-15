@@ -1,0 +1,159 @@
+@import './devnors_mixin.sass'
+
+$primary: #02BF57
+$bg: #F2F7F2
+$width: 1200px
+$gray: #667190
+
+*
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+body
+  width: 100%
+  width: 100vw
+  font-size: 14px
+  color: black
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+  -webkit-font-smoothing: antialiased
+  a 
+    text-decoration: none
+    color: $primary
+    transition: 0.2s ease-in
+    &:hover
+      color: darken($primary, 10)
+      
+@include header
+
+@include footer
+
+.devnors_developers_detail
+  padding-top: 60px
+  min-height: 100vh
+
+  .container
+    margin: 0 auto
+    padding-top: 50px
+    width: 100%
+    max-width: $width
+    display: flex
+    justify-content: space-between
+    .body
+      padding-right: 60px
+      flex: 1
+      width: 0
+      min-width: 0
+      min-height: 100vh
+      border-radius: 20px
+      font-size: 16px
+      .avatar
+        width: 80px
+        height: 80px
+        border-radius: 6px
+        background-size: cover
+        background-position: center
+      .bottom
+        display: flex
+        align-items: flex-end
+        .left
+          flex: 1
+          .username
+            padding-top: 10px
+            padding-bottom: 10px
+            font-weight: bold
+            font-size: 24px
+            line-height: 32px
+          .title
+            font-size: 24px
+            line-height: 32px
+            color: $gray
+        .btns
+          a
+            padding: 0 30px
+            margin-left: 15px
+            border-radius: 6px
+            display: inline-block
+            height: 60px
+            line-height: 58px
+            border: 1px solid $primary
+            color: $primary
+            font-weight: bold
+            &:hover
+              background-color: $bg
+            &.solid
+              background-color: $primary
+              color: white
+              &:hover
+                background-color: darken($primary, 10%)
+      .basic-info
+        padding-top: 50px
+        display: flex
+        font-weight: 500
+        span
+          margin-right: 30px
+        .expand
+          flex: 1
+      .desc
+        padding-top: 15px
+        line-height: 2
+        text-align: justify
+      .block
+        padding-top: 50px
+        .block-title
+          font-weight: 500
+        .block-body
+          padding-top: 15px
+          &.tags
+            .tag
+              padding: 5px 12px
+              margin-bottom: 10px
+              border-radius: 20px
+              display: inline-block
+              margin-right: 10px
+              font-size: 12px
+              background-color: $bg
+              font-weight: 500
+          .list-item
+            .title
+              display: flex
+              justify-content: space-between
+              font-weight: 500
+            .list-desc
+              padding: 10px 0
+              line-height: 1.5
+              color: $gray
+      
+    .filter
+      width: 350px
+      padding-left: 60px
+      border-left: 1px solid rgba(0,0,0,0.05)
+      .block
+        padding-bottom: 50px
+        .block-title
+          padding-bottom: 10px
+          display: flex
+          align-items: center
+          color: $gray
+          font-weight: 500
+          font-size: 12px
+          .iconfont
+            margin-left: 5px
+            font-size: 13px
+            color: $gray
+        .block-body
+          a
+            color: black
+            display: block
+            line-height: 2
+            &.active
+              color: darken($primary,10)
+              text-decoration: underline
+              font-weight: 500
+            &:hover
+              color: darken($primary,10)
+              text-decoration: underline
+
+
+
+
+  

@@ -76,7 +76,7 @@ header .container nav a {
   color: black;
   font-weight: 500;
 }
-header .container nav a:hover, header .container nav a.active {
+header .container nav a:hover {
   color: #02BF57;
 }
 header .container .middle {
@@ -303,4 +303,5 @@ footer .container .bottom a {
 .devnors_developers .container .filter .block .block-body a:hover {
   color: #018d40;
   text-decoration: underline;
+  font-weight: 500;
 }
