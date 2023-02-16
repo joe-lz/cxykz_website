@@ -1,0 +1,33 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title devnors
+    link(rel="stylesheet", href="../css/devnors_login.css")
+    link(rel="stylesheet", href="//at.alicdn.com/t/c/font_2972427_dtc1xu3fzze.css")
+  body 
+    main.devnors_login
+      .left(style='background-image:url(../images/login4.jpg)')
+        a.logo(href="/html/devnors_index.html") 
+          img(src="../images/devnors_logo.svg", alt="")
+
+      .right
+        .form
+          .login-qr-switch-box
+            .switch-login-mode-wrapper
+              .switch-login-mode-box
+
+          img.logo(src="../images/logo.png", alt="")
+          .title 使用手机号登录
+          .desc 未注册账户，将自动注册
+          .input-group
+            input(type="text" placeholder='手机号')
+          .input-group
+            input(type="text")
+          button 登录
+
+        .copyright ©2023 Devnors® Global Inc.
+
+

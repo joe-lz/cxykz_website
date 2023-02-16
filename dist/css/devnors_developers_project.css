@@ -214,11 +214,11 @@ footer .container .bottom a {
   margin-bottom: 15px;
 }
 
-.devnors_developers_detail {
+.devnors_developers_project {
   padding-top: 60px;
   min-height: 100vh;
 }
-.devnors_developers_detail .container {
+.devnors_developers_project .container {
   margin: 0 auto;
   padding-top: 50px;
   width: 100%;
@@ -226,7 +226,7 @@ footer .container .bottom a {
   display: flex;
   justify-content: space-between;
 }
-.devnors_developers_detail .container .body {
+.devnors_developers_project .container .body {
   padding-right: 60px;
   flex: 1;
   width: 0;
@@ -235,34 +235,34 @@ footer .container .bottom a {
   border-radius: 20px;
   font-size: 16px;
 }
-.devnors_developers_detail .container .body .avatar {
+.devnors_developers_project .container .body .avatar {
   width: 80px;
   height: 80px;
   border-radius: 6px;
   background-size: cover;
   background-position: center;
 }
-.devnors_developers_detail .container .body .bottom {
+.devnors_developers_project .container .body .bottom {
   display: flex;
   align-items: flex-end;
 }
-.devnors_developers_detail .container .body .bottom .left {
+.devnors_developers_project .container .body .bottom .left {
   flex: 1;
 }
-.devnors_developers_detail .container .body .bottom .left .username {
+.devnors_developers_project .container .body .bottom .left .username {
   padding-top: 10px;
   padding-bottom: 10px;
   font-weight: bold;
   font-size: 24px;
   line-height: 32px;
 }
-.devnors_developers_detail .container .body .bottom .left .title {
+.devnors_developers_project .container .body .bottom .left .title {
   font-size: 24px;
   line-height: 32px;
   color: #667190;
   font-weight: normal;
 }
-.devnors_developers_detail .container .body .bottom .btns a {
+.devnors_developers_project .container .body .bottom .btns a {
   padding: 0 30px;
   margin-left: 15px;
   border-radius: 6px;
@@ -273,80 +273,46 @@ footer .container .bottom a {
   color: #02BF57;
   font-weight: bold;
 }
-.devnors_developers_detail .container .body .bottom .btns a:hover {
+.devnors_developers_project .container .body .bottom .btns a:hover {
   background-color: #F2F7F2;
 }
-.devnors_developers_detail .container .body .bottom .btns a.solid {
+.devnors_developers_project .container .body .bottom .btns a.solid {
   background-color: #02BF57;
   color: white;
 }
-.devnors_developers_detail .container .body .bottom .btns a.solid:hover {
+.devnors_developers_project .container .body .bottom .btns a.solid:hover {
   background-color: #018d40;
 }
-.devnors_developers_detail .container .body .basic-info {
+.devnors_developers_project .container .body .basic-info {
   padding-top: 50px;
   display: flex;
   font-weight: 500;
 }
-.devnors_developers_detail .container .body .basic-info span {
-  margin-right: 30px;
-}
-.devnors_developers_detail .container .body .basic-info .expand {
-  flex: 1;
-}
-.devnors_developers_detail .container .body .desc {
+.devnors_developers_project .container .body .desc {
   padding-top: 15px;
   line-height: 2;
   text-align: justify;
 }
-.devnors_developers_detail .container .body .block {
-  padding-top: 50px;
+.devnors_developers_project .container .body .images {
+  font-size: 0;
 }
-.devnors_developers_detail .container .body .block .block-title {
-  font-weight: 500;
-}
-.devnors_developers_detail .container .body .block .block-body {
-  padding-top: 15px;
-}
-.devnors_developers_detail .container .body .block .block-body.tags .tag {
-  padding: 5px 12px;
-  margin-bottom: 10px;
-  border-radius: 20px;
-  display: inline-block;
-  margin-right: 10px;
-  font-size: 12px;
+.devnors_developers_project .container .body .images img {
+  margin-top: 15px;
+  max-width: 100%;
+  width: 100%;
   background-color: #F2F7F2;
-  font-weight: 500;
+  border-radius: 20px;
+  border: 1px solid #F2F7F2;
 }
-.devnors_developers_detail .container .body .block .block-body .list-item .title {
-  display: flex;
-  justify-content: space-between;
-  font-weight: 500;
-}
-.devnors_developers_detail .container .body .block .block-body .list-item .title .time {
-  color: black;
-}
-.devnors_developers_detail .container .body .block .block-body .list-item .list-desc {
-  padding: 10px 0;
-  line-height: 1.5;
-  color: #667190;
-}
-.devnors_developers_detail .container .body .block .block-body a.list-item {
-  color: black;
-  transition: 0.2s ease-in;
-}
-.devnors_developers_detail .container .body .block .block-body a.list-item:hover .title {
-  color: #02BF57;
-}
-.devnors_developers_detail .container .filter {
+.devnors_developers_project .container .filter {
   width: 350px;
   padding-left: 60px;
   border-left: 1px solid rgba(0, 0, 0, 0.05);
 }
-.devnors_developers_detail .container .filter .block {
+.devnors_developers_project .container .filter .block {
   padding-bottom: 50px;
 }
-.devnors_developers_detail .container .filter .block .block-title {
+.devnors_developers_project .container .filter .block .block-title {
   padding-bottom: 10px;
   display: flex;
   align-items: center;
@@ -354,22 +320,22 @@ footer .container .bottom a {
   font-weight: 500;
   font-size: 12px;
 }
-.devnors_developers_detail .container .filter .block .block-title .iconfont {
+.devnors_developers_project .container .filter .block .block-title .iconfont {
   margin-left: 5px;
   font-size: 13px;
   color: #667190;
 }
-.devnors_developers_detail .container .filter .block .block-body a {
+.devnors_developers_project .container .filter .block .block-body a {
   color: black;
   display: block;
   line-height: 2;
 }
-.devnors_developers_detail .container .filter .block .block-body a.active {
+.devnors_developers_project .container .filter .block .block-body a.active {
   color: #018d40;
   text-decoration: underline;
   font-weight: 500;
 }
-.devnors_developers_detail .container .filter .block .block-body a:hover {
+.devnors_developers_project .container .filter .block .block-body a:hover {
   color: #018d40;
   text-decoration: underline;
 }

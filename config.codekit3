@@ -108,6 +108,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/css/devnors_developers_project.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/dist/css/devnors_developers_project.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/css/devnors_index.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -350,6 +363,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/dist/css/devnors_developers_project.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/dist/css/devnors_developers_project-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/dist/css/devnors_index.css": {
 		"aP": 1,
 		"bl": 0,
@@ -566,6 +589,14 @@
 		"oAP": "/dist/html/devnors_developers-detail.html",
 		"oF": 0
 		},
+	"/dist/html/devnors_developers-project.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/html/devnors_developers-project.html",
+		"oF": 0
+		},
 	"/dist/html/devnors_developers-search.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -604,6 +635,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/dist/html/devnors_jobs.html",
+		"oF": 0
+		},
+	"/dist/html/devnors_login.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/html/devnors_login.html",
 		"oF": 0
 		},
 	"/dist/html/documents.html": {
@@ -1320,6 +1359,94 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/dist/images/login.jpg": {
+		"ft": 16384,
+		"iS": 616350,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/images/login.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/dist/images/login1.png": {
+		"ft": 32768,
+		"iS": 2483122,
+		"oA": 0,
+		"oAP": "/dist/dist/images/login1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/dist/images/login2.jpg": {
+		"ft": 16384,
+		"iS": 404741,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/images/login2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/dist/images/login2.png": {
+		"ft": 32768,
+		"iS": 1754139,
+		"oA": 0,
+		"oAP": "/dist/dist/images/login2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/dist/images/login3.png": {
+		"ft": 32768,
+		"iS": 1646605,
+		"oA": 0,
+		"oAP": "/dist/dist/images/login3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/dist/images/login4 copy.jpg": {
+		"ft": 16384,
+		"iS": 1034512,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/images/login4 copy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/dist/images/login4.jpg": {
+		"ft": 16384,
+		"iS": 1034512,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/images/login4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/dist/images/logo.png": {
+		"ft": 32768,
+		"iS": 44091,
+		"oA": 0,
+		"oAP": "/dist/dist/images/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/dist/images/messages.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1828,16 +1955,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"/html/component/devnors_login.jade": {
-		"cB": 0,
-		"cOD": 1,
-		"ft": 512,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/html/dist/html/devnors_login.html",
-		"oF": 0,
-		"oS": 0
-		},
 	"/html/component/footer.jade": {
 		"cB": 0,
 		"cOD": 1,
@@ -1928,6 +2045,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/html/devnors_developers-project.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/html/devnors_developers-project.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"/html/devnors_developers-search.jade": {
 		"cB": 0,
 		"cOD": 1,
@@ -1975,6 +2102,16 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/dist/html/devnors_jobs.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/html/devnors_login.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/html/devnors_login.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -2719,6 +2856,94 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/login.jpg": {
+		"ft": 16384,
+		"iS": 616350,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/login.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/login.png": {
+		"ft": 32768,
+		"iS": 1698113,
+		"oA": 0,
+		"oAP": "/dist/images/login.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/login1.png": {
+		"ft": 32768,
+		"iS": 2483122,
+		"oA": 0,
+		"oAP": "/dist/images/login1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/login2.jpg": {
+		"ft": 16384,
+		"iS": 404741,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/login2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/login2.png": {
+		"ft": 32768,
+		"iS": 1754139,
+		"oA": 0,
+		"oAP": "/dist/images/login2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/login3.png": {
+		"ft": 32768,
+		"iS": 1646605,
+		"oA": 0,
+		"oAP": "/dist/images/login3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/login4.jpg": {
+		"ft": 16384,
+		"iS": 1034512,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/login4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/logo.png": {
+		"ft": 32768,
+		"iS": 44091,
+		"oA": 0,
+		"oAP": "/dist/images/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},

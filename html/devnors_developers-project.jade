@@ -1,0 +1,56 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title devnors
+    link(rel="stylesheet", href="../css/devnors_developers_project.css")
+    link(rel="stylesheet", href="//at.alicdn.com/t/c/font_2972427_0jsaoi8se3yl.css")
+  body 
+    include ./component/devnors_header.jade
+    main.devnors_developers_project
+      .container
+        div.body
+          .avatar(style="background-image:url(https://images.unsplash.com/photo-1487309078313-fad80c3ec1e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YXNpYW58ZW58MHx8MHx8&auto=format&fit=crop&w=2000&q=60)")
+          .bottom 
+            .left 
+              .username 丹·克里斯托弗·F
+              h1.title web后台类界面及官网核心页面设计
+            .btns
+              a(href="") 开发同款
+              a(href="").solid 雇佣他
+
+          .basic-info
+          .desc 多年Windows平台软件开发经验，擅长使用MFC，QT，.Net WinForm和WPF开发桌面C/S系统，熟练使用C++和C#，熟悉Windows API，多线程编程，能熟练开发ActiveX, COM和DLL，熟练使用C++和C#之间互操作，熟练使用SqlServer,Mysql,Sqlite等常用数据库。丰富的上位机自动控制系统开发经验，熟悉串口编程和modelbus等相关协议，多品牌数字采集卡(IO/PLC)的使用经验。
+          .images
+            img(src="https://cdn.dribbble.com/userupload/4688886/file/original-91275cd6764a0da9d930db6a18da8e83.jpg?compress=1&resize=2048x1536", alt="")
+            img(src="https://cdn.dribbble.com/userupload/4671513/file/original-1b2b34e4f0e60f17acdb1dc428348ed9.jpg?compress=1&resize=2048x1536", alt="")
+            img(src="https://cdn.dribbble.com/userupload/4682820/file/original-9d7127b8532a53d836ee0108fd97ee91.png?compress=1&resize=150x150", alt="")
+
+
+
+
+        aside.filter
+          .block
+            .block-title
+              | 推荐作品
+              i.iconfont.icon-right
+            .block-body.sug_cat
+              a(href="/html/devnors_developers-search.html") 社交工具类APP及品牌logo设计
+              a(href="/html/devnors_developers-search.html") open ai chatgpt代问问题代开账号
+          .block
+            .block-title
+              | 没找到合适的？
+            .block-body
+              | 急需程序员？直接致电客户经理，帮您安排程序员对接。
+              a(href="tel:0571-28120931") 电话：0571-28120931
+          .block
+            .block-title
+              | 其他入口
+              i.iconfont.icon-right
+            .block-body
+              a(href="") 免费发布需求（客户）
+              a(href="") 签约为开发者（程序员）
+
+    include ./component/devnors_footer.jade

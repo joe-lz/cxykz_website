@@ -77,6 +77,7 @@ body
             font-size: 24px
             line-height: 32px
             color: $gray
+            font-weight: normal
         .btns
           a
             padding: 0 30px
@@ -128,10 +129,18 @@ body
               display: flex
               justify-content: space-between
               font-weight: 500
+              .time
+                color: black
             .list-desc
               padding: 10px 0
               line-height: 1.5
               color: $gray
+          a.list-item
+            color: black
+            transition: 0.2s ease-in
+            &:hover
+              .title
+                color: $primary
       
     .filter
       width: 350px
