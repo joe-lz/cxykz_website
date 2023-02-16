@@ -180,6 +180,19 @@ footer .container .bottom a {
   margin-left: 15px;
 }
 
+.devnors_empty {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #F2F7F2;
+  border-radius: 6px;
+  color: #667190;
+  font-size: 12px;
+}
+.devnors_empty img {
+  height: 50px;
+  margin-bottom: 15px;
+}
+
 .devnors_developers_detail {
   padding-top: 60px;
   min-height: 100vh;
