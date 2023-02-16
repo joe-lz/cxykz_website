@@ -52,10 +52,17 @@ $width: 1200px
       .middle
         flex: 1
       .btns
+        display: flex
+        align-items: center
         a
+          color: black
+          font-weight: 500
+          &:hover
+            color: $primary
+        .btn
           padding: 6px 20px
           border: 1px solid $primary
-          margin-left: 10px
+          margin-left: 15px
           border-radius: 2px
           color: $primary
         .outline
@@ -66,6 +73,18 @@ $width: 1200px
           color: white
           &:hover
                 background-color: darken($primary, 10)
+        .avatar
+          margin-left: 15px
+          display: inline-block
+          width: 35px
+          height: 35px
+          border-radius: 35px
+          background-size: cover
+          background-position: center
+          border: 1px solid rgba(0,0,0,0.1)
+
+     
+
 
 
 @mixin footer 
@@ -114,6 +133,7 @@ $width: 1200px
         border-top: 1px solid hsla(0,0%,100%,.1)
         a
           margin-left: 15px
+    
 
 
 @media only screen and (max-width: 800px)
@@ -121,7 +141,7 @@ $width: 1200px
     .container
       .search
         display: none
-      .btns
+      .btns, .btns-login
         display: none
   footer 
     .container 

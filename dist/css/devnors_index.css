@@ -2,7 +2,7 @@
   header .container .search {
     display: none;
   }
-  header .container .btns {
+  header .container .btns, header .container .btns-login {
     display: none;
   }
 
@@ -112,10 +112,21 @@ header .container nav a:hover, header .container nav a.active {
 header .container .middle {
   flex: 1;
 }
+header .container .btns {
+  display: flex;
+  align-items: center;
+}
 header .container .btns a {
+  color: black;
+  font-weight: 500;
+}
+header .container .btns a:hover {
+  color: #02BF57;
+}
+header .container .btns .btn {
   padding: 6px 20px;
   border: 1px solid #02BF57;
-  margin-left: 10px;
+  margin-left: 15px;
   border-radius: 2px;
   color: #02BF57;
 }
@@ -128,6 +139,16 @@ header .container .btns .fill {
 }
 header .container .btns .fill:hover {
   background-color: #018d40;
+}
+header .container .btns .avatar {
+  margin-left: 15px;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border-radius: 35px;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 footer {
