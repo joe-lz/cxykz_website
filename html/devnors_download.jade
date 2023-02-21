@@ -1,0 +1,26 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title devnors
+    link(rel="stylesheet", href="../css/devnors_download.css")
+    link(rel="stylesheet", href="//at.alicdn.com/t/c/font_2972427_dtc1xu3fzze.css")
+  body 
+    include ./component/devnors_header.jade
+    main.devnors_download
+      .container
+        .left
+          img(src="../images/download.png", alt="")
+        .right
+          .title 
+            | 安全的资金托管作始于
+            span 数字钱包
+          .desc 将项目资金托管于数字平台之上，你能够比以往更快、更灵活安全地开展工作。
+          .qrcode
+            img(src="../images/qrcode.avif", alt="")
+          p.caption 手机扫一扫下载APP
+      
+
+    include ./component/devnors_footer.jade
