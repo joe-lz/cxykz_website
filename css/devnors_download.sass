@@ -73,10 +73,44 @@ body
         padding-top: 10px
         font-size: 13px
         color: $gray
+      .btn
+        padding: 10px 30px
+        border: 1px solid $primary
+        border-radius: 2px
+        color: $primary
+        font-size: 16px
+        font-weight: bold
+        display: none
+      .outline
+        &:hover
+          background-color: $bg
+      .fill
+        background-color: $primary
+        color: white
+        &:hover
+              background-color: darken($primary, 10)
  
 
 @media only screen and (max-width: 800px)
   .devnors_download 
-    min-height: 600px
+    min-height: 0
+    .container
+      display: block
+      padding-top: 0
+      .left
+        width: 100%
+        text-align: center
+        img
+          width: 80%
+      .right
+        text-align: center
+        padding: 30px
+        .title
+          font-size: 30px
+        .qrcode, .caption
+          display: none
+        .btn
+          margin-top: 50px
+          display: block
 
    

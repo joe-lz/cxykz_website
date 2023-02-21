@@ -256,9 +256,53 @@ footer .container .bottom a {
   font-size: 13px;
   color: #667190;
 }
+.devnors_download .container .right .btn {
+  padding: 10px 30px;
+  border: 1px solid #02BF57;
+  border-radius: 2px;
+  color: #02BF57;
+  font-size: 16px;
+  font-weight: bold;
+  display: none;
+}
+.devnors_download .container .right .outline:hover {
+  background-color: #F2F7F2;
+}
+.devnors_download .container .right .fill {
+  background-color: #02BF57;
+  color: white;
+}
+.devnors_download .container .right .fill:hover {
+  background-color: #018d40;
+}
 
 @media only screen and (max-width: 800px) {
   .devnors_download {
-    min-height: 600px;
+    min-height: 0;
+  }
+  .devnors_download .container {
+    display: block;
+    padding-top: 0;
+  }
+  .devnors_download .container .left {
+    width: 100%;
+    text-align: center;
+  }
+  .devnors_download .container .left img {
+    width: 80%;
+  }
+  .devnors_download .container .right {
+    text-align: center;
+    padding: 30px;
+  }
+  .devnors_download .container .right .title {
+    font-size: 30px;
+  }
+  .devnors_download .container .right .qrcode, .devnors_download .container .right .caption {
+    display: none;
+  }
+  .devnors_download .container .right .btn {
+    margin-top: 50px;
+    display: block;
   }
 }
