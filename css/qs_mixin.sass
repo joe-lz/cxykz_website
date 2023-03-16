@@ -1,0 +1,89 @@
+$primary: #4361ee
+$bg: #F2F7F2
+$gray: #8a919f
+$link: #133667
+
+
+@mixin header 
+  header
+    position: fixed
+    z-index: 1000
+    top: 0
+    left: 0
+    background-color: rgba(255,255,255,0.8)
+    backdrop-filter: blur(25px)
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 0 50px
+    width: 100vw
+    width: 100%
+    height: 70px
+    .logo
+      img 
+        height: 20px
+    nav
+      a
+        color: black
+        display: inline-block
+        width: 90px
+        text-align: center
+        &:hover
+          font-weight: bold
+        i
+          position: relative
+          top: 2px
+          font-size: 20px !important
+          margin-right: 5px
+      .active
+        color: $primary
+        font-weight: bold
+    .login
+      padding-left: 15px
+      i
+        position: relative
+        top: -2px
+        font-size: 30px !important
+        color: $gray 
+
+@mixin footer 
+  footer
+    margin-top: 50px
+    .container
+      padding: 20px 0
+      width: 100%
+      text-align: center
+      display: flex
+      align-items: center
+      justify-content: center
+      color: $gray
+      font-size: 12px
+      a
+        color: $gray
+        &:hover
+          text-decoration: underline
+      span
+        margin: 0 5px
+    
+
+// @media only screen and (max-width: 800px)
+//   header
+//     .container
+//       .search
+//         display: none
+//       .btns, .btns-login
+//         display: none
+//   footer 
+//     .container 
+//       .top 
+//         padding: 0 15px
+//         display: block !important
+//         .aboutus
+//           width: 100% !important
+//           padding-bottom: 0
+//         li
+//           width: 32%
+//           padding-right: 0 !important
+//           display: inline-block
+//           overflow: hidden
+//           vertical-align: top
