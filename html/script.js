@@ -1,1 +1,1 @@
-waterfall('.qs_index_list');
+waterfall('.qs_post_list');

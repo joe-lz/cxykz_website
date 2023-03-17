@@ -1,0 +1,66 @@
+@import './qs_mixin.sass'
+
+$primary: #4361ee
+$bg: #F2F7F2
+$gray: #8a919f
+$link: #133667
+
+*
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+body
+  width: 100%
+  width: 100vw
+  min-height: 100%
+  min-height: 100vh
+  font-size: 14px
+  color: black
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+  a 
+    text-decoration: none
+    color: $link
+    transition: 0.2s ease-in
+    &:hover
+      color: darken($link, 10)
+      
+@include header
+
+@include footer
+
+.qs_category_detail
+  padding-top: 80px
+  min-height: 100vh
+  @include postlist
+  .qs_post_list
+    max-width: 960px
+  .cat_info
+    padding: 0 15px
+    padding-bottom: 50px
+    width: 100%
+    max-width: 960px
+    margin: 0 auto
+    .title
+      font-size: 24px
+      font-weight: 500
+    .desc
+      color: $gray
+      font-size: 16px
+      padding-top: 10px
+      padding-bottom: 30px
+    .caption_title
+      font-size: 14px
+      font-weight: 500
+    .caption_list
+      a
+        overflow: hidden
+        margin-right: 10px
+        margin-top: 10px
+        padding: 5px 10px
+        background-color: rgba(0,0,0,0.05)
+        border-radius: 4px
+        color: black
+        display: inline-block
+        &:hover
+          background-color: rgba(0,0,0,0.1)
+    

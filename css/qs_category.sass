@@ -1,0 +1,98 @@
+@import './qs_mixin.sass'
+
+$primary: #4361ee
+$bg: #F2F7F2
+$gray: #8a919f
+$link: #133667
+
+*
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+body
+  width: 100%
+  width: 100vw
+  min-height: 100%
+  min-height: 100vh
+  font-size: 14px
+  color: black
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+  a 
+    text-decoration: none
+    color: $link
+    transition: 0.2s ease-in
+    &:hover
+      color: darken($link, 10)
+      
+@include header
+
+@include footer
+
+.qs_category
+  padding-top: 80px
+  min-height: 100vh
+  .container
+    width: 100%
+    max-width: 1200px
+    margin: 0 auto
+    display: flex
+    .left
+      width: 300px
+      height: 600px
+      .header
+        display: flex
+        align-items: center
+        font-size: 16px
+        img
+          margin-right: 10px
+          width: 25px
+      .list
+        padding-top: 30px
+        padding-left: 5px
+        a
+          position: relative
+          padding-left: 20px
+          margin-top: 20px
+          display: block
+          color: $gray
+          &:hover
+            color: $primary
+        .active
+          font-weight: bold
+          color: $primary
+          &::before
+            content: ''
+            position: absolute
+            left: 0
+            top: 3px
+            display: inline-block
+            width: 3px
+            height: 13px
+            background-color: $primary
+            border-radius: 10px
+    .content
+      flex: 1
+      .title
+        font-size: 22px
+        font-weight: 500
+      .list
+        .item
+          padding-top: 50px
+          .item_title
+            font-size: 16px
+            color: $primary
+          .item_list
+            display: flex
+            flex-wrap: wrap
+            font-size: 14px
+            a
+              margin-top: 15px
+              margin-right: 60px
+              display: flex
+              align-items: center
+              color: black
+              &:hover
+                color: $gray
+              i
+                font-size: 14px !important
+  

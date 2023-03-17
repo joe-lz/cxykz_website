@@ -1,0 +1,65 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title 分类 - 轻识 - 深度知识服务平台，专家自由工作
+    link(rel="stylesheet", href="../css/qs_category.css")
+    link(rel="stylesheet", href="//at.alicdn.com/t/c/font_2972427_7fhiesspgta.css")
+  body 
+    include ./component/qs_header.jade
+    main.qs_category
+      .container
+        .left 
+          .header
+            img(src="https://www.kaifain.com/_nuxt/img/glass-ico-cat.5c99494.png", alt="")
+            | 浏览全部类目
+          .list
+            a(href="/html/qs_category_detail.html").active 生活服务
+            a(href="/html/qs_category_detail.html") 职业发展
+            a(href="/html/qs_category_detail.html") 行业经验
+            a(href="/html/qs_category_detail.html") 互联网
+            a(href="/html/qs_category_detail.html") 生活服务
+            a(href="/html/qs_category_detail.html") 创业融资
+            a(href="/html/qs_category_detail.html") 教育学习
+            a(href="/html/qs_category_detail.html") 投资理财
+        .content
+          .title 生活服务
+          .list
+            mixin cat(title)
+              a(href="/html/qs_category_detail.html")
+                span= title
+                i.iconfont.icon-right1
+            mixin item(title)
+              .item
+                .item_title= title
+                .item_list
+                  +cat('分类1')
+                  +cat('分类1')
+                  +cat('分类1')
+                  +cat('分类1')
+                  +cat('分类1')
+                  +cat('分类1')
+                  +cat('分类1')
+                  +cat('分类1')
+                  +cat('分类1')
+                  +cat('分类1')
+                  +cat('分类1')
+                  +cat('分类1')
+                  +cat('分类1')
+                  +cat('分类1')
+                  +cat('分类1')
+                  +cat('分类1')
+                  +cat('分类1')
+                  +cat('分类1')
+                  +cat('分类1')
+            +item('健身')
+            +item('母婴')
+            +item('运动')
+            +item('家居')
+            +item('旅行')
+            +item('摄影')
+            +item('法律')
+
+    include ./component/qs_footer.jade
