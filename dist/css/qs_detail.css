@@ -260,6 +260,13 @@ footer .container span {
 .qs_detail .body .content .detail-info .expand {
   flex: 1;
 }
+.qs_detail .body .content video {
+  height: 300px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background-color: #8a919f;
+  border-radius: 6px;
+}
 .qs_detail .body .tag-list-box {
   margin-top: 30px;
   display: flex;

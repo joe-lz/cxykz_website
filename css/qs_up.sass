@@ -32,3 +32,49 @@ body
   padding-top: 80px
 
   @include postlist
+  .qs_post_list
+    max-width: 960px
+  .userinfo
+    display: flex
+    width: 100%
+    max-width: 960px
+    margin: 0 auto
+    padding: 30px 15px
+    padding-bottom: 60px
+    .avatar
+      width: 120px
+      height: 120px
+      background-size: cover
+      background-position: center
+      border-radius: 120px
+    .right
+      flex: 1
+      padding-left: 50px
+      padding-top: 15px
+      .top
+        font-size: 22px
+        .username
+          font-weight: bold
+        .title
+          color: $gray
+  .menu_list
+    width: 100%
+    max-width: 960px
+    margin: 0 auto
+    padding: 0 15px
+    padding-bottom: 15px
+    .container
+      display: flex
+      align-items: center
+      justify-content: center
+      border-top: 1px solid rgba(0,0,0,0.08)
+      .item
+        margin: 0px 30px
+        padding: 10px 0
+        cursor: pointer
+        color: $gray
+        &.active
+          border-top: 3px solid black
+          color: black
+          font-weight: bold
+

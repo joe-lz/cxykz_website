@@ -201,3 +201,59 @@ footer .container span {
   font-size: 12px;
   padding-left: 3px;
 }
+.qs_up .qs_post_list {
+  max-width: 960px;
+}
+.qs_up .userinfo {
+  display: flex;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px 15px;
+  padding-bottom: 60px;
+}
+.qs_up .userinfo .avatar {
+  width: 120px;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 120px;
+}
+.qs_up .userinfo .right {
+  flex: 1;
+  padding-left: 50px;
+  padding-top: 15px;
+}
+.qs_up .userinfo .right .top {
+  font-size: 22px;
+}
+.qs_up .userinfo .right .top .username {
+  font-weight: bold;
+}
+.qs_up .userinfo .right .top .title {
+  color: #8a919f;
+}
+.qs_up .menu_list {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+  padding-bottom: 15px;
+}
+.qs_up .menu_list .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+.qs_up .menu_list .container .item {
+  margin: 0px 30px;
+  padding: 10px 0;
+  cursor: pointer;
+  color: #8a919f;
+}
+.qs_up .menu_list .container .item.active {
+  border-top: 3px solid black;
+  color: black;
+  font-weight: bold;
+}
