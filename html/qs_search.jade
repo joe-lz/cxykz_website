@@ -1,0 +1,22 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title 轻识 - 深度知识服务平台，专家自由工作
+    link(rel="stylesheet", href="../css/qs_search.css")
+    link(rel="stylesheet", href="//at.alicdn.com/t/c/font_2972427_6jsyyn842ex.css")
+  body 
+    include ./component/qs_header.jade
+    main.qs_search
+      .container
+        .input 
+          i.iconfont.icon-sousuo
+          input(type="text" placeholder='搜索')
+        .history
+          .top
+            .title 历史记录
+            .iconfont.icon-delete
+      
+    include ./component/qs_footer.jade
