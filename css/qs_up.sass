@@ -42,21 +42,47 @@ body
     padding: 30px 15px
     padding-bottom: 60px
     .avatar
-      width: 120px
-      height: 120px
+      width: 150px
+      height: 150px
       background-size: cover
       background-position: center
-      border-radius: 120px
+      border-radius: 150px
     .right
       flex: 1
       padding-left: 50px
       padding-top: 15px
       .top
+        display: flex
         font-size: 22px
         .username
           font-weight: bold
         .title
           color: $gray
+        .expand
+          flex: 1
+        button
+          cursor: pointer
+          margin-left: 10px
+          padding: 5px 20px
+          border-radius: 30px
+          border: none
+          outline: none
+          color: $gray
+          &.active
+            background-color: $primary
+            color: white
+      .middle
+        padding-top: 15px
+        .item
+          margin-right: 50px
+          font-size: 18px
+          .number
+            font-weight: bold
+      .desc
+        padding-top: 15px
+        font-size: 14px
+        a
+          color: $primary
   .menu_list
     width: 100%
     max-width: 960px
@@ -77,4 +103,23 @@ body
           border-top: 3px solid black
           color: black
           font-weight: bold
-
+        &:hover
+          color: black
+  .category_list
+    width: 100%
+    max-width: 960px
+    margin: 0 auto
+    padding: 0 15px
+    padding-bottom: 15px
+    .container
+      .item
+        padding: 10px 10px
+        margin-right: 10px
+        background-color: $bg
+        color: black
+        border-radius: 4px
+        transition: 0.2s ease-in
+        &:hover
+          background-color: $gray
+        i
+          margin-right: 5px

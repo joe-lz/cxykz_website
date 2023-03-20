@@ -6,7 +6,7 @@ html(lang="en")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     title 轻识 - 深度知识服务平台，专家自由工作
     link(rel="stylesheet", href="../css/qs_up.css")
-    link(rel="stylesheet", href="//at.alicdn.com/t/c/font_2972427_3mhvxyr1o1j.css")
+    link(rel="stylesheet", href="//at.alicdn.com/t/c/font_2972427_mubbg3q3f4j.css")
   body 
     include ./component/qs_header.jade
     main.qs_up
@@ -16,12 +16,38 @@ html(lang="en")
           .top
             span.username 刘玉新
             span.title &nbsp;· 高级Java工程师
+            .expand
+            button.active 关注
+            button 已关注
+          .middle 
+            span.item 
+              span.number 22
+              | 获赞
+            span.item 
+              span.number 34
+              | 粉丝
+            span.item 
+              span.number 459
+              | 关注
+          .desc 
+            | 58官方技术号，58技术创新、分享与交流平台 ·&nbsp;
+            a(href="") 寻求合作
       .menu_list
         .container
           .item.active 作品52
           .item 喜欢
           .item 收藏
-
+      .category_list
+        .container
+          a.item(href="") 
+            i.iconfont.icon-layer
+            | Flutter系列教程
+          a.item(href="") 
+            i.iconfont.icon-layer
+            | 前端开发系列教程
+          a.item(href="") 
+            i.iconfont.icon-layer
+            | Java开发系列教程
       .qs_post_list
         .item.img
           a.content(href="/html/qs_detail.html" style="background-image:url(https://sns-img-hw.xhscdn.com/58744305-7909-a22a-5074-dd78744745cc)") 

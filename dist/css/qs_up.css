@@ -213,11 +213,11 @@ footer .container span {
   padding-bottom: 60px;
 }
 .qs_up .userinfo .avatar {
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   background-size: cover;
   background-position: center;
-  border-radius: 120px;
+  border-radius: 150px;
 }
 .qs_up .userinfo .right {
   flex: 1;
@@ -225,6 +225,7 @@ footer .container span {
   padding-top: 15px;
 }
 .qs_up .userinfo .right .top {
+  display: flex;
   font-size: 22px;
 }
 .qs_up .userinfo .right .top .username {
@@ -232,6 +233,39 @@ footer .container span {
 }
 .qs_up .userinfo .right .top .title {
   color: #8a919f;
+}
+.qs_up .userinfo .right .top .expand {
+  flex: 1;
+}
+.qs_up .userinfo .right .top button {
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 5px 20px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  color: #8a919f;
+}
+.qs_up .userinfo .right .top button.active {
+  background-color: #4361ee;
+  color: white;
+}
+.qs_up .userinfo .right .middle {
+  padding-top: 15px;
+}
+.qs_up .userinfo .right .middle .item {
+  margin-right: 50px;
+  font-size: 18px;
+}
+.qs_up .userinfo .right .middle .item .number {
+  font-weight: bold;
+}
+.qs_up .userinfo .right .desc {
+  padding-top: 15px;
+  font-size: 14px;
+}
+.qs_up .userinfo .right .desc a {
+  color: #4361ee;
 }
 .qs_up .menu_list {
   width: 100%;
@@ -256,4 +290,28 @@ footer .container span {
   border-top: 3px solid black;
   color: black;
   font-weight: bold;
+}
+.qs_up .menu_list .container .item:hover {
+  color: black;
+}
+.qs_up .category_list {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+  padding-bottom: 15px;
+}
+.qs_up .category_list .container .item {
+  padding: 10px 10px;
+  margin-right: 10px;
+  background-color: #f8f8f8;
+  color: black;
+  border-radius: 4px;
+  transition: 0.2s ease-in;
+}
+.qs_up .category_list .container .item:hover {
+  background-color: #8a919f;
+}
+.qs_up .category_list .container .item i {
+  margin-right: 5px;
 }
