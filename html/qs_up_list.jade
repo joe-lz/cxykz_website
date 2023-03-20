@@ -9,7 +9,59 @@ html(lang="en")
     link(rel="stylesheet", href="//at.alicdn.com/t/c/font_2972427_mubbg3q3f4j.css")
   body 
     include ./component/qs_header.jade
-    main.qs_up
-      
-      
+    main.qs_up_list
+      .qs_up_list_nav1
+        a(href="/html/qs_category_detail.html").active 推荐
+        a(href="/html/qs_category_detail.html") 关注
+        a(href="/html/qs_category_detail.html") 心理
+        a(href="/html/qs_category_detail.html") 职业发展
+        a(href="/html/qs_category_detail.html") 行业经验
+        a(href="/html/qs_category_detail.html") 互联网
+        a(href="/html/qs_category_detail.html") 生活服务
+        a(href="/html/qs_category_detail.html") 创业融资
+        a(href="/html/qs_category_detail.html") 教育学习
+        a(href="/html/qs_category_detail.html") 投资理财
+        a(href="/html/qs_category.html") 更多
+      .qs_up_list_nav2
+        a(href="/html/qs_category_detail.html").active 推荐
+        a(href="/html/qs_category_detail.html") 关注
+        a(href="/html/qs_category_detail.html") 心理
+        a(href="/html/qs_category_detail.html") 职业发展
+        a(href="/html/qs_category_detail.html") 行业经验
+        a(href="/html/qs_category_detail.html") 互联网
+        a(href="/html/qs_category_detail.html") 生活服务
+        a(href="/html/qs_category_detail.html") 创业融资
+        a(href="/html/qs_category_detail.html") 教育学习
+        a(href="/html/qs_category_detail.html") 投资理财
+        a(href="/html/qs_category.html") 更多
+      .up_list
+        mixin item
+          a.item(href="/html/qs_up.html") 
+            .top 
+              .avatar(style="background-image:url(https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60)")
+              .right
+                p.username 陈勇
+                p.desc 国家二级心理咨询师
+            .list
+              p # 就目前前端行业现状浅析与今后前端发展探讨
+              p # Flutter3.0 仿微博瀑布流 - 网络请求封装
+              p # Flutter 工程化框架选择 — 状态管理何去何从
+        +item
+        +item
+        +item
+        +item
+        +item
+        +item
+        +item
+        +item
+        +item
+        +item
+        +item
+        +item
+        +item
+        +item
+        .item.placeholder
+        .item.placeholder
+        .item.placeholder
+        .item.placeholder
     include ./component/qs_footer.jade
