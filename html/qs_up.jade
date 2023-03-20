@@ -5,23 +5,12 @@ html(lang="en")
     meta(http-equiv="X-UA-Compatible", content="IE=edge")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     title 轻识 - 深度知识服务平台，专家自由工作
-    link(rel="stylesheet", href="../css/qs_index.css")
-    link(rel="stylesheet", href="//at.alicdn.com/t/c/font_2972427_7fhiesspgta.css")
+    link(rel="stylesheet", href="../css/qs_up.css")
+    link(rel="stylesheet", href="//at.alicdn.com/t/c/font_2972427_3mhvxyr1o1j.css")
   body 
     include ./component/qs_header.jade
-    main.qs_index
-      .qs_index_nav
-       a(href="/html/qs_category_detail.html").active 推荐
-       a(href="/html/qs_category_detail.html") 关注
-       a(href="/html/qs_category_detail.html") 心理
-       a(href="/html/qs_category_detail.html") 职业发展
-       a(href="/html/qs_category_detail.html") 行业经验
-       a(href="/html/qs_category_detail.html") 互联网
-       a(href="/html/qs_category_detail.html") 生活服务
-       a(href="/html/qs_category_detail.html") 创业融资
-       a(href="/html/qs_category_detail.html") 教育学习
-       a(href="/html/qs_category_detail.html") 投资理财
-       a(href="/html/qs_category.html") 更多
+    main.qs_up
+      .userinfo
       .qs_post_list
         .item.img
           a.content(href="/html/qs_detail.html" style="background-image:url(https://sns-img-hw.xhscdn.com/58744305-7909-a22a-5074-dd78744745cc)") 
@@ -186,7 +175,7 @@ html(lang="en")
             .likes
               i.iconfont.icon-aixin
             span.num 3123
-
+      
     include ./component/qs_footer.jade
   script 
     include waterfall.min.js
