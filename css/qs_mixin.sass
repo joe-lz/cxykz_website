@@ -71,32 +71,6 @@ $link: #133667
     margin: 0 auto
     max-width: 1200px
     overflow: hidden
-
-    
-    .img, .video
-      &:hover
-        .content
-          &:after
-            transition: 0.2s ease-in
-            content: ""
-            left: 0
-            top: 0
-            display: block
-            position: absolute
-            z-index: 10
-            width: 100%
-            height: 100%
-            background-color: rgba(0,0,0,0.2)
-      .content
-        position: relative
-        min-height: 250px
-        .icon-bofang
-          position: absolute
-          top: 10px
-          right: 10px
-          font-size: 20px !important
-          opacity: 0.5
-          color: black
     .item
       margin: 0 8px
       margin-bottom: 30px
@@ -115,7 +89,7 @@ $link: #133667
         transition: 0.2s ease-in
         .title
           color: black
-          font-weight: 500
+          font-weight: bold
           margin-bottom: 5px
 
           overflow: hidden
@@ -136,7 +110,7 @@ $link: #133667
         color: black
         padding: 0 10px
         padding-top: 15px
-        font-weight: 500
+        font-weight: bold
         font-size: 13px
 
         overflow: hidden
@@ -165,6 +139,45 @@ $link: #133667
         .num
           font-size: 12px
           padding-left: 3px
+    .img, .video
+      &:hover
+        .content
+          &:after
+            transition: 0.2s ease-in
+            content: ""
+            left: 0
+            top: 0
+            display: block
+            position: absolute
+            z-index: 10
+            width: 100%
+            height: 100%
+            background-color: rgba(0,0,0,0.2)
+      .content
+        position: relative
+        min-height: 200px
+        .icon-bofang
+          position: absolute
+          top: 10px
+          right: 10px
+          font-size: 20px !important
+          opacity: 0.5
+          color: black
+      &:first-child
+        .content
+          height: 260px
+      &:nth-child(2n)
+        .content
+          height: 220px
+      &:nth-child(3n)
+        .content
+          height: 290px
+      &:nth-child(4n)
+        .content
+          height: 200px
+      &:nth-child(5n)
+        .content
+          height: 280px
 // @media only screen and (max-width: 800px)
 //   header
 //     .container
