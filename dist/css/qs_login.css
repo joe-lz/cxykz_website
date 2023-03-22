@@ -131,6 +131,10 @@ footer .container span {
 .qs_login .container .right .form .logo img, .qs_login .container .right .form2 .logo img, .qs_register .container .right .form .logo img, .qs_register .container .right .form2 .logo img {
   height: 30px;
 }
+.qs_login .container .right .form .logo p, .qs_login .container .right .form2 .logo p, .qs_register .container .right .form .logo p, .qs_register .container .right .form2 .logo p {
+  font-size: 20px;
+  font-weight: bold;
+}
 .qs_login .container .right .form input, .qs_login .container .right .form2 input, .qs_register .container .right .form input, .qs_register .container .right .form2 input {
   margin-bottom: 30px;
   width: 100%;
