@@ -97,6 +97,7 @@ footer .container span {
 }
 .qs_login .container, .qs_register .container {
   display: flex;
+  justify-content: center;
   align-items: center;
   padding-bottom: 50px;
   width: 900px;
@@ -108,9 +109,9 @@ footer .container span {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  margin-right: 50px;
 }
 .qs_login .container .right, .qs_register .container .right {
-  padding-left: 50px;
   text-align: center;
 }
 .qs_login .container .right .form, .qs_login .container .right .form2, .qs_register .container .right .form, .qs_register .container .right .form2 {
