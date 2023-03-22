@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  width: 100vw;
+  min-height: 100%;
+  min-height: 100vh;
+  font-size: 14px;
+  color: black;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+body a {
+  text-decoration: none;
+  color: #133667;
+  transition: 0.2s ease-in;
+}
+body a:hover {
+  color: #0b1f3c;
+}
+
+header {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(25px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  width: 100vw;
+  width: 100%;
+  height: 70px;
+}
+header .logo img {
+  height: 20px;
+}
+header nav a {
+  color: black;
+  display: inline-block;
+  width: 90px;
+  text-align: center;
+}
+header nav a:hover {
+  font-weight: bold;
+}
+header nav a i {
+  position: relative;
+  top: 2px;
+  font-size: 20px !important;
+  margin-right: 5px;
+}
+header nav .active {
+  color: #4361ee;
+  font-weight: bold;
+}
+header .login {
+  padding-left: 15px;
+}
+header .login i {
+  position: relative;
+  top: -2px;
+  font-size: 30px !important;
+  color: #8a919f;
+}
+
+footer {
+  margin-top: 50px;
+}
+footer .container {
+  padding: 20px 0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8a919f;
+  font-size: 12px;
+}
+footer .container a {
+  color: #8a919f;
+}
+footer .container a:hover {
+  text-decoration: underline;
+}
+footer .container span {
+  margin: 0 5px;
+}
+
+.qs_login {
+  padding-top: 80px;
+}
+.qs_login .container {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  width: 900px;
+}
+.qs_login .container .left {
+  flex: 1;
+  height: 500px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}

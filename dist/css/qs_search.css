@@ -99,6 +99,7 @@ footer .container span {
   margin: 0 auto;
   width: 100%;
   max-width: 600px;
+  min-height: 600px;
 }
 .qs_search .container .input {
   position: relative;
@@ -116,8 +117,44 @@ footer .container span {
 .qs_search .container .input i {
   position: absolute;
   left: 20px;
-  top: 13px;
+  top: 14px;
   font-size: 20px;
   font-weight: bold;
   color: #8a919f;
+}
+.qs_search .container .history, .qs_search .container .suggest {
+  padding-top: 15px;
+}
+.qs_search .container .history .top, .qs_search .container .suggest .top {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.qs_search .container .history .top .title, .qs_search .container .suggest .top .title {
+  font-weight: bold;
+}
+.qs_search .container .history .top .right, .qs_search .container .suggest .top .right {
+  color: #8a919f;
+  cursor: pointer;
+}
+.qs_search .container .history .top .right i, .qs_search .container .suggest .top .right i {
+  margin-right: 3px;
+}
+.qs_search .container .history .list .item, .qs_search .container .suggest .list .item {
+  display: inline-block;
+  padding: 5px 15px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 30px;
+  background-color: #F2F7F2;
+  font-size: 12px;
+}
+.qs_search .container .history .list .item:hover, .qs_search .container .suggest .list .item:hover {
+  background-color: #4361ee;
+  color: white;
+}
+.qs_search .container .history .suglist a, .qs_search .container .suggest .suglist a {
+  display: inline-block;
+  padding-bottom: 15px;
+  width: 50%;
 }
