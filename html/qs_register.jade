@@ -9,7 +9,7 @@ html(lang="en")
     link(rel="stylesheet", href="//at.alicdn.com/t/c/font_2972427_7fhiesspgta.css")
   body 
     include ./component/qs_header.jade
-    main.qs_login
+    main.qs_register
       .container
         .left(style="background-image:url(../images/qs_login.png)")
         .right
@@ -17,13 +17,13 @@ html(lang="en")
             .logo
               img(src="../images/_qs/logo.png", alt="")
             input(type="text" placeholder='手机号或邮箱')
-            input(type="text" placeholder='密码')
-            button 登录
-            a(href="") 忘记密码？
+            input(type="text" placeholder='请输入密码')
+            input(type="text" placeholder='再次输入密码')
+            button 注册
           .form2
-            a(href="/html/qs_register.html") 
-              | 没有帐户？
-              span 立即注册
+            a(href="") 
+              | 已有帐户？
+              span 立即登录
           p 下载应用
           .download 
             a(href="") 
