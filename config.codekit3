@@ -1948,6 +1948,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/dist/images/qs_android.png": {
+		"ft": 32768,
+		"iS": 14389,
+		"oA": 0,
+		"oAP": "/dist/dist/images/qs_android.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/dist/images/qs_ios.png": {
+		"ft": 32768,
+		"iS": 9089,
+		"oA": 0,
+		"oAP": "/dist/dist/images/qs_ios.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/dist/images/qs_login.png": {
 		"ft": 32768,
 		"iS": 759396,
@@ -3641,6 +3663,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/qs_android.png": {
+		"ft": 32768,
+		"iS": 14389,
+		"oA": 0,
+		"oAP": "/dist/images/qs_android.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/qs_ios.png": {
+		"ft": 32768,
+		"iS": 9089,
+		"oA": 0,
+		"oAP": "/dist/images/qs_ios.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},

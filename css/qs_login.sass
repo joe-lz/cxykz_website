@@ -32,12 +32,65 @@ body
   padding-top: 80px
   .container
     display: flex
+    align-items: center
     padding-top: 50px
     padding-bottom: 100px
     width: 900px
+    margin: 0 auto
     .left
       flex: 1
       height: 500px
       background-size: contain
       background-position: center
       background-repeat: no-repeat
+    .right
+      padding-left: 50px
+      text-align: center
+      .form,.form2
+        margin-bottom: 15px
+        padding: 50px    
+        width: 445px
+        opacity: 1
+        border-radius: 8px
+        border: 1px solid rgba(245, 245, 245, 1)      
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        .logo
+          padding-bottom: 50px
+          img
+            height: 30px
+        input
+          margin-bottom: 30px
+          width: 100%
+          height: 35px
+          border: 1px solid rgba(229, 229, 229, 1)
+          outline: none
+          padding: 0 15px
+          &:focus
+            border: 1px solid $primary
+        button
+          margin-bottom: 15px
+          width: 100%
+          height: 35px
+          opacity: 1
+          border-radius: 0px
+          background: rgba(42, 130, 228, 1)
+          outline: none
+          border: none
+          color: white
+      .form2
+        padding: 15px
+        span
+          color: $primary
+          font-weight: bold
+      .download
+        display: flex
+        justify-content: center
+        margin-top: 15px
+        a
+          padding: 0 15px
+          img
+            height: 40px
+

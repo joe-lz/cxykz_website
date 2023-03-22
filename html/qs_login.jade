@@ -12,5 +12,23 @@ html(lang="en")
     main.qs_login
       .container
         .left(style="background-image:url(../images/qs_login.png)")
-      
+        .right
+          .form
+            .logo
+              img(src="../images/_qs/logo.png", alt="")
+            input(type="text" placeholder='手机号或邮箱')
+            input(type="text" placeholder='密码')
+            button 登录
+            a(href="") 忘记密码？
+          .form2
+            a(href="") 
+              | 没有帐户？
+              span 立即注册
+          p 下载应用
+          .download 
+            a(href="") 
+              img(src="../images/qs_ios.png", alt="")
+            a(href="") 
+              img(src="../images/qs_android.png", alt="")
+
     include ./component/qs_footer.jade
