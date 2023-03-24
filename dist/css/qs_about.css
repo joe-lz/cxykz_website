@@ -93,5 +93,24 @@ footer .container span {
 }
 
 .qs_about {
+  padding: 0 15px;
   padding-top: 80px;
+  padding-top: 100px;
+  width: 100%;
+  min-height: 80vh;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.qs_about .title {
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.qs_about .desc {
+  padding-bottom: 30px;
+  line-height: 2;
+  font-size: 16px;
+}
+.qs_about .contact {
+  line-height: 2;
 }

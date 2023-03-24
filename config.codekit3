@@ -1009,6 +1009,14 @@
 		"oAP": "/dist/html/qs_login.html",
 		"oF": 0
 		},
+	"/dist/html/qs_register.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/html/qs_register.html",
+		"oF": 0
+		},
 	"/dist/html/qs_search.html": {
 		"cB": 0,
 		"ft": 8192,
