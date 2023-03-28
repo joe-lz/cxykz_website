@@ -40,6 +40,28 @@ header {
 header .logo img {
   height: 20px;
 }
+header .search {
+  position: relative;
+  margin-left: 30px;
+}
+header .search i {
+  position: absolute;
+  left: 10px;
+  top: 7px;
+  color: gray;
+  font-weight: bold;
+}
+header .search input {
+  width: 250px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.02);
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  padding: 0 15px;
+  padding-left: 35px;
+  font-weight: 400;
+}
 header nav a {
   color: black;
   display: inline-block;
