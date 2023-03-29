@@ -236,3 +236,12 @@ footer .container span {
 .qs_category .container .content .list .item .item_list a i {
   font-size: 14px !important;
 }
+
+@media only screen and (max-width: 800px) {
+  .qs_category .left {
+    display: none;
+  }
+  .qs_category .content {
+    padding: 0 15px;
+  }
+}

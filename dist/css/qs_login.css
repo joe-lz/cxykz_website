@@ -236,3 +236,16 @@ footer .container span {
 .qs_login .container .right .download a img, .qs_register .container .right .download a img {
   height: 40px;
 }
+
+@media only screen and (max-width: 800px) {
+  .qs_login .container, .qs_register .container {
+    width: 100%;
+  }
+  .qs_login .container .left, .qs_register .container .left {
+    display: none;
+  }
+  .qs_login .container .right .form, .qs_login .container .right .form2, .qs_register .container .right .form, .qs_register .container .right .form2 {
+    width: 100%;
+    border: none;
+  }
+}

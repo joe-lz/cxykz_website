@@ -230,3 +230,22 @@ footer .container span {
   height: 0;
   opacity: 0;
 }
+
+@media only screen and (max-width: 800px) {
+  .qs_up_list .qs_up_list_nav1, .qs_up_list .qs_up_list_nav2 {
+    overflow: hidden;
+    overflow-x: scroll;
+  }
+  .qs_up_list .qs_up_list_nav1 a, .qs_up_list .qs_up_list_nav2 a {
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .qs_up_list .up_list {
+    display: block;
+    padding: 0 15px;
+  }
+  .qs_up_list .up_list .item {
+    width: 100%;
+    display: block;
+  }
+}

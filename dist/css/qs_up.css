@@ -415,3 +415,34 @@ footer .container span {
 .qs_up .category_list .container .item i {
   margin-right: 5px;
 }
+
+@media only screen and (max-width: 800px) {
+  .qs_up .userinfo {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .qs_up .userinfo .right {
+    padding-left: 0;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .qs_up .userinfo .right .top .expand, .qs_up .userinfo .right .top button {
+    display: none;
+  }
+  .qs_up .userinfo .right .middle {
+    text-align: center;
+  }
+  .qs_up .userinfo .right .middle .item {
+    margin-right: 0;
+    margin: 0 15px;
+  }
+  .qs_up .userinfo .right .desc {
+    text-align: center;
+  }
+  .qs_up .category_list {
+    display: none;
+  }
+}
