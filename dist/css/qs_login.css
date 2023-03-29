@@ -90,6 +90,13 @@ header .login i {
   font-size: 30px !important;
   color: #8a919f;
 }
+header .login .avatar {
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+}
 
 @media only screen and (max-width: 800px) {
   header {
