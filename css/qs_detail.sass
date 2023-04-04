@@ -35,67 +35,16 @@ body
   display: flex
   justify-content: center
   padding-top: 80px
-  .collection
-    width: 200px
-    .container
-      position: fixed
-      top: 0
-      left: 0
-      z-index: 10
-      padding-top: 80px
-      width: 200px
-      height: 100vh
-      display: flex
-      flex-direction: column
-      background-color: rgba(0,0,0,0.02)
-    .title
-      margin: 0 15px
-      padding: 10px 10px
-      display: flex
-      align-items: center
-      background-color: black
-      color: white
-      border-radius: 4px
-      white-space: nowrap
-      overflow: hidden
-      text-overflow: ellipsis
-      font-size: 13px
-      i
-        font-size: 16px !important
-        margin-right: 5px
-    .collection-list
-      padding: 15px
-      list-style: none
-      flex: 1
-      overflow: hidden
-      overflow-y: scroll
-      li
-        a
-          display: block
-          padding-left: 10px
-          padding: 10px 0
-          white-space: nowrap
-          overflow: hidden
-          text-overflow: ellipsis
-          color: $gray
-          font-size: 14px
-          i
-            font-size: 16px
-            margin-right: 5px
-          &:hover
-            color: $link
-            text-decoration: underline
-      .active
-        a
-          color: $link
-          font-weight: bold
-  .aside
+  max-width: 1500px
+  margin:  0 auto
+  ::-webkit-scrollbar
+    display: none
+  .aside-right
     position: relative
-    width: 350px
+    width: 300px
     padding-right: 30px
     padding-left: 30px
     .suggest_post
-      padding-top: 50px
       .title
         font-size: 14px
         font-weight: bold
@@ -109,7 +58,7 @@ body
             white-space: nowrap
             overflow: hidden
             text-overflow: ellipsis
-            color: $gray
+            color: black
             font-size: 14px
             i
               font-size: 16px
@@ -117,209 +66,224 @@ body
             &:hover
               color: $link
               text-decoration: underline
-        .active
-          a
-            color: $link
-            font-weight: bold
-  article
-    flex: 1
-    max-width: 900px
-    display: flex
-    .category
-      position: relative
-      width: 200px
-      .container
-        position: fixed
-        z-index: 1000
-        top: 0
-        padding: 0 15px
-        width: 200px
-        height: 100vh
-        display: flex
-        flex-direction: column
-        justify-content: center
+  .aside-left
+    position: relative
+    overflow: hidden
+    width: 300px
+    height: 100vh
+    .content
+      position: fixed
+      z-index: 2
+      width: 300px
+      height: 100%
+      padding: 0 30px
+      .collection
+        padding: 15px
+        margin-bottom: 30px
+        width: 100%
+        border: 1px solid rgba(0,0,0,0.05)
+        border-radius: 10px
+        .title
+          padding-bottom: 15px
+          border-bottom: 1px solid rgba(0,0,0,0.05)
+        ul
+          list-style: none
+          max-height: 30vh
+          overflow: hidden
+          overflow-y: scroll
+          li
+            padding: 10px 0
+            a
+              display: block
+              width: 100%
+              white-space: nowrap
+              overflow: hidden
+              text-overflow: ellipsis
+              font-size: 14px
+              color: black
+              i
+                font-size: 14px !important
+                margin-right: 5px
+      .category
         .title
           padding-bottom: 15px
           font-size: 16px
           font-weight: bold
         .catalog-list
+          max-height: 40vh
+          overflow: hidden
+          overflow-y: scroll
           list-style: none
+          border-left: 1px solid rgba(0,0,0,0.05)
+          padding-left: 15px
           li
-            .catalog-list
-              padding-left: 15px
             a
               display: block
               padding: 8px 0
+              color: black
+              font-size: 14px
+              display: block
+              width: 100%
               white-space: nowrap
               overflow: hidden
               text-overflow: ellipsis
-              color: $gray
-              font-size: 13px
               &:hover
                 color: $link
                 text-decoration: underline
+
           .active
-            a
-              color: $link
-              font-weight: bold
-    .body
-      display: flex
+            position: relative
+            &::before
+              position: absolute
+              left: -16px
+              top: 10px
+              content: ''
+              display: block
+              width: 4px
+              height: 13px
+              background-color: $primary
+              border-radius: 10px
+  article
+    flex: 1
+    display: flex
+    max-width: 900px
+    .content
+      position: relative
+      width: 0
       flex: 1
-      justify-content: center
-      .content
-        position: relative
-        width: 0
-        flex: 1
-        max-width: 700px
-        h1
-          font-size: 35px
-          font-weight: 500
-        .detail-info
-          padding: 15px 0
-          display: flex
-          align-items: center
-          font-size: 14px
-          color: $gray
-          .avatar
-            margin-right: 10px
-            width: 30px
-            height: 30px
-            border-radius: 30px
-            background-size: cover
-            background-position: center
-          .username
-            margin-right: 5px
-            font-size: 16px
-            font-weight: bold
-            color: black
-          .expand
-            flex: 1
-        video
-          height: 300px
-          width: 100%
-          border: 1px solid rgba(0,0,0,0.08)
-          background-color: $gray
-          border-radius: 6px
-      .tag-list-box
-        margin-top: 30px
+      h1
+        font-size: 35px
+        font-weight: 500
+      .detail-info
+        padding: 15px 0
         display: flex
         align-items: center
-        .tag-list
-          margin-right: 30px
-          display: flex
-          align-items: center
-          a
-            padding: 5px 10px
-            margin-right: 5px
-            background-color: #eaf2ff
-            color: $primary
-            border-radius: 4px
-      .attachment
-        display: flex
-        align-items: center
-        margin: 30px 0
-        margin-bottom: 0
-        padding: 10px 15px
-        background-color: rgba(230, 230, 230, 0.11)
-        border: 1px solid rgba(0,0,0,0.08)
-        border-radius: 6px
-        i
+        font-size: 14px
+        color: $gray
+        .avatar
+          margin-right: 10px
+          width: 30px
+          height: 30px
+          border-radius: 30px
+          background-size: cover
+          background-position: center
+        .username
           margin-right: 5px
-          font-size: 30px
+          font-size: 16px
+          font-weight: bold
+          color: black
         .expand
           flex: 1
-        a
-          color: $primary
-      .float-bar
-        padding: 0 15px
+      video
+        height: 300px
+        width: 100%
+        border: 1px solid rgba(0,0,0,0.08)
+        background-color: $gray
+        border-radius: 6px
+    .tag-list-box
+      margin-top: 30px
+      display: flex
+      align-items: center
+      .tag-list
+        margin-right: 30px
         display: flex
         align-items: center
-        justify-content: flex-start
-        position: fixed
-        bottom: 0
-        height: 50px
-        background-color: white
-        width: 700px
-        box-shadow: 0 -1px 3px hsla(0,0%,7%,.1)
-        button
-          margin-right: 15px
-          background-color: rgba(5,109,232,.1)
-          padding: 6px 10px
+        a
+          padding: 5px 10px
+          margin-right: 5px
+          background-color: #eaf2ff
           color: $primary
-          border: none
-          outline: none
           border-radius: 4px
-          font-size: 14px
-          cursor: pointer
-          &.active
-            background-color: $primary
-            color: white
-          i
-            margin-right: 5px
-        .gap
-          width: 20px
-        .item
-          margin-right: 50px
-          color: $gray
-          i
-            margin-right: 5px
-        .expand
-          flex: 1
-        .jubao
-          margin-right: 0
-
-
-      // .action-btns
-      //   padding-top: 50px
-      //   padding-bottom: 50px
-      //   display: flex
-      //   align-items: center
-      //   justify-content: center
-      //   .item
-      //     padding: 0 100px
-      //     i
-      //       position: relative
-      //       font-size: 40px
-      //       &::after
-      //         content: '122'
-      //         position: absolute
-      //         right: -10px
-      //         top: -5px
-      //         padding: 2px 5px
-      //         font-size: 12px
-      //         background-color: black
-      //         color: white
-      //         border-radius: 30px
-      //         border: 1px solid rgba(255,255,255,1)
-      //         transform: scale(0.8)
-      //       &:hover
-      //         color: $primary
-      //         cursor: pointer
-
-      .comments
-        padding-top: 60px
-        border-top: 1px solid rgba(0,0,0,0.08)
-        .title
-          font-size: 20px
-          font-weight: bold
-        textarea
-          margin-top: 15px
-          padding: 15px
-          font-size: 16px
-          background-color: $bg
-          border: none
-          border-radius: 6px
-          display: block
-          width: 100%
-        button
-          float: right
-          margin-top: 15px
-          padding: 10px 30px
-          background-color: $primary
-          outline: none
-          color: white
-          border: none
-          border-radius: 6px
+    .attachment
+      display: flex
+      align-items: center
+      margin: 30px 0
+      margin-bottom: 0
+      padding: 10px 15px
+      background-color: rgba(230, 230, 230, 0.11)
+      border: 1px solid rgba(0,0,0,0.08)
+      border-radius: 6px
+      i
+        margin-right: 5px
+        font-size: 30px
+      .expand
+        flex: 1
+      a
+        color: $primary
+    .comments
+      padding-top: 60px
+      border-top: 1px solid rgba(0,0,0,0.08)
+      .title
+        font-size: 20px
+        font-weight: bold
+      textarea
+        margin-top: 15px
+        padding: 15px
+        font-size: 16px
+        background-color: $bg
+        border: none
+        border-radius: 6px
+        display: block
+        width: 100%
+      button
+        float: right
+        margin-top: 15px
+        padding: 10px 30px
+        background-color: $primary
+        outline: none
+        color: white
+        border: none
+        border-radius: 6px
+.float-bar
+  position: fixed
+  z-index: 10
+  bottom: 0
+  left: 0
+  right: 0
+  margin: 0 auto
+  padding: 0
+  display: flex
+  justify-content: center
+  max-width: 1500px
+  width: 100%
+  aside
+    width: 300px
+  .float-bar-body
+    max-width: 900px
+    flex: 1
+    padding: 0 15px
+    display: flex
+    align-items: center
+    justify-content: flex-start
+    height: 50px
+    background-color: white
+    box-shadow: 0 -1px 3px hsla(0,0%,7%,.1)
+    button
+      margin-right: 15px
+      background-color: rgba(5,109,232,.1)
+      padding: 6px 10px
+      color: $primary
+      border: none
+      outline: none
+      border-radius: 4px
+      font-size: 14px
+      cursor: pointer
+      &.active
+        background-color: $primary
+        color: white
+      i
+        margin-right: 5px
+    .gap
+      width: 20px
+    .item
+      margin-right: 50px
+      color: $gray
+      i
+        margin-right: 5px
+    .expand
+      flex: 1
+    .jubao
+      margin-right: 0
 .markdown-body
   width: 100%
   word-break: break-word
@@ -559,27 +523,38 @@ body
 @media only screen and (max-width: 800px)
   .qs_detail 
     flex-direction: column
-    .collection
+    .aside-left
       display: none
     article 
       padding: 15px
-      .category 
-        display: none
-      .body
-        .content
-          h1
-            font-size: 20px
-          .detail-info
-            .username
-              display: none
-          .tag-list-box
-            flex-direction: column
-            justify-content: flex-start
-            align-items: flex-start
-            .tag-list
-              margin-bottom: 15px
-          .float-bar
+      .content
+        h1
+          font-size: 20px
+        .detail-info
+          .username
             display: none
+        .tag-list-box
+          flex-direction: column
+          justify-content: flex-start
+          align-items: flex-start
+          .tag-list
+            margin-bottom: 15px
     .aside
       width: 100%
       padding: 0 15px
+  .float-bar
+    .float-bar-body
+      justify-content: space-around !important
+      width: 100%
+    aside
+      display: none
+    .gap
+      display: none
+    .jubao
+      display: none
+    button
+      display: none
+    .expand
+      display: none
+    .item
+      margin-right: 0 !important

@@ -10,573 +10,519 @@ html(lang="en")
   body 
     include ./component/qs_header.jade
     main.qs_detail
-      .collection
-        .container
-          .title 
-            i.iconfont.icon-layer
-            | 合集：Flutter教程
-          ul.collection-list
-            li
-              a(href="" title='Flutter & ChatGPT | 代码生成器') 
-                i.iconfont.icon-16
-                | Flutter & ChatGPT | 代码生成器
-            li.active
-              a(href="" title='flutter-UI百分比适配') 
-                i.iconfont.icon-16
-                | flutter-UI百分比适配
-            li
-              a(href="" title='Flutter 的下一步， Dart 3 重大变更即将在 2023 到来') 
-                i.iconfont.icon-16
-                | Flutter 的下一步， Dart 3 重大变更即将在 2023 到来
-            li
-              a(href="" title='又一个免费GPT-4工具 Cursor，程序员写代码将被颠覆') 
-                i.iconfont.icon-16
-                | 又一个免费GPT-4工具 Cursor，程序员写代码将被颠覆
-            li
-              a(href="" title='Flutter启动页白屏处理') 
-                i.iconfont.icon-16
-                | Flutter启动页白屏处理
-            li
-              a(href="" title='Flutter SDK 自带的 10 个最有用的 Widget') 
-                i.iconfont.icon-16
-                | Flutter SDK 自带的 10 个最有用的 Widget
-            li
-              a(href="" title='Flutter - 为什么我把项目的状态管理框架从 Provider 升级到了 Riverpod') 
-                i.iconfont.icon-16
-                | Flutter - 为什么我把项目的状态管理框架从 Provider 升级到了 Riverpod
-            li
-              a(href="" title='Flutter - 列表滚动定位超强辅助库，墙裂推荐！🔥') 
-                i.iconfont.icon-16
-                | Flutter - 列表滚动定位超强辅助库，墙裂推荐！🔥
-            mixin li
+      aside.aside-left
+        .content
+          .collection
+            .title 
+              i.iconfont.icon-layer
+              | 合集：Flutter教程(15)
+            ul.collection-list
               li
-                a(href="" title='2023 年第一弹， Flutter 3.7 发布啦，快来看看有什么新特性') 
+                a(href="" title='Flutter & ChatGPT | 代码生成器') 
                   i.iconfont.icon-16
-                  | 2023 年第一弹， Flutter 3.7 发布啦，快来看看有什么新特性
-            +li
-            +li
-            +li
-            +li
-            +li
-            +li
-            +li
-            +li
-            +li
-            +li
-            +li
-            +li
-            +li
-            +li
-      article
-        .category
-          .container
+                  | Flutter & ChatGPT | 代码生成器
+              li.active
+                a(href="" title='flutter-UI百分比适配') 
+                  i.iconfont.icon-16
+                  | flutter-UI百分比适配
+              li
+                a(href="" title='Flutter 的下一步， Dart 3 重大变更即将在 2023 到来') 
+                  i.iconfont.icon-16
+                  | Flutter 的下一步， Dart 3 重大变更即将在 2023 到来
+              li
+                a(href="" title='又一个免费GPT-4工具 Cursor，程序员写代码将被颠覆') 
+                  i.iconfont.icon-16
+                  | 又一个免费GPT-4工具 Cursor，程序员写代码将被颠覆
+              li
+                a(href="" title='Flutter启动页白屏处理') 
+                  i.iconfont.icon-16
+                  | Flutter启动页白屏处理
+              li
+                a(href="" title='Flutter SDK 自带的 10 个最有用的 Widget') 
+                  i.iconfont.icon-16
+                  | Flutter SDK 自带的 10 个最有用的 Widget
+              li
+                a(href="" title='Flutter - 为什么我把项目的状态管理框架从 Provider 升级到了 Riverpod') 
+                  i.iconfont.icon-16
+                  | Flutter - 为什么我把项目的状态管理框架从 Provider 升级到了 Riverpod
+              li
+                a(href="" title='Flutter - 列表滚动定位超强辅助库，墙裂推荐！🔥') 
+                  i.iconfont.icon-16
+                  | Flutter - 列表滚动定位超强辅助库，墙裂推荐！🔥
+              mixin li
+                li
+                  a(href="" title='2023 年第一弹， Flutter 3.7 发布啦，快来看看有什么新特性') 
+                    i.iconfont.icon-16
+                    | 2023 年第一弹， Flutter 3.7 发布啦，快来看看有什么新特性
+              +li
+              +li
+              +li
+              +li
+              +li
+              +li
+              +li
+              +li
+              +li
+              +li
+              +li
+              +li
+              +li
+              +li
+          .category
+            .title 目录
             ul.catalog-list
               li.item.d2
-                .a-container
-                  a.catalog-aTag(href='#heading-1' title='服务的演变 [可跳过]')
-                    | 服务的演变 [可跳过]
+                a.catalog-aTag(href='#heading-1' title='服务的演变 [可跳过]')
+                  | 服务的演变 [可跳过]
                 // 
               li.item.d2.active
-                .a-container
-                  a.catalog-aTag(href='#heading-2' title='Nostr 的服务形态 [核心]')
-                    | Nostr 的服务形态 [核心]
+                a.catalog-aTag(href='#heading-2' title='Nostr 的服务形态 [核心]')
+                  | Nostr 的服务形态 [核心]
                 // 
               li.item.d2
-                .a-container
-                  a.catalog-aTag(href='#heading-3' title='Relay 的局限性')
-                    | Relay 的局限性
+                a.catalog-aTag(href='#heading-3' title='Relay 的局限性')
+                  | Relay 的局限性
                 // 
               li.item.d2
-                .a-container
-                  a.catalog-aTag(href='#heading-4' title='Nostr 与区块链的关系')
-                    | Nostr 与区块链的关系
+                a.catalog-aTag(href='#heading-4' title='Nostr 与区块链的关系')
+                  | Nostr 与区块链的关系
                 // 
               li.item.d2
-                .a-container
-                  a.catalog-aTag(href='#heading-5' title='Nostr 协议内容选集')
-                    | Nostr 协议内容选集
+                a.catalog-aTag(href='#heading-5' title='Nostr 协议内容选集')
+                  | Nostr 协议内容选集
                 ul.catalog-list
                   li.item.d3
-                    .a-container
-                      a.catalog-aTag(href='#heading-6' title='账户部分')
-                        | 账户部分
+                    a.catalog-aTag(href='#heading-6' title='账户部分')
+                      | 账户部分
                     // 
                   li.item.d3
-                    .a-container
-                      a.catalog-aTag(href='#heading-7' title='数据操作部分')
-                        | 数据操作部分
-                    ul.catalog-list
+                    a.catalog-aTag(href='#heading-7' title='数据操作部分')
+                      | 数据操作部分数据操作部分数据操作部分数据操作部分数据操作部分
+                    ul.catalog-list.active
                       li.item.d4(style='display: none;')
-                        .a-container
-                          a.catalog-aTag(href='#heading-8' title='Client 发布一个事件')
-                            | Client 发布一个事件
+                        a.catalog-aTag(href='#heading-8' title='Client 发布一个事件')
+                          | Client 发布一个事件
                         // 
                       li.item.d4(style='display: none;')
-                        .a-container
-                          a.catalog-aTag(href='#heading-9' title='tags 参数使用例子')
-                            | tags 参数使用例子
+                        a.catalog-aTag(href='#heading-9' title='tags 参数使用例子')
+                          | tags 参数使用例子
                         // 
                       li.item.d4(style='display: none;')
-                        .a-container
-                          a.catalog-aTag(href='#heading-10' title='Client 发订阅请求')
-                            | Client 发订阅请求
+                        a.catalog-aTag(href='#heading-10' title='Client 发订阅请求')
+                          | Client 发订阅请求
                         // 
                       li.item.d4(style='display: none;')
-                        .a-container
-                          a.catalog-aTag(href='#heading-11' title='Client 取消订阅')
-                            | Client 取消订阅
+                        a.catalog-aTag(href='#heading-11' title='Client 取消订阅')
+                          | Client 取消订阅
                         // 
                       li.item.d4(style='display: none;')
-                        .a-container
-                          a.catalog-aTag(href='#heading-12' title='Client 发授权请求')
-                            | Client 发授权请求
+                        a.catalog-aTag(href='#heading-12' title='Client 发授权请求')
+                          | Client 发授权请求
                         // 
                   li.item.d3
-                    .a-container
-                      a.catalog-aTag(href='#heading-13' title='Relay 返回的命令')
-                        | Relay 返回的命令
+                    a.catalog-aTag(href='#heading-13' title='Relay 返回的命令')
+                      | Relay 返回的命令
                     // 
                   li.item.d3
-                    .a-container
-                      a.catalog-aTag(href='#heading-14' title='实操及观察')
-                        | 实操及观察
+                    a.catalog-aTag(href='#heading-14' title='实操及观察')
+                      | 实操及观察
                     ul.catalog-list
                       li.item.d4(style='display: none;')
-                        .a-container
-                          a.catalog-aTag(href='#heading-15' title='部署 Relay 服务')
-                            | 部署 Relay 服务
+                        a.catalog-aTag(href='#heading-15' title='部署 Relay 服务')
+                          | 部署 Relay 服务
                         // 
                       li.item.d4(style='display: none;')
-                        .a-container
-                          a.catalog-aTag(href='#heading-16' title='使用 Client 与 Relay 交互')
-                            | 使用 Client 与 Relay 交互
+                        a.catalog-aTag(href='#heading-16' title='使用 Client 与 Relay 交互')
+                          | 使用 Client 与 Relay 交互
                         // 
                       li.item.d4(style='display: none;')
-                        .a-container
-                          a.catalog-aTag(href='#heading-17' title='查看数据')
-                            | 查看数据
+                        a.catalog-aTag(href='#heading-17' title='查看数据')
+                          | 查看数据
                         // 
               li.item.d2
-                .a-container
-                  a.catalog-aTag(href='#heading-18' title='kind 附录')
-                    | kind 附录
+                a.catalog-aTag(href='#heading-18' title='kind 附录')
+                  | kind 附录
                 // 
               li.item.d2
-                .a-container
-                  a.catalog-aTag(href='#heading-19' title='鸣谢')
-                    | 鸣谢
+                a.catalog-aTag(href='#heading-19' title='鸣谢')
+                  | 鸣谢
                 // 
-
-        .body 
-          .content
-            h1 17 个提高性能的 Flutter 最佳实践
-            .detail-info
-              a.avatar(href="/html/qs_up.html" style='background-image:url(https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60)') 
-              p.username 
-                | 贾深元Aden
-              p.time &nbsp;· 2022.12.31
-              .expand
-              p 3123阅读 · 4234收藏 · 92评论
-            .markdown-body
-              video(src="https://cdn.pixabay.com/vimeo/528670485/Flowers%20-%2068367.mp4?width=1280&hash=8ed464af65c03747b48614713fa1f051e49cf2be") 
-              img.lazy.article-hero(loading='eager' src='https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3104c56393a24d219b54ce05b06b57a4~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?' alt='一个顶N个！Flutter界面开发提速大杀器Getwidget 🚀（五）' data-v-248050e4='' data-v-1c9ebbff='')
-              h2(data-id='heading-0') 前言
-              p
-                | Flutter 是 Google 开源的应用开发框架，仅通过一套代码就能构建支持Android、iOS、Windows、Linux等多平台的应用。Flutter的性能非常高，拥有120fps的刷新率，也是目前非常流行的跨平台UI开发框架。
-              p 本专栏为大家收集了Github上近70个优秀开源库，后续也将持续更新。希望可以帮助大家提升搬砖效率，同时祝愿Flutter的生态越来越完善🎉🎉。
-              h2(data-id='heading-1') Getwidget 索引
-              p
-                a(href='https://juejin.cn/post/7078606984739553317' target='_blank' title='https://juejin.cn/post/7078606984739553317')
-                  strong 第一篇：按钮 GFButton、角标 GFBadge、头像 GFAvatar、图片 GFImage、卡片 GFCard
-              p
-                a(href='https://juejin.cn/post/7079838044873818149' target='_blank' title='https://juejin.cn/post/7079838044873818149')
-                  strong 第二篇：轮播图 GFCarousel、列表模版 GFListTile、标签栏 GFTabBar、浮动组件 GFFloatingWidget
-              p
-                a(href='https://juejin.cn/post/7081298839323279373' target='_blank' title='https://juejin.cn/post/7081298839323279373')
-                  strong
-                    | 第三篇：提示框 GFToast、开关 GFToggle、文字排版 GFTypography、抽屉 GFDrawer、弹窗 GFAlert、折叠卡片 GFAccordion
-              p
-                a(href='https://juejin.cn/post/7082400631863902215' target='_blank' title='https://juejin.cn/post/7082400631863902215')
-                  strong 第四篇：导航条 GFAppBar、搜索栏 GFSearchBar、评分组件 GFRating、加载提示 GFLoader、进度条 GFProgressBar
-              p
+      article
+        .content
+          h1 17 个提高性能的 Flutter 最佳实践
+          .detail-info
+            a.avatar(href="/html/qs_up.html" style='background-image:url(https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60)') 
+            p.username 
+              | 贾深元Aden
+            p.time &nbsp;· 2022.12.31
+            .expand
+            p 3123阅读 · 4234收藏 · 92评论
+          .markdown-body
+            video(src="https://cdn.pixabay.com/vimeo/528670485/Flowers%20-%2068367.mp4?width=1280&hash=8ed464af65c03747b48614713fa1f051e49cf2be") 
+            img.lazy.article-hero(loading='eager' src='https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3104c56393a24d219b54ce05b06b57a4~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?' alt='一个顶N个！Flutter界面开发提速大杀器Getwidget 🚀（五）' data-v-248050e4='' data-v-1c9ebbff='')
+            h2(data-id='heading-0') 前言
+            p
+              | Flutter 是 Google 开源的应用开发框架，仅通过一套代码就能构建支持Android、iOS、Windows、Linux等多平台的应用。Flutter的性能非常高，拥有120fps的刷新率，也是目前非常流行的跨平台UI开发框架。
+            p 本专栏为大家收集了Github上近70个优秀开源库，后续也将持续更新。希望可以帮助大家提升搬砖效率，同时祝愿Flutter的生态越来越完善🎉🎉。
+            h2(data-id='heading-1') Getwidget 索引
+            p
+              a(href='https://juejin.cn/post/7078606984739553317' target='_blank' title='https://juejin.cn/post/7078606984739553317')
+                strong 第一篇：按钮 GFButton、角标 GFBadge、头像 GFAvatar、图片 GFImage、卡片 GFCard
+            p
+              a(href='https://juejin.cn/post/7079838044873818149' target='_blank' title='https://juejin.cn/post/7079838044873818149')
+                strong 第二篇：轮播图 GFCarousel、列表模版 GFListTile、标签栏 GFTabBar、浮动组件 GFFloatingWidget
+            p
+              a(href='https://juejin.cn/post/7081298839323279373' target='_blank' title='https://juejin.cn/post/7081298839323279373')
                 strong
-                  | 👉 第五篇：闪光组件 GFShimmer、动画 GFAnimation、边框 GFBorder、底部抽屉 GFBottomSheet、复选框 GFCheckbox
-              p
-                a(href='https://juejin.cn/post/7086348093536501796' target='_blank' title='https://juejin.cn/post/7086348093536501796')
-                  strong
-                    | 第六篇：可选列表模板 GFCheckboxListTile、下拉选择框 GFMultiSelect、介绍屏GFIntroScreen、单选按钮 GFRadio、粘性标题 GFStickyHeader
-              h2(data-id='heading-2') 正文
-              h3(data-id='heading-3') 一、🚀 轮子介绍
-              ul
-                li
-                  strong 名称：getwidget
-                li
-                  strong 概述：GetWidget完全免费，内置了1000多个预构建的小组件，您可以使用这些小组件加快自己开发进程并构建出色的应用。
-                li
-                  strong
-                    | 出版商：
-                    a(href='https://link.juejin.cn?target=mailto%3Anavin10sharma%40gmail.com' target='_blank' title='mailto:navin10sharma@gmail.com' ref='nofollow noopener noreferrer') navin10sharma@gmail.com
-                li
-                  strong
-                    | 仓库地址：
-                    a(href='https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fionicfirebaseapp%2Fgetwidget' target='_blank' title='https://github.com/ionicfirebaseapp/getwidget' ref='nofollow noopener noreferrer') getwidget
-                li
-                  strong 推荐指数：
-                  |  ⭐️⭐️⭐️⭐️⭐️
-                li
-                  strong 常用指数：
-                  |  ⭐️⭐️⭐️⭐️⭐️
-                li
-                  strong 预览：
-                  a(href='https://juejin.cn/post/7078606984739553317' target='_blank' title='https://juejin.cn/post/7078606984739553317') 长图预览请戳
-              h3(data-id='heading-4') 二、⚙️ 安装及使用
-              pre.
-              pre.
-              h3(data-id='heading-5') 三、🗂 组件示例
-              h4(data-id='heading-6') 21. 闪光组件 GFShimmer
-              p
-                img.medium-zoom-image(src='https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/07af2c696e954b3488d3ee885aec4ed5~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp?' alt='shimmer_2b9f0c0910.webp' loading='lazy')
-              p
-                strong 属性及含义描述
-              table
-                thead
-                  tr
-                    th 属性
-                    th 描述
-                tbody
-                  tr
-                    td
-                      strong child
-                    td 用以显示微光效果的子组件
-                  tr
-                    td
-                      strong direction
-                    td
-                      | 动画方向，默认
-                      code GFShimmerDirection.leftToRight
-                  tr
-                    td
-                      strong duration
-                    td 动画时长，默认1.5s
-                  tr
-                    td
-                      strong showGradient
-                    td 是否显示渐变色
-                  tr
-                    td
-                      strong gradient
-                    td
-                      | 渐变色，
-                      code showGradient
-                      | 为
-                      code true
-                      | 时生效
-                  tr
-                    td
-                      strong shimmerEffectCount
-                    td 动画执行次数，默认0（无限循环）
-                  tr
-                    td
-                      strong showShimmerEffect
-                    td 控制动画效果的活跃状态
-                  tr
-                    td
-                      strong mainColor
-                    td 主要颜色
-                  tr
-                    td
-                      strong secondaryColor
-                    td 次要颜色
-              p
+                  | 第三篇：提示框 GFToast、开关 GFToggle、文字排版 GFTypography、抽屉 GFDrawer、弹窗 GFAlert、折叠卡片 GFAccordion
+            p
+              a(href='https://juejin.cn/post/7082400631863902215' target='_blank' title='https://juejin.cn/post/7082400631863902215')
+                strong 第四篇：导航条 GFAppBar、搜索栏 GFSearchBar、评分组件 GFRating、加载提示 GFLoader、进度条 GFProgressBar
+            p
+              strong
+                | 👉 第五篇：闪光组件 GFShimmer、动画 GFAnimation、边框 GFBorder、底部抽屉 GFBottomSheet、复选框 GFCheckbox
+            p
+              a(href='https://juejin.cn/post/7086348093536501796' target='_blank' title='https://juejin.cn/post/7086348093536501796')
                 strong
-                  | 1.
-                  code GFShimmer
-                  | 和之前分享的 
-                  a(href='https://juejin.cn/post/7074897250904145933' target='_blank' title='https://juejin.cn/post/7074897250904145933')
-                    strong Shimmer
-                  |  基本一致，通过包裹组件实现微光动画效果，一般用于加载动画，这是一个简单的示例⬇️：
-              p
-                img.medium-zoom-image(src='https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b5cf69e437c7484dbb8a62d893508cff~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp?' alt='shimmer.gif' loading='lazy')
-              pre.
-              p
+                  | 第六篇：可选列表模板 GFCheckboxListTile、下拉选择框 GFMultiSelect、介绍屏GFIntroScreen、单选按钮 GFRadio、粘性标题 GFStickyHeader
+            h2(data-id='heading-2') 正文
+            h3(data-id='heading-3') 一、🚀 轮子介绍
+            ul
+              li
+                strong 名称：getwidget
+              li
+                strong 概述：GetWidget完全免费，内置了1000多个预构建的小组件，您可以使用这些小组件加快自己开发进程并构建出色的应用。
+              li
                 strong
-                  | 2.这里包裹的是一个行列样式，也可以包裹
-                  code GFListTile
-                  | 等封装好的组件来快速实现（
-                  code SizedBox
-                  | 和透明的
-                  code Container
-                  | 不会被
-                  code GFShimmer
-                  | 显示）：
-              p
-                img.medium-zoom-image(src='https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cd9f87bebc544267909a8d3ff362f6e6~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp?' alt='shimmer2.gif' loading='lazy')
-              pre.
-              p
+                  | 出版商：
+                  a(href='https://link.juejin.cn?target=mailto%3Anavin10sharma%40gmail.com' target='_blank' title='mailto:navin10sharma@gmail.com' ref='nofollow noopener noreferrer') navin10sharma@gmail.com
+              li
                 strong
-                  | 3.渐变色微光效果(目前有明显的顿挫，不知道后期会不会优化，两种颜色建议使用属性
-                  code mainColor
-                  | 和
-                  code secondaryColor
-                  | ，多色建议使用 
-                  a(href='https://juejin.cn/post/7074897250904145933' target='_blank' title='https://juejin.cn/post/7074897250904145933')
-                    strong Shimmer
-                  | )：
-              p
-                img.medium-zoom-image(src='https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a503b3e96c664236888272609671796f~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp?' alt='textshimmer.gif' loading='lazy')
-              pre.
-              hr
-              h4(data-id='heading-7') 22.动画 GFAnimation
-              p
-                img.medium-zoom-image(src='https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bad49ea6bce64ff0b4ecc0e9605d428d~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp?' alt='Animation-Rotation_xN-DtCumD.gif' loading='lazy')
-              p
-                strong 属性及含义描述
-              table
-                thead
-                  tr
-                    th 属性
-                    th 描述
-                tbody
-                  tr
-                    td
-                      strong duration
-                    td 动画执行的持续时间
-                  tr
-                    td
-                      strong reverseDuration
-                    td 反向动画执行的持续时间
-                  tr
-                    td
-                      strong alignment
-                    td 定义动画组件在动画期间的对齐方式
-                  tr
-                    td
-                      strong activeAlignment
-                    td
-                      | 定义动画组件在动画期间的对齐方式（在 
-                      code onTap
-                      |  之后）
-                  tr
-                    td
-                      strong child
-                    td 显示动画效果的子组件
-                  tr
-                    td
-                      strong curve
-                    td
-                      | 动画曲线， 默认为 
-                      code Curves.linear
-                  tr
-                    td
-                      strong type
-                    td
-                      code GFAnimation
-                      |  的类型，即 
-                      code align
-                      | 、
-                      code size
-                      | 、
-                      code container
-                      | 、
-                      code rotateTransition
-                      | 、
-                      code scaleTransition
-                      | 、
-                      code slideTransition
-                      |  和 
-                      code textStyle
-                  tr
-                    td
-                      strong width
-                    td
-                      | 定义 
-                      code AnimatedContainer
-                      |  初始宽度
-                  tr
-                    td
-                      strong changedWidth
-                    td
-                      | 定义 
-                      code AnimatedContainer
-                      |  的宽度，它可以在动画期间展开
-                  tr
-                    td
-                      strong height
-                    td
-                      | 定义 
-                      code AnimatedContainer
-                      |  初始高度
-                  tr
-                    td
-                      strong changedHeight
-                    td
-                      | 定义 
-                      code AnimatedContainer
-                      |  的高度，它可以在动画期间展开
-                  tr
-                    td
-                      strong activeColor
-                    td
-                      | 定义onTap触发时 
-                      code AnimatedContainer
-                      |  的颜色
-                  tr
-                    td
-                      strong color
-                    td
-                      | 定义 
-                      code AnimatedContainer
-                      |  的颜色
-                  tr
-                    td
-                      strong padding
-                    td
-                      | 定义 
-                      code child
-                      |  或 
-                      code AnimatedContainer
-                      |  的填充
-                  tr
-                    td
-                      strong margin
-                    td
-                      | 定义 
-                      code child
-                      |  或 
-                      code AnimatedContainer
-                      |  的边距
-                  tr
-                    td
-                      strong onTap
-                    td
-                      | 用户点击 
-                      code child
-                      |  时的调用
-                  tr
-                    td
-                      strong turnsAnimation
-                    td
-                      | 对于 
-                      code GFAnimationType.rotateTransition
-                      | ，可以在    
-                      code RotationTransition
-                      |  小部件中添加自定义的转弯动画
-                  tr
-                    td
-                      strong scaleAnimation
-                    td
-                      | 对于 
-                      code GFAnimationType.scaleTransition
-                      | ，可以在 
-                      code ScaleTransition
-                      |  小部件中添加自定义缩放动画
-                  tr
-                    td
-                      strong controller
-                    td 动画的控制器。
-                  tr
-                    td
-                      strong textDirection
-                    td
-                      | 定义 
-                      code AnimatedDefaultTextStyle
-                      |  的文本方向，即 [ltr,rtl]
-                  tr
-                    td
-                      strong slidePosition
-                    td
-                      | 对于 
-                      code GFAnimationType.slideTransition
-                      | ，它为组件的位置设置动画
-                  tr
-                    td
-                      strong style
-                    td 文本风格
-                  tr
-                    td
-                      strong textAlign
-                    td 文本对齐方式
-                  tr
-                    td
-                      strong textOverflow
-                    td 文本溢出处理
-                  tr
-                    td
-                      strong maxLines
-                    td 最大行数
-                  tr
-                    td
-                      strong textWidthBasis
-                    td 文本基础宽度
-                  tr
-                    td
-                      strong fontSize
-                    td 字号
-                  tr
-                    td
-                      strong fontWeight
-                    td 字重
-              
-            .tag-list-box
-              .tag-list
-                .tag-list-title 分类：
-                a.item.category-item(href='/android' target='_blank' rel='')
+                  | 仓库地址：
+                  a(href='https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fionicfirebaseapp%2Fgetwidget' target='_blank' title='https://github.com/ionicfirebaseapp/getwidget' ref='nofollow noopener noreferrer') getwidget
+              li
+                strong 推荐指数：
+                |  ⭐️⭐️⭐️⭐️⭐️
+              li
+                strong 常用指数：
+                |  ⭐️⭐️⭐️⭐️⭐️
+              li
+                strong 预览：
+                a(href='https://juejin.cn/post/7078606984739553317' target='_blank' title='https://juejin.cn/post/7078606984739553317') 长图预览请戳
+            h3(data-id='heading-4') 二、⚙️ 安装及使用
+            pre.
+            pre.
+            h3(data-id='heading-5') 三、🗂 组件示例
+            h4(data-id='heading-6') 21. 闪光组件 GFShimmer
+            p
+              img.medium-zoom-image(src='https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/07af2c696e954b3488d3ee885aec4ed5~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp?' alt='shimmer_2b9f0c0910.webp' loading='lazy')
+            p
+              strong 属性及含义描述
+            table
+              thead
+                tr
+                  th 属性
+                  th 描述
+              tbody
+                tr
+                  td
+                    strong child
+                  td 用以显示微光效果的子组件
+                tr
+                  td
+                    strong direction
+                  td
+                    | 动画方向，默认
+                    code GFShimmerDirection.leftToRight
+                tr
+                  td
+                    strong duration
+                  td 动画时长，默认1.5s
+                tr
+                  td
+                    strong showGradient
+                  td 是否显示渐变色
+                tr
+                  td
+                    strong gradient
+                  td
+                    | 渐变色，
+                    code showGradient
+                    | 为
+                    code true
+                    | 时生效
+                tr
+                  td
+                    strong shimmerEffectCount
+                  td 动画执行次数，默认0（无限循环）
+                tr
+                  td
+                    strong showShimmerEffect
+                  td 控制动画效果的活跃状态
+                tr
+                  td
+                    strong mainColor
+                  td 主要颜色
+                tr
+                  td
+                    strong secondaryColor
+                  td 次要颜色
+            p
+              strong
+                | 1.
+                code GFShimmer
+                | 和之前分享的 
+                a(href='https://juejin.cn/post/7074897250904145933' target='_blank' title='https://juejin.cn/post/7074897250904145933')
+                  strong Shimmer
+                |  基本一致，通过包裹组件实现微光动画效果，一般用于加载动画，这是一个简单的示例⬇️：
+            p
+              img.medium-zoom-image(src='https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b5cf69e437c7484dbb8a62d893508cff~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp?' alt='shimmer.gif' loading='lazy')
+            pre.
+            p
+              strong
+                | 2.这里包裹的是一个行列样式，也可以包裹
+                code GFListTile
+                | 等封装好的组件来快速实现（
+                code SizedBox
+                | 和透明的
+                code Container
+                | 不会被
+                code GFShimmer
+                | 显示）：
+            p
+              img.medium-zoom-image(src='https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cd9f87bebc544267909a8d3ff362f6e6~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp?' alt='shimmer2.gif' loading='lazy')
+            pre.
+            p
+              strong
+                | 3.渐变色微光效果(目前有明显的顿挫，不知道后期会不会优化，两种颜色建议使用属性
+                code mainColor
+                | 和
+                code secondaryColor
+                | ，多色建议使用 
+                a(href='https://juejin.cn/post/7074897250904145933' target='_blank' title='https://juejin.cn/post/7074897250904145933')
+                  strong Shimmer
+                | )：
+            p
+              img.medium-zoom-image(src='https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a503b3e96c664236888272609671796f~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp?' alt='textshimmer.gif' loading='lazy')
+            pre.
+            hr
+            h4(data-id='heading-7') 22.动画 GFAnimation
+            p
+              img.medium-zoom-image(src='https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bad49ea6bce64ff0b4ecc0e9605d428d~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp?' alt='Animation-Rotation_xN-DtCumD.gif' loading='lazy')
+            p
+              strong 属性及含义描述
+            table
+              thead
+                tr
+                  th 属性
+                  th 描述
+              tbody
+                tr
+                  td
+                    strong duration
+                  td 动画执行的持续时间
+                tr
+                  td
+                    strong reverseDuration
+                  td 反向动画执行的持续时间
+                tr
+                  td
+                    strong alignment
+                  td 定义动画组件在动画期间的对齐方式
+                tr
+                  td
+                    strong activeAlignment
+                  td
+                    | 定义动画组件在动画期间的对齐方式（在 
+                    code onTap
+                    |  之后）
+                tr
+                  td
+                    strong child
+                  td 显示动画效果的子组件
+                tr
+                  td
+                    strong curve
+                  td
+                    | 动画曲线， 默认为 
+                    code Curves.linear
+                tr
+                  td
+                    strong type
+                  td
+                    code GFAnimation
+                    |  的类型，即 
+                    code align
+                    | 、
+                    code size
+                    | 、
+                    code container
+                    | 、
+                    code rotateTransition
+                    | 、
+                    code scaleTransition
+                    | 、
+                    code slideTransition
+                    |  和 
+                    code textStyle
+                tr
+                  td
+                    strong width
+                  td
+                    | 定义 
+                    code AnimatedContainer
+                    |  初始宽度
+                tr
+                  td
+                    strong changedWidth
+                  td
+                    | 定义 
+                    code AnimatedContainer
+                    |  的宽度，它可以在动画期间展开
+                tr
+                  td
+                    strong height
+                  td
+                    | 定义 
+                    code AnimatedContainer
+                    |  初始高度
+                tr
+                  td
+                    strong changedHeight
+                  td
+                    | 定义 
+                    code AnimatedContainer
+                    |  的高度，它可以在动画期间展开
+                tr
+                  td
+                    strong activeColor
+                  td
+                    | 定义onTap触发时 
+                    code AnimatedContainer
+                    |  的颜色
+                tr
+                  td
+                    strong color
+                  td
+                    | 定义 
+                    code AnimatedContainer
+                    |  的颜色
+                tr
+                  td
+                    strong padding
+                  td
+                    | 定义 
+                    code child
+                    |  或 
+                    code AnimatedContainer
+                    |  的填充
+                tr
+                  td
+                    strong margin
+                  td
+                    | 定义 
+                    code child
+                    |  或 
+                    code AnimatedContainer
+                    |  的边距
+                tr
+                  td
+                    strong onTap
+                  td
+                    | 用户点击 
+                    code child
+                    |  时的调用
+                tr
+                  td
+                    strong turnsAnimation
+                  td
+                    | 对于 
+                    code GFAnimationType.rotateTransition
+                    | ，可以在    
+                    code RotationTransition
+                    |  小部件中添加自定义的转弯动画
+                tr
+                  td
+                    strong scaleAnimation
+                  td
+                    | 对于 
+                    code GFAnimationType.scaleTransition
+                    | ，可以在 
+                    code ScaleTransition
+                    |  小部件中添加自定义缩放动画
+                tr
+                  td
+                    strong controller
+                  td 动画的控制器。
+                tr
+                  td
+                    strong textDirection
+                  td
+                    | 定义 
+                    code AnimatedDefaultTextStyle
+                    |  的文本方向，即 [ltr,rtl]
+                tr
+                  td
+                    strong slidePosition
+                  td
+                    | 对于 
+                    code GFAnimationType.slideTransition
+                    | ，它为组件的位置设置动画
+                tr
+                  td
+                    strong style
+                  td 文本风格
+                tr
+                  td
+                    strong textAlign
+                  td 文本对齐方式
+                tr
+                  td
+                    strong textOverflow
+                  td 文本溢出处理
+                tr
+                  td
+                    strong maxLines
+                  td 最大行数
+                tr
+                  td
+                    strong textWidthBasis
+                  td 文本基础宽度
+                tr
+                  td
+                    strong fontSize
+                  td 字号
+                tr
+                  td
+                    strong fontWeight
+                  td 字重
+            
+          .tag-list-box
+            .tag-list
+              .tag-list-title 分类：
+              a.item.category-item(href='/android' target='_blank' rel='')
+                span.tag-title Android
+            .tag-list
+              .tag-list-title 标签：
+              .tag-list-container
+                a.item.tag-item(href='/tag/%E5%89%8D%E7%AB%AF' target='_blank' rel='' )
+                  span.tag-title 前端
+                a.item.tag-item(href='/tag/Android' target='_blank' rel='' data-v-1c9ebbff='' data-v-4b9f9746='')
                   span.tag-title Android
-              .tag-list
-                .tag-list-title 标签：
-                .tag-list-container
-                  a.item.tag-item(href='/tag/%E5%89%8D%E7%AB%AF' target='_blank' rel='' )
-                    span.tag-title 前端
-                  a.item.tag-item(href='/tag/Android' target='_blank' rel='' data-v-1c9ebbff='' data-v-4b9f9746='')
-                    span.tag-title Android
-                  a.item.tag-item(href='/tag/Flutter' target='_blank' rel='' data-v-1c9ebbff='' data-v-4b9f9746='')
-                    span.tag-title Flutter
+                a.item.tag-item(href='/tag/Flutter' target='_blank' rel='' data-v-1c9ebbff='' data-v-4b9f9746='')
+                  span.tag-title Flutter
 
-            .attachment
-              i.iconfont.icon-wenjianjia
-              span 附件：Flutter课程.zip
-              .expand
-              a(href="") 下载
-            .float-bar
-              button.active 已赞
-              button 
-                i.iconfont.icon-dianzan1
-                | 点赞
-              button 
-                i.iconfont.icon-cai
-              .gap
-              a.item(href="#comments") 
-                i.iconfont.icon-dianzan1
-                | 38条评论
-              .item
-                i.iconfont.icon-dianzan1
-                | 收藏
-              .item
-                i.iconfont.icon-fenxiang
-                | 分享
-              .expand
-              .item.jubao
-                | 举报
-            //- .action-btns
-            //-   .item 
-            //-     i.iconfont.icon-dianzan
-            //-   .item 
-            //-     i.iconfont.icon-shoucang
-            //-   .item 
-            //-     i.iconfont.icon-pinglun1
-            //- .action-btns
-            //-   .item 
-            //-     i.iconfont.icon-dianzan1
-            //-   .item 
-            //-     i.iconfont.icon-shoucang1
-            //-   .item 
-            //-     i.iconfont.icon-pinglun2
-            .comments#comments
-              .title 评论
-              textarea(cols="30", rows="5" placeholder="输入评论") 
-              div 
-                button 评论
-      .aside
+          .attachment
+            i.iconfont.icon-wenjianjia
+            span 附件：Flutter课程.zip
+            .expand
+            a(href="") 下载
+          .comments#comments
+            .title 评论
+            textarea(cols="30", rows="5" placeholder="输入评论") 
+            div 
+              button 评论
+      aside.aside-right
         .suggest_post
           .title 文章推荐
           ul.list
@@ -601,4 +547,27 @@ html(lang="en")
             li
               a(href="" title='就目前前端行业现状浅析与今后前端发展探讨') 就目前前端行业现状浅析与今后前端发展探讨
 
+    .float-bar
+      aside
+      .float-bar-body
+        button.active 已赞
+        button 
+          i.iconfont.icon-dianzan1
+          | 点赞
+        button 
+          i.iconfont.icon-cai
+        .gap
+        a.item(href="#comments") 
+          i.iconfont.icon-dianzan1
+          | 38条评论
+        .item
+          i.iconfont.icon-dianzan1
+          | 收藏
+        .item
+          i.iconfont.icon-fenxiang
+          | 分享
+        .expand
+        .item.jubao
+          | 举报
+      aside
     include ./component/qs_footer.jade
