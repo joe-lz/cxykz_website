@@ -446,11 +446,39 @@ footer .container span {
   width: 20px;
 }
 .float-bar .float-bar-body .item {
+  position: relative;
   margin-right: 50px;
   color: #8a919f;
+  cursor: pointer;
+}
+.float-bar .float-bar-body .item:hover .qrcode-modal {
+  display: block;
 }
 .float-bar .float-bar-body .item i {
   margin-right: 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.float-bar .float-bar-body .item .qrcode-modal {
+  display: none;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.float-bar .float-bar-body .item .qrcode-modal img {
+  width: 150px;
+  height: 150px;
+}
+.float-bar .float-bar-body .item .qrcode-modal p {
+  padding-top: 5px;
+  font-size: 14px;
+  color: black;
 }
 .float-bar .float-bar-body .expand {
   flex: 1;
