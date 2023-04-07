@@ -175,6 +175,7 @@ footer .container span {
   text-align: center;
 }
 .qs_login .container .right .form, .qs_login .container .right .form2, .qs_register .container .right .form, .qs_register .container .right .form2 {
+  position: relative;
   margin-bottom: 15px;
   padding: 50px;
   width: 450px;
@@ -186,6 +187,11 @@ footer .container span {
   align-items: center;
   justify-content: center;
 }
+.qs_login .container .right .form .link, .qs_login .container .right .form2 .link, .qs_register .container .right .form .link, .qs_register .container .right .form2 .link {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
 .qs_login .container .right .form .logo, .qs_login .container .right .form2 .logo, .qs_register .container .right .form .logo, .qs_register .container .right .form2 .logo {
   padding-bottom: 50px;
 }
@@ -195,6 +201,15 @@ footer .container span {
 .qs_login .container .right .form .logo p, .qs_login .container .right .form2 .logo p, .qs_register .container .right .form .logo p, .qs_register .container .right .form2 .logo p {
   font-size: 20px;
   font-weight: bold;
+}
+.qs_login .container .right .form img.qrcode, .qs_login .container .right .form2 img.qrcode, .qs_register .container .right .form img.qrcode, .qs_register .container .right .form2 img.qrcode {
+  margin-top: 30px;
+  width: 200px;
+  height: 200px;
+}
+.qs_login .container .right .form p.scan_caption, .qs_login .container .right .form2 p.scan_caption, .qs_register .container .right .form p.scan_caption, .qs_register .container .right .form2 p.scan_caption {
+  font-size: 14px;
+  font-weight: 400;
 }
 .qs_login .container .right .form input, .qs_login .container .right .form2 input, .qs_register .container .right .form input, .qs_register .container .right .form2 input {
   margin-bottom: 30px;
