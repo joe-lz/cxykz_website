@@ -18,10 +18,11 @@ html(lang="en")
             .logo
               //- img(src="../images/_qs/logo.png", alt="")
               p 账号登录
-            input(type="text" placeholder='手机号或邮箱')
-            input(type="text" placeholder='密码')
-            button 登录
-            a(href="") 忘记密码？
+            input(type="text" placeholder='手机号')
+            .code 
+              input(type="text" placeholder='验证码')
+              button 发送验证码
+            button 登录/注册
           p 下载应用
           .download 
             a(href="") 

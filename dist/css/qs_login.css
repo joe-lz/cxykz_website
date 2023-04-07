@@ -222,6 +222,17 @@ footer .container span {
 .qs_login .container .right .form input:focus, .qs_login .container .right .form2 input:focus, .qs_register .container .right .form input:focus, .qs_register .container .right .form2 input:focus {
   border: 1px solid #4361ee;
 }
+.qs_login .container .right .form .code, .qs_login .container .right .form2 .code, .qs_register .container .right .form .code, .qs_register .container .right .form2 .code {
+  display: flex;
+  width: 100%;
+}
+.qs_login .container .right .form .code input, .qs_login .container .right .form2 .code input, .qs_register .container .right .form .code input, .qs_register .container .right .form2 .code input {
+  flex: 1;
+}
+.qs_login .container .right .form .code button, .qs_login .container .right .form2 .code button, .qs_register .container .right .form .code button, .qs_register .container .right .form2 .code button {
+  margin-left: 5px;
+  width: 100px;
+}
 .qs_login .container .right .form button, .qs_login .container .right .form2 button, .qs_register .container .right .form button, .qs_register .container .right .form2 button {
   margin-bottom: 15px;
   width: 100%;
