@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -82,7 +83,14 @@ header nav .active {
   font-weight: bold;
 }
 header .login {
+  position: relative;
   padding-left: 15px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+header .login:hover .dropdown {
+  display: block;
 }
 header .login i {
   position: relative;
@@ -90,12 +98,51 @@ header .login i {
   font-size: 30px !important;
   color: #8a919f;
 }
+header .login i::after {
+  content: "未登录";
+  position: absolute;
+  top: -10px;
+  right: -20px;
+  background-color: #4361ee;
+  color: white;
+  font-size: 12px;
+  border-radius: 30px;
+  padding: 5px 10px;
+  white-space: nowrap;
+  transform: scale(0.6);
+}
 header .login .avatar {
   width: 30px;
   height: 30px;
   background-size: cover;
   background-position: center;
   border-radius: 30px;
+}
+header .login .dropdown {
+  display: none;
+  position: absolute;
+  top: 70px;
+  right: 0;
+  background-color: white;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
+  white-space: nowrap;
+  list-style: none;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+header .login .dropdown li {
+  padding: 12px 0;
+  padding-left: 15px;
+  padding-right: 50px;
+  text-align: left;
+  transition: 0.2s ease-in;
+}
+header .login .dropdown li:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+header .login .dropdown .divider {
+  border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 @media only screen and (max-width: 800px) {

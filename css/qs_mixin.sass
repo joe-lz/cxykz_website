@@ -59,18 +59,61 @@ $link: #133667
         color: $primary
         font-weight: bold
     .login
+      position: relative
       padding-left: 15px
+      height: 100%
+      display: flex
+      align-items: center
+      &:hover
+        .dropdown
+          display: block
       i
         position: relative
         top: -2px
         font-size: 30px !important
         color: $gray 
+        &::after
+          content: '未登录'
+          position: absolute
+          top: -10px
+          right: -20px
+          background-color: $primary
+          color: white
+          font-size: 12px
+          border-radius: 30px
+          padding: 5px 10px
+          white-space: nowrap
+          transform: scale(0.6)
       .avatar
         width: 30px
         height: 30px
         background-size: cover
         background-position: center
         border-radius: 30px
+      .dropdown
+        display: none
+        position: absolute
+        top: 70px
+        right: 0
+        background-color: white
+        box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05)
+        white-space: nowrap
+        list-style: none
+        border-radius: 6px
+        overflow: hidden
+        border: 1px solid rgba(0,0,0,0.1)
+        li
+          padding: 12px 0
+          padding-left: 15px
+          padding-right: 50px
+          text-align: left
+          transition: 0.2s ease-in
+          &:hover
+            background: rgba(0,0,0,0.05)
+        .divider
+          border: 1px solid rgba(0,0,0,0.05)
+
+
 
   @media only screen and (max-width: 800px)
     header
