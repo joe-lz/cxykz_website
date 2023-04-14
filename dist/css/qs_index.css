@@ -367,6 +367,13 @@ footer .container span {
     min-height: 100px !important;
   }
 }
+.qs_index .loadmore {
+  padding: 30px 0;
+  cursor: pointer;
+  display: block;
+  color: #006eff;
+  text-align: center;
+}
 
 @media only screen and (max-width: 800px) {
   .qs_index .qs_index_nav {
