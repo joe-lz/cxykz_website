@@ -79,7 +79,7 @@ header nav a i {
   margin-right: 5px;
 }
 header nav .active {
-  color: #4361ee;
+  color: #006eff;
   font-weight: bold;
 }
 header .login {
@@ -103,7 +103,7 @@ header .login i::after {
   position: absolute;
   top: -10px;
   right: -20px;
-  background-color: #4361ee;
+  background-color: #006eff;
   color: white;
   font-size: 12px;
   border-radius: 30px;
@@ -394,7 +394,7 @@ footer .container span {
   color: #8a919f;
 }
 .qs_up .userinfo .right .top button.active {
-  background-color: #4361ee;
+  background-color: #006eff;
   color: white;
 }
 .qs_up .userinfo .right .middle {
@@ -412,7 +412,7 @@ footer .container span {
   font-size: 14px;
 }
 .qs_up .userinfo .right .desc a {
-  color: #4361ee;
+  color: #006eff;
 }
 .qs_up .menu_list {
   width: 100%;
@@ -461,6 +461,17 @@ footer .container span {
 }
 .qs_up .category_list .container .item i {
   margin-right: 5px;
+}
+.qs_up .empty {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.qs_up .empty img {
+  max-width: 300px;
+  width: 100%;
 }
 
 @media only screen and (max-width: 800px) {

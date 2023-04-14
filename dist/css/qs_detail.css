@@ -83,7 +83,7 @@ header nav a i {
   margin-right: 5px;
 }
 header nav .active {
-  color: #4361ee;
+  color: #006eff;
   font-weight: bold;
 }
 header .login {
@@ -107,7 +107,7 @@ header .login i::after {
   position: absolute;
   top: -10px;
   right: -20px;
-  background-color: #4361ee;
+  background-color: #006eff;
   color: white;
   font-size: 12px;
   border-radius: 30px;
@@ -330,7 +330,7 @@ footer .container span {
   display: block;
   width: 4px;
   height: 13px;
-  background-color: #4361ee;
+  background-color: #006eff;
   border-radius: 10px;
 }
 .qs_detail article {
@@ -392,7 +392,7 @@ footer .container span {
   padding: 5px 10px;
   margin-right: 5px;
   background-color: #eaf2ff;
-  color: #4361ee;
+  color: #006eff;
   border-radius: 4px;
 }
 .qs_detail article .attachment {
@@ -413,7 +413,7 @@ footer .container span {
   flex: 1;
 }
 .qs_detail article .attachment a {
-  color: #4361ee;
+  color: #006eff;
 }
 .qs_detail article .comments {
   padding-top: 60px;
@@ -437,7 +437,7 @@ footer .container span {
   float: right;
   margin-top: 15px;
   padding: 10px 30px;
-  background-color: #4361ee;
+  background-color: #006eff;
   outline: none;
   color: white;
   border: none;
@@ -475,7 +475,7 @@ footer .container span {
   margin-right: 15px;
   background-color: rgba(5, 109, 232, 0.1);
   padding: 6px 10px;
-  color: #4361ee;
+  color: #006eff;
   border: none;
   outline: none;
   border-radius: 4px;
@@ -483,7 +483,7 @@ footer .container span {
   cursor: pointer;
 }
 .float-bar .float-bar-body button.active {
-  background-color: #4361ee;
+  background-color: #006eff;
   color: white;
 }
 .float-bar .float-bar-body button i {

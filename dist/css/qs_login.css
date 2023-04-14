@@ -79,7 +79,7 @@ header nav a i {
   margin-right: 5px;
 }
 header nav .active {
-  color: #4361ee;
+  color: #006eff;
   font-weight: bold;
 }
 header .login {
@@ -103,7 +103,7 @@ header .login i::after {
   position: absolute;
   top: -10px;
   right: -20px;
-  background-color: #4361ee;
+  background-color: #006eff;
   color: white;
   font-size: 12px;
   border-radius: 30px;
@@ -267,7 +267,7 @@ footer .container span {
   padding: 0 15px;
 }
 .qs_login .container .right .form input:focus, .qs_login .container .right .form2 input:focus, .qs_register .container .right .form input:focus, .qs_register .container .right .form2 input:focus {
-  border: 1px solid #4361ee;
+  border: 1px solid #006eff;
 }
 .qs_login .container .right .form .code, .qs_login .container .right .form2 .code, .qs_register .container .right .form .code, .qs_register .container .right .form2 .code {
   display: flex;
@@ -295,7 +295,7 @@ footer .container span {
   padding: 15px;
 }
 .qs_login .container .right .form2 span, .qs_register .container .right .form2 span {
-  color: #4361ee;
+  color: #006eff;
   font-weight: bold;
 }
 .qs_login .container .right .download, .qs_register .container .right .download {
