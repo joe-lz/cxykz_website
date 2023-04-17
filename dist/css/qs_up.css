@@ -558,6 +558,13 @@ footer .container a:hover {
   background-repeat: no-repeat;
   border-radius: 30px;
 }
+.qs_up .qs_up_detail .section-body.up_list .up_item .name {
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+  background-color: gray;
+  color: white;
+}
 .qs_up .qs_up_detail .section-body.up_list .up_item .right {
   flex: 1;
   padding-left: 15px;
