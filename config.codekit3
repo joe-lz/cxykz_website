@@ -1072,6 +1072,14 @@
 		"oAP": "/dist/html/qs_up.html",
 		"oF": 0
 		},
+	"/dist/html/qs_up_detail.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/html/qs_up_detail.html",
+		"oF": 0
+		},
 	"/dist/html/qs_up_empty.html": {
 		"cB": 0,
 		"ft": 8192,

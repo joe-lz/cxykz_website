@@ -192,6 +192,7 @@ footer .container a {
 footer .container a:hover {
   text-decoration: underline;
 }
+
 @media only screen and (max-width: 800px) {
   footer .copyright {
     display: none;
