@@ -402,6 +402,7 @@ footer .container a:hover {
 .qs_up .userinfo .right .middle .item {
   margin-right: 50px;
   font-size: 18px;
+  color: black;
 }
 .qs_up .userinfo .right .middle .item .number {
   font-weight: bold;

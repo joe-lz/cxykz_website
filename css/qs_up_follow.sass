@@ -1,0 +1,115 @@
+@import './qs_mixin.sass'
+
+$primary: rgb(0, 110, 255)
+$bg: #f8f8f8
+$gray: #8a919f
+$link: #133667
+
+*
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+body
+  width: 100%
+  width: 100vw
+  min-height: 100%
+  min-height: 100vh
+  font-size: 14px
+  color: black
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+  a 
+    text-decoration: none
+    color: $link
+    transition: 0.2s ease-in
+    &:hover
+      color: darken($link, 10)
+      
+@include header
+
+@include footer
+
+.qs_up_follow
+  padding-top: 80px
+  min-height: 100vh
+  .content
+    padding: 30px
+    margin: 0 auto
+    border: 1px solid rgba(0,0,0,0.1)
+    width: 100%
+    max-width: 600px
+    border-radius: 10px
+    .item
+      margin-bottom: 30px
+      display: flex
+      align-items: center
+      .avatar
+        width: 40px
+        height: 40px
+        border-radius: 40px
+        background-size: cover
+        background-position: center
+        display: flex
+        align-items: center
+        justify-content: center
+        font-size: 16px
+        background-color: $gray
+        color: white
+      .username
+        flex: 1
+        padding-left: 10px
+        font-size: 15px
+      button
+        padding: 10px 15px
+        border: none
+        margin-left: 10px
+        border-radius: 6px
+        cursor: pointer
+        color: $gray
+        &.active
+          background-color: $primary
+          color: white
+
+@media only screen and (max-width: 800px)
+  .qs_up 
+    .userinfo
+      flex-direction: column
+      align-items: center
+      justify-content: center
+      .right
+        padding-left: 0
+        align-items: center
+        justify-items: center
+        display: flex
+        flex-direction: column
+        .top
+          .expand,button
+            display: none
+        .middle
+          text-align: center
+          .item
+            margin-right: 0
+            margin: 0 15px
+        .desc
+          text-align: center
+    .category_list
+      display: none
+    .menu_list
+      .container
+        justify-content: space-around
+      .item
+        padding: 0 !important
+        margin: 0 !important
+    .qs_up_detail
+      .section-body.product_list 
+        flex-direction: column
+        .product_item 
+          width: 100% !important
+      .section-body.up_list
+        flex-direction: column
+        .up_item 
+          width: 100% !important
+      .section-body.saic-info 
+        flex-direction: column
+        .saci-item 
+          width: 100% !important
+        
