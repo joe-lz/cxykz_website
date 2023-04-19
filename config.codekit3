@@ -753,6 +753,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/dist/css/qs_up_follow.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/dist/css/qs_up_follow-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/dist/css/qs_up_list.css": {
 		"aP": 1,
 		"bl": 0,

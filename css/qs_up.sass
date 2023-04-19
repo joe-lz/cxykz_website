@@ -112,7 +112,15 @@ body
     margin: 0 auto
     padding: 0 15px
     padding-bottom: 15px
+    display: flex
+    align-items: center
     .container
+      white-space: nowrap
+      overflow: hidden
+      overflow-x: scroll
+      flex: 1
+      &::-webkit-scrollbar
+        display: none
       .item
         padding: 10px 10px
         margin-right: 10px
@@ -120,10 +128,31 @@ body
         color: black
         border-radius: 4px
         transition: 0.2s ease-in
+        display: inline-block
+        font-size: 14px
+
         &:hover
-          background-color: $gray
+          background-color: rgba(0,0,0,0.1)
+        .active
+          background-color: rgba(0,0,0,0.1)
         i
           margin-right: 5px
+    .showall
+      margin-left: 15px
+      height: 40px
+      padding: 10px 10px
+      background-color: $bg
+      color: black
+      border-radius: 4px
+      transition: 0.2s ease-in
+      cursor: pointer
+      font-size: 14px
+      display: flex
+      align-items: center
+      &:hover
+        background-color: rgba(0,0,0,0.1)
+      i
+        font-size: 25px
   .empty
     padding: 100px 0
     display: flex
