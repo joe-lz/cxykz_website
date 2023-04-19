@@ -462,6 +462,7 @@ footer .container a:hover {
 .qs_up .category_list .container .item {
   padding: 10px 10px;
   margin-right: 10px;
+  margin-bottom: 10px;
   background-color: #f8f8f8;
   color: black;
   border-radius: 4px;
@@ -480,6 +481,7 @@ footer .container a:hover {
 }
 .qs_up .category_list .showall {
   margin-left: 15px;
+  margin-bottom: 10px;
   height: 40px;
   padding: 10px 10px;
   background-color: #f8f8f8;
