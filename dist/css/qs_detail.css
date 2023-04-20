@@ -370,6 +370,14 @@ footer .container a:hover {
 .qs_detail article .content .detail-info .expand {
   flex: 1;
 }
+.qs_detail article .content .detail-info .desc {
+  display: flex;
+  align-items: center;
+}
+.qs_detail article .content .detail-info .desc .icon-tanhao {
+  margin-right: 2px;
+  font-size: 17px;
+}
 .qs_detail article .content video {
   height: 300px;
   width: 100%;
