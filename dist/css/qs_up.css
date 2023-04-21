@@ -377,8 +377,24 @@ footer .container a:hover {
 .qs_up .userinfo .right .top .username {
   font-weight: bold;
 }
+.qs_up .userinfo .right .top .username i {
+  font-size: 20px !important;
+  color: #8a919f;
+  margin-left: 5px;
+}
+.qs_up .userinfo .right .top .username i:hover {
+  color: #006eff;
+}
 .qs_up .userinfo .right .top .title {
   color: #8a919f;
+  font-size: 12px;
+  font-weight: normal;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 4px 5px;
+  border-radius: 4px;
+}
+.qs_up .userinfo .right .top .title:hover {
+  color: #006eff;
 }
 .qs_up .userinfo .right .top .expand {
   flex: 1;
@@ -387,6 +403,7 @@ footer .container a:hover {
   cursor: pointer;
   margin-left: 10px;
   padding: 5px 20px;
+  height: 40px;
   border-radius: 30px;
   border: none;
   outline: none;

@@ -6,7 +6,7 @@ html(lang="en")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     title 轻识 - 深度知识服务平台，专家自由工作
     link(rel="stylesheet", href="../css/qs_up.css")
-    link(rel="stylesheet", href="//at.alicdn.com/t/c/font_2972427_mubbg3q3f4j.css")
+    link(rel="stylesheet", href="//at.alicdn.com/t/c/font_2972427_fkajejqyhfl.css")
   body 
     include ./component/qs_header.jade
     main.qs_up
@@ -14,8 +14,12 @@ html(lang="en")
         .avatar(style="background-image:url(https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60)")
         .right
           .top
-            span.username 刘玉新
-            span.title &nbsp;· 高级Java工程师
+            div 
+              p.username 
+                | 刘玉新
+                a(href="") 
+                  i.iconfont.icon-tanhao
+              a.title(href="")  高级Java工程师
             .expand
             button.active 关注
             button 已关注
