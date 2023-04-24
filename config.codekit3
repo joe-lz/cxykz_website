@@ -298,6 +298,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/css/qs_detail2.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/dist/css/qs_detail2.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/css/qs_download.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -2787,6 +2800,16 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/dist/html/qs_detail.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/html/qs_detail2.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/html/qs_detail2.html",
 		"oF": 0,
 		"oS": 0
 		},

@@ -1,0 +1,602 @@
+@import './qs_mixin.sass'
+
+$primary: rgb(0, 110, 255)
+$bg: #f8f8f8
+$gray: #8a919f
+$link: #133667
+
+html
+  scroll-behavior: smooth
+*
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+body
+  width: 100%
+  width: 100vw
+  min-height: 100%
+  min-height: 100vh
+  font-size: 14px
+  color: black
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+  background-color: #f6f6f6
+  a 
+    text-decoration: none
+    color: $link
+    transition: 0.2s ease-in
+    &:hover
+      color: darken($link, 10)
+      
+@include header
+
+@include footer
+
+.qs_detail
+  padding-top: 80px
+  padding-bottom: 30px
+  .qs_detail_body
+    position: relative
+    display: flex
+    justify-content: center
+    max-width: 800px
+    margin:  0 auto
+  .aside-left
+    position: absolute
+    overflow: hidden
+    left: -220px
+    top: 0
+    width: 210px
+    height: 100vh
+    .content
+      position: fixed
+      width: 210px
+    .collection
+      padding: 15px
+      margin-bottom: 30px
+      width: 100%
+      background-color: white
+      .title
+        padding-bottom: 15px
+        border-bottom: 1px solid rgba(0,0,0,0.05)
+      ul
+        list-style: none
+        max-height: 30vh
+        overflow: hidden
+        overflow-y: scroll
+        &::-webkit-scrollbar
+          width: 10px
+        &::-webkit-scrollbar-track
+          background: #ffffff
+        &::-webkit-scrollbar-thumb
+          background-color: #636363
+          border-radius: 10px
+          border: 3px solid #ffffff
+        li
+          padding: 10px 0
+          a
+            display: block
+            width: 100%
+            white-space: nowrap
+            overflow: hidden
+            text-overflow: ellipsis
+            font-size: 14px
+            color: black
+            i
+              font-size: 14px !important
+              margin-right: 5px
+    .category
+      .title
+        padding-bottom: 15px
+        font-size: 16px
+        font-weight: bold
+      .catalog-list
+        max-height: 40vh
+        overflow: hidden
+        overflow-y: scroll
+        list-style: none
+        border-left: 1px solid rgba(0,0,0,0.05)
+        padding-left: 15px
+        &::-webkit-scrollbar
+          display: none
+        li
+          a
+            display: block
+            padding: 8px 0
+            color: black
+            font-size: 14px
+            display: block
+            width: 100%
+            white-space: nowrap
+            overflow: hidden
+            text-overflow: ellipsis
+            &:hover
+              color: $link
+              text-decoration: underline
+
+        .active
+          position: relative
+          &::before
+            position: absolute
+            left: -16px
+            top: 10px
+            content: ''
+            display: block
+            width: 4px
+            height: 13px
+            background-color: $primary
+            border-radius: 10px
+  article
+    flex: 1
+    .content
+      position: relative
+      flex: 1
+      padding: 20px
+      background-color: white
+      h1
+        font-size: 35px
+        font-weight: 500
+      .detail-info
+        padding: 15px 0
+        display: flex
+        align-items: center
+        font-size: 14px
+        color: $gray
+        .avatar
+          margin-right: 10px
+          width: 30px
+          height: 30px
+          border-radius: 30px
+          background-size: cover
+          background-position: center
+        .username
+          margin-right: 5px
+          font-size: 16px
+          font-weight: bold
+          color: black
+        .expand
+          flex: 1
+        .desc
+          display: flex
+          align-items: center
+          .icon-tanhao
+            margin-right: 2px
+            font-size: 17px
+      video
+        height: 300px
+        width: 100%
+        border: 1px solid rgba(0,0,0,0.08)
+        background-color: $gray
+        // border-radius: 6px
+    .tag-list-box
+      margin-top: 30px
+      display: flex
+      align-items: center
+      .tag-list
+        margin-right: 30px
+        display: flex
+        align-items: center
+        a
+          padding: 5px 10px
+          margin-right: 5px
+          background-color: #eaf2ff
+          color: $primary
+          border-radius: 4px
+    .attachment
+      display: flex
+      align-items: center
+      margin: 30px 0
+      margin-bottom: 0
+      padding: 10px 15px
+      background-color: rgba(230, 230, 230, 0.11)
+      border: 1px solid rgba(0,0,0,0.08)
+      border-radius: 6px
+      i
+        margin-right: 5px
+        font-size: 30px
+      .expand
+        flex: 1
+      a
+        color: $primary
+    .comments
+      margin-top: 10px
+      padding: 20px
+      background-color: white
+      .title
+        font-size: 20px
+        font-weight: bold
+      textarea
+        margin-top: 15px
+        padding: 15px
+        font-size: 16px
+        background-color: $bg
+        border: none
+        border-radius: 6px
+        display: block
+        width: 100%
+      .submit
+        display: flex
+        justify-content: flex-end
+      button
+        margin-top: 15px
+        padding: 10px 30px
+        background-color: $primary
+        outline: none
+        color: white
+        border: none
+        border-radius: 6px
+    .suggest_post
+      background-color: white
+      padding: 20px
+      margin-top: 10px
+      .title
+        font-size: 14px
+        font-weight: bold
+      .list
+        list-style: none
+        li
+          a
+            display: block
+            padding-left: 10px
+            padding: 8px 0
+            white-space: nowrap
+            overflow: hidden
+            text-overflow: ellipsis
+            color: black
+            font-size: 14px
+            i
+              font-size: 16px
+              margin-right: 5px
+            &:hover
+              color: $link
+              text-decoration: underline
+.float-bar
+  position: fixed
+  z-index: 10
+  bottom: 0
+  left: 0
+  right: 0
+  margin: 0 auto
+  padding: 0
+  display: flex
+  justify-content: center
+  max-width: 1500px
+  width: 100%
+  aside
+    width: 300px
+  .float-bar-body
+    max-width: 900px
+    flex: 1
+    padding: 0 15px
+    display: flex
+    align-items: center
+    justify-content: flex-start
+    height: 50px
+    background-color: white
+    box-shadow: 0 -1px 3px hsla(0,0%,7%,.1)
+    button
+      margin-right: 15px
+      background-color: rgba(5,109,232,.1)
+      padding: 6px 10px
+      color: $primary
+      border: none
+      outline: none
+      border-radius: 4px
+      font-size: 14px
+      cursor: pointer
+      &.active
+        background-color: $primary
+        color: white
+      i
+        margin-right: 5px
+    .gap
+      width: 20px
+    .item
+      position: relative
+      margin-right: 50px
+      color: $gray
+      cursor: pointer
+      &:hover
+        .qrcode-modal
+          display: block
+      i
+        margin-right: 5px
+        font-weight: bold
+        font-size: 16px
+      .qrcode-modal
+        display: none
+        position: absolute
+        bottom: 50px
+        left: 0
+        background-color: white
+        border-radius: 10px
+        padding: 30px
+        overflow: hidden
+        border: 1px solid rgba(0,0,0,0.1)
+        text-align: center
+        img
+          width: 150px
+          height: 150px
+        p
+          padding-top: 5px
+          font-size: 14px
+          color: black
+    .expand
+      flex: 1
+    .jubao
+      margin-right: 0
+    
+.markdown-body
+  width: 100%
+  word-break: break-word
+  line-height: 1.75
+  font-weight: 400
+  font-size: 16px
+  overflow-x: hidden
+  color: #252933
+
+  h1, h2, h3, h4, h5, h6
+    line-height: 1.5
+    margin-top: 35px
+    margin-bottom: 10px
+    padding-bottom: 5px
+
+  h1
+    font-size: 24px
+    line-height: 38px
+    margin-bottom: 5px
+
+  h2
+    font-size: 22px
+    line-height: 34px
+    padding-bottom: 12px
+    border-bottom: 1px solid #ececec
+
+  h3
+    font-size: 20px
+    line-height: 28px
+
+  h4
+    font-size: 18px
+    line-height: 26px
+
+  h5
+    font-size: 17px
+    line-height: 24px
+
+  h6
+    font-size: 16px
+    line-height: 24px
+
+  p
+    line-height: inherit
+    margin-top: 22px
+    margin-bottom: 22px
+
+  img
+    max-width: 100%
+    // border-radius: 6px
+  hr
+    border: none
+    border-top: 1px solid #ddd
+    margin-top: 32px
+    margin-bottom: 32px
+
+  code
+    word-break: break-word
+    border-radius: 2px
+    overflow-x: auto
+    background-color: #fff5f5
+    color: #ff502c
+    font-size: .87em
+    padding: .065em .4em
+    font-family: Menlo,Monaco,Consolas,Courier New,monospace
+
+  pre
+    font-family: Menlo,Monaco,Consolas,Courier New,monospace
+    overflow: auto
+    position: relative
+    line-height: 1.75
+
+    > code
+      font-size: 12px
+      padding: 15px 12px
+      margin: 0
+      word-break: normal
+      display: block
+      overflow-x: auto
+      color: #333
+      background: #f8f8f8
+
+  a
+    text-decoration: none
+    color: #0269c8
+    border-bottom: 1px solid #d1e9ff
+
+    &:active, &:hover
+      color: #275b8c
+
+  table
+    display: inline-block !important
+    font-size: 12px
+    width: auto
+    max-width: 100%
+    overflow: auto
+    border: 1px solid #f6f6f6
+
+  thead
+    background: #f6f6f6
+    color: #000
+    text-align: left
+
+  tr:nth-child(2n)
+    background-color: #fcfcfc
+
+  td, th
+    padding: 12px 7px
+    line-height: 24px
+
+  td
+    min-width: 120px
+
+  blockquote
+    color: #666
+    padding: 1px 23px
+    margin: 22px 0
+    border-left: 4px solid #cbcbcb
+    background-color: #f8f8f8
+
+    &:after
+      display: block
+      content: ""
+
+    > p
+      margin: 10px 0
+
+  ol, ul
+    padding-left: 28px
+
+  ol li, ul li
+    margin-bottom: 0
+    list-style: inherit
+
+  ol li .task-list-item, ul li .task-list-item
+    list-style: none
+
+  ol li .task-list-item
+    ol, ul
+      margin-top: 0
+
+  ul li .task-list-item
+    ol, ul
+      margin-top: 0
+
+  ol
+    ol, ul
+      margin-top: 3px
+
+  ul
+    ol, ul
+      margin-top: 3px
+
+  ol li
+    padding-left: 6px
+
+  .contains-task-list
+    padding-left: 0
+
+  .task-list-item
+    list-style: none
+
+.markdown-body pre
+  color: #333
+  background: #f8f8f8
+
+  > code.hljs
+    color: #333
+    background: #f8f8f8
+
+  .hljs-comment, .hljs-quote
+    color: #998
+    font-style: italic
+
+  .hljs-keyword, .hljs-selector-tag, .hljs-subst
+    color: #333
+    font-weight: 700
+
+  .hljs-literal, .hljs-number, .hljs-tag .hljs-attr, .hljs-template-variable, .hljs-variable
+    color: teal
+
+  .hljs-doctag, .hljs-string
+    color: #d14
+
+  .hljs-section, .hljs-selector-id, .hljs-title
+    color: #900
+    font-weight: 700
+
+  .hljs-subst
+    font-weight: 400
+
+  .hljs-class .hljs-title, .hljs-type
+    color: #458
+    font-weight: 700
+
+  .hljs-attribute, .hljs-name, .hljs-tag
+    color: navy
+    font-weight: 400
+
+  .hljs-link, .hljs-regexp
+    color: #009926
+
+  .hljs-bullet, .hljs-symbol
+    color: #990073
+
+  .hljs-built_in, .hljs-builtin-name
+    color: #0086b3
+
+  .hljs-meta
+    color: #999
+    font-weight: 700
+
+  .hljs-deletion
+    background: #fdd
+
+  .hljs-addition
+    background: #dfd
+
+  .hljs-emphasis
+    font-style: italic
+
+  .hljs-strong
+    font-weight: 700
+
+@media only screen and (max-width: 800px)
+  .markdown-body
+    h1
+      font-size: 24px
+
+    h2
+      font-size: 20px
+
+    h3
+      font-size: 18px
+
+
+@media only screen and (max-width: 800px)
+  .qs_detail 
+    flex-direction: column
+    .aside-left
+      display: none
+    article 
+      padding: 15px
+      .content
+        h1
+          font-size: 20px
+        .detail-info
+          .username
+            display: none
+
+        .tag-list-box
+          flex-direction: column
+          justify-content: flex-start
+          align-items: flex-start
+          .tag-list
+            margin-bottom: 15px
+    .aside
+      width: 100%
+      padding: 0 15px
+  .float-bar
+    .float-bar-body
+      justify-content: space-around !important
+      width: 100%
+    aside
+      display: none
+    .gap
+      display: none
+    .jubao
+      display: none
+    button
+      display: none
+    .expand
+      display: none
+    .item
+      margin-right: 0 !important
