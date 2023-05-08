@@ -351,9 +351,27 @@ footer .container a:hover {
 .qs_category_detail .qs_post_list {
   max-width: 960px;
 }
+.qs_category_detail .qs_product_list {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.qs_category_detail .qs_product_list .qs_product_item {
+  width: 49.5%;
+  margin-bottom: 15px;
+  display: block;
+  padding: 25px 15px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  transition: 0.2s ease-in;
+}
 .qs_category_detail .cat_info {
   padding: 0 15px;
-  padding-bottom: 50px;
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
@@ -377,11 +395,31 @@ footer .container a:hover {
   margin-right: 10px;
   margin-top: 10px;
   padding: 5px 10px;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: #f8f8f8;
   border-radius: 4px;
-  color: black;
+  color: #8a919f;
   display: inline-block;
 }
 .qs_category_detail .cat_info .caption_list a:hover {
   background-color: rgba(0, 0, 0, 0.1);
+}
+.qs_category_detail .cat_info .filter {
+  margin-top: 60px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.qs_category_detail .cat_info .filter a {
+  display: inline-block;
+  padding: 10px 15px;
+  color: black;
+  margin-right: 15px;
+  font-size: 16px;
+}
+.qs_category_detail .cat_info .filter a:hover {
+  font-weight: bold;
+}
+.qs_category_detail .cat_info .filter .active {
+  background-color: #f8f8f8;
+  font-weight: bold;
+  border-radius: 60px;
 }
