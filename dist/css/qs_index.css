@@ -302,6 +302,12 @@ footer .container a:hover {
   font-size: 12px;
   padding-left: 3px;
 }
+.qs_index .qs_post_list .xls .content .xls_item {
+  margin-left: 15px;
+  padding: 5px 0;
+  font-size: 12px;
+  color: #8a919f;
+}
 .qs_index .qs_post_list .img:hover .content:after, .qs_index .qs_post_list .video:hover .content:after {
   transition: 0.2s ease-in;
   content: "";

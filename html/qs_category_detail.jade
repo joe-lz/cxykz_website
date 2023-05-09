@@ -19,18 +19,14 @@ html(lang="en")
             a(href="") 轻量应用服务器GPU
             a(href="") 云服务器FPGA
             a(href="") 云服务器专有宿主机
-          .filter 
-            a(href="").active 全部
-            a(href="") 文章
-            a(href="") 产品与解决方案
-            a(href="") 商品和服务
-            a(href="") 用户
-            a(href="") 榜单
         .qs_post_list
-          .item.img
-            a.content(href="" style="background-image:url(https://sns-img-hw.xhscdn.com/58744305-7909-a22a-5074-dd78744745cc?imageView2/2/w/648/format/webp)") 
-              i.iconfont.icon-bofang
-            .title_middle 给 VSCodeVim 用户的福音，在 VSCodevim 中实现 Leap 打造最强移动插件
+          .item.xls
+            a.content(href="") 
+              .title 2020年《财富》世界500强排行榜
+              ol.xls_list
+                li.xls_item 沃尔玛（WALMART）
+                li.xls_item 中国石油化工集团公司（SINOPEC GROUP）
+                li.xls_item 国家电网公司（STATE GRID）
             a.up_info(href="") 
               .avatar(style="background-image:url(https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60)")
               .username 张三
@@ -135,22 +131,6 @@ html(lang="en")
               .likes
                 i.iconfont.icon-aixin
               span.num 3123
-
-        
-        .qs_product_list
-          mixin qs_product_item
-            .qs_product_item
-              img(src="https://filescdn.proginn.com/org/logo/7a7ce6e33425bfad1994ffc8391340ce!mediumicon", alt="")
-          +qs_product_item
-          +qs_product_item
-          +qs_product_item
-          +qs_product_item
-          +qs_product_item
-          +qs_product_item
-          +qs_product_item
-          +qs_product_item
-          +qs_product_item
-          +qs_product_item
 
 
     include ./component/qs_footer.jade
