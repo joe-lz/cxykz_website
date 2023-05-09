@@ -6,7 +6,7 @@ html(lang="en")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     title 轻识 - 深度知识服务平台，专家自由工作
     link(rel="stylesheet", href="../css/qs_detail.css")
-    link(rel="stylesheet", href="//at.alicdn.com/t/c/font_2972427_fkajejqyhfl.css")
+    link(rel="stylesheet", href="//at.alicdn.com/t/c/font_2972427_ryzezucu11k.css")
   body 
     include ./component/qs_header.jade
     main.qs_detail
@@ -159,6 +159,23 @@ html(lang="en")
             p.desc
               i.iconfont.icon-tanhao
               | 内容由技术圈授权轻识AIGC创作
+          .detail-info
+            p.time 联合创作&nbsp;· 2022.12.31
+            .expand
+            a.edit(href="")  编辑
+            p.desc
+              i.iconfont.icon-tanhao
+              | 轻识AIGC
+          .editor-list
+            mixin editor
+              .editor
+                a.avatar(href="/html/qs_up.html" style='background-image:url(https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60)') 
+                i.iconfont.icon-plus1
+            +editor
+            +editor
+            +editor
+            +editor
+            +editor
           .markdown-body
             video(src="https://cdn.pixabay.com/vimeo/528670485/Flowers%20-%2068367.mp4?width=1280&hash=8ed464af65c03747b48614713fa1f051e49cf2be") 
             img.lazy.article-hero(loading='eager' src='https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3104c56393a24d219b54ce05b06b57a4~tplv-k3u1fbpfcp-zoom-crop-mark:1512:1512:1512:851.awebp?' alt='一个顶N个！Flutter界面开发提速大杀器Getwidget 🚀（五）' data-v-248050e4='' data-v-1c9ebbff='')
