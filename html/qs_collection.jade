@@ -1,0 +1,48 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title 分类 - 轻识 - 深度知识服务平台，专家自由工作
+    link(rel="stylesheet", href="../css/qs_collection.css")
+    link(rel="stylesheet", href="//at.alicdn.com/t/c/font_2972427_93lthsvvdlj.css")
+  body 
+    include ./component/qs_header.jade
+    main.qs_collection
+      .collection_info
+        .img(style="background-image:url(https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60)")
+        .right
+          .top
+            .title 
+              i.iconfont.icon-layer
+              | 合集标题
+            .actions 
+              button.active 收藏
+              button 已收藏
+
+          a.userinfo(href="") 
+            .avatar(style="background-image:url(https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60)")
+            .username 陈世杰Jacky
+          p.views 432423.w阅读  - 更新至第6篇
+          p.desc 专利权，简称“专利”，是发明创造人或其权利让人对特定的发明创造在一定期限内依法享有的独占实施权，是知识产权的一种。
+      .collection_list
+        mixin collection_item
+          .collection_item
+            .img(style="background-image:url(https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60)")
+            .right
+              .top
+                .title 合集标题
+              p.views 432423.w阅读  - 更新至第6篇
+        +collection_item
+        +collection_item
+        +collection_item
+        +collection_item
+        +collection_item
+        +collection_item
+        +collection_item
+        +collection_item
+    include ./component/qs_footer.jade
+  script 
+    include waterfall.min.js
+    include script.js 

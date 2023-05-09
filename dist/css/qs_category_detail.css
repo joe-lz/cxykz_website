@@ -390,6 +390,13 @@ footer .container a:hover {
   max-width: 960px;
   margin: 0 auto;
 }
+.qs_category_detail .cat_info .crumb {
+  color: #8a919f;
+  padding-bottom: 10px;
+}
+.qs_category_detail .cat_info .crumb a {
+  color: #8a919f;
+}
 .qs_category_detail .cat_info .title {
   font-size: 24px;
   font-weight: 500;
@@ -398,7 +405,7 @@ footer .container a:hover {
   color: #8a919f;
   font-size: 16px;
   padding-top: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 .qs_category_detail .cat_info .caption_title {
   font-size: 14px;
