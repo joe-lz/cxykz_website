@@ -289,6 +289,32 @@ footer .container a:hover {
   font-size: 12px;
   color: #8a919f;
 }
+.qs_up .qs_post_list .product .top, .qs_up .qs_post_list .service .top {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.qs_up .qs_post_list .product .top .img, .qs_up .qs_post_list .service .top .img {
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  background-position: center;
+}
+.qs_up .qs_post_list .product .top .title, .qs_up .qs_post_list .service .top .title {
+  flex: 1;
+  margin-bottom: 0;
+  padding-left: 5px;
+}
+.qs_up .qs_post_list .product .desc, .qs_up .qs_post_list .service .desc {
+  font-size: 12px !important;
+}
+.qs_up .qs_post_list .product .price, .qs_up .qs_post_list .service .price {
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+  display: block;
+  text-align: right;
+}
 .qs_up .qs_post_list .img:hover .content:after, .qs_up .qs_post_list .video:hover .content:after {
   transition: 0.2s ease-in;
   content: "";

@@ -54,6 +54,55 @@ body
         font-size: 20px
         font-weight: bold
         color: $gray
+    .filter
+      padding: 0 15px
+      padding-top: 15px
+      padding-bottom: 15px
+      a
+        color: black
+        font-size: 14px
+        padding: 8px 15px
+        display: inline-block
+        margin-right: 10px
+        border-radius: 50px
+        &.active,&:hover
+          background-color: $bg
+    .user_list
+      display: flex
+      justify-content: space-between
+      flex-wrap: wrap
+      padding: 0 15px
+      .user_list_item
+        display: flex
+        align-items: center
+        width: 49%
+        padding-bottom: 15px
+        .img
+          width: 40px
+          height: 40px
+          background-size: cover
+          background-position: center
+          border-radius: 60px
+        .right
+          flex: 1
+          padding-left: 10px
+          padding-right: 30px
+          .title
+            padding-bottom: 5px
+            overflow: hidden
+            text-overflow: ellipsis
+            display: -webkit-box
+            -webkit-line-clamp: 1
+            -webkit-box-orient: vertical
+          .desc
+            font-size: 12px
+            color: $gray
+            overflow: hidden
+            text-overflow: ellipsis
+            display: -webkit-box
+            -webkit-line-clamp: 1
+            -webkit-box-orient: vertical
+
     .history, .suggest
       padding: 0 15px
       padding-top: 15px
