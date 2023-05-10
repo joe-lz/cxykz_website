@@ -34,34 +34,38 @@ html(lang="en")
         a(href="/html/qs_category_detail.html") 教育学习
         a(href="/html/qs_category_detail.html") 投资理财
         a(href="/html/qs_category.html") 更多
-      .up_list
-        mixin item
-          a.item(href="/html/qs_up.html") 
-            .top 
-              .avatar(style="background-image:url(https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60)")
-              .right
-                p.username 陈勇
-                p.desc 国家二级心理咨询师
-            .list
-              p # 就目前前端行业现状浅析与今后前端发展探讨
-              p # Flutter3.0 仿微博瀑布流 - 网络请求封装
-              p # Flutter 工程化框架选择 — 状态管理何去何从
-        +item
-        +item
-        +item
-        +item
-        +item
-        +item
-        +item
-        +item
-        +item
-        +item
-        +item
-        +item
-        +item
-        +item
-        .item.placeholder
-        .item.placeholder
-        .item.placeholder
-        .item.placeholder
+      .qs_post_list
+        mixin service
+          .item.service
+            a.content(href="") 
+              div.top 
+                div.img(style="background-image:url(https://t9.baidu.com/it/u=2141024258,2454155376&fm=74&app=80&size=f256,256&n=0&f=PNG?sec=1683738000&t=4fc0fd4ca8a1b216ac538bbd362bafcc)")
+                .title 云原生技术中台解决方案
+              .desc 云原生技术中台解决方案，基于云原生架构
+              .price ¥99.9
+            a.up_info(href="") 
+              .avatar(style="background-image:url(https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60)")
+              .username 张三
+              .expand
+              .likes
+                i.iconfont.icon-aixin
+              span.num 3123
+        +service
+        +service
+        +service
+        +service
+        +service
+        +service
+        +service
+        +service
+        +service
+        +service
+        +service
+        +service
+        +service
+        +service
+
     include ./component/qs_footer.jade
+  script 
+    include waterfall.min.js
+    include script.js 
