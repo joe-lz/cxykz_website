@@ -48,5 +48,11 @@ body
         color: $primary
         font-weight: bold
   @include postlist
-// @media only screen and (max-width: 800px)
-//   .qs_up_list
+@media only screen and (max-width: 800px)
+  .qs_up_list
+    .qs_up_list_nav1, .qs_up_list_nav2
+      overflow: hidden
+      overflow-x: scroll
+      a
+        display: inline-block
+        white-space: nowrap

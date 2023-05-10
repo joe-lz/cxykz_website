@@ -389,6 +389,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/css/qs_server_detail.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/dist/css/qs_server_detail.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/css/qs_up.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -1101,6 +1114,14 @@
 		"oAP": "/dist/html/qs_detail2.html",
 		"oF": 0
 		},
+	"/dist/html/qs_detail_xls.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/html/qs_detail_xls.html",
+		"oF": 0
+		},
 	"/dist/html/qs_download.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1147,6 +1168,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/dist/html/qs_search.html",
+		"oF": 0
+		},
+	"/dist/html/qs_server_detail.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/html/qs_server_detail.html",
 		"oF": 0
 		},
 	"/dist/html/qs_up.html": {
@@ -2939,6 +2968,16 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/dist/html/qs_search.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/html/qs_server_detail.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/html/qs_server_detail.html",
 		"oF": 0,
 		"oS": 0
 		},

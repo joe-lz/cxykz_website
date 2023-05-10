@@ -1,0 +1,29 @@
+@import './qs_mixin.sass'
+
+$primary: rgb(0, 110, 255)
+$bg: #f8f8f8
+$gray: #8a919f
+$link: #133667
+
+*
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+body
+  width: 100%
+  width: 100vw
+  min-height: 100%
+  min-height: 100vh
+  font-size: 14px
+  color: black
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+  a 
+    text-decoration: none
+    color: $link
+    transition: 0.2s ease-in
+    &:hover
+      color: darken($link, 10)
+      
+@include header
+
+@include footer

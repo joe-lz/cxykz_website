@@ -400,3 +400,14 @@ footer .container a:hover {
     min-height: 100px !important;
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .qs_up_list .qs_up_list_nav1, .qs_up_list .qs_up_list_nav2 {
+    overflow: hidden;
+    overflow-x: scroll;
+  }
+  .qs_up_list .qs_up_list_nav1 a, .qs_up_list .qs_up_list_nav2 a {
+    display: inline-block;
+    white-space: nowrap;
+  }
+}
