@@ -10,6 +10,241 @@ html(lang="en")
   body 
     include ./component/qs_header.jade
     main.qs_server_detail
+      .top
+        .left(style='background-image:url(https://images.unsplash.com/photo-1661956601349-f61c959a8fd4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxzZWFyY2h8MjJ8fGJ1c2luZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60)')
+        .right
+          .title 
+            span 诊断商业创新，把握企业融资要点
+            .tag API
+            .expand
+            a(href="") 举报
+          a.userinfo(href="") 
+            .avatar(style='background-image:url(https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60)')
+            .username 陈世杰
+          .desc 提供包括申通、顺丰、圆通、韵达、中通、汇通、国通、德邦、天天、EMS、宅急送、跨越、UPS、新邦等快递公司在内的80多个快递物流单号查询。可以自动识别快递公司。
+          .skus
+            button.disabled 免费套餐
+            button.active Level2
+            button Level3
+            button Level4
+          .price 
+            span ¥
+            | 200
+          .btns 
+            a(href="").btn_buy  立即购买
+            a(href="").btn_add  加入购物车
+      .content
+        .left
+          .section
+            .title 商品参数
+            div.content-attrs
+              .item
+                span(title='品牌：BODYDREAM') 品牌：BODYDREAM
+                span(title='尺码：M L XL 2XL 3XL 4XL') 尺码：M L XL 2XL 3XL 4XL
+                span(title='图案：纯色') 图案：纯色
+              .item
+                span(title='领型：圆领') 领型：圆领
+                span(title='衣门襟：套头') 衣门襟：套头
+                span(title='颜色：深灰色 白色 驼色 灰绿色') 颜色：深灰色 白色 驼色 灰绿色
+              .item
+                span(title='货号：TM20B098') 货号：TM20B098
+                span(title='基础风格：青春流行' data-spm-anchor-id='pc_detail.27183998/evo365560b447257evo401275b518001.202206.i2.60fb7dd6YJSKTv') 基础风格：青春流行
+                span(title='上市年份季节：2020年夏季') 上市年份季节：2020年夏季
+              .item
+                span(title='服装版型：宽松型') 服装版型：宽松型
+                span(title='适用对象：青年') 适用对象：青年
+                span(title='款式：汗背心') 款式：汗背心
+              .item
+                span(title='材质成分：棉100%') 材质成分：棉100%
+
+          .section
+            .title 商品参数
+            table.api-params-table
+              tbody
+                tr
+                  th
+                    | 参数
+                    span.inrow-type 名
+                  th.col-type 类型
+                  th 必须
+                  th 描述
+                tr
+                  td
+                    .sub-param
+                      // 
+                      .field
+                        span.key key
+                        span.under-type
+                          code.type string
+                          // 
+                  td.col-type
+                    span.inrow-type
+                      code.type(style='white-space: nowrap;') string
+                      // 
+                  td 是
+                  td
+                    div
+                      span 请求 AccessKey, 请在控制台中查看
+                tr
+                  td
+                    .sub-param
+                      // 
+                      .field
+                        span.key type
+                        span.under-type
+                          code.type string
+                          // 
+                  td.col-type
+                    span.inrow-type
+                      code.type(style='white-space: nowrap;') string
+                      // 
+                  td 是
+                  td
+                    div
+                      span 快递公司 自动识别请写auto
+                tr
+                  td
+                    .sub-param
+                      // 
+                      .field
+                        span.key number
+                        span.under-type
+                          code.type string
+                          // 
+                  td.col-type
+                    span.inrow-type
+                      code.type(style='white-space: nowrap;') string
+                      // 
+                  td 是
+                  td
+                    div
+                      span 快递单号
+                tr
+                  td
+                    .sub-param
+                      // 
+                      .field
+                        span.key mobile
+                        span.under-type
+                          code.type string
+                          // 
+                  td.col-type
+                    span.inrow-type
+                      code.type(style='white-space: nowrap;') string
+                      // 
+                  td 否
+                  td
+                    div
+                      span 收件人/寄件人手机号（顺丰快递需要）
+
+          .section 
+            .title 商品展示
+            .content
+              .descV8-container
+                .descV8-charity
+                  .descV8-charity-icon-container
+                    img.descV8-charity-icon(src='https://img.alicdn.com/tfs/TB1nj2JDXOWBuNjy0FiXXXFxVXa-84-82.png')
+                  .descV8-charity-content
+                    .descV8-charity-title
+                      span.descV8-charity-title-text 公益宝贝
+                    .descV8-charity-desc
+                      font(color='#999999') 每笔成交将为
+                      font(color='#151515')  中国妈妈-养育未来 
+                      font(color='#999999') 捐赠
+                      font(color='#151515')  0.02元 
+                      font(color='#999999') ，已累计捐赠
+                      font(color='#151515')  35679 
+                      font(color='#999999') 笔。
+                .descV8-singleImage
+                  img.descV8-singleImage-image.lazyload(src='https://img.alicdn.com/imgextra/i3/3495435505/O1CN01z3wDwp1qXKvnTK6gv_!!3495435505.jpg' data-name='singleImage' style='width: 750px; height: 982.258064516129px;')
+                .descV8-singleImage
+                  img.descV8-singleImage-image.lazyload(src='https://img.alicdn.com/imgextra/i3/3495435505/O1CN01ReFGxw1qXKvs2Vept_!!3495435505.jpg' data-name='singleImage' style='width: 750px; height: 1138.3064516129032px;' data-spm-anchor-id='pc_detail.27183998/evo365560b447257evo401275b518001.202206.i1.60fb7dd6YJSKTv')
+                .descV8-singleImage
+                  img.descV8-singleImage-image.lazyload(src='https://img.alicdn.com/imgextra/i1/3495435505/O1CN01tms60Y1qXKvnTLRs4_!!3495435505.jpg' data-name='singleImage' style='width: 750px; height: 740.3225806451613px;')
+                .descV8-singleImage
+                  img.descV8-singleImage-image.lazyload(src='//img.alicdn.com/imgextra/i2/3495435505/O1CN014f3Nl51qXL85fC7HG_!!3495435505.jpg' data-name='singleImage' style='width: 750px; height: 1161.2903225806451px;')
+                .descV8-singleImage
+                  img.descV8-singleImage-image.lazyload(src='//img.alicdn.com/imgextra/i1/3495435505/O1CN010cJI0M1qXL88FzBFQ_!!3495435505.jpg' data-name='singleImage' style='width: 750px; height: 89.51612903225806px;')
+                .descV8-singleImage
+                  img.descV8-singleImage-image.lazyload(src='https://img.alicdn.com/imgextra/i3/3495435505/O1CN014lQdu01qXKvnTKRUo_!!3495435505.jpg' data-name='singleImage' style='width: 750px; height: 860.0806451612904px;')
+                .descV8-singleImage
+                  img.descV8-singleImage-image.lazyload(src='https://img.alicdn.com/imgextra/i4/3495435505/O1CN01sXTUMy1qXKvvHCZCg_!!3495435505.jpg' data-name='singleImage' style='width: 750px; height: 1058.467741935484px;')
+                .descV8-singleImage
+                  img.descV8-singleImage-image.lazyload(src='https://img.alicdn.com/imgextra/i1/3495435505/O1CN011Ub1au1qXKvuuLDku_!!3495435505.jpg' data-name='singleImage' style='width: 750px; height: 1053.6290322580646px;')
+                .descV8-singleImage
+                  img.descV8-singleImage-image.lazyload(src='https://img.alicdn.com/imgextra/i2/3495435505/O1CN01Vr4uLC1qXKvoR6Sjq_!!3495435505.jpg' data-name='singleImage' style='width: 750px; height: 1133.467741935484px;')
+                .descV8-singleImage
+                  img.descV8-singleImage-image.lazyload(src='https://img.alicdn.com/imgextra/i4/3495435505/O1CN01FfglsT1qXKvnTMaW9_!!3495435505.jpg' data-name='singleImage' style='width: 750px; height: 1161.2903225806451px;')
+                .descV8-singleImage
+                  img.descV8-singleImage-image.lazyload(src='https://img.alicdn.com/imgextra/i2/3495435505/O1CN01xfDh5b1qXKvuuLHuz_!!3495435505.jpg' data-name='singleImage' style='width: 750px; height: 1017.3387096774194px;')
+                .descV8-singleImage
+                  img.descV8-singleImage-image.lazyload(src='https://img.alicdn.com/imgextra/i3/3495435505/O1CN016mdXyj1qXKvimoLqF_!!3495435505.jpg' data-name='singleImage' style='width: 750px; height: 877.016129032258px;')
+                .descV8-singleImage
+                  img.descV8-singleImage-image.lazyload(src='https://img.alicdn.com/imgextra/i2/3495435505/O1CN01wk6R781qXKvqajbIq_!!3495435505.jpg' data-name='singleImage' style='width: 750px; height: 993.1451612903226px;')
+                .descV8-singleImage
+                  img.descV8-singleImage-image.lazyload(src='https://img.alicdn.com/imgextra/i1/3495435505/O1CN01Pbjr8o1qXKvoR4mmX_!!3495435505.jpg' data-name='singleImage' style='width: 750px; height: 718.5483870967741px;')
+                .descV8-singleImage
+                  img.descV8-singleImage-image.lazyload(src='https://img.alicdn.com/imgextra/i2/3495435505/O1CN01Xcc7pw1qXKvssudES_!!3495435505.jpg' data-name='singleImage' style='width: 750px; height: 967.741935483871px;')
+                .descV8-singleImage
+                  img.descV8-singleImage-image.lazyload(src='https://img.alicdn.com/imgextra/i3/3495435505/O1CN01uA786i1qXKvoR4JiS_!!3495435505.jpg' data-name='singleImage' style='width: 750px; height: 782.6612903225806px;')
+                .descV8-singleImage
+                  img.descV8-singleImage-image.lazyload(src='https://img.alicdn.com/imgextra/i1/3495435505/O1CN01iGLqL71qXKvssuZ4Z_!!3495435505.jpg' data-name='singleImage' style='width: 750px; height: 422.1774193548387px;')
+                .descV8-singleImage
+                  img.descV8-singleImage-image.lazyload(src='https://img.alicdn.com/imgextra/i2/3495435505/O1CN01t7lKOF1qXKvvHDEnj_!!3495435505.jpg' data-name='singleImage' style='width: 750px; height: 450px;')
+                .descV8-singleImage
+                  img.descV8-singleImage-image.lazyload(src='https://img.alicdn.com/imgextra/i2/3495435505/O1CN01lDOdzD1qXLA5vF3nC_!!3495435505.jpg' data-name='singleImage' style='width: 750px; height: 747.5806451612904px;')
+                .descV8-singleImage
+                  img.descV8-singleImage-image.lazyload(src='https://img.alicdn.com/imgextra/i3/3495435505/O1CN01MHZ2421qXLAD8iuJs_!!3495435505.jpg' data-name='singleImage' style='width: 750px; height: 753.6290322580645px;')
+                .descV8-singleImage
+                  img.descV8-singleImage-image.lazyload(src='https://img.alicdn.com/imgextra/i1/3495435505/O1CN01hiDGQ81qXKvqi1bfd_!!3495435505.jpg' data-name='singleImage' style='width: 750px; height: 1102.016129032258px;')
+                .descV8-singleImage
+                  img.descV8-singleImage-image.lazyload(src='https://img.alicdn.com/imgextra/i3/3495435505/O1CN010V8cQo1qXKvsf2m2u_!!3495435505.jpg' data-name='singleImage' style='width: 750px; height: 691.9354838709678px;')
+                .descV8-singleImage
+                  a.descV8-hotArea(href='https://shop255823269.taobao.com?&spm=a2141.7631564.1999060322.hot_area24' style='width: 727.0161439664662px;\
+                  height: 362.9032258154644px;\
+                  top: 9.67741934582591px;\
+                  left: 7.258064579218626px;')
+                  img.descV8-singleImage-image.lazyload(src='https://img.alicdn.com/imgextra/i3/3495435505/O1CN01ZxSdta1qXL5lq71MN_!!3495435505.jpg' data-name='singleImage' style='width: 750px; height: 372.5806451612903px;')
+                .descV8-singleImage
+                  img.descV8-singleImage-image.lazyload(src='//gw.alicdn.com/tfs/TB1d0h2qVYqK1RjSZLeXXbXppXa-1125-960.png?getAvatar=avatar' data-name='singleImage' style='width: 750px; height: 640px;')
+
+        aside.right
+          .section
+            .section_title 该用户其他服务
+            .service_list
+              mixin item
+                a.item(href="") 
+                  .img(style='background-image:url(https://images.unsplash.com/photo-1661956601349-f61c959a8fd4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxzZWFyY2h8MjJ8fGJ1c2luZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60)')
+                  .right
+                    .title 诊断商业创新，把握企业融资要点诊断商业创新，把握企业融资要点
+                    .userinfo
+                      .avatar(style='background-image:url(https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60)')
+                      .username 陈世杰
+                    .expand
+                    .price 
+                      span ¥
+                      | 200
+              +item
+              +item
+              +item
+          .section
+            .section_title 相似服务
+            .service_list
+              mixin item
+                a.item(href="") 
+                  .img(style='background-image:url(https://images.unsplash.com/photo-1661956601349-f61c959a8fd4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxzZWFyY2h8MjJ8fGJ1c2luZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60)')
+                  .right
+                    .title 诊断商业创新，把握企业融资要点诊断商业创新，把握企业融资要点
+                    .userinfo
+                      .avatar(style='background-image:url(https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60)')
+                      .username 陈世杰
+                    .expand
+                    .price 
+                      span ¥
+                      | 200
+              +item
+              +item
+              +item
 
     include ./component/qs_footer.jade
   script 

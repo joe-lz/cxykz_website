@@ -27,3 +27,199 @@ body
 @include header
 
 @include footer
+
+.qs_server_detail
+  padding-top: 80px
+  margin: 0 auto
+  width: 100%
+  max-width: 1200px
+  .top
+    padding-bottom: 50px
+    padding-top: 50px
+    border-bottom: 1px solid rgba(0,0,0,0.05)
+    display: flex
+    .left
+      width: 200px
+      height: 200px
+      background-size: cover
+      background-position: center
+      background-color: rgba(0,0,0,0.01)
+    .right
+      flex: 1
+      padding-left: 30px
+      .title
+        display: flex
+        align-items: center
+        span
+          font-size: 24px
+          font-weight: bold
+        .expand
+          flex: 1
+        .tag
+          background-color: $bg
+          color: $gray
+          // font-size: 12px
+          height: 20px
+          line-height: 20px
+          border-radius: 4px
+          margin-left: 10px
+          padding: 0 5px
+      .userinfo
+        padding-top: 15px
+        display: flex
+        align-items: center
+        color: $gray
+        .avatar
+          width: 25px
+          height: 25px
+          border-radius: 25px
+          background-size: cover
+          background-position: center
+          background-color: rgba(0,0,0,0.01)
+        .username
+          flex: 1
+          padding-left: 10px
+      .desc
+        padding-top: 20px
+        width: 70%
+        font-size: 14px
+        line-height: 1.8
+      .skus
+        padding-top: 20px
+        button
+          margin-right: 10px
+          border: 1px solid rgba(0,0,0,0.1)
+          font-size: 14px
+          padding: 0px 8px
+          height: 30px
+          line-height: 30px
+          background-color: transparent
+          color: $gray
+          cursor: pointer
+          transition: 0.2s ease-in
+          &.active
+            color: $primary
+            border: 1px solid $primary
+          &.disabled
+            cursor: not-allowed
+            opacity: 0.5 
+      .price
+        padding-top: 30px
+        padding-bottom: 20px
+        font-size: 25px
+        font-weight: bold
+        span
+          font-size: 18px
+          margin-right: 5px
+      .btn_buy,.btn_add
+        margin-right: 15px
+        display: inline-block
+        height: 40px
+        line-height: 40px
+        padding: 0 30px
+        background-color: $primary
+        color: white
+        border-radius: 30px
+      .btn_add
+        background-color: $bg
+        color: $gray
+  .content-attrs
+    color: #4e4e4e
+    line-height: 16px
+    white-space: nowrap
+    overflow: hidden
+    margin-right: -6px
+    margin-left: -6px
+    .item
+      display: inline-block
+      width: 33.33%
+      -o-text-overflow: ellipsis
+      text-overflow: ellipsis
+      overflow: hidden
+      padding: 0 6px
+      -webkit-box-sizing: border-box
+      -moz-box-sizing: border-box
+      box-sizing: border-box
+      span
+        padding-bottom: 10px
+        display: block
+  .content
+    padding-top: 50px
+    display: flex
+    .left
+      flex: 1
+      padding-right: 50px
+      width: 0
+      .section
+        padding-bottom: 30px
+      .title
+        padding-bottom: 15px
+        font-size: 14px
+        font-weight: bold
+      table
+        min-width: 100%
+        border-collapse: collapse
+        border-spacing: 0
+        text-align: left
+        td,th
+          padding: 8px 12px
+        th
+          background: #f5f6f6
+          font-weight: 500
+          font-size: .875em
+          color: #8c8c8c
+        td
+          word-break: break-word
+          border-bottom: 1px solid #f1f2f3
+          font-weight: normal
+    aside.right
+      width: 350px
+      border-left: 1px solid rgba(0,0,0,0.1)
+      padding-left: 50px
+      .section
+        padding-bottom: 30px
+        .section_title
+          padding-bottom: 15px
+          font-weight: bold
+        .service_list
+          .item
+            display: flex
+            color: black
+            margin-bottom: 10px
+            .img
+              width: 70px
+              height: 70px
+              background-size: cover
+              background-position: center
+              background-color: rgba(0,0,0,0.01)
+            .right
+              flex: 1
+              padding-left: 15px
+              width: 0
+              display: flex
+              flex-direction: column
+              .title
+                font-size: 14px
+                overflow: hidden
+                text-overflow: ellipsis
+                white-space: nowrap
+              .userinfo
+                padding-top: 5px
+                display: flex
+                align-items: center
+                color: $gray
+                .avatar
+                  width: 16px
+                  height: 16px
+                  border-radius: 16px
+                  background-size: cover
+                  background-position: center
+                  background-color: rgba(0,0,0,0.01)
+                .username
+                  flex: 1
+                  padding-left: 10px
+                  font-size: 12px
+              .expand
+                flex: 1
+              .price
+                font-weight: bold
