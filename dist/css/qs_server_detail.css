@@ -372,8 +372,29 @@ footer .container a:hover {
   border-bottom: 1px solid #f1f2f3;
   font-weight: normal;
 }
+.qs_server_detail .content .left img {
+  max-width: 100%;
+  height: auto !important;
+}
+.qs_server_detail .content .nav {
+  width: 150px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  padding-right: 50px;
+  margin-right: 50px;
+}
+.qs_server_detail .content .nav a {
+  margin-bottom: 15px;
+  display: block;
+  color: black;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.qs_server_detail .content .nav a.active {
+  color: #006eff;
+}
 .qs_server_detail .content aside.right {
-  width: 350px;
+  width: 300px;
   border-left: 1px solid rgba(0, 0, 0, 0.1);
   padding-left: 50px;
 }

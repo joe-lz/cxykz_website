@@ -172,8 +172,25 @@ body
           word-break: break-word
           border-bottom: 1px solid #f1f2f3
           font-weight: normal
+      img
+        max-width: 100%
+        height: auto !important
+    .nav
+      width: 150px
+      border-right: 1px solid rgba(0,0,0,0.1)
+      padding-right: 50px
+      margin-right: 50px
+      a
+        margin-bottom: 15px
+        display: block
+        color: black
+        white-space: nowrap
+        overflow: hidden
+        text-overflow: ellipsis
+        &.active
+          color: $primary
     aside.right
-      width: 350px
+      width: 300px
       border-left: 1px solid rgba(0,0,0,0.1)
       padding-left: 50px
       .section
