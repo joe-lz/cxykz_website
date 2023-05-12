@@ -455,3 +455,51 @@ footer .container a:hover {
 .qs_server_detail .content aside.right .section .service_list .item .right .price {
   font-weight: bold;
 }
+
+@media only screen and (max-width: 800px) {
+  .qs_server_detail .top {
+    flex-direction: column;
+    padding: 0;
+  }
+  .qs_server_detail .top .left {
+    margin-left: 15px;
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+  }
+  .qs_server_detail .top .right {
+    padding: 15px;
+  }
+  .qs_server_detail .top .right .title {
+    display: block;
+  }
+  .qs_server_detail .top .right .desc {
+    width: 100%;
+  }
+  .qs_server_detail .top .right a, .qs_server_detail .top .right .tag {
+    display: none;
+  }
+  .qs_server_detail .content {
+    flex-direction: column;
+    padding: 30px 0;
+  }
+  .qs_server_detail .content .nav {
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+  .qs_server_detail .content .nav a {
+    display: inline-block;
+    padding: 0 15px;
+  }
+  .qs_server_detail .content .left {
+    width: 100%;
+    padding: 15px;
+  }
+  .qs_server_detail .content aside.right {
+    width: 100%;
+    padding: 15px;
+  }
+}
