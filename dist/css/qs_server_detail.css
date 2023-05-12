@@ -211,15 +211,15 @@ footer .container a:hover {
   display: flex;
 }
 .qs_server_detail .top .left {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   background-size: cover;
   background-position: center;
   background-color: rgba(0, 0, 0, 0.01);
+  margin-right: 50px;
 }
 .qs_server_detail .top .right {
   flex: 1;
-  padding-left: 30px;
 }
 .qs_server_detail .top .right .title {
   display: flex;
