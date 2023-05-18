@@ -216,15 +216,31 @@ body
       display: flex
       align-items: center
       .tag-list
+        display: flex
         margin-right: 30px
         display: flex
         align-items: center
-        a
-          padding: 5px 10px
-          margin-right: 5px
-          background-color: #eaf2ff
-          color: $primary
-          border-radius: 4px
+        .tag-list-container
+          flex: 1
+          display: flex
+          align-items: center
+          justify-content: start
+          a
+            display: flex
+            align-items: center
+            justify-content: center
+            padding: 5px 10px
+            margin-right: 5px
+            background-color: #eaf2ff
+            color: $primary
+            border-radius: 4px
+            .img
+              margin-right: 3px
+              display: inline-block
+              height: 20px
+              width: 20px
+              background-size: cover
+              background-position: center
     .attachment
       display: flex
       align-items: center

@@ -420,16 +420,34 @@ footer .container a:hover {
   align-items: center;
 }
 .qs_detail article .tag-list-box .tag-list {
+  display: flex;
   margin-right: 30px;
   display: flex;
   align-items: center;
 }
-.qs_detail article .tag-list-box .tag-list a {
+.qs_detail article .tag-list-box .tag-list .tag-list-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.qs_detail article .tag-list-box .tag-list .tag-list-container a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 5px 10px;
   margin-right: 5px;
   background-color: #eaf2ff;
   color: #006eff;
   border-radius: 4px;
+}
+.qs_detail article .tag-list-box .tag-list .tag-list-container a .img {
+  margin-right: 3px;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-size: cover;
+  background-position: center;
 }
 .qs_detail article .attachment {
   display: flex;
