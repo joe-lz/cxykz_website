@@ -1,0 +1,166 @@
+@import './qs_mixin.sass'
+
+$primary: rgb(0, 110, 255)
+$bg: #f8f8f8
+$gray: #8a919f
+$link: #133667
+
+html
+  scroll-behavior: smooth
+*
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+body
+  width: 100%
+  width: 100vw
+  min-height: 100%
+  min-height: 100vh
+  font-size: 14px
+  color: black
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+  a 
+    text-decoration: none
+    color: $link
+    transition: 0.2s ease-in
+    &:hover
+      color: darken($link, 10)
+      
+@include header
+
+@include footer
+
+.qs_order_create
+  position: relative
+  padding-top: 80px
+  padding-bottom: 100px
+  // max-width: 1200px
+  max-width: 550px
+  margin:  0 auto
+  .icon-zhifubao
+    color: #01A0EA
+  .icon-weixinzhifu
+    color: #15BA12
+  .actions
+    display: flex
+    align-items: center
+    a
+      color: $gray
+      transition: 0.2s ease-in
+      font-size: 14px
+      &:hover
+        color: black
+        font-weight: bold
+    i
+      font-weight: bold
+    span
+      margin-left: 5px
+  .order_info
+    .info_top
+      padding: 30px 0
+      padding-bottom: 0
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      .img
+        width: 70px
+        height: 70px
+        background-size: cover
+        background-position: center
+        box-shadow: 0px 0 10px 0 rgba(0,0,0,.05)
+        border-radius: 100px
+      .title
+        font-size: 20px
+        font-weight: bold
+        padding-top: 15px
+    .info_group
+      padding: 30px
+      margin-top: 30px
+      box-shadow: 0px 0 10px 0 rgba(0,0,0,.05)
+      border-radius: 8px
+      .group_title
+        padding-bottom: 20px
+        font-size: 16px
+        font-weight: bold
+        border-bottom: 1px solid rgba(0,0,0,0.05)
+      .group_bottom
+        display: flex
+        align-items: center
+        justify-content: space-between
+        border-top: 1px solid rgba(0,0,0,0.05)
+        padding-top: 30px
+        margin-top: 30px
+        span
+          font-size: 16px
+          font-weight: bold
+      .info_item
+        padding-top: 30px
+        display: flex
+        align-items: center
+        justify-content: space-between
+        .info_title
+          font-size: 14px
+        .info_desc
+          font-size: 14px
+          color: $gray
+      .choose_pay_method
+        padding-top: 30px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        button
+          padding: 15px
+          width: 48.5%  
+          box-shadow: 0 0 0 1px #e0e0e0, 0 2px 4px 0 rgba(0,0,0,.07), 0 1px 1.5px 0 rgba(0,0,0,.05)
+          border: none
+          outline: none
+          background-color: white
+          border-radius: 8px
+          text-align: left
+          color: $gray
+          &.active
+            outline: 2px solid $primary
+          i
+            font-size: 25px
+
+          p
+            padding-top: 5px
+      .anotation
+        margin-top: 30px
+        box-shadow: 0 0 0 1px #e0e0e0, 0 2px 4px 0 rgba(0,0,0,.07), 0 1px 1.5px 0 rgba(0,0,0,.05)
+        padding: 30px
+        border-radius: 8px
+        .title
+          i
+            font-size: 25px
+          p
+            padding-top: 15px
+            font-size: 16px
+        .desc
+          border-top: 1px solid rgba(0,0,0,0.05)
+          color: $gray
+          padding-top: 15px
+          margin-top: 15px
+          display: flex
+          align-items: center
+          i
+            font-size: 20px
+            margin-right: 5px
+      .submit
+        margin-top: 30px
+        width: 100%
+        padding: 15px 0
+        background-color: $primary
+        border-radius: 8px
+        outline: none
+        border: none
+        font-size: 16px
+        font-weight: bold
+        color: white
+        cursor: pointer
+        transition: 0.2s ease-in
+        &:hover
+          background-color: darken($primary, 10%)
+
+  

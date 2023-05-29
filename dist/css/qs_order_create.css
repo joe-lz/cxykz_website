@@ -1,0 +1,362 @@
+@charset "UTF-8";
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  width: 100vw;
+  min-height: 100%;
+  min-height: 100vh;
+  font-size: 14px;
+  color: black;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+body a {
+  text-decoration: none;
+  color: #133667;
+  transition: 0.2s ease-in;
+}
+body a:hover {
+  color: #0b1f3c;
+}
+
+header {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(25px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  width: 100vw;
+  width: 100%;
+  height: 70px;
+}
+header .logo img {
+  height: 20px;
+}
+header .search {
+  position: relative;
+  margin-left: 30px;
+}
+header .search i {
+  position: absolute;
+  left: 10px;
+  top: 7px;
+  color: gray;
+  font-weight: bold;
+}
+header .search input {
+  width: 250px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.02);
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  padding: 0 15px;
+  padding-left: 35px;
+  font-weight: 400;
+}
+header nav a {
+  color: black;
+  display: inline-block;
+  width: 90px;
+  text-align: center;
+}
+header nav a:hover {
+  font-weight: bold;
+}
+header nav a i {
+  position: relative;
+  top: 2px;
+  font-size: 20px !important;
+  margin-right: 5px;
+}
+header nav .active {
+  color: #006eff;
+  font-weight: bold;
+}
+header .login {
+  position: relative;
+  padding-left: 15px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+header .login:hover .dropdown {
+  display: block;
+}
+header .login i {
+  position: relative;
+  top: -2px;
+  font-size: 30px !important;
+  color: #8a919f;
+}
+header .login i::after {
+  content: "未登录";
+  position: absolute;
+  top: -10px;
+  right: -20px;
+  background-color: #006eff;
+  color: white;
+  font-size: 12px;
+  border-radius: 30px;
+  padding: 5px 10px;
+  white-space: nowrap;
+  transform: scale(0.6);
+}
+header .login .avatar {
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+}
+header .login .dropdown {
+  display: none;
+  position: absolute;
+  top: 70px;
+  right: 0;
+  background-color: white;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
+  white-space: nowrap;
+  list-style: none;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+header .login .dropdown li {
+  padding: 12px 0;
+  padding-left: 15px;
+  padding-right: 50px;
+  text-align: left;
+  transition: 0.2s ease-in;
+}
+header .login .dropdown li:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+header .login .dropdown .divider {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+@media only screen and (max-width: 800px) {
+  header {
+    padding: 0 15px;
+    background-color: white;
+  }
+  header .search {
+    display: none;
+  }
+  header .expand {
+    display: none;
+  }
+  header nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+  }
+  header nav a {
+    width: initial;
+    padding: 0 15px;
+  }
+  header .login i {
+    top: 0;
+  }
+}
+footer {
+  margin-top: 50px;
+}
+footer .container {
+  padding: 20px 0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8a919f;
+  font-size: 12px;
+}
+footer .container a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #8a919f;
+}
+footer .container a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 800px) {
+  footer .copyright {
+    display: none;
+  }
+}
+.qs_order_create {
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  max-width: 550px;
+  margin: 0 auto;
+}
+.qs_order_create .icon-zhifubao {
+  color: #01A0EA;
+}
+.qs_order_create .icon-weixinzhifu {
+  color: #15BA12;
+}
+.qs_order_create .actions {
+  display: flex;
+  align-items: center;
+}
+.qs_order_create .actions a {
+  color: #8a919f;
+  transition: 0.2s ease-in;
+  font-size: 14px;
+}
+.qs_order_create .actions a:hover {
+  color: black;
+  font-weight: bold;
+}
+.qs_order_create .actions i {
+  font-weight: bold;
+}
+.qs_order_create .actions span {
+  margin-left: 5px;
+}
+.qs_order_create .order_info .info_top {
+  padding: 30px 0;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.qs_order_create .order_info .info_top .img {
+  width: 70px;
+  height: 70px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 0 10px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 100px;
+}
+.qs_order_create .order_info .info_top .title {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+.qs_order_create .order_info .info_group {
+  padding: 30px;
+  margin-top: 30px;
+  box-shadow: 0px 0 10px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+.qs_order_create .order_info .info_group .group_title {
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.qs_order_create .order_info .info_group .group_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  padding-top: 30px;
+  margin-top: 30px;
+}
+.qs_order_create .order_info .info_group .group_bottom span {
+  font-size: 16px;
+  font-weight: bold;
+}
+.qs_order_create .order_info .info_group .info_item {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.qs_order_create .order_info .info_group .info_item .info_title {
+  font-size: 14px;
+}
+.qs_order_create .order_info .info_group .info_item .info_desc {
+  font-size: 14px;
+  color: #8a919f;
+}
+.qs_order_create .order_info .info_group .choose_pay_method {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.qs_order_create .order_info .info_group .choose_pay_method button {
+  padding: 15px;
+  width: 48.5%;
+  box-shadow: 0 0 0 1px #e0e0e0, 0 2px 4px 0 rgba(0, 0, 0, 0.07), 0 1px 1.5px 0 rgba(0, 0, 0, 0.05);
+  border: none;
+  outline: none;
+  background-color: white;
+  border-radius: 8px;
+  text-align: left;
+  color: #8a919f;
+}
+.qs_order_create .order_info .info_group .choose_pay_method button.active {
+  outline: 2px solid #006eff;
+}
+.qs_order_create .order_info .info_group .choose_pay_method button i {
+  font-size: 25px;
+}
+.qs_order_create .order_info .info_group .choose_pay_method button p {
+  padding-top: 5px;
+}
+.qs_order_create .order_info .info_group .anotation {
+  margin-top: 30px;
+  box-shadow: 0 0 0 1px #e0e0e0, 0 2px 4px 0 rgba(0, 0, 0, 0.07), 0 1px 1.5px 0 rgba(0, 0, 0, 0.05);
+  padding: 30px;
+  border-radius: 8px;
+}
+.qs_order_create .order_info .info_group .anotation .title i {
+  font-size: 25px;
+}
+.qs_order_create .order_info .info_group .anotation .title p {
+  padding-top: 15px;
+  font-size: 16px;
+}
+.qs_order_create .order_info .info_group .anotation .desc {
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  color: #8a919f;
+  padding-top: 15px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+.qs_order_create .order_info .info_group .anotation .desc i {
+  font-size: 20px;
+  margin-right: 5px;
+}
+.qs_order_create .order_info .info_group .submit {
+  margin-top: 30px;
+  width: 100%;
+  padding: 15px 0;
+  background-color: #006eff;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+.qs_order_create .order_info .info_group .submit:hover {
+  background-color: #0058cc;
+}

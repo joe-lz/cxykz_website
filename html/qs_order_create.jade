@@ -1,0 +1,66 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title 轻识 - 深度知识服务平台，专家自由工作
+    link(rel="stylesheet", href="../css/qs_order_create.css")
+    link(rel="stylesheet", href="//at.alicdn.com/t/c/font_2972427_7bppz7ctc72.css")
+  body 
+    include ./component/qs_header.jade
+    main.qs_order_create
+      div.actions
+        a(href="") 
+          i.iconfont.icon-left
+          span 返回
+      .order_info
+        .info_top
+          .img(style="background-image:url(https://img2.baidu.com/it/u=3806473336,3451157579&fm=253&fmt=auto&app=120&f=PNG?w=500&h=500)")
+          .title 全国天气预报
+        .info_group 
+          p.group_title 订单详情
+          .info_item
+            span.info_title 名称 
+            span.info_desc 全国天气预报API
+          .info_item
+            span.info_title 详情
+            span.info_desc Level2
+          .info_item
+            span.info_title 数量
+            span.info_desc x1
+          .info_item
+            span.info_title 单价
+            span.info_desc ¥99
+          .info_item
+            span.info_title 运费
+            span.info_desc 免费
+          .group_bottom
+            span.title 总金额
+            span.price ¥188
+          //- .info_item
+          //-   span.info_title 订单编号
+          //-   span.info_desc 3358590555402418756
+          //- .info_item
+          //-   span.info_title 下单时间
+          //-   span.info_desc 2023-05-22 16:21:13
+        .info_group 
+          p.group_title 支付方式
+          .choose_pay_method
+            button.active 
+              i.iconfont.icon-zhifubao
+              p 支付宝
+            button 
+              i.iconfont.icon-weixinzhifu
+              p 微信支付
+          .anotation
+            .title
+              i.iconfont.icon-zhifubao
+              p 已选择支付宝
+            .desc
+              i.iconfont.icon-yemiantuiguang
+              span 提交后，您将被跳转，在新的页面安全地完成后续步骤。
+
+          button.submit 立即支付
+        //- .info_group
+    include ./component/qs_footer.jade
