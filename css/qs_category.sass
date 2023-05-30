@@ -98,7 +98,26 @@ body
   
 @media only screen and (max-width: 800px)
   .qs_category
-    .left
-      display: none
-    .content
-      padding: 0 15px
+    .container
+      flex-direction: column
+      .left
+        padding: 0 15px
+        padding-bottom: 30px
+        width: 100% 
+        height: initial 
+        border-bottom: 1px solid rgba(0,0,0,0.05)
+        .list
+          padding: 0 
+          width: 100%
+          a
+            display: inline-block 
+            &.active
+              &::before
+                display: none 
+      .content
+        padding: 0 15px
+        .title
+          display: none
+        .list
+          .item
+            padding-top: 30px
