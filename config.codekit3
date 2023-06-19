@@ -805,6 +805,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/dist/css/qs_order_create.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/dist/css/qs_order_create-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/dist/css/qs_search.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1410,9 +1420,20 @@
 		},
 	"/dist/images/_qs/logo.png": {
 		"ft": 32768,
-		"iS": 26108,
+		"iS": 17418,
 		"oA": 0,
 		"oAP": "/dist/images/dist/images/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/dist/images/_qs/logo2.png": {
+		"ft": 32768,
+		"iS": 19282,
+		"oA": 0,
+		"oAP": "/dist/images/dist/images/logo2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -3261,6 +3282,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/_qs/logo2.png": {
+		"ft": 32768,
+		"iS": 19282,
+		"oA": 0,
+		"oAP": "/images/dist/images/logo2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
