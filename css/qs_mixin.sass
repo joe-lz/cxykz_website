@@ -208,6 +208,8 @@ $link: #133667
       &:hover
         .content
           background-color: $bg
+        .btn-more-dropdown
+          display: block !important
       .content
         display: block
         padding: 25px 15px
@@ -269,6 +271,38 @@ $link: #133667
         .num
           font-size: 12px
           padding-left: 3px
+      .btn-more-dropdown
+        position: absolute
+        right: -3px
+        bottom: 1px
+        cursor: pointer
+        display: none
+        &:hover
+          .dropdown-content
+            display: block
+        .dropdown-content
+          display: none
+          position: absolute
+          left: 0
+          background-color: white
+          min-width: 160px
+          box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1)
+          z-index: 1
+          border-radius: 6px
+          padding: 8px 0
+          p
+            display: flex
+            align-items: center
+            line-height: 40px
+            padding-left: 5px
+            &:hover
+              background-color: #F2F7F2
+            i
+              font-size: 22px
+              margin: 0 10px
+        i
+          font-size: 14px
+
     .xls
       .content
         .xls_item

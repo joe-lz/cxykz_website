@@ -249,6 +249,9 @@ footer .container a:hover {
 .qs_up .qs_post_list .item:hover .content {
   background-color: #f8f8f8;
 }
+.qs_up .qs_post_list .item:hover .btn-more-dropdown {
+  display: block !important;
+}
 .qs_up .qs_post_list .item .content {
   display: block;
   padding: 25px 15px;
@@ -316,6 +319,43 @@ footer .container a:hover {
 .qs_up .qs_post_list .item .up_info .num {
   font-size: 12px;
   padding-left: 3px;
+}
+.qs_up .qs_post_list .item .btn-more-dropdown {
+  position: absolute;
+  right: -3px;
+  bottom: 1px;
+  cursor: pointer;
+  display: none;
+}
+.qs_up .qs_post_list .item .btn-more-dropdown:hover .dropdown-content {
+  display: block;
+}
+.qs_up .qs_post_list .item .btn-more-dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  border-radius: 6px;
+  padding: 8px 0;
+}
+.qs_up .qs_post_list .item .btn-more-dropdown .dropdown-content p {
+  display: flex;
+  align-items: center;
+  line-height: 40px;
+  padding-left: 5px;
+}
+.qs_up .qs_post_list .item .btn-more-dropdown .dropdown-content p:hover {
+  background-color: #F2F7F2;
+}
+.qs_up .qs_post_list .item .btn-more-dropdown .dropdown-content p i {
+  font-size: 22px;
+  margin: 0 10px;
+}
+.qs_up .qs_post_list .item .btn-more-dropdown i {
+  font-size: 14px;
 }
 .qs_up .qs_post_list .xls .content .xls_item {
   margin-left: 15px;
